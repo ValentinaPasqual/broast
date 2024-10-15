@@ -1,0 +1,123 @@
+[INFO ] 2023-12-06 00:00:41,653 [main | c.o.g.s.GraphDB] GraphDB log keep alive message
+[INFO ] 2023-12-06 10:24:00,207 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:00,373 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:00,580 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:05,072 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:05,182 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:05,269 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:05,350 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-06 10:24:05,464 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-06 10:24:05,485 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-06 10:24:05,488 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-06 10:24:05,494 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-06 10:24:05,497 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-06 10:24:05,500 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-06 10:24:05,503 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-06 10:24:05,514 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-06 10:24:05,519 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-06 10:24:05,557 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-06 10:24:05,560 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-06 10:24:05,565 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-06 10:24:05,567 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-06 10:24:05,571 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-06 10:34:04,405 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-06 10:34:04,411 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-06 10:34:04,413 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-06 10:34:04,415 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-06 10:34:04,418 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-06 10:34:04,420 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-06 10:34:04,422 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-06 10:34:04,427 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-06 10:34:04,430 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-06 10:34:04,443 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-06 10:34:04,445 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-06 10:34:04,448 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-06 10:34:04,449 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-06 10:34:04,452 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-06 10:34:04,459 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1275415783
+[INFO ] 2023-12-06 10:34:04,464 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1275415783 is finished
+[INFO ] 2023-12-06 10:34:29,000 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -680567950
+[INFO ] 2023-12-06 10:34:29,004 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -680567950 is finished
+[INFO ] 2023-12-06 10:34:29,006 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -37327876
+[INFO ] 2023-12-06 10:34:29,016 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -37327876 is finished
+[INFO ] 2023-12-06 10:34:29,018 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 949585090
+[INFO ] 2023-12-06 10:34:29,028 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 949585090 is finished
+[INFO ] 2023-12-06 10:34:29,030 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1866427281
+[INFO ] 2023-12-06 10:34:29,040 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1866427281 is finished
+[INFO ] 2023-12-06 10:35:19,985 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1153252918
+[INFO ] 2023-12-06 10:35:19,994 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1153252918 is finished
+[INFO ] 2023-12-06 10:35:19,997 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1691225354
+[INFO ] 2023-12-06 10:35:20,009 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1691225354 is finished
+[INFO ] 2023-12-06 10:35:20,012 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -685581119
+[INFO ] 2023-12-06 10:35:20,017 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -685581119 is finished
+[INFO ] 2023-12-06 10:35:20,019 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1313904784
+[INFO ] 2023-12-06 10:35:20,024 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1313904784 is finished
+[INFO ] 2023-12-06 10:35:20,026 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1428581009
+[INFO ] 2023-12-06 10:35:20,029 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1428581009 is finished
+[INFO ] 2023-12-06 10:35:20,032 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -183766999
+[INFO ] 2023-12-06 10:35:20,037 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -183766999 is finished
+[INFO ] 2023-12-06 10:42:31,627 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-06 10:42:31,640 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-06 10:42:31,642 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-06 10:42:31,647 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-06 10:42:31,650 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-06 10:42:31,654 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-06 10:42:31,658 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-06 10:42:31,675 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-06 10:42:31,678 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-06 10:42:31,692 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-06 10:42:31,694 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-06 10:42:31,697 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-06 10:42:31,699 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-06 10:42:31,702 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-06 10:42:34,978 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:42:34,993 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:42:34,995 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:42:34,997 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:43:37,330 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:43:40,525 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:43:54,646 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:43:54,649 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:10,741 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:10,743 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:10,766 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] GET query 207352401
+[INFO ] 2023-12-06 10:44:10,778 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 207352401 is finished
+[INFO ] 2023-12-06 10:44:15,723 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] GET query 207352401
+[INFO ] 2023-12-06 10:44:15,726 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 207352401 is finished
+[INFO ] 2023-12-06 10:44:18,499 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:21,444 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:21,445 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:23,290 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:23,292 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:23,350 [http-nio-7200-exec-6 | c.o.c.AbstractParameter] Configured parameter 'graphdb.plugins.rdfrank.format' to default value '%.02f'
+[INFO ] 2023-12-06 10:44:27,497 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:27,498 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:30,241 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:30,243 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:30,279 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:30,280 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:32,241 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:44:32,244 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:44:32,346 [http-nio-7200-exec-5 | c.o.c.AbstractParameter] Configured parameter 'graphdb.engine.function.concat.max-length' to default value '10485760'
+[INFO ] 2023-12-06 10:45:47,572 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:45:47,573 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:45:52,586 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:45:52,588 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:45:57,567 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:45:57,568 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:46:02,575 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:46:02,577 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:46:07,572 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:46:07,573 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:46:12,571 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:46:12,572 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:46:17,579 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:46:17,581 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:46:18,057 [repositories/LODEdo_endpoint | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2023-12-06 10:46:18,058 [repositories/LODEdo_endpoint | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2023-12-06 10:48:01,826 [Thread-3 | c.o.g.s.GraphDB] Stopping GraphDB.
+[INFO ] 2023-12-06 10:48:01,999 [Thread-4 | c.o.t.s.i.PluginManager] Shutting down plugins (DEFAULT)...
+[INFO ] 2023-12-06 10:48:02,061 [Thread-4 | c.o.t.b.AVLRepository] NumberOfStatements = 535553
+[INFO ] 2023-12-06 10:48:02,061 [Thread-4 | c.o.t.b.AVLRepository] NumberOfExplicitStatements = 535553
+[INFO ] 2023-12-06 10:48:02,066 [Thread-4 | c.o.t.OwlimSchemaRepository] Shutting down entity pool
+[INFO ] 2023-12-06 10:48:02,154 [Thread-3 | c.o.f.c.s.SemanticDataManagement] Shutting down current semantic location

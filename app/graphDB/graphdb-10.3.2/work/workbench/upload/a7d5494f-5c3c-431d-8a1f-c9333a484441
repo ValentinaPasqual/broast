@@ -1,0 +1,1089 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@prefix forgont: <http://www.example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GRAPH forgont:head-Donation_of_Constantine54276711 {
+  forgont:head-Donation_of_Constantine54276711 np:hasAssertion forgont:ass-Donation_of_Constantine54276711;
+    np:hasProvenance forgont:prov-Donation_of_Constantine54276711 ;
+    np:hasPublicationInfo forgont:pubInfo-Donation_of_Constantine54276711 ;
+    a np:Nanopublication .
+}
+
+CONJ forgont:ass-Donation_of_Constantine54276711 {
+    forgont:DonationofConstantine a forgont:Authentic .
+}
+
+GRAPH forgont:prov-Donation_of_Constantine54276711 {
+    Donation_of_Constantine54276711 forgont:author forgont:54276711 ;
+      forgont:has_type forgont:scholarly_opinion.
+      rdfs:comment "Wolfram Setz has affirmed that at the time of Valla's refutation, Constantine's alleged 'donation' was no longer a matter of contemporary relevance in political theory and that it simply provided an opportunity for an exercise in legal rhetoric."^^xsd:string .
+}
+
+SETT forgont:sett-ass-Donation_of_Constantine {
+    forgont:DonationofConstantine a forgont:Forgery ;
+      dct:date "8th century"^^xsd:string ;
+      forgont:motivation "claims of political authority by the papacy"^^xsd:string .
+}
+
+GRAPH forgont:sett-prov-Donation_of_Constantine {
+   forgont:sett-ass-Donation_of_Constantine54276711 forgont:type forgont:settled_opinion .
+      forgont:basedOn Donation_of_Constantine44413993, Donation_of_Constantine29541502, Donation_of_Constantine89623095, Donation_of_Constantine17326794, Donation_of_Constantine14773105, Donation_of_Constantine307174275.
+}
+
+GRAPH forgont:sett-pubInfo-Donation_of_Constantine {
+    forgont:sett-head-Donation_of_Constantine forgont:extractedFrom forgont:wikipedia_url;
+    forgont:sett-head-Donation_of_Constantine forgont:author forgont:LLM, forgont:andreaSchimmenti, forgont:valentinaPasqual.
+}
+
+CONJ forgont:Donation_of_Constantine_document_claim {
+    forgont:DonationofConstantine a forgont:ImperialdecreeManuscript, forgont:Authentic ;
+        dct:creator "Emperor Constantine"^^xsd:string ;
+        dct:date "4th century"^^xsd:string ;
+        dct:place "Rome and the western part of the Roman Empire"^^xsd:string .
+}
+
+GRAPH forgont:prov-Donation_of_Constantine_document_claim {
+  forgont:Donation_of_Constantine_document_claim forgont:has_type forgont:alleged_opinion .
+
+}
+
+
+GRAPH {
+
+    forgont:Donation_of_Constantine14773105 forgont:author forgont:14773105 ;
+        rdfs:comment "Ulrich von Hutten and Martin Luther, writers of the Protestant Reformation, took up vehemently Valla's treatise."^^xsd:string .
+
+    forgont:Donation_of_Constantine17262342 forgont:author forgont:17262342 ;
+        rdfs:comment "Giovanni Cavalcanti reported that, in the very year of Valla's treatise, Filippo Maria Visconti, Duke of Milan, made diplomatic overtures toward Cosimo de' Medici in Florence, proposing an alliance against the pope."^^xsd:string .
+
+    forgont:Donation_of_Constantine17326794 forgont:author forgont:17326794 ;
+        rdfs:comment "Caesar Baronius, in his Annales Ecclesiastici (published 1588–1607) admitted that it was a forgery, after which it was almost universally accepted as such."^^xsd:string .
+
+    forgont:Donation_of_Constantine29541502 forgont:author forgont:29541502 ;
+        rdfs:comment "Lorenzo Valla argued in his philological study of the text that the language used in manuscript could not be dated to the 4th century. Valla believed the forgery to be so obvious that he suspected that the Church knew the document to be inauthentic. Valla further argued that papal usurpation of temporal power had corrupted the church, caused the wars of Italy, and reinforced the 'overbearing, barbarous, tyrannical priestly domination.'"^^xsd:string .
+
+    forgont:Donation_of_Constantine307174275 forgont:author forgont:307174275 ;
+        rdfs:comment "Pope Pius II wrote a tract in 1453, five years before becoming pope, to show that though the Donation was a forgery, the papacy owed its lands to Charlemagne and its powers of the keys to Peter; however, he did not publish it."^^xsd:string .
+
+    forgont:Donation_of_Constantine44413993 forgont:author forgont:44413993 ;
+        rdfs:comment "Reginald Pecocke, Bishop of Chichester reached a similar conclusion."^^xsd:string .
+
+
+    forgont:Donation_of_Constantine7425989 forgont:author forgont:7425989 ;
+        rdfs:comment "Christian Wolff, nearly a century after Annales Ecclesiastici, still alluded to the Donation as undisputed fact."^^xsd:string .
+
+    forgont:Donation_of_Constantine89524548 forgont:author forgont:89524548 ;
+        rdfs:comment "Filippo Maria Visconti, Duke of Milan. In reference to the Donation, Visconti wrote: 'It so happens that even if Constantine consigned to Sylvester so many and such rich gifts – which is doubtful, because such a privilege can nowhere be found – he could only have granted them for his lifetime: the empire takes precedence over any lordship.'"^^xsd:string .
+
+    forgont:Donation_of_Constantine89623095 forgont:author forgont:89623095 ;
+        rdfs:comment "Cardinal Nicholas of Cusa declared it to be a forgery and spoke of it as an apocryphal work."^^xsd:string .
+
+    forgont:Donation_of_Constantine95193756 forgont:author forgont:95193756 ;
+        rdfs:comment "Ulrich von Hutten and Martin Luther, writers of the Protestant Reformation, took up vehemently Valla's treatise."^^xsd:string .
+
+    forgont:Donation_of_Constantine9857569 forgont:author forgont:9857569 ;
+        rdfs:comment "Otto III, Holy Roman Emperor did possibly raise suspicions of the document 'in letters of gold' as a forgery, in making a gift to the See of Rome."^^xsd:string .
+
+
+    forgont:AbelFosdykpapers dc:title "The Abel Fosdyk papers"^^xsd:string .
+
+    forgont:Feihuaqinghan dc:title "Fei hua qing han"^^xsd:string .
+
+    forgont:GoldenCharterofBern dc:title "The Golden Charter of Bern"^^xsd:string .
+
+    forgont:HistoriaCroylandensis dc:title "Historia Croylandensis"^^xsd:string .
+
+    forgont:LetterofLentulus dc:title "The Letter of Lentulus"^^xsd:string .
+
+    forgont:SupetarCartulary dc:title "Supetar cartulary"^^xsd:string .
+
+    forgont:100259089 rdfs:label "Irving, David John Cawdell, 1938-...."^^xsd:string ;
+        owl:sameAs wd:Q158629,
+            viaf:100259089 .
+
+    forgont:100267620 rdfs:label "Ḥabībī, Imīl"^^xsd:string ;
+        owl:sameAs wd:Q36916817,
+            viaf:100267620 .
+
+    forgont:101042819 rdfs:label "Webb, Alfred, 1834-1908"^^xsd:string ;
+        owl:sameAs wd:Q4723601,
+            viaf:101042819 .
+
+    forgont:104023256 rdfs:label "Dostoyevsky, Fyodor, 1821-1881"^^xsd:string ;
+        owl:sameAs wd:Q573,
+            viaf:104023256 .
+
+    forgont:10688809 rdfs:label "Sokolnicki, Michał, 1760-1816"^^xsd:string ;
+        owl:sameAs wd:Q4427460,
+            viaf:10688809 .
+
+    forgont:106945469 rdfs:label "Clemens, Raymond, 1966-...."^^xsd:string ;
+        owl:sameAs wd:Q112425727,
+            viaf:106945469 .
+
+    forgont:107037737 rdfs:label "Teeuwen, Mark, 1966-...."^^xsd:string ;
+        owl:sameAs wd:Q6769960,
+            viaf:107037737 .
+
+    forgont:107057903 rdfs:label "Welch, Brian, 1970-"^^xsd:string ;
+        owl:sameAs wd:Q331733,
+            viaf:107057903 .
+
+    forgont:108161663 rdfs:label "Matsumoto, Yoshinosuke, 1919-"^^xsd:string ;
+        owl:sameAs wd:Q11530961,
+            viaf:108161663 .
+
+    forgont:108248727 rdfs:label "Laqueur, Walter, 1921-2018."^^xsd:string ;
+        owl:sameAs wd:Q213692,
+            viaf:108248727 .
+
+    forgont:108307703 rdfs:label "Galbraith, John Kenneth, 1908-2006."^^xsd:string ;
+        owl:sameAs wd:Q186042,
+            viaf:108307703 .
+
+    forgont:109798119 rdfs:label "Elliott, J. K. (James Keith)"^^xsd:string ;
+        owl:sameAs wd:Q88771133,
+            viaf:109798119 .
+
+    forgont:110689804 rdfs:label "Brühl, Carlrichard, 1925-1997"^^xsd:string ;
+        owl:sameAs wd:Q1043335,
+            viaf:110689804 .
+
+    forgont:116406399 rdfs:label "Pelley, William Dudley, 1890-1965"^^xsd:string ;
+        owl:sameAs wd:Q1501730,
+            viaf:116406399 .
+
+    forgont:116901852 rdfs:label "Hinckley, Gordon Bitner, 1910-2008"^^xsd:string ;
+        owl:sameAs wd:Q553147,
+            viaf:116901852 .
+
+    forgont:11893421 rdfs:label "Ioannes, đakon"^^xsd:string ;
+        owl:sameAs wd:Q3768443,
+            viaf:11893421 .
+
+    forgont:12323678 rdfs:label "Kopitar, Bartholomäus, 1780-1844"^^xsd:string ;
+        owl:sameAs wd:Q84444,
+            viaf:12323678 .
+
+    forgont:123550468 rdfs:label "Društvo studenata povijesti \"Ivan Lučić-Lucius\" (Zagreb)"^^xsd:string ;
+        owl:sameAs viaf:123550468 .
+
+    forgont:12600749 rdfs:label "Morrow, John Andrew, 1971-...."^^xsd:string ;
+        owl:sameAs wd:Q113669159,
+            viaf:12600749 .
+
+    forgont:126146574008638102591 rdfs:label "Resche, Antoine, 1990-...."^^xsd:string ;
+        owl:sameAs wd:Q32827051,
+            viaf:126146574008638102591 .
+
+    forgont:130145969998032250452 rdfs:label "Carlson, Stephen 1967-"^^xsd:string ;
+        owl:sameAs wd:Q73166634,
+            viaf:130145969998032250452 .
+
+    forgont:13071405 rdfs:label "Moritz, B., (Bernhard), 1859-1939"^^xsd:string ;
+        owl:sameAs wd:Q106300,
+            viaf:13071405 .
+
+    forgont:136371071 rdfs:label "Harvest House Publishers."^^xsd:string ;
+        owl:sameAs wd:Q4638037,
+            viaf:136371071 .
+
+    forgont:13759450 rdfs:label "Sgarbi, Elisabetta"^^xsd:string ;
+        owl:sameAs wd:Q16268759,
+            viaf:13759450 .
+
+    forgont:142015293 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:142015293 .
+
+    forgont:14211345 rdfs:label "Sufi, Juma Khan, 1948-"^^xsd:string ;
+        owl:sameAs viaf:14211345 .
+
+    forgont:143657677 rdfs:label "University of Chicago."^^xsd:string ;
+        owl:sameAs wd:Q131252,
+            viaf:143657677 .
+
+    forgont:14677 rdfs:label "Mayer, Jacob Peter, 1903-1992"^^xsd:string ;
+        owl:sameAs wd:Q7175723,
+            viaf:14677 .
+
+    forgont:14773105 rdfs:label "Luther, Martin, 1483-1546."^^xsd:string ;
+        owl:sameAs wd:Q9554,
+            viaf:14773105 .
+
+    forgont:151962300 rdfs:label "Library of Congress."^^xsd:string ;
+        owl:sameAs wd:Q107018514,
+            viaf:151962300 .
+
+    forgont:153999899 rdfs:label "University of Missouri--Kansas City. Library. Kenneth J. LaBudde Department of Special Collections"^^xsd:string ;
+        owl:sameAs wd:Q5870653,
+            viaf:153999899 .
+
+    forgont:165083362 rdfs:label "Stern, Henri"^^xsd:string ;
+        owl:sameAs wd:Q3132033,
+            viaf:165083362 .
+
+    forgont:17023421 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:17023421 .
+
+    forgont:17226974 rdfs:label "Momigliano, Arnaldo, 1908-1987."^^xsd:string ;
+        owl:sameAs wd:Q644418,
+            viaf:17226974 .
+
+    forgont:17262342 rdfs:label "Cavalcanti, Giovanni, 1381?-1451?"^^xsd:string ;
+        owl:sameAs wd:Q3766991,
+            viaf:17262342 .
+
+    forgont:17326794 rdfs:label "Baronio, Cesare, 1538-1607"^^xsd:string ;
+        owl:sameAs wd:Q317900,
+            viaf:17326794 .
+
+    forgont:17949909 rdfs:label "Boaden, James, 1762-1839"^^xsd:string ;
+        owl:sameAs wd:Q6129910,
+            viaf:17949909 .
+
+    forgont:18117039 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:18117039 .
+
+    forgont:187336608 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q5059962,
+            viaf:187336608 .
+
+    forgont:19694574 rdfs:label "Schulze, Hans K."^^xsd:string ;
+        owl:sameAs wd:Q1506950,
+            viaf:19694574 .
+
+    forgont:199819528 rdfs:label "Crowley, Amado"^^xsd:string ;
+        owl:sameAs wd:Q4739056,
+            viaf:199819528 .
+
+    forgont:204142468 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:204142468 .
+
+    forgont:20490599 rdfs:label "Lukʼjanenko, Levko Hryhorovyč 1928-2018"^^xsd:string ;
+        owl:sameAs wd:Q1996140,
+            viaf:20490599 .
+
+    forgont:206723429 rdfs:label "Hengst, Daniël den"^^xsd:string ;
+        owl:sameAs wd:Q41267221,
+            viaf:206723429 .
+
+    forgont:213140642 rdfs:label "Vanderbourg, Charles, 1765-1827"^^xsd:string ;
+        owl:sameAs wd:Q768351,
+            viaf:213140642 .
+
+    forgont:214927001 rdfs:label "Kemankeş Kara Mustafa Pascha -1644"^^xsd:string ;
+        owl:sameAs wd:Q334140,
+            viaf:214927001 .
+
+    forgont:21795289 rdfs:label "Hauptmann, Ljudmil"^^xsd:string ;
+        owl:sameAs wd:Q12795030,
+            viaf:21795289 .
+
+    forgont:22142747 rdfs:label "Grohmann, Will, 1887-1968."^^xsd:string ;
+        owl:sameAs wd:Q21449361,
+            viaf:22142747 .
+
+    forgont:22229790 rdfs:label "Jungmann, Josef, 1773-1847"^^xsd:string ;
+        owl:sameAs wd:Q508939,
+            viaf:22229790 .
+
+    forgont:22267857 rdfs:label "Ehrman, Bart D."^^xsd:string ;
+        owl:sameAs wd:Q127876,
+            viaf:22267857 .
+
+    forgont:228727038 rdfs:label "Švob, Držislav"^^xsd:string ;
+        owl:sameAs viaf:228727038 .
+
+    forgont:23304243 rdfs:label "Quaresmio, Francesco, 1583-1650"^^xsd:string ;
+        owl:sameAs wd:Q351779,
+            viaf:23304243 .
+
+    forgont:236290531 rdfs:label "Loi, Lucia Serena"^^xsd:string ;
+        owl:sameAs wd:Q95673018,
+            viaf:236290531 .
+
+    forgont:24601399 rdfs:label "Fichtenau, Heinrich, 1912-2000"^^xsd:string ;
+        owl:sameAs wd:Q81059,
+            viaf:24601399 .
+
+    forgont:24601933 rdfs:label "Gibbon, Edward, 1737-1794."^^xsd:string ;
+        owl:sameAs wd:Q161841,
+            viaf:24601933 .
+
+    forgont:24751220 rdfs:label "Steevens, George, 1736-1800"^^xsd:string ;
+        owl:sameAs wd:Q1450536,
+            viaf:24751220 .
+
+    forgont:248579229 rdfs:label "Cobb, William Jelani"^^xsd:string ;
+        owl:sameAs wd:Q8013536,
+            viaf:248579229 .
+
+    forgont:24860670 rdfs:label "Travaglini, Roberto"^^xsd:string ;
+        owl:sameAs wd:Q114452845,
+            viaf:24860670 .
+
+    forgont:249285257 rdfs:label "Tõnisson, Jaan, 1868-1941?"^^xsd:string ;
+        owl:sameAs wd:Q710956,
+            viaf:249285257 .
+
+    forgont:24945117 rdfs:label "Farlati, Daniele"^^xsd:string ;
+        owl:sameAs wd:Q797181,
+            viaf:24945117 .
+
+    forgont:262745393 rdfs:label "Anti-defamation League"^^xsd:string ;
+        owl:sameAs wd:Q158818,
+            viaf:262745393 .
+
+    forgont:267454094 rdfs:label "Antoljak, Stjepan"^^xsd:string ;
+        owl:sameAs wd:Q12295365,
+            viaf:267454094 .
+
+    forgont:270844287 rdfs:label "Deeters, Walter, 1930-2004"^^xsd:string ;
+        owl:sameAs wd:Q15450221,
+            viaf:270844287 .
+
+    forgont:271037790 rdfs:label "Freedman, Paul H., 1949-...."^^xsd:string ;
+        owl:sameAs wd:Q16241764,
+            viaf:271037790 .
+
+    forgont:27883499 rdfs:label "Nilusʺ, Sergi︠e︡ĭ, 1862-1930"^^xsd:string ;
+        owl:sameAs wd:Q764438,
+            viaf:27883499 .
+
+    forgont:292327444 rdfs:label "Thomas, Arthur W."^^xsd:string ;
+        owl:sameAs wd:Q105617621,
+            viaf:292327444 .
+
+    forgont:29681156 rdfs:label "Bowring, John, 1792-1872."^^xsd:string ;
+        owl:sameAs wd:Q332508,
+            viaf:29681156 .
+
+    forgont:30154440063835340015 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q18608090,
+            viaf:30154440063835340015 .
+
+    forgont:30282213 rdfs:label "Kletke, Hermann, 1813-1886."^^xsd:string ;
+        owl:sameAs wd:Q36859316,
+            viaf:30282213 .
+
+    forgont:305138876 rdfs:label "Joly, Maurice, 1831-1878"^^xsd:string ;
+        owl:sameAs wd:Q1349289,
+            viaf:305138876 .
+
+    forgont:305656916 rdfs:label "Beaudry, Nicolas, 1964-...."^^xsd:string ;
+        owl:sameAs wd:Q111453900,
+            viaf:305656916 .
+
+    forgont:307174275 rdfs:label "Pie II, 1405-1464, pape"^^xsd:string ;
+        owl:sameAs wd:Q101437,
+            viaf:307174275 .
+
+    forgont:30805289 rdfs:label "Stewart, Walter K., 1944-"^^xsd:string ;
+        owl:sameAs viaf:30805289 .
+
+    forgont:311833225 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q1946330,
+            viaf:311833225 .
+
+    forgont:31432428 rdfs:label "Washington, George, 1732-1799."^^xsd:string ;
+        owl:sameAs wd:Q23,
+            viaf:31432428 .
+
+    forgont:31487600 rdfs:label "Redfern, Nicholas, 1964-"^^xsd:string ;
+        owl:sameAs wd:Q7027791,
+            viaf:31487600 .
+
+    forgont:31997136 rdfs:label "Grimm, Jacob, 1785-1863."^^xsd:string ;
+        owl:sameAs wd:Q6701,
+            viaf:31997136 .
+
+    forgont:32076090 rdfs:label "Chalmers, George, 1742-1825"^^xsd:string ;
+        owl:sameAs wd:Q320810,
+            viaf:32076090 .
+
+    forgont:32140436 rdfs:label "Robertson, James Alexander, 1873-1939"^^xsd:string ;
+        owl:sameAs wd:Q6128553,
+            viaf:32140436 .
+
+    forgont:32373173 rdfs:label "Pargiter, Frederick Eden, 1852-1927"^^xsd:string ;
+        owl:sameAs wd:Q7526766,
+            viaf:32373173 .
+
+    forgont:32766147 rdfs:label "Ingleby, C.M. (Clement Mansfield), 1823-1886"^^xsd:string ;
+        owl:sameAs wd:Q1100266,
+            viaf:32766147 .
+
+    forgont:32771157 rdfs:label "Wex, Friedrich Karl, 1801-1865"^^xsd:string ;
+        owl:sameAs wd:Q1347567,
+            viaf:32771157 .
+
+    forgont:33084339 rdfs:label "De Michelis, Cesare, 1944-...."^^xsd:string ;
+        owl:sameAs wd:Q1056824,
+            viaf:33084339 .
+
+    forgont:34467427 rdfs:label "Ackroyd, Peter, 1949-...."^^xsd:string ;
+        owl:sameAs wd:Q319169,
+            viaf:34467427 .
+
+    forgont:34691570 rdfs:label "Di Robilant, Andrea, 1957-"^^xsd:string ;
+        owl:sameAs wd:Q2652504,
+            wd:Q493776,
+            viaf:34691570 .
+
+    forgont:34809099 rdfs:label "Wilson, Herbert Wrigley, 1866-1940"^^xsd:string ;
+        owl:sameAs wd:Q5735980,
+            viaf:34809099 .
+
+    forgont:35286232 rdfs:label "Narbutt, Teodor, 1784-1864"^^xsd:string ;
+        owl:sameAs wd:Q2622193,
+            viaf:35286232 .
+
+    forgont:36991115 rdfs:label "Malone, Edmond, 1741-1812"^^xsd:string ;
+        owl:sameAs wd:Q1229512,
+            viaf:36991115 .
+
+    forgont:37018460 rdfs:label "Peter, Hermann, 1837-1914"^^xsd:string ;
+        owl:sameAs wd:Q15453178,
+            viaf:37018460 .
+
+    forgont:37095601 rdfs:label "Tvorogov, Oleg Viktorovič (1928-2015)."^^xsd:string ;
+        owl:sameAs viaf:37095601 .
+
+    forgont:37100540 rdfs:label "Molina, Antonio, 1928-1992"^^xsd:string ;
+        owl:sameAs wd:Q9618156,
+            viaf:37100540 .
+
+    forgont:37658750 rdfs:label "Kelle, Johann, 1829-1909"^^xsd:string ;
+        owl:sameAs wd:Q21341647,
+            viaf:37658750 .
+
+    forgont:37719205 rdfs:label "Hirata, Atsutane, 1776-1843"^^xsd:string ;
+        owl:sameAs wd:Q2572749,
+            viaf:37719205 .
+
+    forgont:37725281 rdfs:label "Šufflay, Milan, 1879-1931"^^xsd:string ;
+        owl:sameAs wd:Q1280614,
+            viaf:37725281 .
+
+    forgont:38190770 rdfs:label "Hitler, Adolf, 1889-1945."^^xsd:string ;
+        owl:sameAs wd:Q352,
+            viaf:38190770 .
+
+    forgont:38690792 rdfs:label "Momand, Qalandar, 1930-2003"^^xsd:string ;
+        owl:sameAs viaf:38690792 .
+
+    forgont:39414140 rdfs:label "Jones, A.H.M. (Arnold Hugh Martin), 1904-1970"^^xsd:string ;
+        owl:sameAs wd:Q695399,
+            viaf:39414140 .
+
+    forgont:39506292 rdfs:label "Rački, Franjo, 1828-1894"^^xsd:string ;
+        owl:sameAs wd:Q516286,
+            viaf:39506292 .
+
+    forgont:40173403 rdfs:label "Kujau, Konrad, 1938-2000"^^xsd:string ;
+        owl:sameAs wd:Q447925,
+            viaf:40173403 .
+
+    forgont:41203443 rdfs:label "Watts, Thomas Hill, 1819-1892"^^xsd:string ;
+        owl:sameAs wd:Q879281,
+            viaf:41203443 .
+
+    forgont:4138418 rdfs:label "Casey, Robert Patrick 1932-2000"^^xsd:string ;
+        owl:sameAs wd:Q887841,
+            viaf:4138418 .
+
+    forgont:41838530 rdfs:label "Crowley, Aleister, 1875-1947"^^xsd:string ;
+        owl:sameAs wd:Q1022973,
+            viaf:41838530 .
+
+    forgont:44312086 rdfs:label "Čelakovský, František Ladislav, 1799-1852"^^xsd:string ;
+        owl:sameAs wd:Q545818,
+            viaf:44312086 .
+
+    forgont:44413993 rdfs:label "Pecock, Reginald, 1395?-1460?"^^xsd:string ;
+        owl:sameAs wd:Q7308836,
+            viaf:44413993 .
+
+    forgont:45095055 rdfs:label "Retcliffe, John, 1815-1878"^^xsd:string ;
+        owl:sameAs wd:Q66858,
+            viaf:45095055 .
+
+    forgont:45544575 rdfs:label "Haiman, Mieczysław, 1888-1949"^^xsd:string ;
+        owl:sameAs wd:Q11779756,
+            viaf:45544575 .
+
+    forgont:45706766 rdfs:label "Krushevan, P. A. (Pavel Aleksandrovich), 1860-1909"^^xsd:string ;
+        owl:sameAs wd:Q1444084,
+            viaf:45706766 .
+
+    forgont:46120508 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q100606092,
+            viaf:46120508 .
+
+    forgont:46606778 rdfs:label "Sokolnicki, Michał, 1880-1967"^^xsd:string ;
+        owl:sameAs wd:Q37458579,
+            viaf:46606778 .
+
+    forgont:46773879 rdfs:label "Sordi, Marta, 1925-2009"^^xsd:string ;
+        owl:sameAs wd:Q3849965,
+            viaf:46773879 .
+
+    forgont:46800033 rdfs:label "Perić, Olga."^^xsd:string ;
+        owl:sameAs wd:Q113805923,
+            viaf:46800033 .
+
+    forgont:46838013 rdfs:label "Weinberg, Gerhard L., 1928-...."^^xsd:string ;
+        owl:sameAs wd:Q214357,
+            viaf:46838013 .
+
+    forgont:4937390 rdfs:label "Trevor-Roper, Hugh Redwald, 1914-2003."^^xsd:string ;
+        owl:sameAs wd:Q335087,
+            viaf:4937390 .
+
+    forgont:4956694 rdfs:label "Birch, Thomas, 1705-1766"^^xsd:string ;
+        owl:sameAs wd:Q175370,
+            viaf:4956694 .
+
+    forgont:4979002 rdfs:label "Rendell, Kenneth W."^^xsd:string ;
+        owl:sameAs wd:Q6390785,
+            viaf:4979002 .
+
+    forgont:50067453 rdfs:label "Hardwicke, Philip Yorke, Earl of, 1720-1790"^^xsd:string ;
+        owl:sameAs wd:Q5790329,
+            viaf:50067453 .
+
+    forgont:51687807 rdfs:label "Cousin de Courchamps, Pierre-Marie-Jean, 1783-1849"^^xsd:string ;
+        owl:sameAs viaf:51687807 .
+
+    forgont:54135913 rdfs:label "Kukuljević Sakcinski, Ivan"^^xsd:string ;
+        owl:sameAs wd:Q697783,
+            viaf:54135913 .
+
+    forgont:54147355 rdfs:label "Erben, Karel Jaromír, 1811-1870."^^xsd:string ;
+        owl:sameAs wd:Q352914,
+            viaf:54147355 .
+
+    forgont:54276711 rdfs:label "Setz, Wolfram"^^xsd:string ;
+        owl:sameAs wd:Q98265,
+            viaf:54276711 .
+
+    forgont:54281716 rdfs:label "Rivius, Johann, 1500-1553."^^xsd:string ;
+        owl:sameAs wd:Q114853742,
+            viaf:54281716 .
+
+    forgont:54373066 rdfs:label "Edwards, Cyril W."^^xsd:string ;
+        owl:sameAs wd:Q66438703,
+            viaf:54373066 .
+
+    forgont:54911729 rdfs:label "Napiersky, Karl Eduard, 1793-1864."^^xsd:string ;
+        owl:sameAs wd:Q21254275,
+            viaf:54911729 .
+
+    forgont:55461368 rdfs:label "Macek, Antonín, 1872-1923"^^xsd:string ;
+        owl:sameAs wd:Q55693863,
+            viaf:55461368 .
+
+    forgont:56628990 rdfs:label "Dobrovský, Josef, 1753-1829."^^xsd:string ;
+        owl:sameAs wd:Q283121,
+            viaf:56628990 .
+
+    forgont:56651696 rdfs:label "Masaryk, Tomáš Garrigue, 1850-1937."^^xsd:string ;
+        owl:sameAs wd:Q78492,
+            viaf:56651696 .
+
+    forgont:56955188 rdfs:label "O'Connor, Roger, 1762-1834"^^xsd:string ;
+        owl:sameAs wd:Q18527579,
+            viaf:56955188 .
+
+    forgont:59261078 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q105794029,
+            viaf:59261078 .
+
+    forgont:6115643 rdfs:label "Kriwaczek, Rohan"^^xsd:string ;
+        owl:sameAs wd:Q7359692,
+            viaf:6115643 .
+
+    forgont:61552836 rdfs:label "Syme, Ronald, 1903-1989"^^xsd:string ;
+        owl:sameAs wd:Q707856,
+            viaf:61552836 .
+
+    forgont:61554719 rdfs:label "Créquy, Renée Caroline de Froulay, 1714-1803, marquise de"^^xsd:string ;
+        owl:sameAs wd:Q3427107,
+            viaf:61554719 .
+
+    forgont:61565249 rdfs:label "Lewin, Kurt, 1890-1947."^^xsd:string ;
+        owl:sameAs wd:Q30171715,
+            viaf:61565249 .
+
+    forgont:61584042 rdfs:label "Schaff, Philip, 1819-1893."^^xsd:string ;
+        owl:sameAs wd:Q115922,
+            viaf:61584042 .
+
+    forgont:61605014 rdfs:label "Harker, Richard"^^xsd:string ;
+        owl:sameAs wd:Q95153928,
+            viaf:61605014 .
+
+    forgont:61629171 rdfs:label "Rosenzweig, Roy"^^xsd:string ;
+        owl:sameAs wd:Q1298389,
+            viaf:61629171 .
+
+    forgont:61708932 rdfs:label "Lindskoog, Kathryn Ann"^^xsd:string ;
+        owl:sameAs wd:Q6377083,
+            viaf:61708932 .
+
+    forgont:62654398 rdfs:label "Šembera, Alois Vojtěch, 1807-1882"^^xsd:string ;
+        owl:sameAs wd:Q1375612,
+            viaf:62654398 .
+
+    forgont:63358417 rdfs:label "Dubonis, Artūras, 1962-"^^xsd:string ;
+        owl:sameAs wd:Q3919852,
+            viaf:63358417 .
+
+    forgont:64007206 rdfs:label "Ilive, Jacob, 1705-1763"^^xsd:string ;
+        owl:sameAs wd:Q4058881,
+            viaf:64007206 .
+
+    forgont:64048119 rdfs:label "Gebauer, Jan, 1838-1907"^^xsd:string ;
+        owl:sameAs wd:Q1388833,
+            viaf:64048119 .
+
+    forgont:64062199 rdfs:label "Suster, Gerald"^^xsd:string ;
+        owl:sameAs wd:Q5549612,
+            viaf:64062199 .
+
+    forgont:64086545 rdfs:label "Wattenbach, Wilhelm, 1819-1897"^^xsd:string ;
+        owl:sameAs wd:Q72864,
+            viaf:64086545 .
+
+    forgont:64134275 rdfs:label "Goetting, Hans, 1911-1994"^^xsd:string ;
+        owl:sameAs wd:Q1123765,
+            viaf:64134275 .
+
+    forgont:64149842018102842885 rdfs:label "Reynolds, Thomas, 1667?-1727"^^xsd:string ;
+        owl:sameAs wd:Q7793485,
+            viaf:64149842018102842885 .
+
+    forgont:64178684 rdfs:label "Lightfoot, Joseph Barber, 1828-1889"^^xsd:string ;
+        owl:sameAs wd:Q1706574,
+            viaf:64178684 .
+
+    forgont:64201887 rdfs:label "Lucchesi, José 1897-1989"^^xsd:string ;
+        owl:sameAs wd:Q9014297,
+            viaf:64201887 .
+
+    forgont:66470391 rdfs:label "Lovecraft, H.P. (Howard Phillips), 1890-1937"^^xsd:string ;
+        owl:sameAs wd:Q908051,
+            viaf:66470391 .
+
+    forgont:66577257 rdfs:label "Mayor, John Eyton Bickersteth, 1825-1910"^^xsd:string ;
+        owl:sameAs viaf:66577257 .
+
+    forgont:66599526 rdfs:label "Sickel, Theodor von 1826-1908"^^xsd:string ;
+        owl:sameAs wd:Q66729,
+            viaf:66599526 .
+
+    forgont:66806872 rdfs:label "Augustine, of Hippo, Saint, 354-430"^^xsd:string ;
+        owl:sameAs wd:Q8799,
+            viaf:66806872 .
+
+    forgont:67260492 rdfs:label "Hanka, Václav, 1791-1861."^^xsd:string ;
+        owl:sameAs wd:Q1354493,
+            viaf:67260492 .
+
+    forgont:68957492 rdfs:label "Karácsonyi, János, 1858-1929"^^xsd:string ;
+        owl:sameAs wd:Q1105077,
+            viaf:68957492 .
+
+    forgont:69060428 rdfs:label "Stukeley, William, 1687-1765"^^xsd:string ;
+        owl:sameAs wd:Q25113620,
+            viaf:69060428 .
+
+    forgont:69076676 rdfs:label "Monconys, Balthasar de 1611-1665"^^xsd:string ;
+        owl:sameAs wd:Q2262911,
+            viaf:69076676 .
+
+    forgont:70208273 rdfs:label "Tanner, Jerald, 1938-2006"^^xsd:string ;
+        owl:sameAs wd:Q40739905,
+            viaf:70208273 .
+
+    forgont:71191452 rdfs:label "Rye, Matthew."^^xsd:string ;
+        owl:sameAs wd:Q38318893,
+            viaf:71191452 .
+
+    forgont:71410641 rdfs:label "Klaić, Nada"^^xsd:string ;
+        owl:sameAs wd:Q1276244,
+            viaf:71410641 .
+
+    forgont:71411983 rdfs:label "Gladstone, William Ewart, 1809-1898."^^xsd:string ;
+        owl:sameAs wd:Q130822,
+            viaf:71411983 .
+
+    forgont:71521610 rdfs:label "Pula, James S., 1946-"^^xsd:string ;
+        owl:sameAs wd:Q16107475,
+            viaf:71521610 .
+
+    forgont:71700319 rdfs:label "Šišić, Ferdo, 1869-1940"^^xsd:string ;
+        owl:sameAs wd:Q1558008,
+            viaf:71700319 .
+
+    forgont:73704902 rdfs:label "Bertram, Charles, 1723-1765"^^xsd:string ;
+        owl:sameAs wd:Q5075584,
+            viaf:73704902 .
+
+    forgont:73847911 rdfs:label "Baynes, Norman Hepburn, 1877-1961"^^xsd:string ;
+        owl:sameAs wd:Q7052305,
+            viaf:73847911 .
+
+    forgont:7393146 rdfs:label "Lenin, Vladimir Ilʹič, 1870-1924"^^xsd:string ;
+        owl:sameAs wd:Q659,
+            viaf:7393146 .
+
+    forgont:7402506 rdfs:label "Mommsen, Theodor, 1817-1903."^^xsd:string ;
+        owl:sameAs wd:Q25351,
+            viaf:7402506 .
+
+    forgont:7425989 rdfs:label "Wolff, Christian, Freiherr von, 1679-1754"^^xsd:string ;
+        owl:sameAs wd:Q76510,
+            viaf:7425989 .
+
+    forgont:74608937 rdfs:label "Madden, Frederic, 1801-1873."^^xsd:string ;
+        owl:sameAs wd:Q5497095,
+            viaf:74608937 .
+
+    forgont:74700045 rdfs:label "Wratislaw, Albert Henry, 1822-1892"^^xsd:string ;
+        owl:sameAs wd:Q4710457,
+            viaf:74700045 .
+
+    forgont:76226192 rdfs:label "Woodward, B. B. (Bernard Bolingbroke), 1816-1869"^^xsd:string ;
+        owl:sameAs viaf:76226192 .
+
+    forgont:76347560 rdfs:label "Goodspeed, Edgar J. (Edgar Johnson), 1871-1962"^^xsd:string ;
+        owl:sameAs wd:Q3567041,
+            viaf:76347560 .
+
+    forgont:7673996 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q43499,
+            viaf:7673996 .
+
+    forgont:768886 rdfs:label "Macalister, Robert Alexander Stewart, 1870-1950"^^xsd:string ;
+        owl:sameAs wd:Q983129,
+            viaf:768886 .
+
+    forgont:77661021 rdfs:label "Prochaska, Alice"^^xsd:string ;
+        owl:sameAs wd:Q4726056,
+            viaf:77661021 .
+
+    forgont:7815755 rdfs:label "Ireland, Samuel, -1800"^^xsd:string ;
+        owl:sameAs wd:Q7411777,
+            viaf:7815755 .
+
+    forgont:78251614 rdfs:label "Scott, William Henry, 1921-1993"^^xsd:string ;
+        owl:sameAs wd:Q27825593,
+            viaf:78251614 .
+
+    forgont:79402808 rdfs:label "Crying Wind"^^xsd:string ;
+        owl:sameAs wd:Q5190478,
+            viaf:79402808 .
+
+    forgont:84210432 rdfs:label "Berlusconi, Silvio, 1936-2023"^^xsd:string ;
+        owl:sameAs wd:Q11860,
+            viaf:84210432 .
+
+    forgont:84223346 rdfs:label "Margetić, Lujo"^^xsd:string ;
+        owl:sameAs wd:Q1564163,
+            viaf:84223346 .
+
+    forgont:84405363 rdfs:label "Budak, Neven"^^xsd:string ;
+        owl:sameAs wd:Q854539,
+            viaf:84405363 .
+
+    forgont:84752464 rdfs:label "Gentile, Emílio, 1946-"^^xsd:string ;
+        owl:sameAs wd:Q1229044,
+            viaf:84752464 .
+
+    forgont:85337187 rdfs:label "Palacký, František, 1929-2002"^^xsd:string ;
+        owl:sameAs wd:Q95464907,
+            viaf:85337187 .
+
+    forgont:85338033 rdfs:label "Murdoch, Rupert, 1931-...."^^xsd:string ;
+        owl:sameAs wd:Q53944,
+            viaf:85338033 .
+
+    forgont:89524548 rdfs:label "Philipp Maria 1392-1447 Mailand, Herzog"^^xsd:string ;
+        owl:sameAs wd:Q289285,
+            viaf:89524548 .
+
+    forgont:89741829 rdfs:label "Dell'Utri, Marcello, 1941-...."^^xsd:string ;
+        owl:sameAs wd:Q558815,
+            viaf:89741829 .
+
+    forgont:89798474 rdfs:label "Nietzsche, Friedrich, 1844-1900."^^xsd:string ;
+        owl:sameAs wd:Q9358,
+            viaf:89798474 .
+
+    forgont:90664199 rdfs:label "Andrews, Julie, 1935-...."^^xsd:string ;
+        owl:sameAs wd:Q2691159,
+            viaf:90664199 .
+
+    forgont:91284763 rdfs:label "Cameron, Alan, 1938-2017"^^xsd:string ;
+        owl:sameAs wd:Q2623113,
+            viaf:91284763 .
+
+    forgont:92259595 rdfs:label "Navasky, Victor S."^^xsd:string ;
+        owl:sameAs wd:Q2522488,
+            viaf:92259595 .
+
+    forgont:92322430 rdfs:label "Orna, Mary Virginia."^^xsd:string ;
+        owl:sameAs wd:Q108541098,
+            viaf:92322430 .
+
+    forgont:92613115 rdfs:label "Kohler, Pierre, 1945-...."^^xsd:string ;
+        owl:sameAs wd:Q119414,
+            viaf:92613115 .
+
+    forgont:92825324 rdfs:label "Codrington, Thomas, -1918"^^xsd:string ;
+        owl:sameAs wd:Q75610943,
+            viaf:92825324 .
+
+    forgont:95148968 rdfs:label "Kauffmann, Angelica, 1741-1807"^^xsd:string ;
+        owl:sameAs wd:Q11004155,
+            viaf:95148968 .
+
+    forgont:95193756 rdfs:label "Hutten, Ulrich von 1488-1523"^^xsd:string ;
+        owl:sameAs wd:Q77107,
+            viaf:95193756 .
+
+    forgont:95274115 rdfs:label "Hubbard, L. Ron (La Fayette Ron), 1911-1986"^^xsd:string ;
+        owl:sameAs wd:Q216896,
+            viaf:95274115 .
+
+    forgont:96994048 rdfs:label "Shakespeare, William, 1564-1616."^^xsd:string ;
+        owl:sameAs wd:Q131,
+            viaf:96994048 .
+
+    forgont:97650725 rdfs:label "Barlow, Claude W."^^xsd:string ;
+        owl:sameAs wd:Q53791098,
+            viaf:97650725 .
+
+    forgont:97678624 rdfs:label "Bin Laden, Osama, 1957-2011."^^xsd:string ;
+        owl:sameAs wd:Q1317,
+            viaf:97678624 .
+
+    forgont:9857569 rdfs:label "Otto III. Heiliges Römisches Reich, Kaiser 980-1002"^^xsd:string ;
+        owl:sameAs viaf:9857569 .
+
+    forgont:9886393 rdfs:label "Harnack, Adolf von 1851-1930"^^xsd:string ;
+        owl:sameAs wd:Q164699,
+            viaf:9886393 .
+
+    forgont:9887705 rdfs:label "Fowler, Alastair"^^xsd:string ;
+        owl:sameAs wd:Q14948933,
+            viaf:9887705 .
+
+    forgont:9897477 rdfs:label "MacKenzie, D. N."^^xsd:string ;
+        owl:sameAs wd:Q4819498,
+            viaf:9897477 .
+
+    forgont:9916170 rdfs:label "Dessau, Hermann, 1856-1931"^^xsd:string ;
+        owl:sameAs wd:Q65239,
+            viaf:9916170 .
+
+    forgont:99258155 rdfs:label "Čajkovskij, Pëtr Il'ič 1840-1893"^^xsd:string ;
+        owl:sameAs wd:Q623,
+            viaf:99258155 .
+
+    forgont:HistoriasdelaConquistadelMayab dc:title "Historias de la Conquista del Mayab"^^xsd:string .
+
+    forgont:LetterofBenan dc:title "The Letter of Benan"^^xsd:string .
+
+    forgont:PrivilegiumMaius dc:title "Privilegium maius"^^xsd:string .
+
+    forgont:Q123921505 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q123921505 .
+
+    forgont:Q15635173 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q15635173 .
+
+    forgont:Q37961592 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q37961592 .
+
+    forgont:Q498544 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q498544 .
+
+    forgont:BookofJasherPseudoJasher dc:title "The Book of Jasher"^^xsd:string .
+
+    forgont:Document125713570 dc:title "Document 12-571-3570 (NASA No. 12 571-3570)"^^xsd:string .
+
+    forgont:HotsumaTsutae dc:title "Hotsuma Tsutae"^^xsd:string .
+
+    forgont:MarquisedeCrC3A9quy dc:title "Souvenirs de la Marquise de Créquy"^^xsd:string .
+
+    forgont:TheDarkTowerLewisnovel dc:title "The Dark Tower"^^xsd:string .
+
+    forgont:TheWillofPetertheGreat dc:title "The Will of Peter the Great"^^xsd:string .
+
+    forgont:httpswwwwikidataorgwikiQ11388116 dc:title "Kujiki or Sendai Kuji Hongi"^^xsd:string .
+
+    forgont:24674815 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q16114446,
+            viaf:24674815 .
+
+    forgont:29541502 rdfs:label "Valla, Lorenzo, 1407-1457."^^xsd:string ;
+        owl:sameAs wd:Q214115,
+            viaf:29541502 .
+
+    forgont:43315786 rdfs:label "Hofmann, Mark"^^xsd:string ;
+        owl:sameAs wd:Q4354485,
+            viaf:43315786 .
+
+    forgont:89623095 rdfs:label "Nicolaus, Cusanus, 1401-1464"^^xsd:string ;
+        owl:sameAs wd:Q154751,
+            wd:Q19819799,
+            viaf:89623095 .
+
+    forgont:98930150 rdfs:label "Jalāl al-Dīn Rūmī, Maulana, 1207-1273"^^xsd:string ;
+        owl:sameAs wd:Q206904,
+            wd:Q41803,
+            viaf:98930150 .
+
+    forgont:BrainWashingbook dc:title "Brain-Washing: A Synthesis of the Russian Textbook on Psychopolitics"^^xsd:string .
+
+    forgont:ChroniclesofEri dc:title "The Chronicles of Eri; Being the History of the Gaal Sciot Iber: or, the Irish People"^^xsd:string .
+
+    forgont:MathildeLefebvreletter dc:title "Mathilde Lefebvre letter"^^xsd:string .
+
+    forgont:MySisterandINietzsche dc:title "My Sister and I"^^xsd:string .
+
+    forgont:PamiC499tnikhandlowca dc:title "Pamiętnik handlowca"^^xsd:string .
+
+    forgont:VoyageoftheZenobrothers dc:title "Zeno Map and Letters"^^xsd:string .
+
+    forgont:WilliamLynchspeech dc:title "William Lynch Speech"^^xsd:string .
+
+    forgont:AProtocolof1919 dc:title "A Protocol of 1919"^^xsd:string .
+
+    forgont:BookofVeles dc:title "The Book of Veles"^^xsd:string .
+
+    forgont:ChronicleofRivius dc:title "The Chronicle of Rivius"^^xsd:string .
+
+    forgont:ClotildedeSurville dc:title "Poésies de Marguerite-Éléonore-Clotilde de Vallon-Chalys, depuis Madame de Surville, poète français du xve siècle"^^xsd:string .
+
+    forgont:HitlerDiaries dc:title "The Hitler Diaries"^^xsd:string .
+
+    forgont:Minuscule2427 dc:title "Codex 2427"^^xsd:string .
+
+    forgont:TheEnglishMercurie dc:title "The English Mercurie"^^xsd:string .
+
+    forgont:VinlandMap dc:title "The Vinland Map"^^xsd:string .
+
+    forgont:305214868 rdfs:label "Jean Chrysostome, 0347?-0407, saint"^^xsd:string ;
+        owl:sameAs wd:Q11579,
+            wd:Q556,
+            viaf:305214868 .
+
+    forgont:96987389 rdfs:label "Tolstoj, Lev Nikolaevič,  1828-1910"^^xsd:string ;
+        owl:sameAs wd:Q11582,
+            wd:Q127,
+            viaf:96987389 .
+
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin dc:title "An Incomplete History of the Art of the Funerary Violin"^^xsd:string .
+
+    forgont:MarriageCharterofEmpressTheophanu dc:title "The Marriage Charter of Empress Theophanu"^^xsd:string .
+
+    forgont:PataKhazana dc:title "Pata Khazāna"^^xsd:string .
+
+    forgont:TheProtocolsoftheEldersofZion dc:title "The Protocols of the Elders of Zion"^^xsd:string .
+
+    forgont:TheReportfromIronMountain dc:title "The Report from Iron Mountain"^^xsd:string .
+
+    forgont:AshtinameofMuhammad dc:title "Ashtiname of Muhammad"^^xsd:string .
+
+    forgont:CodeofKalantiaw dc:title "Code of Rajah Kalantiaw"^^xsd:string .
+
+    forgont:FranklinProphecy dc:title "The Franklin Prophecy"^^xsd:string .
+
+    forgont:Mussolinidiaries dc:title "Mussolini Diaries"^^xsd:string .
+
+    forgont:OathofaFreeman dc:title "Oath of a Freeman"^^xsd:string .
+
+    forgont:Salamanderletter dc:title "The Salamander Letter"^^xsd:string .
+
+    forgont:OldHighGermanlullaby dc:title "Althochdeutsches Schlummerlied"^^xsd:string .
+
+    forgont:TheDescriptionofBritain dc:title "De Situ Britanniae"^^xsd:string .
+
+    forgont:CorrespondenceofPaulandSeneca dc:title "The Correspondence of Paul and Seneca"^^xsd:string .
+
+    forgont:PactaconventaCroatia dc:title "Pacta Conventa"^^xsd:string .
+
+    forgont:CharterofDukeTrpimir dc:title "Charter of Duke Trpimir"^^xsd:string .
+
+    forgont: rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q5060619,
+            wd:Q536798,
+            viaf: .
+
+    forgont:36925746 rdfs:label "Voltaire, 1694-1778"^^xsd:string ;
+        owl:sameAs wd:Q1741,
+            wd:Q25269,
+            wd:Q577,
+            viaf:36925746 .
+
+    forgont:DonationofConstantine dc:title "Donation of Constantine"^^xsd:string .
+
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora dc:title "The Dvůr Králové and Zelená Hora manuscripts"^^xsd:string .
+
+    forgont:IrelandShakespeareforgeries dc:title "Ireland Shakespeare Manuscripts"^^xsd:string .
+
+    forgont:HistoriaAugusta dc:title "Historia Augusta"^^xsd:string .
+}
+
+
+forgont:Donation_of_Constantine307174275 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine9857569 {
+    forgont:DonationofConstantine a forgont:Suspicious .
+}
+
+forgont:Donation_of_Constantine89524548 {
+    forgont:DonationofConstantine a forgont:Suspicious .
+}
+
+forgont:Donation_of_Constantine95193756 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine14773105 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine17326794 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine7425989 {
+    forgont:DonationofConstantine a forgont:Authentic .
+}
+
+forgont:Donation_of_Constantine89623095 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine29541502 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine44413993 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine17262342 {
+    forgont:DonationofConstantine a forgont:Suspicious .
+}

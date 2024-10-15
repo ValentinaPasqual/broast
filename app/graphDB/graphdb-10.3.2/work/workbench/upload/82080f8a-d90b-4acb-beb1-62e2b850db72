@@ -1,0 +1,266 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix forgont: <http://www.example.org/> .
+@prefix kb: <http://www.example.org/forgont/kb/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+CONJ kb:ass-ed-45-ref3 {
+    kb:item-45 dct:date kb:time-1180 ;
+        forgont:qualifier "circa"^^xsd:string .
+}
+
+CONJ kb:ass-ed-45-ref1 {
+    kb:item-45 dct:date kb:time-1110 .
+}
+
+CONJ kb:ass-ed-118-ref1 {
+    kb:item-118 dct:date kb:time-1213 .
+}
+
+CONJ kb:ass-ed-87-ref3 {
+    kb:item-87 dct:date kb:time-1160 .
+}
+
+CONJ kb:ass-ed-41-ref1 {
+    kb:item-41 dct:date kb:time-1100 .
+}
+
+CONJ kb:ass-ed-84-ref3 {
+    kb:item-84 a kb:insert .
+}
+
+CONJ kb:ass-ed-86-ref1 {
+    kb:item-86 dct:date kb:time-1163-1165 ;
+        forgont:qualifier "?"^^xsd:string .
+}
+
+CONJ kb:ass-ed-70-ref2 {
+    kb:item-70 a kb:forgery .
+}
+
+CONJ kb:ass-ed-114-ref1 {
+    kb:item-114 dct:date kb:time-1212 .
+}
+
+CONJ kb:ass-ed-15-ref3 {
+    kb:item-15 a kb:forgery .
+}
+
+CONJ kb:ass-ed-94-ref1 {
+    kb:item-94 dct:date kb:time-1192 .
+}
+
+CONJ kb:ass-ed-71-ref2 {
+    kb:item-71 a kb:forgery ;
+        dct:date kb:time-1265-1332 ;
+        forgont:qualifier "circa"^^xsd:string .
+}
+
+CONJ kb:ass-ed-29-ref1 {
+    kb:item-29 dct:date kb:time-1070 ;
+        forgont:qualifier "circa"^^xsd:string .
+}
+
+CONJ kb:ass-ed-79-ref2 {
+    kb:item-79 a kb:forgery .
+}
+
+CONJ kb:ass-ed-91-ref1 {
+    kb:item-91 dct:date kb:time-1192 .
+}
+
+CONJ kb:ass-ed-103-ref1 {
+    kb:item-103 dct:date kb:time-1207 .
+}
+
+CONJ kb:ass-ed-123-ref3 {
+    kb:item-123 dct:date kb:time-1222 .
+}
+
+CONJ kb:ass-ed-144-ref1 {
+    kb:item-144 dct:date kb:time-1300 .
+}
+
+CONJ kb:ass-ed-90-ref1 {
+    kb:item-90 dct:date kb:time-1181 .
+}
+
+CONJ kb:ass-ed-73-ref1 {
+    kb:item-73 dct:date kb:time-1151 .
+}
+
+CONJ kb:ass-ed-95-ref1 {
+    kb:item-95 a kb:original .
+}
+
+CONJ kb:ass-ed-57-ref2 {
+    kb:item-57 dct:date kb:time-1251-1256 .
+}
+
+CONJ kb:ass-ed-39-ref1 {
+    kb:item-39 dct:date kb:time-1088 .
+}
+
+CONJ kb:ass-ed-52-ref2 {
+    kb:item-52 a kb:authentic .
+}
+
+CONJ kb:ass-ed-97-ref2 {
+    kb:item-97 a kb:authentic .
+
+    kb:authentic forgont:qualifier "possibly"^^xsd:string .
+}
+
+CONJ kb:ass-ed-49-ref2 {
+    kb:item-49 dct:date kb:time-1110-1122 .
+}
+
+CONJ kb:ass-ed-92-ref1 {
+    kb:item-92 dct:date kb:time-1192 .
+}
+
+CONJ kb:ass-ed-92-ref3 {
+    kb:item-92 a kb:forgery ;
+        dct:date kb:time-1265-1274 .
+}
+
+CONJ kb:ass-ed-87-ref4 {
+    kb:item-87 dct:date kb:time-1162 .
+}
+
+CONJ kb:ass-ed-45-ref2 {
+    kb:item-45 dct:date kb:time-1110-1122 .
+}
+
+CONJ kb:ass-ed-48-ref3 {
+    kb:item-48 dct:date kb:time-1110-1122 .
+}
+
+CONJ kb:ass-ed-87-ref1 {
+    kb:item-87 dct:date kb:time-1159 .
+}
+
+CONJ kb:ass-ed-12-ref1 {
+    kb:item-12 dct:date kb:time-900-901 ;
+        forgont:qualifier "?"^^xsd:string .
+}
+
+CONJ kb:ass-ed-13-ref3 {
+    kb:item-13 a kb:forgery .
+}
+
+CONJ kb:ass-ed-14-ref3 {
+    kb:item-14 a kb:forgery .
+}
+
+GRAPH kb:factual_metadata {
+    kb:time-1050 forgont:beginning "1050"^^xsd:gYear ;
+        forgont:end "1050"^^xsd:gYear .
+
+    kb:time-1174 forgont:beginning "1174"^^xsd:gYear ;
+        forgont:end "1174"^^xsd:gYear .
+
+    kb:time-1248 forgont:beginning "1248"^^xsd:gYear ;
+        forgont:end "1248"^^xsd:gYear .
+
+    kb:time-789 forgont:beginning "7801"^^xsd:gYear ;
+        forgont:end "7801"^^xsd:gYear .
+
+    kb:time-1070 forgont:beginning "1070"^^xsd:gYear ;
+        forgont:end "1070"^^xsd:gYear .
+
+    kb:time-1088 forgont:beginning "1088"^^xsd:gYear ;
+        forgont:end "1088"^^xsd:gYear .
+
+    kb:time-1100 forgont:beginning "1100"^^xsd:gYear ;
+        forgont:end "1100"^^xsd:gYear .
+
+    kb:time-1110 forgont:beginning "1110"^^xsd:gYear ;
+        forgont:end "1110"^^xsd:gYear .
+
+    kb:time-1151 forgont:beginning "1151"^^xsd:gYear ;
+        forgont:end "1151"^^xsd:gYear .
+
+    kb:time-1159 forgont:beginning "1159"^^xsd:gYear ;
+        forgont:end "1159"^^xsd:gYear .
+
+    kb:time-1160 forgont:beginning "1160"^^xsd:gYear ;
+        forgont:end "1160"^^xsd:gYear .
+
+    kb:time-1162 forgont:beginning "1162"^^xsd:gYear ;
+        forgont:end "1162"^^xsd:gYear .
+
+    kb:time-1163-1165 forgont:beginning "1163"^^xsd:gYear ;
+        forgont:end "1165"^^xsd:gYear .
+
+    kb:time-1180 forgont:beginning "1180"^^xsd:gYear ;
+        forgont:end "1180"^^xsd:gYear .
+
+    kb:time-1181 forgont:beginning "1181"^^xsd:gYear ;
+        forgont:end "1181"^^xsd:gYear .
+
+    kb:time-1207 forgont:beginning "1207"^^xsd:gYear ;
+        forgont:end "1207"^^xsd:gYear .
+
+    kb:time-1212 forgont:beginning "1212"^^xsd:gYear ;
+        forgont:end "1212"^^xsd:gYear .
+
+    kb:time-1213 forgont:beginning "1213"^^xsd:gYear ;
+        forgont:end "1213"^^xsd:gYear .
+
+    kb:time-1222 forgont:beginning "1222"^^xsd:gYear ;
+        forgont:end "1222"^^xsd:gYear .
+
+    kb:time-1251-1256 forgont:beginning "1251"^^xsd:gYear ;
+        forgont:end "1256"^^xsd:gYear .
+
+    kb:time-1265-1274 forgont:beginning "1265"^^xsd:gYear ;
+        forgont:end "1274"^^xsd:gYear .
+
+    kb:time-1265-1332 forgont:beginning "1265"^^xsd:gYear ;
+        forgont:end "1332"^^xsd:gYear .
+
+    kb:time-1300 forgont:beginning "1300"^^xsd:gYear ;
+        forgont:end "1300"^^xsd:gYear .
+
+    kb:time-900-901 forgont:beginning "9001"^^xsd:gYear ;
+        forgont:end "9001"^^xsd:gYear .
+
+    kb:time-1110-1122 forgont:beginning "1110"^^xsd:gYear ;
+        forgont:end "1122"^^xsd:gYear .
+
+    kb:time-1192 forgont:beginning "1192"^^xsd:gYear ;
+        forgont:end "1192"^^xsd:gYear .
+}
+
+CONJ kb:ass-ed-19-ref3 {
+    kb:item-19 a kb:forgery .
+}
+
+CONJ kb:ass-ed-27-ref1 {
+    kb:item-27 dct:date kb:time-1050 ;
+        forgont:qualifier "circa"^^xsd:string .
+}
+
+CONJ kb:ass-ed-73-ref2 {
+    kb:item-73 dct:date kb:time-1151 .
+}
+
+CONJ kb:ass-ed-3-ref2 {
+    kb:item-3 dct:date kb:time-789 .
+}
+
+CONJ kb:ass-ed-90-ref2 {
+    kb:item-90 dct:date kb:time-1174 .
+}
+
+CONJ kb:ass-ed-139-ref1 {
+    kb:item-139 dct:date kb:time-1248 .
+}
+
+CONJ kb:ass-ed-72-ref2 {
+    kb:item-72 a kb:forgery .
+}
+
+CONJ kb:ass-ed-3-ref1 {
+    kb:item-3 dct:date kb:time-789 .
+}

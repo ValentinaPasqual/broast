@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Documents",
+        "query": "SELECT (COUNT(?s) as ?n) WHERE {?s a fabio:ArchivalDocument }" 
+    },
+    {
+        "title": "Inquiries",
+        "query": "SELECT (COUNT(DISTINCT ?g) as ?n) WHERE { CONJ ?g {?s ?p ?o} ?s a fabio:ArchivalDocument } " 
+    },
+    {
+        "title": "Publications",
+        "query": "SELECT (COUNT(DISTINCT ?ref) as ?n) WHERE { VALUES ?resource { fabio:ArchivalResourceCollection fabio:Book fabio:BookChapter fabio:Article fabio:Anthology } ?ref a ?resource } " 
+    },
+    {
+        "title": "Scholars",
+        "query": "SELECT (COUNT(DISTINCT ?agent) as ?n) WHERE { ?ref dct:creator|dct:publisher|dct:contributor ?agent. ?agent a dct:Agent. }"
+    },
+    {
+        "title": "Inquiry conclusion: Authentic",
+        "query": "PREFIX conj:<https://w3id.org/conjectures/> SELECT (COUNT(DISTINCT ?g) as ?n) WHERE { CONJ ?g {?s ?p ?o .} FILTER NOT EXISTS {?g2 conj:settles ?g} ?s a fabio:ArchivalDocument } " 
+    },
+    {
+        "title": "Inquiry conclusion: Forgery",
+        "query": "PREFIX conj:<https://w3id.org/conjectures/> SELECT (COUNT(DISTINCT ?g) as ?n) WHERE { CONJ ?g {?s ?p ?o .} {?g2 conj:settles ?g} ?s a fabio:ArchivalDocument } " 
+    }
+
+]

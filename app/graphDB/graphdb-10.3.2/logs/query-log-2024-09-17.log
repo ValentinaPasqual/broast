@@ -1,0 +1,155 @@
+[INFO ] 2024-09-17 10:56:21,667 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+   # SELECT DISTINCT ?g ?s ?p ?obj {CONJ ?g {?s ?p ?obj .}}
+DELETE DATA {
+<conj-http://www.example.org/forgont/kb/ass-130> dct:terms kb:Himberg
+}
+[INFO ] 2024-09-17 10:56:31,453 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+   # SELECT DISTINCT ?g ?s ?p ?obj {CONJ ?g {?s ?p ?obj .}}
+DELETE DATA {
+<conj-http://www.example.org/forgont/kb/ass-130> dct:coverage kb:Himberg
+}
+[INFO ] 2024-09-17 10:56:58,196 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+   # SELECT DISTINCT ?g ?s ?p ?obj {CONJ ?g {?s ?p ?obj .}}
+DELETE DATA {
+kb:Himberg dct:coverage ""
+}
+[INFO ] 2024-09-17 11:00:28,164 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+#SELECT DISTINCT * {CONJ ?graph {?s ?p ?obj}}
+WITH kb:factual_metadata
+DELETE {
+  ?s ?p ?o
+}
+WHERE {
+  ?s ?p ?o
+}
+[INFO ] 2024-09-17 11:00:38,021 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:00:44,494 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+#SELECT DISTINCT * {CONJ ?graph {?s ?p ?obj}}
+WITH kb:factual_metadata
+DELETE {
+  ?s ?p ?o
+}
+WHERE {
+  ?s ?p ?o
+}
+[INFO ] 2024-09-17 11:00:55,099 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:05:34,023 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+#SELECT DISTINCT * {CONJ ?g {?s ?p ?obj}}
+WITH kb:factual_metadata
+DELETE {
+  ?s ?p ?o
+}
+WHERE {
+  ?s ?p ?o
+}
+[INFO ] 2024-09-17 11:06:07,026 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:12:43,474 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:14:02,405 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:17:48,715 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:  prefix dct: <http://purl.org/dc/terms/>
+prefix forgont: <http://www.example.org/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix viaf: <https://viaf.org/viaf/>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix schema:<http://schema.org/>
+prefix kb: <http://www.example.org/forgont/kb/>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix time: <https://www.w3.org/TR/owl-time/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX conj: <https://w3id.org/conjectures/>
+
+#SELECT * WHERE {<http://www.example.org/forgont/kb/item-11> ?p ?obj}
+WITH kb:factual_metadata
+DELETE {
+  ?s ?p ?o
+}
+WHERE {
+  ?s ?p ?o
+}
+[INFO ] 2024-09-17 11:18:11,528 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:30:15,310 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:31:19,337 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:32:52,672 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:35:52,502 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 11:36:40,489 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-17 19:53:52,439 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

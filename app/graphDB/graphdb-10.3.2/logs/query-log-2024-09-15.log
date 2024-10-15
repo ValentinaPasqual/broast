@@ -1,0 +1,3178 @@
+[INFO ] 2024-09-15 10:54:52,484 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+INSERT DATA { 
+	kb:ass-12-2 conj:settles <conj-http://www.example.org/forgont/kb/ass-lit-12-ref1>.
+.
+} 
+[INFO ] 2024-09-15 11:10:44,038 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT DATA { 
+	kb:ref-Urkundenverzeuchnis dct:date "2022"^^xsd:gYear.
+} 
+
+[INFO ] 2024-09-15 11:24:32,645 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+INSERT DATA { 
+	kb:item-11 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-139 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-69 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-49 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-27 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-75 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-38 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-137 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-71 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-53 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-111 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-13 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-116 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-2 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-4 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-85 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-141 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-79 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-44 prov:wasQuotedFrom kb:ref-1331-4 .
+kb:item-23 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-48 prov:wasQuotedFrom kb:ref-1331-1 .
+kb:item-95 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-93 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-22 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-110 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-143 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-132 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-103 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-120 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-80 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-77 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-72 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-47 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-61 prov:wasQuotedFrom kb:ref-1331-1 .
+kb:item-63 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-90 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-118 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-105 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-59 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-52 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-14 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-35 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-140 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-54 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-12 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-28 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-78 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-31 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-144 prov:wasQuotedFrom kb:ref-1331-4 .
+kb:item-128 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-62 prov:wasQuotedFrom kb:ref-1331-1 .
+kb:item-129 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-101 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-127 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-76 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-107 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-133 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-104 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-7 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-40 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-150 prov:wasQuotedFrom kb:ref-1331-8 .
+kb:item-153 prov:wasQuotedFrom kb:ref-1331-8 .
+kb:item-43 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-123 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-108 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-26 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-6 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-73 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-149 prov:wasQuotedFrom kb:ref-1331-8 .
+kb:item-89 prov:wasQuotedFrom kb:ref-1331-1 .
+kb:item-39 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-100 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-66 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-10 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-125 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-106 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-51 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-68 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-70 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-34 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-124 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-130 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-122 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-1 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-87 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-115 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-37 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-50 prov:wasQuotedFrom kb:ref-1331-1 .
+kb:item-45 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-74 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-36 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-56 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-96 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-135 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-112 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-97 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-60 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-46 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-109 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-55 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-42 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-99 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-41 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-126 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-131 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-83 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-94 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-138 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-33 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-58 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-65 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-147 prov:wasQuotedFrom kb:ref-1331-6 .
+kb:item-16 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-20 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-121 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-17 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-57 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-64 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-102 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-21 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-113 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-151 prov:wasQuotedFrom kb:ref-1331-8 .
+kb:item-134 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-15 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-19 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-91 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-84 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-145 prov:wasQuotedFrom kb:ref-1331-4 .
+kb:item-29 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-3 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-114 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-148 prov:wasQuotedFrom kb:ref-1331-7 .
+kb:item-18 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-67 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-86 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-9 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-32 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-24 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-5 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-92 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-25 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-98 prov:wasQuotedFrom kb:ref-1331-2 .
+kb:item-142 prov:wasQuotedFrom kb:ref-1331-3 .
+kb:item-146 prov:wasQuotedFrom kb:ref-1331-4 .
+} 
+
+[INFO ] 2024-09-15 12:33:10,552 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+INSERT DATA {
+    
+    GRAPH kb:factual_metadata {
+  kb:ref-1203	cito:documents	kb:item-64.
+kb:ref-1206	cito:documents	kb:item-6.
+kb:ref-1206	cito:documents	kb:item-3.
+kb:ref-1206	cito:documents	kb:item-5.
+kb:ref-1206	cito:documents	kb:item-12.
+kb:ref-1206	cito:documents	kb:item-8.
+kb:ref-1206	cito:documents	kb:item-9.
+kb:ref-1206	cito:documents	kb:item-11.
+kb:ref-1207	cito:documents	kb:item-21.
+kb:ref-1208	cito:documents	kb:item-23.
+kb:ref-1209	cito:documents	kb:item-24.
+kb:ref-1210	cito:documents	kb:item-15.
+kb:ref-1213-2	cito:documents	kb:item-80.
+kb:ref-1215	cito:documents	kb:item-35.
+kb:ref-1216	cito:documents	kb:item-3.
+kb:ref-1216	cito:documents	kb:item-15.
+kb:ref-1216	cito:documents	kb:item-96.
+kb:ref-1218	cito:documents	kb:item-137.
+kb:ref-1222	cito:documents	kb:item-6.
+kb:ref-1222	cito:documents	kb:item-15.
+kb:ref-1224	cito:documents	kb:item-5.
+kb:ref-1224	cito:documents	kb:item-137.
+kb:ref-1225	cito:documents	kb:item-6.
+kb:ref-1225	cito:documents	kb:item-15.
+kb:ref-1229	cito:documents	kb:item-6.
+kb:ref-1229	cito:documents	kb:item-3.
+kb:ref-1229	cito:documents	kb:item-5.
+kb:ref-1229	cito:documents	kb:item-21.
+kb:ref-1229	cito:documents	kb:item-12.
+kb:ref-1229	cito:documents	kb:item-23.
+kb:ref-1229	cito:documents	kb:item-9.
+kb:ref-1229	cito:documents	kb:item-15.
+kb:ref-1229	cito:documents	kb:item-2.
+kb:ref-1229	cito:documents	kb:item-11.
+kb:ref-1230	cito:documents	kb:item-3.
+kb:ref-1230	cito:documents	kb:item-2.
+kb:ref-1231	cito:documents	kb:item-6.
+kb:ref-1231	cito:documents	kb:item-23.
+kb:ref-1231	cito:documents	kb:item-15.
+kb:ref-1232	cito:documents	kb:item-90.
+kb:ref-1235	cito:documents	kb:item-127.
+kb:ref-1236	cito:documents	kb:item-104.
+kb:ref-1236	cito:documents	kb:item-54.
+kb:ref-1236	cito:documents	kb:item-102.
+kb:ref-1236	cito:documents	kb:item-87.
+kb:ref-1236	cito:documents	kb:item-101.
+kb:ref-1237	cito:documents	kb:item-147.
+kb:ref-1244	cito:documents	kb:item-147.
+kb:ref-1246	cito:documents	kb:item-37.
+kb:ref-1246	cito:documents	kb:item-88.
+kb:ref-1247	cito:documents	kb:item-88.
+kb:ref-1247	cito:documents	kb:item-50.
+kb:ref-1247	cito:documents	kb:item-74.
+kb:ref-1248	cito:documents	kb:item-50.
+kb:ref-1251	cito:documents	kb:item-24.
+kb:ref-1252	cito:documents	kb:item-26.
+kb:ref-1254	cito:documents	kb:item-147.
+kb:ref-1255	cito:documents	kb:item-127.
+kb:ref-1256	cito:documents	kb:item-60.
+kb:ref-1257	cito:documents	kb:item-38.
+kb:ref-1258	cito:documents	kb:item-3.
+kb:ref-1258	cito:documents	kb:item-2.
+kb:ref-1260	cito:documents	kb:item-28.
+kb:ref-1260	cito:documents	kb:item-43.
+kb:ref-1261	cito:documents	kb:item-5.
+kb:ref-1262	cito:documents	kb:item-52.
+kb:ref-1265	cito:documents	kb:item-60.
+kb:ref-1266	cito:documents	kb:item-27.
+kb:ref-1267	cito:documents	kb:item-6.
+kb:ref-1267	cito:documents	kb:item-15.
+kb:ref-1273	cito:documents	kb:item-146.
+kb:ref-1274	cito:documents	kb:item-147.
+kb:ref-1276	cito:documents	kb:item-102.
+kb:ref-1276	cito:documents	kb:item-101.
+kb:ref-1277	cito:documents	kb:item-54.
+kb:ref-1277	cito:documents	kb:item-96.
+kb:ref-1278	cito:documents	kb:item-35.
+kb:ref-1278	cito:documents	kb:item-124.
+kb:ref-1278	cito:documents	kb:item-54.
+kb:ref-1278	cito:documents	kb:item-28.
+kb:ref-1278	cito:documents	kb:item-127.
+kb:ref-1278	cito:documents	kb:item-27.
+kb:ref-1278	cito:documents	kb:item-130.
+kb:ref-1278	cito:documents	kb:item-133.
+kb:ref-1278	cito:documents	kb:item-87.
+kb:ref-1278	cito:documents	kb:item-126.
+kb:ref-1278	cito:documents	kb:item-39.
+kb:ref-1278	cito:documents	kb:item-37.
+kb:ref-1278	cito:documents	kb:item-115.
+kb:ref-1278	cito:documents	kb:item-88.
+kb:ref-1278	cito:documents	kb:item-52.
+kb:ref-1278	cito:documents	kb:item-64.
+kb:ref-1278	cito:documents	kb:item-41.
+kb:ref-1278	cito:documents	kb:item-131.
+kb:ref-1279-1	cito:documents	kb:item-87.
+kb:ref-1279-2	cito:documents	kb:item-87.
+kb:ref-1280	cito:documents	kb:item-3.
+kb:ref-1281	cito:documents	kb:item-5.
+kb:ref-1282	cito:documents	kb:item-8.
+kb:ref-1283	cito:documents	kb:item-9.
+kb:ref-1284	cito:documents	kb:item-12.
+kb:ref-1286	cito:documents	kb:item-21.
+kb:ref-1288	cito:documents	kb:item-24.
+kb:ref-1289	cito:documents	kb:item-80.
+kb:ref-1291	cito:documents	kb:item-93.
+kb:ref-1292	cito:documents	kb:item-12.
+kb:ref-1294-1	cito:documents	kb:item-5.
+kb:ref-1294-1	cito:documents	kb:item-27.
+kb:ref-1294-1	cito:documents	kb:item-2.
+kb:ref-1294-2	cito:documents	kb:item-54.
+kb:ref-1294-2	cito:documents	kb:item-87.
+kb:ref-1294-2	cito:documents	kb:item-37.
+kb:ref-1294-2	cito:documents	kb:item-97.
+kb:ref-1294-2	cito:documents	kb:item-96.
+kb:ref-1294-2	cito:documents	kb:item-50.
+kb:ref-1294-2	cito:documents	kb:item-93.
+kb:ref-1295	cito:documents	kb:item-15.
+kb:ref-1296	cito:documents	kb:item-80.
+kb:ref-1298	cito:documents	kb:item-144.
+kb:ref-1299	cito:documents	kb:item-5.
+kb:ref-1299	cito:documents	kb:item-137.
+kb:ref-1300	cito:documents	kb:item-147.
+kb:ref-1304-1	cito:documents	kb:item-6.
+kb:ref-1304-1	cito:documents	kb:item-15.
+kb:ref-1304-2	cito:documents	kb:item-6.
+kb:ref-1304-2	cito:documents	kb:item-96.
+kb:ref-1304-3	cito:documents	kb:item-15.
+kb:ref-1305-1	cito:documents	kb:item-35.
+kb:ref-1305-1	cito:documents	kb:item-104.
+kb:ref-1305-1	cito:documents	kb:item-54.
+kb:ref-1305-1	cito:documents	kb:item-102.
+kb:ref-1305-1	cito:documents	kb:item-6.
+kb:ref-1305-1	cito:documents	kb:item-3.
+kb:ref-1305-1	cito:documents	kb:item-5.
+kb:ref-1305-1	cito:documents	kb:item-28.
+kb:ref-1305-1	cito:documents	kb:item-21.
+kb:ref-1305-1	cito:documents	kb:item-27.
+kb:ref-1305-1	cito:documents	kb:item-23.
+kb:ref-1305-1	cito:documents	kb:item-87.
+kb:ref-1305-1	cito:documents	kb:item-98.
+kb:ref-1305-1	cito:documents	kb:item-39.
+kb:ref-1305-1	cito:documents	kb:item-15.
+kb:ref-1305-1	cito:documents	kb:item-2.
+kb:ref-1305-1	cito:documents	kb:item-37.
+kb:ref-1305-1	cito:documents	kb:item-101.
+kb:ref-1305-1	cito:documents	kb:item-11.
+kb:ref-1305-1	cito:documents	kb:item-74.
+kb:ref-1305-1	cito:documents	kb:item-41.
+kb:ref-1306	cito:documents	kb:item-124.
+kb:ref-1306	cito:documents	kb:item-130.
+kb:ref-1306	cito:documents	kb:item-126.
+kb:ref-1306	cito:documents	kb:item-115.
+kb:ref-1306	cito:documents	kb:item-88.
+kb:ref-1306	cito:documents	kb:item-137.
+kb:ref-1306	cito:documents	kb:item-64.
+kb:ref-1306	cito:documents	kb:item-131.
+kb:ref-1309	cito:documents	kb:item-127.
+kb:ref-1311	cito:documents	kb:item-39.
+kb:ref-1312	cito:documents	kb:item-28.
+kb:ref-1312	cito:documents	kb:item-43.
+kb:ref-1313	cito:documents	kb:item-102.
+kb:ref-1313	cito:documents	kb:item-101.
+kb:ref-1316	cito:documents	kb:item-54.
+kb:ref-1317	cito:documents	kb:item-152.
+kb:ref-1317	cito:documents	kb:item-153.
+kb:ref-1321	cito:documents	kb:item-54.
+kb:ref-1321	cito:documents	kb:item-87.
+kb:ref-1321	cito:documents	kb:item-115.
+kb:ref-1322	cito:documents	kb:item-152.
+kb:ref-1322	cito:documents	kb:item-153.
+kb:ref-1322	cito:documents	kb:item-147.
+kb:ref-1326	cito:documents	kb:item-3.
+kb:ref-1327	cito:documents	kb:item-23.
+kb:ref-1331-1	cito:documents	kb:item-50.
+kb:ref-1331-2	cito:documents	kb:item-35.
+kb:ref-1331-2	cito:documents	kb:item-60.
+kb:ref-1331-2	cito:documents	kb:item-124.
+kb:ref-1331-2	cito:documents	kb:item-104.
+kb:ref-1331-2	cito:documents	kb:item-38.
+kb:ref-1331-2	cito:documents	kb:item-54.
+kb:ref-1331-2	cito:documents	kb:item-120.
+kb:ref-1331-2	cito:documents	kb:item-102.
+kb:ref-1331-2	cito:documents	kb:item-6.
+kb:ref-1331-2	cito:documents	kb:item-68.
+kb:ref-1331-2	cito:documents	kb:item-3.
+kb:ref-1331-2	cito:documents	kb:item-5.
+kb:ref-1331-2	cito:documents	kb:item-28.
+kb:ref-1331-2	cito:documents	kb:item-90.
+kb:ref-1331-2	cito:documents	kb:item-43.
+kb:ref-1331-2	cito:documents	kb:item-21.
+kb:ref-1331-2	cito:documents	kb:item-127.
+kb:ref-1331-2	cito:documents	kb:item-27.
+kb:ref-1331-2	cito:documents	kb:item-12.
+kb:ref-1331-2	cito:documents	kb:item-23.
+kb:ref-1331-2	cito:documents	kb:item-87.
+kb:ref-1331-2	cito:documents	kb:item-98.
+kb:ref-1331-2	cito:documents	kb:item-26.
+kb:ref-1331-2	cito:documents	kb:item-126.
+kb:ref-1331-2	cito:documents	kb:item-39.
+kb:ref-1331-2	cito:documents	kb:item-9.
+kb:ref-1331-2	cito:documents	kb:item-15.
+kb:ref-1331-2	cito:documents	kb:item-80.
+kb:ref-1331-2	cito:documents	kb:item-2.
+kb:ref-1331-2	cito:documents	kb:item-37.
+kb:ref-1331-2	cito:documents	kb:item-115.
+kb:ref-1331-2	cito:documents	kb:item-97.
+kb:ref-1331-2	cito:documents	kb:item-52.
+kb:ref-1331-2	cito:documents	kb:item-96.
+kb:ref-1331-2	cito:documents	kb:item-101.
+kb:ref-1331-2	cito:documents	kb:item-93.
+kb:ref-1331-2	cito:documents	kb:item-109.
+kb:ref-1331-2	cito:documents	kb:item-11.
+kb:ref-1331-2	cito:documents	kb:item-74.
+kb:ref-1331-2	cito:documents	kb:item-64.
+kb:ref-1331-2	cito:documents	kb:item-41.
+kb:ref-1331-2	cito:documents	kb:item-24.
+kb:ref-1331-3	cito:documents	kb:item-69.
+kb:ref-1331-3	cito:documents	kb:item-141.
+kb:ref-1331-3	cito:documents	kb:item-130.
+kb:ref-1331-3	cito:documents	kb:item-133.
+kb:ref-1331-3	cito:documents	kb:item-134.
+kb:ref-1331-3	cito:documents	kb:item-137.
+kb:ref-1331-3	cito:documents	kb:item-131.
+kb:ref-1331-4	cito:documents	kb:item-144.
+kb:ref-1331-4	cito:documents	kb:item-146.
+kb:ref-1331-5	cito:documents	kb:item-147.
+kb:ref-1331-7	cito:documents	kb:item-153.
+kb:ref-1334	cito:documents	kb:item-120.
+kb:ref-1334	cito:documents	kb:item-144.
+kb:ref-1336	cito:documents	kb:item-24.
+kb:ref-1337	cito:documents	kb:item-24.
+kb:ref-1340	cito:documents	kb:item-54.
+kb:ref-1340	cito:documents	kb:item-87.
+kb:ref-1340	cito:documents	kb:item-115.
+kb:ref-1342	cito:documents	kb:item-2.
+kb:ref-1343	cito:documents	kb:item-90.
+kb:ref-1343	cito:documents	kb:item-97.
+kb:ref-1343	cito:documents	kb:item-50.
+kb:ref-1343	cito:documents	kb:item-41.
+kb:ref-1346	cito:documents	kb:item-37.
+kb:ref-1346	cito:documents	kb:item-97.
+kb:ref-1346	cito:documents	kb:item-50.
+kb:ref-1346	cito:documents	kb:item-74.
+kb:ref-1346	cito:documents	kb:item-41.
+kb:ref-1347	cito:documents	kb:item-127.
+kb:ref-1348	cito:documents	kb:item-141.
+kb:ref-1348	cito:documents	kb:item-130.
+kb:ref-1348	cito:documents	kb:item-98.
+kb:ref-1348	cito:documents	kb:item-126.
+kb:ref-1348	cito:documents	kb:item-39.
+kb:ref-1348	cito:documents	kb:item-93.
+kb:ref-1348	cito:documents	kb:item-131.
+kb:ref-1349	cito:documents	kb:item-124.
+kb:ref-1349	cito:documents	kb:item-115.
+kb:ref-1349	cito:documents	kb:item-137.
+kb:ref-1349	cito:documents	kb:item-131.
+kb:ref-1351	cito:documents	kb:item-68.
+kb:ref-1351	cito:documents	kb:item-69.
+kb:ref-1351	cito:documents	kb:item-109.
+kb:ref-1352	cito:documents	kb:item-104.
+kb:ref-1353	cito:documents	kb:item-120.
+kb:ref-1354	cito:documents	kb:item-104.
+kb:ref-1354	cito:documents	kb:item-54.
+kb:ref-1354	cito:documents	kb:item-37.
+kb:ref-1354	cito:documents	kb:item-97.
+kb:ref-1354	cito:documents	kb:item-96.
+kb:ref-1354	cito:documents	kb:item-50.
+kb:ref-1354	cito:documents	kb:item-93.
+kb:ref-1357	cito:documents	kb:item-8.
+kb:ref-1358	cito:documents	kb:item-6.
+kb:ref-1358	cito:documents	kb:item-15.
+kb:ref-1358	cito:documents	kb:item-11.
+kb:ref-1362	cito:documents	kb:item-96.
+kb:ref-1361	cito:documents	kb:item-96.
+kb:ref-1341	cito:documents	kb:item-27.
+kb:ref-1305-2	cito:documents	kb:item-137.
+kb:ref-1305-3	cito:documents	kb:item-144.
+kb:ref-1307	cito:documents	kb:item-133.
+kb:ref-1307	cito:documents	kb:item-52.
+kb:ref-1333	cito:documents	kb:item-38.
+kb:ref-1333	cito:documents	kb:item-3.
+kb:ref-1333	cito:documents	kb:item-9.
+kb:ref-1333	cito:documents	kb:item-2.
+kb:ref-1333	cito:documents	kb:item-96.
+kb:ref-1335-1	cito:documents	kb:item-68.
+kb:ref-1335-1	cito:documents	kb:item-69.
+kb:ref-1335-1	cito:documents	kb:item-90.
+kb:ref-1335-1	cito:documents	kb:item-43.
+kb:ref-1335-1	cito:documents	kb:item-98.
+kb:ref-1335-1	cito:documents	kb:item-39.
+kb:ref-1335-1	cito:documents	kb:item-80.
+kb:ref-1335-1	cito:documents	kb:item-37.
+kb:ref-1335-1	cito:documents	kb:item-88.
+kb:ref-1335-1	cito:documents	kb:item-97.
+kb:ref-1335-1	cito:documents	kb:item-50.
+kb:ref-1335-1	cito:documents	kb:item-93.
+kb:ref-1335-1	cito:documents	kb:item-74
+    }
+}
+[INFO ] 2024-09-15 12:42:11,311 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+INSERT DATA {
+    
+    GRAPH kb:factual_metadata {
+ kb:ref-1203	cito:documents	kb:item-64.
+kb:ref-1205	cito:documents	kb:item-72.
+kb:ref-1205	cito:documents	kb:item-71.
+kb:ref-1205	cito:documents	kb:item-70.
+kb:ref-1206	cito:documents	kb:item-6.
+kb:ref-1206	cito:documents	kb:item-3.
+kb:ref-1206	cito:documents	kb:item-5.
+kb:ref-1206	cito:documents	kb:item-12.
+kb:ref-1206	cito:documents	kb:item-8.
+kb:ref-1206	cito:documents	kb:item-9.
+kb:ref-1206	cito:documents	kb:item-11.
+kb:ref-1206	cito:documents	kb:item-7.
+kb:ref-1206	cito:documents	kb:item-10.
+kb:ref-1206	cito:documents	kb:item-4.
+kb:ref-1207	cito:documents	kb:item-21.
+kb:ref-1207	cito:documents	kb:item-20.
+kb:ref-1208	cito:documents	kb:item-23.
+kb:ref-1209	cito:documents	kb:item-24.
+kb:ref-1210	cito:documents	kb:item-15.
+kb:ref-1210	cito:documents	kb:item-13.
+kb:ref-1210	cito:documents	kb:item-14.
+kb:ref-1210	cito:documents	kb:item-19.
+kb:ref-1210	cito:documents	kb:item-18.
+kb:ref-1212	cito:documents	kb:item-31.
+kb:ref-1212	cito:documents	kb:item-32.
+kb:ref-1213-1	cito:documents	kb:item-78.
+kb:ref-1213-2	cito:documents	kb:item-80.
+kb:ref-1213-2	cito:documents	kb:item-81.
+kb:ref-1215	cito:documents	kb:item-35.
+kb:ref-1215	cito:documents	kb:item-33.
+kb:ref-1215	cito:documents	kb:item-34.
+kb:ref-1216	cito:documents	kb:item-3.
+kb:ref-1216	cito:documents	kb:item-15.
+kb:ref-1216	cito:documents	kb:item-96.
+kb:ref-1216	cito:documents	kb:item-1.
+kb:ref-1216	cito:documents	kb:item-95.
+kb:ref-1216	cito:documents	kb:item-44.
+kb:ref-1216	cito:documents	kb:item-13.
+kb:ref-1216	cito:documents	kb:item-14.
+kb:ref-1216	cito:documents	kb:item-83.
+kb:ref-1216	cito:documents	kb:item-19.
+kb:ref-1216	cito:documents	kb:item-18.
+kb:ref-1217	cito:documents	kb:item-95.
+kb:ref-1217	cito:documents	kb:item-83.
+kb:ref-1218	cito:documents	kb:item-137.
+kb:ref-1218	cito:documents	kb:item-139.
+kb:ref-1218	cito:documents	kb:item-132.
+kb:ref-1220	cito:documents	kb:item-65.
+kb:ref-1220	cito:documents	kb:item-76.
+kb:ref-1222	cito:documents	kb:item-6.
+kb:ref-1222	cito:documents	kb:item-15.
+kb:ref-1222	cito:documents	kb:item-1.
+kb:ref-1222	cito:documents	kb:item-13.
+kb:ref-1222	cito:documents	kb:item-14.
+kb:ref-1222	cito:documents	kb:item-19.
+kb:ref-1222	cito:documents	kb:item-18.
+kb:ref-1224	cito:documents	kb:item-5.
+kb:ref-1224	cito:documents	kb:item-137.
+kb:ref-1224	cito:documents	kb:item-4.
+kb:ref-1224	cito:documents	kb:item-132.
+kb:ref-1225	cito:documents	kb:item-6.
+kb:ref-1225	cito:documents	kb:item-15.
+kb:ref-1225	cito:documents	kb:item-1.
+kb:ref-1225	cito:documents	kb:item-13.
+kb:ref-1225	cito:documents	kb:item-14.
+kb:ref-1225	cito:documents	kb:item-19.
+kb:ref-1225	cito:documents	kb:item-18.
+kb:ref-1226	cito:documents	kb:item-78.
+kb:ref-1228	cito:documents	kb:item-132.
+kb:ref-1229	cito:documents	kb:item-6.
+kb:ref-1229	cito:documents	kb:item-3.
+kb:ref-1229	cito:documents	kb:item-5.
+kb:ref-1229	cito:documents	kb:item-21.
+kb:ref-1229	cito:documents	kb:item-12.
+kb:ref-1229	cito:documents	kb:item-23.
+kb:ref-1229	cito:documents	kb:item-9.
+kb:ref-1229	cito:documents	kb:item-15.
+kb:ref-1229	cito:documents	kb:item-2.
+kb:ref-1229	cito:documents	kb:item-11.
+kb:ref-1229	cito:documents	kb:item-1.
+kb:ref-1229	cito:documents	kb:item-13.
+kb:ref-1229	cito:documents	kb:item-14.
+kb:ref-1229	cito:documents	kb:item-20.
+kb:ref-1229	cito:documents	kb:item-19.
+kb:ref-1229	cito:documents	kb:item-4.
+kb:ref-1229	cito:documents	kb:item-34.
+kb:ref-1230	cito:documents	kb:item-3.
+kb:ref-1230	cito:documents	kb:item-2.
+kb:ref-1231	cito:documents	kb:item-6.
+kb:ref-1231	cito:documents	kb:item-23.
+kb:ref-1231	cito:documents	kb:item-15.
+kb:ref-1231	cito:documents	kb:item-1.
+kb:ref-1231	cito:documents	kb:item-13.
+kb:ref-1231	cito:documents	kb:item-14.
+kb:ref-1231	cito:documents	kb:item-19.
+kb:ref-1231	cito:documents	kb:item-18.
+kb:ref-1232	cito:documents	kb:item-90.
+kb:ref-1233	cito:documents	kb:item-148.
+kb:ref-1235	cito:documents	kb:item-127.
+kb:ref-1236	cito:documents	kb:item-104.
+kb:ref-1236	cito:documents	kb:item-54.
+kb:ref-1236	cito:documents	kb:item-102.
+kb:ref-1236	cito:documents	kb:item-87.
+kb:ref-1236	cito:documents	kb:item-101.
+kb:ref-1236	cito:documents	kb:item-73.
+kb:ref-1236	cito:documents	kb:item-129.
+kb:ref-1236	cito:documents	kb:item-72.
+kb:ref-1236	cito:documents	kb:item-51.
+kb:ref-1236	cito:documents	kb:item-135.
+kb:ref-1236	cito:documents	kb:item-33.
+kb:ref-1236	cito:documents	kb:item-139.
+kb:ref-1236	cito:documents	kb:item-55.
+kb:ref-1236	cito:documents	kb:item-56.
+kb:ref-1236	cito:documents	kb:item-85.
+kb:ref-1236	cito:documents	kb:item-86.
+kb:ref-1236	cito:documents	kb:item-47.
+kb:ref-1236	cito:documents	kb:item-71.
+kb:ref-1236	cito:documents	kb:item-63.
+kb:ref-1236	cito:documents	kb:item-113.
+kb:ref-1236	cito:documents	kb:item-70.
+kb:ref-1236	cito:documents	kb:item-49.
+kb:ref-1236	cito:documents	kb:item-79.
+kb:ref-1237	cito:documents	kb:item-147.
+kb:ref-1238	cito:documents	kb:item-86.
+kb:ref-1239	cito:documents	kb:item-142.
+kb:ref-1242	cito:documents	kb:item-48.
+kb:ref-1244	cito:documents	kb:item-147.
+kb:ref-1244	cito:documents	kb:item-149.
+kb:ref-1246	cito:documents	kb:item-37.
+kb:ref-1246	cito:documents	kb:item-88.
+kb:ref-1246	cito:documents	kb:item-95.
+kb:ref-1246	cito:documents	kb:item-45.
+kb:ref-1247	cito:documents	kb:item-88.
+kb:ref-1247	cito:documents	kb:item-50.
+kb:ref-1247	cito:documents	kb:item-74.
+kb:ref-1247	cito:documents	kb:item-67.
+kb:ref-1247	cito:documents	kb:item-89.
+kb:ref-1247	cito:documents	kb:item-61.
+kb:ref-1247	cito:documents	kb:item-95.
+kb:ref-1247	cito:documents	kb:item-48.
+kb:ref-1247	cito:documents	kb:item-62.
+kb:ref-1247	cito:documents	kb:item-45.
+kb:ref-1248	cito:documents	kb:item-50.
+kb:ref-1248	cito:documents	kb:item-61.
+kb:ref-1248	cito:documents	kb:item-95.
+kb:ref-1248	cito:documents	kb:item-62.
+kb:ref-1249	cito:documents	kb:item-135.
+kb:ref-1250	cito:documents	kb:item-82.
+kb:ref-1250	cito:documents	kb:item-81.
+kb:ref-1251	cito:documents	kb:item-24.
+kb:ref-1252	cito:documents	kb:item-26.
+kb:ref-1252	cito:documents	kb:item-25.
+kb:ref-1254	cito:documents	kb:item-147.
+kb:ref-1254	cito:documents	kb:item-148.
+kb:ref-1255	cito:documents	kb:item-127.
+kb:ref-1255	cito:documents	kb:item-112.
+kb:ref-1255	cito:documents	kb:item-122.
+kb:ref-1256	cito:documents	kb:item-60.
+kb:ref-1256	cito:documents	kb:item-140.
+kb:ref-1256	cito:documents	kb:item-59.
+kb:ref-1257	cito:documents	kb:item-38.
+kb:ref-1257	cito:documents	kb:item-42.
+kb:ref-1258	cito:documents	kb:item-3.
+kb:ref-1258	cito:documents	kb:item-2.
+kb:ref-1259	cito:documents	kb:item-62.
+kb:ref-1260	cito:documents	kb:item-28.
+kb:ref-1260	cito:documents	kb:item-43.
+kb:ref-1260	cito:documents	kb:item-40.
+kb:ref-1260	cito:documents	kb:item-30.
+kb:ref-1260	cito:documents	kb:item-29.
+kb:ref-1260	cito:documents	kb:item-31.
+kb:ref-1260	cito:documents	kb:item-32.
+kb:ref-1260	cito:documents	kb:item-59.
+kb:ref-1261	cito:documents	kb:item-5.
+kb:ref-1261	cito:documents	kb:item-4.
+kb:ref-1262	cito:documents	kb:item-52.
+kb:ref-1262	cito:documents	kb:item-56.
+kb:ref-1262	cito:documents	kb:item-46.
+kb:ref-1262	cito:documents	kb:item-47.
+kb:ref-1263	cito:documents	kb:item-31.
+kb:ref-1263	cito:documents	kb:item-32.
+kb:ref-1264	cito:documents	kb:item-72.
+kb:ref-1264	cito:documents	kb:item-61.
+kb:ref-1264	cito:documents	kb:item-62.
+kb:ref-1265	cito:documents	kb:item-60.
+kb:ref-1265	cito:documents	kb:item-59.
+kb:ref-1266	cito:documents	kb:item-27.
+kb:ref-1267	cito:documents	kb:item-6.
+kb:ref-1267	cito:documents	kb:item-15.
+kb:ref-1267	cito:documents	kb:item-1.
+kb:ref-1267	cito:documents	kb:item-13.
+kb:ref-1267	cito:documents	kb:item-14.
+kb:ref-1267	cito:documents	kb:item-19.
+kb:ref-1267	cito:documents	kb:item-18.
+kb:ref-1268	cito:documents	kb:item-149.
+kb:ref-1271	cito:documents	kb:item-62.
+kb:ref-1273	cito:documents	kb:item-146.
+kb:ref-1273	cito:documents	kb:item-143.
+kb:ref-1273	cito:documents	kb:item-145.
+kb:ref-1274	cito:documents	kb:item-147.
+kb:ref-1275	cito:documents	kb:item-48.
+kb:ref-1276	cito:documents	kb:item-102.
+kb:ref-1276	cito:documents	kb:item-101.
+kb:ref-1276	cito:documents	kb:item-65.
+kb:ref-1276	cito:documents	kb:item-53.
+kb:ref-1277	cito:documents	kb:item-54.
+kb:ref-1277	cito:documents	kb:item-96.
+kb:ref-1277	cito:documents	kb:item-51.
+kb:ref-1277	cito:documents	kb:item-70.
+kb:ref-1278	cito:documents	kb:item-35.
+kb:ref-1278	cito:documents	kb:item-124.
+kb:ref-1278	cito:documents	kb:item-54.
+kb:ref-1278	cito:documents	kb:item-28.
+kb:ref-1278	cito:documents	kb:item-127.
+kb:ref-1278	cito:documents	kb:item-27.
+kb:ref-1278	cito:documents	kb:item-130.
+kb:ref-1278	cito:documents	kb:item-133.
+kb:ref-1278	cito:documents	kb:item-87.
+kb:ref-1278	cito:documents	kb:item-126.
+kb:ref-1278	cito:documents	kb:item-39.
+kb:ref-1278	cito:documents	kb:item-37.
+kb:ref-1278	cito:documents	kb:item-115.
+kb:ref-1278	cito:documents	kb:item-88.
+kb:ref-1278	cito:documents	kb:item-52.
+kb:ref-1278	cito:documents	kb:item-64.
+kb:ref-1278	cito:documents	kb:item-41.
+kb:ref-1278	cito:documents	kb:item-131.
+kb:ref-1278	cito:documents	kb:item-73.
+kb:ref-1278	cito:documents	kb:item-67.
+kb:ref-1278	cito:documents	kb:item-72.
+kb:ref-1278	cito:documents	kb:item-117.
+kb:ref-1278	cito:documents	kb:item-89.
+kb:ref-1278	cito:documents	kb:item-107.
+kb:ref-1278	cito:documents	kb:item-51.
+kb:ref-1278	cito:documents	kb:item-116.
+kb:ref-1278	cito:documents	kb:item-33.
+kb:ref-1278	cito:documents	kb:item-36.
+kb:ref-1278	cito:documents	kb:item-84.
+kb:ref-1278	cito:documents	kb:item-40.
+kb:ref-1278	cito:documents	kb:item-55.
+kb:ref-1278	cito:documents	kb:item-95.
+kb:ref-1278	cito:documents	kb:item-110.
+kb:ref-1278	cito:documents	kb:item-128.
+kb:ref-1278	cito:documents	kb:item-29.
+kb:ref-1278	cito:documents	kb:item-92.
+kb:ref-1278	cito:documents	kb:item-47.
+kb:ref-1278	cito:documents	kb:item-114.
+kb:ref-1278	cito:documents	kb:item-71.
+kb:ref-1278	cito:documents	kb:item-111.
+kb:ref-1278	cito:documents	kb:item-63.
+kb:ref-1278	cito:documents	kb:item-76.
+kb:ref-1278	cito:documents	kb:item-70.
+kb:ref-1278	cito:documents	kb:item-106.
+kb:ref-1278	cito:documents	kb:item-103.
+kb:ref-1278	cito:documents	kb:item-105.
+kb:ref-1278	cito:documents	kb:item-122.
+kb:ref-1278	cito:documents	kb:item-94.
+kb:ref-1278	cito:documents	kb:item-108.
+kb:ref-1278	cito:documents	kb:item-49.
+kb:ref-1278	cito:documents	kb:item-91.
+kb:ref-1278	cito:documents	kb:item-118.
+kb:ref-1278	cito:documents	kb:item-58.
+kb:ref-1278	cito:documents	kb:item-34.
+kb:ref-1279-1	cito:documents	kb:item-87.
+kb:ref-1279-2	cito:documents	kb:item-87.
+kb:ref-1280	cito:documents	kb:item-3.
+kb:ref-1281	cito:documents	kb:item-5.
+kb:ref-1281	cito:documents	kb:item-4.
+kb:ref-1282	cito:documents	kb:item-8.
+kb:ref-1282	cito:documents	kb:item-7.
+kb:ref-1283	cito:documents	kb:item-9.
+kb:ref-1284	cito:documents	kb:item-12.
+kb:ref-1286	cito:documents	kb:item-21.
+kb:ref-1286	cito:documents	kb:item-20.
+kb:ref-1288	cito:documents	kb:item-24.
+kb:ref-1289	cito:documents	kb:item-80.
+kb:ref-1289	cito:documents	kb:item-31.
+kb:ref-1291	cito:documents	kb:item-93.
+kb:ref-1292	cito:documents	kb:item-12.
+kb:ref-1294-1	cito:documents	kb:item-5.
+kb:ref-1294-1	cito:documents	kb:item-27.
+kb:ref-1294-1	cito:documents	kb:item-2.
+kb:ref-1294-1	cito:documents	kb:item-33.
+kb:ref-1294-1	cito:documents	kb:item-10.
+kb:ref-1294-1	cito:documents	kb:item-4.
+kb:ref-1294-2	cito:documents	kb:item-54.
+kb:ref-1294-2	cito:documents	kb:item-87.
+kb:ref-1294-2	cito:documents	kb:item-37.
+kb:ref-1294-2	cito:documents	kb:item-97.
+kb:ref-1294-2	cito:documents	kb:item-96.
+kb:ref-1294-2	cito:documents	kb:item-50.
+kb:ref-1294-2	cito:documents	kb:item-93.
+kb:ref-1294-2	cito:documents	kb:item-67.
+kb:ref-1294-2	cito:documents	kb:item-89.
+kb:ref-1294-2	cito:documents	kb:item-51.
+kb:ref-1294-2	cito:documents	kb:item-53.
+kb:ref-1294-2	cito:documents	kb:item-86.
+kb:ref-1294-2	cito:documents	kb:item-48.
+kb:ref-1294-2	cito:documents	kb:item-92.
+kb:ref-1294-2	cito:documents	kb:item-47.
+kb:ref-1294-2	cito:documents	kb:item-45.
+kb:ref-1294-2	cito:documents	kb:item-94.
+kb:ref-1294-2	cito:documents	kb:item-49.
+kb:ref-1294-2	cito:documents	kb:item-91.
+kb:ref-1294-2	cito:documents	kb:item-58.
+kb:ref-1294-3	cito:documents	kb:item-72.
+kb:ref-1294-3	cito:documents	kb:item-78.
+kb:ref-1294-3	cito:documents	kb:item-65.
+kb:ref-1294-3	cito:documents	kb:item-71.
+kb:ref-1294-3	cito:documents	kb:item-70.
+kb:ref-1295	cito:documents	kb:item-15.
+kb:ref-1295	cito:documents	kb:item-13.
+kb:ref-1295	cito:documents	kb:item-14.
+kb:ref-1295	cito:documents	kb:item-19.
+kb:ref-1296	cito:documents	kb:item-80.
+kb:ref-1296	cito:documents	kb:item-30.
+kb:ref-1296	cito:documents	kb:item-29.
+kb:ref-1297	cito:documents	kb:item-78.
+kb:ref-1298	cito:documents	kb:item-144.
+kb:ref-1299	cito:documents	kb:item-5.
+kb:ref-1299	cito:documents	kb:item-137.
+kb:ref-1299	cito:documents	kb:item-132.
+kb:ref-1300	cito:documents	kb:item-147.
+kb:ref-1304-1	cito:documents	kb:item-6.
+kb:ref-1304-1	cito:documents	kb:item-15.
+kb:ref-1304-1	cito:documents	kb:item-1.
+kb:ref-1304-1	cito:documents	kb:item-44.
+kb:ref-1304-1	cito:documents	kb:item-13.
+kb:ref-1304-1	cito:documents	kb:item-66.
+kb:ref-1304-1	cito:documents	kb:item-14.
+kb:ref-1304-1	cito:documents	kb:item-19.
+kb:ref-1304-2	cito:documents	kb:item-6.
+kb:ref-1304-2	cito:documents	kb:item-96.
+kb:ref-1304-2	cito:documents	kb:item-95.
+kb:ref-1304-2	cito:documents	kb:item-83.
+kb:ref-1304-3	cito:documents	kb:item-15.
+kb:ref-1304-3	cito:documents	kb:item-13.
+kb:ref-1304-3	cito:documents	kb:item-14.
+kb:ref-1304-3	cito:documents	kb:item-19.
+kb:ref-1305-1	cito:documents	kb:item-35.
+kb:ref-1305-1	cito:documents	kb:item-104.
+kb:ref-1305-1	cito:documents	kb:item-54.
+kb:ref-1305-1	cito:documents	kb:item-102.
+kb:ref-1305-1	cito:documents	kb:item-6.
+kb:ref-1305-1	cito:documents	kb:item-3.
+kb:ref-1305-1	cito:documents	kb:item-5.
+kb:ref-1305-1	cito:documents	kb:item-28.
+kb:ref-1305-1	cito:documents	kb:item-21.
+kb:ref-1305-1	cito:documents	kb:item-27.
+kb:ref-1305-1	cito:documents	kb:item-23.
+kb:ref-1305-1	cito:documents	kb:item-87.
+kb:ref-1305-1	cito:documents	kb:item-98.
+kb:ref-1305-1	cito:documents	kb:item-39.
+kb:ref-1305-1	cito:documents	kb:item-15.
+kb:ref-1305-1	cito:documents	kb:item-2.
+kb:ref-1305-1	cito:documents	kb:item-37.
+kb:ref-1305-1	cito:documents	kb:item-101.
+kb:ref-1305-1	cito:documents	kb:item-11.
+kb:ref-1305-1	cito:documents	kb:item-74.
+kb:ref-1305-1	cito:documents	kb:item-41.
+kb:ref-1305-1	cito:documents	kb:item-73.
+kb:ref-1305-1	cito:documents	kb:item-72.
+kb:ref-1305-1	cito:documents	kb:item-17.
+kb:ref-1305-1	cito:documents	kb:item-51.
+kb:ref-1305-1	cito:documents	kb:item-16.
+kb:ref-1305-1	cito:documents	kb:item-33.
+kb:ref-1305-1	cito:documents	kb:item-36.
+kb:ref-1305-1	cito:documents	kb:item-40.
+kb:ref-1305-1	cito:documents	kb:item-30.
+kb:ref-1305-1	cito:documents	kb:item-55.
+kb:ref-1305-1	cito:documents	kb:item-42.
+kb:ref-1305-1	cito:documents	kb:item-56.
+kb:ref-1305-1	cito:documents	kb:item-85.
+kb:ref-1305-1	cito:documents	kb:item-13.
+kb:ref-1305-1	cito:documents	kb:item-86.
+kb:ref-1305-1	cito:documents	kb:item-99.
+kb:ref-1305-1	cito:documents	kb:item-46.
+kb:ref-1305-1	cito:documents	kb:item-48.
+kb:ref-1305-1	cito:documents	kb:item-29.
+kb:ref-1305-1	cito:documents	kb:item-47.
+kb:ref-1305-1	cito:documents	kb:item-71.
+kb:ref-1305-1	cito:documents	kb:item-63.
+kb:ref-1305-1	cito:documents	kb:item-14.
+kb:ref-1305-1	cito:documents	kb:item-20.
+kb:ref-1305-1	cito:documents	kb:item-19.
+kb:ref-1305-1	cito:documents	kb:item-70.
+kb:ref-1305-1	cito:documents	kb:item-18.
+kb:ref-1305-1	cito:documents	kb:item-49.
+kb:ref-1305-1	cito:documents	kb:item-79.
+kb:ref-1305-1	cito:documents	kb:item-4.
+kb:ref-1305-1	cito:documents	kb:item-34.
+kb:ref-1306	cito:documents	kb:item-124.
+kb:ref-1306	cito:documents	kb:item-130.
+kb:ref-1306	cito:documents	kb:item-126.
+kb:ref-1306	cito:documents	kb:item-115.
+kb:ref-1306	cito:documents	kb:item-88.
+kb:ref-1306	cito:documents	kb:item-137.
+kb:ref-1306	cito:documents	kb:item-64.
+kb:ref-1306	cito:documents	kb:item-131.
+kb:ref-1306	cito:documents	kb:item-89.
+kb:ref-1306	cito:documents	kb:item-107.
+kb:ref-1306	cito:documents	kb:item-116.
+kb:ref-1306	cito:documents	kb:item-110.
+kb:ref-1306	cito:documents	kb:item-128.
+kb:ref-1306	cito:documents	kb:item-92.
+kb:ref-1306	cito:documents	kb:item-114.
+kb:ref-1306	cito:documents	kb:item-111.
+kb:ref-1306	cito:documents	kb:item-106.
+kb:ref-1306	cito:documents	kb:item-103.
+kb:ref-1306	cito:documents	kb:item-105.
+kb:ref-1306	cito:documents	kb:item-108.
+kb:ref-1306	cito:documents	kb:item-132.
+kb:ref-1306	cito:documents	kb:item-118.
+kb:ref-1308	cito:documents	kb:item-53.
+kb:ref-1308	cito:documents	kb:item-112.
+kb:ref-1309	cito:documents	kb:item-127.
+kb:ref-1309	cito:documents	kb:item-112.
+kb:ref-1309	cito:documents	kb:item-122.
+kb:ref-1311	cito:documents	kb:item-39.
+kb:ref-1311	cito:documents	kb:item-62.
+kb:ref-1312	cito:documents	kb:item-28.
+kb:ref-1312	cito:documents	kb:item-43.
+kb:ref-1312	cito:documents	kb:item-40.
+kb:ref-1312	cito:documents	kb:item-30.
+kb:ref-1312	cito:documents	kb:item-44.
+kb:ref-1312	cito:documents	kb:item-29.
+kb:ref-1312	cito:documents	kb:item-31.
+kb:ref-1312	cito:documents	kb:item-83.
+kb:ref-1312	cito:documents	kb:item-32.
+kb:ref-1313	cito:documents	kb:item-102.
+kb:ref-1313	cito:documents	kb:item-101.
+kb:ref-1313	cito:documents	kb:item-65.
+kb:ref-1313	cito:documents	kb:item-53.
+kb:ref-1314	cito:documents	kb:item-142.
+kb:ref-1315	cito:documents	kb:item-100.
+kb:ref-1316	cito:documents	kb:item-54.
+kb:ref-1316	cito:documents	kb:item-51.
+kb:ref-1316	cito:documents	kb:item-55.
+kb:ref-1316	cito:documents	kb:item-47.
+kb:ref-1316	cito:documents	kb:item-63.
+kb:ref-1317	cito:documents	kb:item-152.
+kb:ref-1317	cito:documents	kb:item-153.
+kb:ref-1317	cito:documents	kb:item-149.
+kb:ref-1317	cito:documents	kb:item-150.
+kb:ref-1317	cito:documents	kb:item-151.
+kb:ref-1318	cito:documents	kb:item-149.
+kb:ref-1318	cito:documents	kb:item-143.
+kb:ref-1318	cito:documents	kb:item-145.
+kb:ref-1319	cito:documents	kb:item-47.
+kb:ref-1319	cito:documents	kb:item-34.
+kb:ref-1320	cito:documents	kb:item-149.
+kb:ref-1320	cito:documents	kb:item-150.
+kb:ref-1320	cito:documents	kb:item-151.
+kb:ref-1321	cito:documents	kb:item-54.
+kb:ref-1321	cito:documents	kb:item-87.
+kb:ref-1321	cito:documents	kb:item-115.
+kb:ref-1321	cito:documents	kb:item-73.
+kb:ref-1321	cito:documents	kb:item-107.
+kb:ref-1321	cito:documents	kb:item-51.
+kb:ref-1321	cito:documents	kb:item-55.
+kb:ref-1321	cito:documents	kb:item-56.
+kb:ref-1321	cito:documents	kb:item-47.
+kb:ref-1321	cito:documents	kb:item-114.
+kb:ref-1321	cito:documents	kb:item-111.
+kb:ref-1321	cito:documents	kb:item-63.
+kb:ref-1321	cito:documents	kb:item-106.
+kb:ref-1321	cito:documents	kb:item-112.
+kb:ref-1321	cito:documents	kb:item-118.
+kb:ref-1322	cito:documents	kb:item-152.
+kb:ref-1322	cito:documents	kb:item-153.
+kb:ref-1322	cito:documents	kb:item-147.
+kb:ref-1322	cito:documents	kb:item-149.
+kb:ref-1322	cito:documents	kb:item-148.
+kb:ref-1322	cito:documents	kb:item-150.
+kb:ref-1322	cito:documents	kb:item-151.
+kb:ref-1326	cito:documents	kb:item-3.
+kb:ref-1327	cito:documents	kb:item-23.
+kb:ref-1328	cito:documents	kb:item-123.
+kb:ref-1328	cito:documents	kb:item-129.
+kb:ref-1329	cito:documents	kb:item-149.
+kb:ref-1331-1	cito:documents	kb:item-50.
+kb:ref-1331-1	cito:documents	kb:item-89.
+kb:ref-1331-1	cito:documents	kb:item-65.
+kb:ref-1331-1	cito:documents	kb:item-61.
+kb:ref-1331-1	cito:documents	kb:item-48.
+kb:ref-1331-1	cito:documents	kb:item-62.
+kb:ref-1331-2	cito:documents	kb:item-35.
+kb:ref-1331-2	cito:documents	kb:item-60.
+kb:ref-1331-2	cito:documents	kb:item-124.
+kb:ref-1331-2	cito:documents	kb:item-104.
+kb:ref-1331-2	cito:documents	kb:item-38.
+kb:ref-1331-2	cito:documents	kb:item-54.
+kb:ref-1331-2	cito:documents	kb:item-120.
+kb:ref-1331-2	cito:documents	kb:item-102.
+kb:ref-1331-2	cito:documents	kb:item-6.
+kb:ref-1331-2	cito:documents	kb:item-68.
+kb:ref-1331-2	cito:documents	kb:item-3.
+kb:ref-1331-2	cito:documents	kb:item-5.
+kb:ref-1331-2	cito:documents	kb:item-28.
+kb:ref-1331-2	cito:documents	kb:item-90.
+kb:ref-1331-2	cito:documents	kb:item-43.
+kb:ref-1331-2	cito:documents	kb:item-21.
+kb:ref-1331-2	cito:documents	kb:item-127.
+kb:ref-1331-2	cito:documents	kb:item-27.
+kb:ref-1331-2	cito:documents	kb:item-12.
+kb:ref-1331-2	cito:documents	kb:item-23.
+kb:ref-1331-2	cito:documents	kb:item-87.
+kb:ref-1331-2	cito:documents	kb:item-98.
+kb:ref-1331-2	cito:documents	kb:item-26.
+kb:ref-1331-2	cito:documents	kb:item-126.
+kb:ref-1331-2	cito:documents	kb:item-39.
+kb:ref-1331-2	cito:documents	kb:item-9.
+kb:ref-1331-2	cito:documents	kb:item-15.
+kb:ref-1331-2	cito:documents	kb:item-80.
+kb:ref-1331-2	cito:documents	kb:item-2.
+kb:ref-1331-2	cito:documents	kb:item-37.
+kb:ref-1331-2	cito:documents	kb:item-115.
+kb:ref-1331-2	cito:documents	kb:item-97.
+kb:ref-1331-2	cito:documents	kb:item-52.
+kb:ref-1331-2	cito:documents	kb:item-96.
+kb:ref-1331-2	cito:documents	kb:item-101.
+kb:ref-1331-2	cito:documents	kb:item-93.
+kb:ref-1331-2	cito:documents	kb:item-109.
+kb:ref-1331-2	cito:documents	kb:item-11.
+kb:ref-1331-2	cito:documents	kb:item-74.
+kb:ref-1331-2	cito:documents	kb:item-64.
+kb:ref-1331-2	cito:documents	kb:item-41.
+kb:ref-1331-2	cito:documents	kb:item-24.
+kb:ref-1331-2	cito:documents	kb:item-73.
+kb:ref-1331-2	cito:documents	kb:item-123.
+kb:ref-1331-2	cito:documents	kb:item-67.
+kb:ref-1331-2	cito:documents	kb:item-1.
+kb:ref-1331-2	cito:documents	kb:item-72.
+kb:ref-1331-2	cito:documents	kb:item-78.
+kb:ref-1331-2	cito:documents	kb:item-17.
+kb:ref-1331-2	cito:documents	kb:item-25.
+kb:ref-1331-2	cito:documents	kb:item-89.
+kb:ref-1331-2	cito:documents	kb:item-107.
+kb:ref-1331-2	cito:documents	kb:item-51.
+kb:ref-1331-2	cito:documents	kb:item-116.
+kb:ref-1331-2	cito:documents	kb:item-16.
+kb:ref-1331-2	cito:documents	kb:item-65.
+kb:ref-1331-2	cito:documents	kb:item-75.
+kb:ref-1331-2	cito:documents	kb:item-33.
+kb:ref-1331-2	cito:documents	kb:item-36.
+kb:ref-1331-2	cito:documents	kb:item-84.
+kb:ref-1331-2	cito:documents	kb:item-40.
+kb:ref-1331-2	cito:documents	kb:item-125.
+kb:ref-1331-2	cito:documents	kb:item-53.
+kb:ref-1331-2	cito:documents	kb:item-77.
+kb:ref-1331-2	cito:documents	kb:item-55.
+kb:ref-1331-2	cito:documents	kb:item-42.
+kb:ref-1331-2	cito:documents	kb:item-95.
+kb:ref-1331-2	cito:documents	kb:item-110.
+kb:ref-1331-2	cito:documents	kb:item-56.
+kb:ref-1331-2	cito:documents	kb:item-85.
+kb:ref-1331-2	cito:documents	kb:item-13.
+kb:ref-1331-2	cito:documents	kb:item-86.
+kb:ref-1331-2	cito:documents	kb:item-99.
+kb:ref-1331-2	cito:documents	kb:item-46.
+kb:ref-1331-2	cito:documents	kb:item-48.
+kb:ref-1331-2	cito:documents	kb:item-29.
+kb:ref-1331-2	cito:documents	kb:item-31.
+kb:ref-1331-2	cito:documents	kb:item-92.
+kb:ref-1331-2	cito:documents	kb:item-66.
+kb:ref-1331-2	cito:documents	kb:item-47.
+kb:ref-1331-2	cito:documents	kb:item-114.
+kb:ref-1331-2	cito:documents	kb:item-71.
+kb:ref-1331-2	cito:documents	kb:item-111.
+kb:ref-1331-2	cito:documents	kb:item-63.
+kb:ref-1331-2	cito:documents	kb:item-76.
+kb:ref-1331-2	cito:documents	kb:item-14.
+kb:ref-1331-2	cito:documents	kb:item-83.
+kb:ref-1331-2	cito:documents	kb:item-32.
+kb:ref-1331-2	cito:documents	kb:item-113.
+kb:ref-1331-2	cito:documents	kb:item-20.
+kb:ref-1331-2	cito:documents	kb:item-19.
+kb:ref-1331-2	cito:documents	kb:item-70.
+kb:ref-1331-2	cito:documents	kb:item-106.
+kb:ref-1331-2	cito:documents	kb:item-103.
+kb:ref-1331-2	cito:documents	kb:item-112.
+kb:ref-1331-2	cito:documents	kb:item-18.
+kb:ref-1331-2	cito:documents	kb:item-100.
+kb:ref-1331-2	cito:documents	kb:item-105.
+kb:ref-1331-2	cito:documents	kb:item-57.
+kb:ref-1331-2	cito:documents	kb:item-45.
+kb:ref-1331-2	cito:documents	kb:item-122.
+kb:ref-1331-2	cito:documents	kb:item-94.
+kb:ref-1331-2	cito:documents	kb:item-7.
+kb:ref-1331-2	cito:documents	kb:item-10.
+kb:ref-1331-2	cito:documents	kb:item-121.
+kb:ref-1331-2	cito:documents	kb:item-108.
+kb:ref-1331-2	cito:documents	kb:item-49.
+kb:ref-1331-2	cito:documents	kb:item-79.
+kb:ref-1331-2	cito:documents	kb:item-4.
+kb:ref-1331-2	cito:documents	kb:item-91.
+kb:ref-1331-2	cito:documents	kb:item-59.
+kb:ref-1331-2	cito:documents	kb:item-118.
+kb:ref-1331-2	cito:documents	kb:item-58.
+kb:ref-1331-2	cito:documents	kb:item-34.
+kb:ref-1331-3	cito:documents	kb:item-69.
+kb:ref-1331-3	cito:documents	kb:item-141.
+kb:ref-1331-3	cito:documents	kb:item-130.
+kb:ref-1331-3	cito:documents	kb:item-133.
+kb:ref-1331-3	cito:documents	kb:item-134.
+kb:ref-1331-3	cito:documents	kb:item-137.
+kb:ref-1331-3	cito:documents	kb:item-131.
+kb:ref-1331-3	cito:documents	kb:item-140.
+kb:ref-1331-3	cito:documents	kb:item-129.
+kb:ref-1331-3	cito:documents	kb:item-143.
+kb:ref-1331-3	cito:documents	kb:item-135.
+kb:ref-1331-3	cito:documents	kb:item-139.
+kb:ref-1331-3	cito:documents	kb:item-128.
+kb:ref-1331-3	cito:documents	kb:item-138.
+kb:ref-1331-3	cito:documents	kb:item-142.
+kb:ref-1331-3	cito:documents	kb:item-132.
+kb:ref-1331-4	cito:documents	kb:item-144.
+kb:ref-1331-4	cito:documents	kb:item-146.
+kb:ref-1331-4	cito:documents	kb:item-44.
+kb:ref-1331-4	cito:documents	kb:item-145.
+kb:ref-1331-5	cito:documents	kb:item-147.
+kb:ref-1331-6	cito:documents	kb:item-148.
+kb:ref-1331-7	cito:documents	kb:item-153.
+kb:ref-1331-7	cito:documents	kb:item-149.
+kb:ref-1331-7	cito:documents	kb:item-150.
+kb:ref-1331-7	cito:documents	kb:item-151.
+kb:ref-1334	cito:documents	kb:item-120.
+kb:ref-1334	cito:documents	kb:item-144.
+kb:ref-1334	cito:documents	kb:item-123.
+kb:ref-1334	cito:documents	kb:item-129.
+kb:ref-1334	cito:documents	kb:item-121.
+kb:ref-1336	cito:documents	kb:item-24.
+kb:ref-1337	cito:documents	kb:item-24.
+kb:ref-1338	cito:documents	kb:item-40.
+kb:ref-1339	cito:documents	kb:item-40.
+kb:ref-1340	cito:documents	kb:item-54.
+kb:ref-1340	cito:documents	kb:item-87.
+kb:ref-1340	cito:documents	kb:item-115.
+kb:ref-1340	cito:documents	kb:item-73.
+kb:ref-1340	cito:documents	kb:item-107.
+kb:ref-1340	cito:documents	kb:item-51.
+kb:ref-1340	cito:documents	kb:item-36.
+kb:ref-1340	cito:documents	kb:item-55.
+kb:ref-1340	cito:documents	kb:item-86.
+kb:ref-1340	cito:documents	kb:item-47.
+kb:ref-1340	cito:documents	kb:item-114.
+kb:ref-1340	cito:documents	kb:item-111.
+kb:ref-1340	cito:documents	kb:item-63.
+kb:ref-1340	cito:documents	kb:item-106.
+kb:ref-1340	cito:documents	kb:item-118.
+kb:ref-1340	cito:documents	kb:item-34.
+kb:ref-1342	cito:documents	kb:item-2.
+kb:ref-1343	cito:documents	kb:item-90.
+kb:ref-1343	cito:documents	kb:item-97.
+kb:ref-1343	cito:documents	kb:item-50.
+kb:ref-1343	cito:documents	kb:item-41.
+kb:ref-1343	cito:documents	kb:item-67.
+kb:ref-1343	cito:documents	kb:item-75.
+kb:ref-1343	cito:documents	kb:item-61.
+kb:ref-1343	cito:documents	kb:item-84.
+kb:ref-1343	cito:documents	kb:item-62.
+kb:ref-1343	cito:documents	kb:item-57.
+kb:ref-1343	cito:documents	kb:item-45.
+kb:ref-1345	cito:documents	kb:item-17.
+kb:ref-1345	cito:documents	kb:item-16.
+kb:ref-1345	cito:documents	kb:item-7.
+kb:ref-1346	cito:documents	kb:item-37.
+kb:ref-1346	cito:documents	kb:item-97.
+kb:ref-1346	cito:documents	kb:item-50.
+kb:ref-1346	cito:documents	kb:item-74.
+kb:ref-1346	cito:documents	kb:item-41.
+kb:ref-1346	cito:documents	kb:item-67.
+kb:ref-1346	cito:documents	kb:item-89.
+kb:ref-1346	cito:documents	kb:item-116.
+kb:ref-1346	cito:documents	kb:item-75.
+kb:ref-1346	cito:documents	kb:item-61.
+kb:ref-1346	cito:documents	kb:item-84.
+kb:ref-1346	cito:documents	kb:item-95.
+kb:ref-1346	cito:documents	kb:item-92.
+kb:ref-1346	cito:documents	kb:item-62.
+kb:ref-1346	cito:documents	kb:item-45.
+kb:ref-1346	cito:documents	kb:item-108.
+kb:ref-1346	cito:documents	kb:item-49.
+kb:ref-1347	cito:documents	kb:item-127.
+kb:ref-1347	cito:documents	kb:item-140.
+kb:ref-1347	cito:documents	kb:item-112.
+kb:ref-1347	cito:documents	kb:item-122.
+kb:ref-1348	cito:documents	kb:item-141.
+kb:ref-1348	cito:documents	kb:item-130.
+kb:ref-1348	cito:documents	kb:item-98.
+kb:ref-1348	cito:documents	kb:item-126.
+kb:ref-1348	cito:documents	kb:item-39.
+kb:ref-1348	cito:documents	kb:item-93.
+kb:ref-1348	cito:documents	kb:item-131.
+kb:ref-1348	cito:documents	kb:item-125.
+kb:ref-1348	cito:documents	kb:item-128.
+kb:ref-1348	cito:documents	kb:item-99.
+kb:ref-1348	cito:documents	kb:item-92.
+kb:ref-1348	cito:documents	kb:item-103.
+kb:ref-1348	cito:documents	kb:item-57.
+kb:ref-1348	cito:documents	kb:item-122.
+kb:ref-1348	cito:documents	kb:item-94.
+kb:ref-1348	cito:documents	kb:item-91.
+kb:ref-1348	cito:documents	kb:item-58.
+kb:ref-1349	cito:documents	kb:item-124.
+kb:ref-1349	cito:documents	kb:item-115.
+kb:ref-1349	cito:documents	kb:item-137.
+kb:ref-1349	cito:documents	kb:item-131.
+kb:ref-1349	cito:documents	kb:item-107.
+kb:ref-1349	cito:documents	kb:item-139.
+kb:ref-1349	cito:documents	kb:item-92.
+kb:ref-1349	cito:documents	kb:item-111.
+kb:ref-1349	cito:documents	kb:item-142.
+kb:ref-1350	cito:documents	kb:item-31.
+kb:ref-1350	cito:documents	kb:item-32.
+kb:ref-1351	cito:documents	kb:item-68.
+kb:ref-1351	cito:documents	kb:item-69.
+kb:ref-1351	cito:documents	kb:item-109.
+kb:ref-1351	cito:documents	kb:item-77.
+kb:ref-1351	cito:documents	kb:item-119.
+kb:ref-1352	cito:documents	kb:item-104.
+kb:ref-1352	cito:documents	kb:item-135.
+kb:ref-1352	cito:documents	kb:item-113.
+kb:ref-1353	cito:documents	kb:item-120.
+kb:ref-1353	cito:documents	kb:item-123.
+kb:ref-1353	cito:documents	kb:item-129.
+kb:ref-1353	cito:documents	kb:item-121.
+kb:ref-1354	cito:documents	kb:item-104.
+kb:ref-1354	cito:documents	kb:item-54.
+kb:ref-1354	cito:documents	kb:item-37.
+kb:ref-1354	cito:documents	kb:item-97.
+kb:ref-1354	cito:documents	kb:item-96.
+kb:ref-1354	cito:documents	kb:item-50.
+kb:ref-1354	cito:documents	kb:item-93.
+kb:ref-1354	cito:documents	kb:item-72.
+kb:ref-1354	cito:documents	kb:item-143.
+kb:ref-1354	cito:documents	kb:item-51.
+kb:ref-1354	cito:documents	kb:item-135.
+kb:ref-1354	cito:documents	kb:item-65.
+kb:ref-1354	cito:documents	kb:item-36.
+kb:ref-1354	cito:documents	kb:item-53.
+kb:ref-1354	cito:documents	kb:item-55.
+kb:ref-1354	cito:documents	kb:item-86.
+kb:ref-1354	cito:documents	kb:item-99.
+kb:ref-1354	cito:documents	kb:item-48.
+kb:ref-1354	cito:documents	kb:item-31.
+kb:ref-1354	cito:documents	kb:item-47.
+kb:ref-1354	cito:documents	kb:item-71.
+kb:ref-1354	cito:documents	kb:item-63.
+kb:ref-1354	cito:documents	kb:item-32.
+kb:ref-1354	cito:documents	kb:item-113.
+kb:ref-1354	cito:documents	kb:item-70.
+kb:ref-1354	cito:documents	kb:item-57.
+kb:ref-1354	cito:documents	kb:item-45.
+kb:ref-1354	cito:documents	kb:item-94.
+kb:ref-1354	cito:documents	kb:item-10.
+kb:ref-1354	cito:documents	kb:item-49.
+kb:ref-1354	cito:documents	kb:item-91.
+kb:ref-1354	cito:documents	kb:item-58.
+kb:ref-1354	cito:documents	kb:item-34.
+kb:ref-1356	cito:documents	kb:item-86.
+kb:ref-1356	cito:documents	kb:item-45.
+kb:ref-1357	cito:documents	kb:item-8.
+kb:ref-1357	cito:documents	kb:item-66.
+kb:ref-1357	cito:documents	kb:item-7.
+kb:ref-1358	cito:documents	kb:item-6.
+kb:ref-1358	cito:documents	kb:item-15.
+kb:ref-1358	cito:documents	kb:item-11.
+kb:ref-1358	cito:documents	kb:item-1.
+kb:ref-1358	cito:documents	kb:item-13.
+kb:ref-1358	cito:documents	kb:item-14.
+kb:ref-1358	cito:documents	kb:item-19.
+kb:ref-1360	cito:documents	kb:item-16.
+kb:ref-1360	cito:documents	kb:item-66.
+kb:ref-1360	cito:documents	kb:item-7.
+kb:ref-1362	cito:documents	kb:item-96.
+kb:ref-1362	cito:documents	kb:item-138.
+kb:ref-1364	cito:documents	kb:item-95.
+kb:ref-1234	cito:documents	kb:item-10.
+kb:ref-1361	cito:documents	kb:item-96.
+kb:ref-1361	cito:documents	kb:item-16.
+kb:ref-1361	cito:documents	kb:item-33.
+kb:ref-1361	cito:documents	kb:item-138.
+kb:ref-1361	cito:documents	kb:item-76.
+kb:ref-1361	cito:documents	kb:item-7.
+kb:ref-1341	cito:documents	kb:item-27.
+kb:ref-1269	cito:documents	kb:item-79.
+kb:ref-1214	cito:documents	kb:item-148.
+kb:ref-1303	cito:documents	kb:item-123.
+kb:ref-1303	cito:documents	kb:item-140.
+kb:ref-1303	cito:documents	kb:item-138.
+kb:ref-1305-2	cito:documents	kb:item-137.
+kb:ref-1305-2	cito:documents	kb:item-123.
+kb:ref-1305-2	cito:documents	kb:item-129.
+kb:ref-1305-2	cito:documents	kb:item-135.
+kb:ref-1305-2	cito:documents	kb:item-139.
+kb:ref-1305-2	cito:documents	kb:item-113.
+kb:ref-1305-2	cito:documents	kb:item-103.
+kb:ref-1305-2	cito:documents	kb:item-121.
+kb:ref-1305-2	cito:documents	kb:item-108.
+kb:ref-1305-2	cito:documents	kb:item-132.
+kb:ref-1305-3	cito:documents	kb:item-144.
+kb:ref-1307	cito:documents	kb:item-133.
+kb:ref-1307	cito:documents	kb:item-52.
+kb:ref-1307	cito:documents	kb:item-117.
+kb:ref-1307	cito:documents	kb:item-65.
+kb:ref-1307	cito:documents	kb:item-53.
+kb:ref-1333	cito:documents	kb:item-38.
+kb:ref-1333	cito:documents	kb:item-3.
+kb:ref-1333	cito:documents	kb:item-9.
+kb:ref-1333	cito:documents	kb:item-2.
+kb:ref-1333	cito:documents	kb:item-96.
+kb:ref-1333	cito:documents	kb:item-140.
+kb:ref-1333	cito:documents	kb:item-42.
+kb:ref-1333	cito:documents	kb:item-138.
+kb:ref-1333	cito:documents	kb:item-10.
+kb:ref-1335-1	cito:documents	kb:item-68.
+kb:ref-1335-1	cito:documents	kb:item-69.
+kb:ref-1335-1	cito:documents	kb:item-90.
+kb:ref-1335-1	cito:documents	kb:item-43.
+kb:ref-1335-1	cito:documents	kb:item-98.
+kb:ref-1335-1	cito:documents	kb:item-39.
+kb:ref-1335-1	cito:documents	kb:item-80.
+kb:ref-1335-1	cito:documents	kb:item-37.
+kb:ref-1335-1	cito:documents	kb:item-88.
+kb:ref-1335-1	cito:documents	kb:item-97.
+kb:ref-1335-1	cito:documents	kb:item-50.
+kb:ref-1335-1	cito:documents	kb:item-93.
+kb:ref-1335-1	cito:documents	kb:item-74.
+kb:ref-1335-1	cito:documents	kb:item-67.
+kb:ref-1335-1	cito:documents	kb:item-89.
+kb:ref-1335-1	cito:documents	kb:item-65.
+kb:ref-1335-1	cito:documents	kb:item-75.
+kb:ref-1335-1	cito:documents	kb:item-61.
+kb:ref-1335-1	cito:documents	kb:item-84.
+kb:ref-1335-1	cito:documents	kb:item-53.
+kb:ref-1335-1	cito:documents	kb:item-77.
+kb:ref-1335-1	cito:documents	kb:item-30.
+kb:ref-1335-1	cito:documents	kb:item-42.
+kb:ref-1335-1	cito:documents	kb:item-95.
+kb:ref-1335-1	cito:documents	kb:item-85.
+kb:ref-1335-1	cito:documents	kb:item-99.
+kb:ref-1335-1	cito:documents	kb:item-48.
+kb:ref-1335-1	cito:documents	kb:item-29.
+kb:ref-1335-1	cito:documents	kb:item-31.
+kb:ref-1335-1	cito:documents	kb:item-92.
+kb:ref-1335-1	cito:documents	kb:item-62.
+kb:ref-1335-1	cito:documents	kb:item-32.
+kb:ref-1335-1	cito:documents	kb:item-57.
+kb:ref-1335-1	cito:documents	kb:item-45.
+kb:ref-1335-1	cito:documents	kb:item-94.
+kb:ref-1335-1	cito:documents	kb:item-49.
+kb:ref-1335-1	cito:documents	kb:item-79.
+kb:ref-1335-1	cito:documents	kb:item-91.
+kb:ref-1335-1	cito:documents	kb:item-59.
+kb:ref-1335-1	cito:documents	kb:item-58.
+kb:ref-1335-2	cito:documents	kb:item-103
+    }
+}
+[ERROR] 2024-09-15 13:26:46,853 [repositories/forgont_endpoint | c.o.t.q.LoggingClosableIteration] Error while executing query: 24ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX forgont: &lt;http://www.example.org/&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX time: &lt;https://w3id.org/forgont/Urkundenverzeuchnis/time/&gt;
+construct {
+    ?ref dct:date ?date.
+    ?date time:hasBeginning ?dateStr;
+          time:hasEnd ?dateStr
+}
+
+where { 
+	?ref a forgont:Edition .
+    ?ref dct:date ?date .
+    BIND (xsd:gYear(?date) AS ?dateStr)
+} 
+</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryEvaluationException: Unknown function 'http://www.w3.org/2001/XMLSchema#gYear'
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$evaluateFunctionCall$20(OwlimEvaluationStrategyImpl.java:1345)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluateFunctionCall(OwlimEvaluationStrategyImpl.java:1345)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$prepare$18(OwlimEvaluationStrategyImpl.java:1325)
+	at org.eclipse.rdf4j.query.algebra.evaluation.impl.DefaultEvaluationStrategy.evaluate(DefaultEvaluationStrategy.java:1116)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluate(OwlimEvaluationStrategyImpl.java:1581)
+	at com.ontotext.trree.query.BindTriplePattern$2.hasNext(BindTriplePattern.java:227)
+	at com.ontotext.trree.query.SubQuery.bindVars(SubQuery.java:1705)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1656)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1657)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1657)
+	at com.ontotext.trree.query.SubQuery$5.initializeAsNeeded(SubQuery.java:1490)
+	at com.ontotext.trree.query.SubQuery$5.hasNext(SubQuery.java:1481)
+	at com.ontotext.trree.query.MainQuery$1.hasNext(MainQuery.java:151)
+	at com.ontotext.trree.query.QueryModelConverter$2.hasNext(QueryModelConverter.java:449)
+	at com.ontotext.trree.sdk.impl.PluginManager$3.hasNext(PluginManager.java:709)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:69)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:20)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.lookAhead(LookAheadIteration.java:80)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.hasNext(LookAheadIteration.java:54)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:60)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:3245)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:93)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.LimitIteration.hasNext(LimitIteration.java:71)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.query.QueryResults.report(QueryResults.java:330)
+	at com.ontotext.graphdb.sesame.GraphQueryResultView.renderInternal(GraphQueryResultView.java:69)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:66)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] 2024-09-15 13:27:26,294 [repositories/forgont_endpoint | c.o.t.q.LoggingClosableIteration] Error while executing query: 1ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX forgont: &lt;http://www.example.org/&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX time: &lt;https://w3id.org/forgont/Urkundenverzeuchnis/time/&gt;
+construct {
+    ?ref dct:date ?date.
+    ?date time:hasBeginning ?dateStr;
+          time:hasEnd ?dateStr
+}
+
+where { 
+	?ref a forgont:Edition .
+    ?ref dct:date ?date .
+    BIND (xsd:gYear(?date) AS ?dateStr)
+} 
+</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryEvaluationException: Unknown function 'http://www.w3.org/2001/XMLSchema#gYear'
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$evaluateFunctionCall$20(OwlimEvaluationStrategyImpl.java:1345)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluateFunctionCall(OwlimEvaluationStrategyImpl.java:1345)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$prepare$18(OwlimEvaluationStrategyImpl.java:1325)
+	at org.eclipse.rdf4j.query.algebra.evaluation.impl.DefaultEvaluationStrategy.evaluate(DefaultEvaluationStrategy.java:1116)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluate(OwlimEvaluationStrategyImpl.java:1581)
+	at com.ontotext.trree.query.BindTriplePattern$2.hasNext(BindTriplePattern.java:227)
+	at com.ontotext.trree.query.SubQuery.bindVars(SubQuery.java:1705)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1656)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1657)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1657)
+	at com.ontotext.trree.query.SubQuery$5.initializeAsNeeded(SubQuery.java:1490)
+	at com.ontotext.trree.query.SubQuery$5.hasNext(SubQuery.java:1481)
+	at com.ontotext.trree.query.MainQuery$1.hasNext(MainQuery.java:151)
+	at com.ontotext.trree.query.QueryModelConverter$2.hasNext(QueryModelConverter.java:449)
+	at com.ontotext.trree.sdk.impl.PluginManager$3.hasNext(PluginManager.java:709)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:69)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:20)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.lookAhead(LookAheadIteration.java:80)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.hasNext(LookAheadIteration.java:54)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:60)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:3245)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:93)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.LimitIteration.hasNext(LimitIteration.java:71)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.query.QueryResults.report(QueryResults.java:330)
+	at com.ontotext.graphdb.sesame.GraphQueryResultView.renderInternal(GraphQueryResultView.java:69)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:66)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] 2024-09-15 13:32:51,504 [repositories/forgont_endpoint | c.o.t.q.LoggingClosableIteration] Error while executing query: 2ms
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX forgont: &lt;http://www.example.org/&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX time: &lt;https://www.w3.org/TR/owl-time/&gt;
+PREFIX kb: &lt;http://www.example.org/forgont/kb/&gt;
+construct {
+    ?ref dct:date ?dateURI .
+    ?dateURI time:hasBeginning ?dateStr ;
+          time:hasEnd ?dateStr . 
+}
+
+where { 
+	?ref a forgont:Edition .
+    ?ref dct:date ?date .
+    BIND (URI(CONCAT("http://www.example.org/forgont/kb/", ?date)) AS ?dateURI)
+    optional {BIND (xsd:gYear(?date) AS ?dateStr)}
+
+} 
+</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryEvaluationException: Unknown function 'http://www.w3.org/2001/XMLSchema#gYear'
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$evaluateFunctionCall$20(OwlimEvaluationStrategyImpl.java:1345)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluateFunctionCall(OwlimEvaluationStrategyImpl.java:1345)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$prepare$18(OwlimEvaluationStrategyImpl.java:1325)
+	at org.eclipse.rdf4j.query.algebra.evaluation.impl.DefaultEvaluationStrategy.evaluate(DefaultEvaluationStrategy.java:1116)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluate(OwlimEvaluationStrategyImpl.java:1581)
+	at com.ontotext.trree.query.BindTriplePattern$2.hasNext(BindTriplePattern.java:227)
+	at com.ontotext.trree.query.SubQuery.bindVars(SubQuery.java:1705)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1656)
+	at com.ontotext.trree.query.SubQuery$5.initializeAsNeeded(SubQuery.java:1490)
+	at com.ontotext.trree.query.SubQuery$5.hasNext(SubQuery.java:1481)
+	at com.ontotext.trree.query.MainQuery$1.hasNext(MainQuery.java:151)
+	at com.ontotext.trree.query.MainQuery$1.hasNext(MainQuery.java:175)
+	at com.ontotext.trree.query.QueryModelConverter$2.hasNext(QueryModelConverter.java:449)
+	at com.ontotext.trree.sdk.impl.PluginManager$3.hasNext(PluginManager.java:709)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:69)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:20)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.lookAhead(LookAheadIteration.java:80)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.hasNext(LookAheadIteration.java:54)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:60)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:3245)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:93)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.LimitIteration.hasNext(LimitIteration.java:71)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.query.QueryResults.report(QueryResults.java:330)
+	at com.ontotext.graphdb.sesame.GraphQueryResultView.renderInternal(GraphQueryResultView.java:69)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:66)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] 2024-09-15 13:33:01,854 [repositories/forgont_endpoint | c.o.t.q.LoggingClosableIteration] Error while executing query: 
+<?xml version='1.0'?>
+<query includeInferred='true' maxExecutionTime='0'>
+	<body>PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX forgont: &lt;http://www.example.org/&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX time: &lt;https://www.w3.org/TR/owl-time/&gt;
+PREFIX kb: &lt;http://www.example.org/forgont/kb/&gt;
+construct {
+    ?ref dct:date ?dateURI .
+    ?dateURI time:hasBeginning ?dateStr ;
+          time:hasEnd ?dateStr . 
+}
+
+where { 
+	?ref a forgont:Edition .
+    ?ref dct:date ?date .
+    BIND (URI(CONCAT("http://www.example.org/forgont/kb/", ?date)) AS ?dateURI)
+    optional {BIND (xsd:Literal(?date) AS ?dateStr)}
+
+} 
+</body>
+</query>
+
+org.eclipse.rdf4j.query.QueryEvaluationException: Unknown function 'http://www.w3.org/2001/XMLSchema#Literal'
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$evaluateFunctionCall$20(OwlimEvaluationStrategyImpl.java:1345)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluateFunctionCall(OwlimEvaluationStrategyImpl.java:1345)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.lambda$prepare$18(OwlimEvaluationStrategyImpl.java:1325)
+	at org.eclipse.rdf4j.query.algebra.evaluation.impl.DefaultEvaluationStrategy.evaluate(DefaultEvaluationStrategy.java:1116)
+	at com.ontotext.trree.query.OwlimEvaluationStrategyImpl.evaluate(OwlimEvaluationStrategyImpl.java:1581)
+	at com.ontotext.trree.query.BindTriplePattern$2.hasNext(BindTriplePattern.java:227)
+	at com.ontotext.trree.query.SubQuery.bindVars(SubQuery.java:1705)
+	at com.ontotext.trree.query.SubQuery$5.find(SubQuery.java:1656)
+	at com.ontotext.trree.query.SubQuery$5.initializeAsNeeded(SubQuery.java:1490)
+	at com.ontotext.trree.query.SubQuery$5.hasNext(SubQuery.java:1481)
+	at com.ontotext.trree.query.MainQuery$1.hasNext(MainQuery.java:151)
+	at com.ontotext.trree.query.MainQuery$1.hasNext(MainQuery.java:175)
+	at com.ontotext.trree.query.QueryModelConverter$2.hasNext(QueryModelConverter.java:449)
+	at com.ontotext.trree.sdk.impl.PluginManager$3.hasNext(PluginManager.java:709)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:69)
+	at com.ontotext.trree.query.evaluation.GraphDBMultiProjectionIterator.getNextElement(GraphDBMultiProjectionIterator.java:20)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.lookAhead(LookAheadIteration.java:80)
+	at org.eclipse.rdf4j.common.iteration.LookAheadIteration.hasNext(LookAheadIteration.java:54)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailIterationWrapper.hasNext(SailIterationWrapper.java:60)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at com.ontotext.trree.SailConnectionImpl$ConnectionClosingIteration.hasNext(SailConnectionImpl.java:3245)
+	at com.ontotext.trree.query.LoggingClosableIteration.hasNext(LoggingClosableIteration.java:93)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.findNextElement(FilterIteration.java:78)
+	at org.eclipse.rdf4j.common.iteration.FilterIteration.hasNext(FilterIteration.java:49)
+	at org.eclipse.rdf4j.common.iteration.ConvertingIteration.hasNext(ConvertingIteration.java:66)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.common.iteration.LimitIteration.hasNext(LimitIteration.java:71)
+	at org.eclipse.rdf4j.common.iteration.IterationWrapper.hasNext(IterationWrapper.java:67)
+	at org.eclipse.rdf4j.query.QueryResults.report(QueryResults.java:330)
+	at com.ontotext.graphdb.sesame.GraphQueryResultView.renderInternal(GraphQueryResultView.java:69)
+	at org.eclipse.rdf4j.http.server.repository.QueryResultView.render(QueryResultView.java:66)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[INFO ] 2024-09-15 13:50:41,244 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+
+INSERT DATA {
+    
+    GRAPH kb:factual_metadata {
+ kb:ref-1203	cito:documents	kb:item-64.
+kb:ref-1205	cito:documents	kb:item-72.
+kb:ref-1205	cito:documents	kb:item-71.
+kb:ref-1205	cito:documents	kb:item-70.
+kb:ref-1206	cito:documents	kb:item-6.
+kb:ref-1206	cito:documents	kb:item-3.
+kb:ref-1206	cito:documents	kb:item-5.
+kb:ref-1206	cito:documents	kb:item-12.
+kb:ref-1206	cito:documents	kb:item-8.
+kb:ref-1206	cito:documents	kb:item-9.
+kb:ref-1206	cito:documents	kb:item-11.
+kb:ref-1206	cito:documents	kb:item-7.
+kb:ref-1206	cito:documents	kb:item-10.
+kb:ref-1206	cito:documents	kb:item-4.
+kb:ref-1207	cito:documents	kb:item-21.
+kb:ref-1207	cito:documents	kb:item-20.
+kb:ref-1208	cito:documents	kb:item-23.
+kb:ref-1209	cito:documents	kb:item-24.
+kb:ref-1210	cito:documents	kb:item-15.
+kb:ref-1210	cito:documents	kb:item-13.
+kb:ref-1210	cito:documents	kb:item-14.
+kb:ref-1210	cito:documents	kb:item-19.
+kb:ref-1210	cito:documents	kb:item-18.
+kb:ref-1212	cito:documents	kb:item-31.
+kb:ref-1212	cito:documents	kb:item-32.
+kb:ref-1213-1	cito:documents	kb:item-78.
+kb:ref-1213-2	cito:documents	kb:item-80.
+kb:ref-1213-2	cito:documents	kb:item-81.
+kb:ref-1215	cito:documents	kb:item-35.
+kb:ref-1215	cito:documents	kb:item-33.
+kb:ref-1215	cito:documents	kb:item-34.
+kb:ref-1216	cito:documents	kb:item-3.
+kb:ref-1216	cito:documents	kb:item-15.
+kb:ref-1216	cito:documents	kb:item-96.
+kb:ref-1216	cito:documents	kb:item-1.
+kb:ref-1216	cito:documents	kb:item-95.
+kb:ref-1216	cito:documents	kb:item-44.
+kb:ref-1216	cito:documents	kb:item-13.
+kb:ref-1216	cito:documents	kb:item-14.
+kb:ref-1216	cito:documents	kb:item-83.
+kb:ref-1216	cito:documents	kb:item-19.
+kb:ref-1216	cito:documents	kb:item-18.
+kb:ref-1217	cito:documents	kb:item-95.
+kb:ref-1217	cito:documents	kb:item-83.
+kb:ref-1218	cito:documents	kb:item-137.
+kb:ref-1218	cito:documents	kb:item-139.
+kb:ref-1218	cito:documents	kb:item-132.
+kb:ref-1220	cito:documents	kb:item-65.
+kb:ref-1220	cito:documents	kb:item-76.
+kb:ref-1222	cito:documents	kb:item-6.
+kb:ref-1222	cito:documents	kb:item-15.
+kb:ref-1222	cito:documents	kb:item-1.
+kb:ref-1222	cito:documents	kb:item-13.
+kb:ref-1222	cito:documents	kb:item-14.
+kb:ref-1222	cito:documents	kb:item-19.
+kb:ref-1222	cito:documents	kb:item-18.
+kb:ref-1224	cito:documents	kb:item-5.
+kb:ref-1224	cito:documents	kb:item-137.
+kb:ref-1224	cito:documents	kb:item-4.
+kb:ref-1224	cito:documents	kb:item-132.
+kb:ref-1225	cito:documents	kb:item-6.
+kb:ref-1225	cito:documents	kb:item-15.
+kb:ref-1225	cito:documents	kb:item-1.
+kb:ref-1225	cito:documents	kb:item-13.
+kb:ref-1225	cito:documents	kb:item-14.
+kb:ref-1225	cito:documents	kb:item-19.
+kb:ref-1225	cito:documents	kb:item-18.
+kb:ref-1226	cito:documents	kb:item-78.
+kb:ref-1228	cito:documents	kb:item-132.
+kb:ref-1229	cito:documents	kb:item-6.
+kb:ref-1229	cito:documents	kb:item-3.
+kb:ref-1229	cito:documents	kb:item-5.
+kb:ref-1229	cito:documents	kb:item-21.
+kb:ref-1229	cito:documents	kb:item-12.
+kb:ref-1229	cito:documents	kb:item-23.
+kb:ref-1229	cito:documents	kb:item-9.
+kb:ref-1229	cito:documents	kb:item-15.
+kb:ref-1229	cito:documents	kb:item-2.
+kb:ref-1229	cito:documents	kb:item-11.
+kb:ref-1229	cito:documents	kb:item-1.
+kb:ref-1229	cito:documents	kb:item-13.
+kb:ref-1229	cito:documents	kb:item-14.
+kb:ref-1229	cito:documents	kb:item-20.
+kb:ref-1229	cito:documents	kb:item-19.
+kb:ref-1229	cito:documents	kb:item-4.
+kb:ref-1229	cito:documents	kb:item-34.
+kb:ref-1230	cito:documents	kb:item-3.
+kb:ref-1230	cito:documents	kb:item-2.
+kb:ref-1231	cito:documents	kb:item-6.
+kb:ref-1231	cito:documents	kb:item-23.
+kb:ref-1231	cito:documents	kb:item-15.
+kb:ref-1231	cito:documents	kb:item-1.
+kb:ref-1231	cito:documents	kb:item-13.
+kb:ref-1231	cito:documents	kb:item-14.
+kb:ref-1231	cito:documents	kb:item-19.
+kb:ref-1231	cito:documents	kb:item-18.
+kb:ref-1232	cito:documents	kb:item-90.
+kb:ref-1233	cito:documents	kb:item-148.
+kb:ref-1235	cito:documents	kb:item-127.
+kb:ref-1236	cito:documents	kb:item-104.
+kb:ref-1236	cito:documents	kb:item-54.
+kb:ref-1236	cito:documents	kb:item-102.
+kb:ref-1236	cito:documents	kb:item-87.
+kb:ref-1236	cito:documents	kb:item-101.
+kb:ref-1236	cito:documents	kb:item-73.
+kb:ref-1236	cito:documents	kb:item-129.
+kb:ref-1236	cito:documents	kb:item-72.
+kb:ref-1236	cito:documents	kb:item-51.
+kb:ref-1236	cito:documents	kb:item-135.
+kb:ref-1236	cito:documents	kb:item-33.
+kb:ref-1236	cito:documents	kb:item-139.
+kb:ref-1236	cito:documents	kb:item-55.
+kb:ref-1236	cito:documents	kb:item-56.
+kb:ref-1236	cito:documents	kb:item-85.
+kb:ref-1236	cito:documents	kb:item-86.
+kb:ref-1236	cito:documents	kb:item-47.
+kb:ref-1236	cito:documents	kb:item-71.
+kb:ref-1236	cito:documents	kb:item-63.
+kb:ref-1236	cito:documents	kb:item-113.
+kb:ref-1236	cito:documents	kb:item-70.
+kb:ref-1236	cito:documents	kb:item-49.
+kb:ref-1236	cito:documents	kb:item-79.
+kb:ref-1237	cito:documents	kb:item-147.
+kb:ref-1238	cito:documents	kb:item-86.
+kb:ref-1239	cito:documents	kb:item-142.
+kb:ref-1242	cito:documents	kb:item-48.
+kb:ref-1244	cito:documents	kb:item-147.
+kb:ref-1244	cito:documents	kb:item-149.
+kb:ref-1246	cito:documents	kb:item-37.
+kb:ref-1246	cito:documents	kb:item-88.
+kb:ref-1246	cito:documents	kb:item-95.
+kb:ref-1246	cito:documents	kb:item-45.
+kb:ref-1247	cito:documents	kb:item-88.
+kb:ref-1247	cito:documents	kb:item-50.
+kb:ref-1247	cito:documents	kb:item-74.
+kb:ref-1247	cito:documents	kb:item-67.
+kb:ref-1247	cito:documents	kb:item-89.
+kb:ref-1247	cito:documents	kb:item-61.
+kb:ref-1247	cito:documents	kb:item-95.
+kb:ref-1247	cito:documents	kb:item-48.
+kb:ref-1247	cito:documents	kb:item-62.
+kb:ref-1247	cito:documents	kb:item-45.
+kb:ref-1248	cito:documents	kb:item-50.
+kb:ref-1248	cito:documents	kb:item-61.
+kb:ref-1248	cito:documents	kb:item-95.
+kb:ref-1248	cito:documents	kb:item-62.
+kb:ref-1249	cito:documents	kb:item-135.
+kb:ref-1250	cito:documents	kb:item-82.
+kb:ref-1250	cito:documents	kb:item-81.
+kb:ref-1251	cito:documents	kb:item-24.
+kb:ref-1252	cito:documents	kb:item-26.
+kb:ref-1252	cito:documents	kb:item-25.
+kb:ref-1254	cito:documents	kb:item-147.
+kb:ref-1254	cito:documents	kb:item-148.
+kb:ref-1255	cito:documents	kb:item-127.
+kb:ref-1255	cito:documents	kb:item-112.
+kb:ref-1255	cito:documents	kb:item-122.
+kb:ref-1256	cito:documents	kb:item-60.
+kb:ref-1256	cito:documents	kb:item-140.
+kb:ref-1256	cito:documents	kb:item-59.
+kb:ref-1257	cito:documents	kb:item-38.
+kb:ref-1257	cito:documents	kb:item-42.
+kb:ref-1258	cito:documents	kb:item-3.
+kb:ref-1258	cito:documents	kb:item-2.
+kb:ref-1259	cito:documents	kb:item-62.
+kb:ref-1260	cito:documents	kb:item-28.
+kb:ref-1260	cito:documents	kb:item-43.
+kb:ref-1260	cito:documents	kb:item-40.
+kb:ref-1260	cito:documents	kb:item-30.
+kb:ref-1260	cito:documents	kb:item-29.
+kb:ref-1260	cito:documents	kb:item-31.
+kb:ref-1260	cito:documents	kb:item-32.
+kb:ref-1260	cito:documents	kb:item-59.
+kb:ref-1261	cito:documents	kb:item-5.
+kb:ref-1261	cito:documents	kb:item-4.
+kb:ref-1262	cito:documents	kb:item-52.
+kb:ref-1262	cito:documents	kb:item-56.
+kb:ref-1262	cito:documents	kb:item-46.
+kb:ref-1262	cito:documents	kb:item-47.
+kb:ref-1263	cito:documents	kb:item-31.
+kb:ref-1263	cito:documents	kb:item-32.
+kb:ref-1264	cito:documents	kb:item-72.
+kb:ref-1264	cito:documents	kb:item-61.
+kb:ref-1264	cito:documents	kb:item-62.
+kb:ref-1265	cito:documents	kb:item-60.
+kb:ref-1265	cito:documents	kb:item-59.
+kb:ref-1266	cito:documents	kb:item-27.
+kb:ref-1267	cito:documents	kb:item-6.
+kb:ref-1267	cito:documents	kb:item-15.
+kb:ref-1267	cito:documents	kb:item-1.
+kb:ref-1267	cito:documents	kb:item-13.
+kb:ref-1267	cito:documents	kb:item-14.
+kb:ref-1267	cito:documents	kb:item-19.
+kb:ref-1267	cito:documents	kb:item-18.
+kb:ref-1268	cito:documents	kb:item-149.
+kb:ref-1271	cito:documents	kb:item-62.
+kb:ref-1273	cito:documents	kb:item-146.
+kb:ref-1273	cito:documents	kb:item-143.
+kb:ref-1273	cito:documents	kb:item-145.
+kb:ref-1274	cito:documents	kb:item-147.
+kb:ref-1275	cito:documents	kb:item-48.
+kb:ref-1276	cito:documents	kb:item-102.
+kb:ref-1276	cito:documents	kb:item-101.
+kb:ref-1276	cito:documents	kb:item-65.
+kb:ref-1276	cito:documents	kb:item-53.
+kb:ref-1277	cito:documents	kb:item-54.
+kb:ref-1277	cito:documents	kb:item-96.
+kb:ref-1277	cito:documents	kb:item-51.
+kb:ref-1277	cito:documents	kb:item-70.
+kb:ref-1278	cito:documents	kb:item-35.
+kb:ref-1278	cito:documents	kb:item-124.
+kb:ref-1278	cito:documents	kb:item-54.
+kb:ref-1278	cito:documents	kb:item-28.
+kb:ref-1278	cito:documents	kb:item-127.
+kb:ref-1278	cito:documents	kb:item-27.
+kb:ref-1278	cito:documents	kb:item-130.
+kb:ref-1278	cito:documents	kb:item-133.
+kb:ref-1278	cito:documents	kb:item-87.
+kb:ref-1278	cito:documents	kb:item-126.
+kb:ref-1278	cito:documents	kb:item-39.
+kb:ref-1278	cito:documents	kb:item-37.
+kb:ref-1278	cito:documents	kb:item-115.
+kb:ref-1278	cito:documents	kb:item-88.
+kb:ref-1278	cito:documents	kb:item-52.
+kb:ref-1278	cito:documents	kb:item-64.
+kb:ref-1278	cito:documents	kb:item-41.
+kb:ref-1278	cito:documents	kb:item-131.
+kb:ref-1278	cito:documents	kb:item-73.
+kb:ref-1278	cito:documents	kb:item-67.
+kb:ref-1278	cito:documents	kb:item-72.
+kb:ref-1278	cito:documents	kb:item-117.
+kb:ref-1278	cito:documents	kb:item-89.
+kb:ref-1278	cito:documents	kb:item-107.
+kb:ref-1278	cito:documents	kb:item-51.
+kb:ref-1278	cito:documents	kb:item-116.
+kb:ref-1278	cito:documents	kb:item-33.
+kb:ref-1278	cito:documents	kb:item-36.
+kb:ref-1278	cito:documents	kb:item-84.
+kb:ref-1278	cito:documents	kb:item-40.
+kb:ref-1278	cito:documents	kb:item-55.
+kb:ref-1278	cito:documents	kb:item-95.
+kb:ref-1278	cito:documents	kb:item-110.
+kb:ref-1278	cito:documents	kb:item-128.
+kb:ref-1278	cito:documents	kb:item-29.
+kb:ref-1278	cito:documents	kb:item-92.
+kb:ref-1278	cito:documents	kb:item-47.
+kb:ref-1278	cito:documents	kb:item-114.
+kb:ref-1278	cito:documents	kb:item-71.
+kb:ref-1278	cito:documents	kb:item-111.
+kb:ref-1278	cito:documents	kb:item-63.
+kb:ref-1278	cito:documents	kb:item-76.
+kb:ref-1278	cito:documents	kb:item-70.
+kb:ref-1278	cito:documents	kb:item-106.
+kb:ref-1278	cito:documents	kb:item-103.
+kb:ref-1278	cito:documents	kb:item-105.
+kb:ref-1278	cito:documents	kb:item-122.
+kb:ref-1278	cito:documents	kb:item-94.
+kb:ref-1278	cito:documents	kb:item-108.
+kb:ref-1278	cito:documents	kb:item-49.
+kb:ref-1278	cito:documents	kb:item-91.
+kb:ref-1278	cito:documents	kb:item-118.
+kb:ref-1278	cito:documents	kb:item-58.
+kb:ref-1278	cito:documents	kb:item-34.
+kb:ref-1279-1	cito:documents	kb:item-87.
+kb:ref-1279-2	cito:documents	kb:item-87.
+kb:ref-1280	cito:documents	kb:item-3.
+kb:ref-1281	cito:documents	kb:item-5.
+kb:ref-1281	cito:documents	kb:item-4.
+kb:ref-1282	cito:documents	kb:item-8.
+kb:ref-1282	cito:documents	kb:item-7.
+kb:ref-1283	cito:documents	kb:item-9.
+kb:ref-1284	cito:documents	kb:item-12.
+kb:ref-1286	cito:documents	kb:item-21.
+kb:ref-1286	cito:documents	kb:item-20.
+kb:ref-1288	cito:documents	kb:item-24.
+kb:ref-1289	cito:documents	kb:item-80.
+kb:ref-1289	cito:documents	kb:item-31.
+kb:ref-1291	cito:documents	kb:item-93.
+kb:ref-1292	cito:documents	kb:item-12.
+kb:ref-1294-1	cito:documents	kb:item-5.
+kb:ref-1294-1	cito:documents	kb:item-27.
+kb:ref-1294-1	cito:documents	kb:item-2.
+kb:ref-1294-1	cito:documents	kb:item-33.
+kb:ref-1294-1	cito:documents	kb:item-10.
+kb:ref-1294-1	cito:documents	kb:item-4.
+kb:ref-1294-2	cito:documents	kb:item-54.
+kb:ref-1294-2	cito:documents	kb:item-87.
+kb:ref-1294-2	cito:documents	kb:item-37.
+kb:ref-1294-2	cito:documents	kb:item-97.
+kb:ref-1294-2	cito:documents	kb:item-96.
+kb:ref-1294-2	cito:documents	kb:item-50.
+kb:ref-1294-2	cito:documents	kb:item-93.
+kb:ref-1294-2	cito:documents	kb:item-67.
+kb:ref-1294-2	cito:documents	kb:item-89.
+kb:ref-1294-2	cito:documents	kb:item-51.
+kb:ref-1294-2	cito:documents	kb:item-53.
+kb:ref-1294-2	cito:documents	kb:item-86.
+kb:ref-1294-2	cito:documents	kb:item-48.
+kb:ref-1294-2	cito:documents	kb:item-92.
+kb:ref-1294-2	cito:documents	kb:item-47.
+kb:ref-1294-2	cito:documents	kb:item-45.
+kb:ref-1294-2	cito:documents	kb:item-94.
+kb:ref-1294-2	cito:documents	kb:item-49.
+kb:ref-1294-2	cito:documents	kb:item-91.
+kb:ref-1294-2	cito:documents	kb:item-58.
+kb:ref-1294-3	cito:documents	kb:item-72.
+kb:ref-1294-3	cito:documents	kb:item-78.
+kb:ref-1294-3	cito:documents	kb:item-65.
+kb:ref-1294-3	cito:documents	kb:item-71.
+kb:ref-1294-3	cito:documents	kb:item-70.
+kb:ref-1295	cito:documents	kb:item-15.
+kb:ref-1295	cito:documents	kb:item-13.
+kb:ref-1295	cito:documents	kb:item-14.
+kb:ref-1295	cito:documents	kb:item-19.
+kb:ref-1296	cito:documents	kb:item-80.
+kb:ref-1296	cito:documents	kb:item-30.
+kb:ref-1296	cito:documents	kb:item-29.
+kb:ref-1297	cito:documents	kb:item-78.
+kb:ref-1298	cito:documents	kb:item-144.
+kb:ref-1299	cito:documents	kb:item-5.
+kb:ref-1299	cito:documents	kb:item-137.
+kb:ref-1299	cito:documents	kb:item-132.
+kb:ref-1300	cito:documents	kb:item-147.
+kb:ref-1304-1	cito:documents	kb:item-6.
+kb:ref-1304-1	cito:documents	kb:item-15.
+kb:ref-1304-1	cito:documents	kb:item-1.
+kb:ref-1304-1	cito:documents	kb:item-44.
+kb:ref-1304-1	cito:documents	kb:item-13.
+kb:ref-1304-1	cito:documents	kb:item-66.
+kb:ref-1304-1	cito:documents	kb:item-14.
+kb:ref-1304-1	cito:documents	kb:item-19.
+kb:ref-1304-2	cito:documents	kb:item-6.
+kb:ref-1304-2	cito:documents	kb:item-96.
+kb:ref-1304-2	cito:documents	kb:item-95.
+kb:ref-1304-2	cito:documents	kb:item-83.
+kb:ref-1304-3	cito:documents	kb:item-15.
+kb:ref-1304-3	cito:documents	kb:item-13.
+kb:ref-1304-3	cito:documents	kb:item-14.
+kb:ref-1304-3	cito:documents	kb:item-19.
+kb:ref-1305-1	cito:documents	kb:item-35.
+kb:ref-1305-1	cito:documents	kb:item-104.
+kb:ref-1305-1	cito:documents	kb:item-54.
+kb:ref-1305-1	cito:documents	kb:item-102.
+kb:ref-1305-1	cito:documents	kb:item-6.
+kb:ref-1305-1	cito:documents	kb:item-3.
+kb:ref-1305-1	cito:documents	kb:item-5.
+kb:ref-1305-1	cito:documents	kb:item-28.
+kb:ref-1305-1	cito:documents	kb:item-21.
+kb:ref-1305-1	cito:documents	kb:item-27.
+kb:ref-1305-1	cito:documents	kb:item-23.
+kb:ref-1305-1	cito:documents	kb:item-87.
+kb:ref-1305-1	cito:documents	kb:item-98.
+kb:ref-1305-1	cito:documents	kb:item-39.
+kb:ref-1305-1	cito:documents	kb:item-15.
+kb:ref-1305-1	cito:documents	kb:item-2.
+kb:ref-1305-1	cito:documents	kb:item-37.
+kb:ref-1305-1	cito:documents	kb:item-101.
+kb:ref-1305-1	cito:documents	kb:item-11.
+kb:ref-1305-1	cito:documents	kb:item-74.
+kb:ref-1305-1	cito:documents	kb:item-41.
+kb:ref-1305-1	cito:documents	kb:item-73.
+kb:ref-1305-1	cito:documents	kb:item-72.
+kb:ref-1305-1	cito:documents	kb:item-17.
+kb:ref-1305-1	cito:documents	kb:item-51.
+kb:ref-1305-1	cito:documents	kb:item-16.
+kb:ref-1305-1	cito:documents	kb:item-33.
+kb:ref-1305-1	cito:documents	kb:item-36.
+kb:ref-1305-1	cito:documents	kb:item-40.
+kb:ref-1305-1	cito:documents	kb:item-30.
+kb:ref-1305-1	cito:documents	kb:item-55.
+kb:ref-1305-1	cito:documents	kb:item-42.
+kb:ref-1305-1	cito:documents	kb:item-56.
+kb:ref-1305-1	cito:documents	kb:item-85.
+kb:ref-1305-1	cito:documents	kb:item-13.
+kb:ref-1305-1	cito:documents	kb:item-86.
+kb:ref-1305-1	cito:documents	kb:item-99.
+kb:ref-1305-1	cito:documents	kb:item-46.
+kb:ref-1305-1	cito:documents	kb:item-48.
+kb:ref-1305-1	cito:documents	kb:item-29.
+kb:ref-1305-1	cito:documents	kb:item-47.
+kb:ref-1305-1	cito:documents	kb:item-71.
+kb:ref-1305-1	cito:documents	kb:item-63.
+kb:ref-1305-1	cito:documents	kb:item-14.
+kb:ref-1305-1	cito:documents	kb:item-20.
+kb:ref-1305-1	cito:documents	kb:item-19.
+kb:ref-1305-1	cito:documents	kb:item-70.
+kb:ref-1305-1	cito:documents	kb:item-18.
+kb:ref-1305-1	cito:documents	kb:item-49.
+kb:ref-1305-1	cito:documents	kb:item-79.
+kb:ref-1305-1	cito:documents	kb:item-4.
+kb:ref-1305-1	cito:documents	kb:item-34.
+kb:ref-1306	cito:documents	kb:item-124.
+kb:ref-1306	cito:documents	kb:item-130.
+kb:ref-1306	cito:documents	kb:item-126.
+kb:ref-1306	cito:documents	kb:item-115.
+kb:ref-1306	cito:documents	kb:item-88.
+kb:ref-1306	cito:documents	kb:item-137.
+kb:ref-1306	cito:documents	kb:item-64.
+kb:ref-1306	cito:documents	kb:item-131.
+kb:ref-1306	cito:documents	kb:item-89.
+kb:ref-1306	cito:documents	kb:item-107.
+kb:ref-1306	cito:documents	kb:item-116.
+kb:ref-1306	cito:documents	kb:item-110.
+kb:ref-1306	cito:documents	kb:item-128.
+kb:ref-1306	cito:documents	kb:item-92.
+kb:ref-1306	cito:documents	kb:item-114.
+kb:ref-1306	cito:documents	kb:item-111.
+kb:ref-1306	cito:documents	kb:item-106.
+kb:ref-1306	cito:documents	kb:item-103.
+kb:ref-1306	cito:documents	kb:item-105.
+kb:ref-1306	cito:documents	kb:item-108.
+kb:ref-1306	cito:documents	kb:item-132.
+kb:ref-1306	cito:documents	kb:item-118.
+kb:ref-1308	cito:documents	kb:item-53.
+kb:ref-1308	cito:documents	kb:item-112.
+kb:ref-1309	cito:documents	kb:item-127.
+kb:ref-1309	cito:documents	kb:item-112.
+kb:ref-1309	cito:documents	kb:item-122.
+kb:ref-1311	cito:documents	kb:item-39.
+kb:ref-1311	cito:documents	kb:item-62.
+kb:ref-1312	cito:documents	kb:item-28.
+kb:ref-1312	cito:documents	kb:item-43.
+kb:ref-1312	cito:documents	kb:item-40.
+kb:ref-1312	cito:documents	kb:item-30.
+kb:ref-1312	cito:documents	kb:item-44.
+kb:ref-1312	cito:documents	kb:item-29.
+kb:ref-1312	cito:documents	kb:item-31.
+kb:ref-1312	cito:documents	kb:item-83.
+kb:ref-1312	cito:documents	kb:item-32.
+kb:ref-1313	cito:documents	kb:item-102.
+kb:ref-1313	cito:documents	kb:item-101.
+kb:ref-1313	cito:documents	kb:item-65.
+kb:ref-1313	cito:documents	kb:item-53.
+kb:ref-1314	cito:documents	kb:item-142.
+kb:ref-1315	cito:documents	kb:item-100.
+kb:ref-1316	cito:documents	kb:item-54.
+kb:ref-1316	cito:documents	kb:item-51.
+kb:ref-1316	cito:documents	kb:item-55.
+kb:ref-1316	cito:documents	kb:item-47.
+kb:ref-1316	cito:documents	kb:item-63.
+kb:ref-1317	cito:documents	kb:item-152.
+kb:ref-1317	cito:documents	kb:item-153.
+kb:ref-1317	cito:documents	kb:item-149.
+kb:ref-1317	cito:documents	kb:item-150.
+kb:ref-1317	cito:documents	kb:item-151.
+kb:ref-1318	cito:documents	kb:item-149.
+kb:ref-1318	cito:documents	kb:item-143.
+kb:ref-1318	cito:documents	kb:item-145.
+kb:ref-1319	cito:documents	kb:item-47.
+kb:ref-1319	cito:documents	kb:item-34.
+kb:ref-1320	cito:documents	kb:item-149.
+kb:ref-1320	cito:documents	kb:item-150.
+kb:ref-1320	cito:documents	kb:item-151.
+kb:ref-1321	cito:documents	kb:item-54.
+kb:ref-1321	cito:documents	kb:item-87.
+kb:ref-1321	cito:documents	kb:item-115.
+kb:ref-1321	cito:documents	kb:item-73.
+kb:ref-1321	cito:documents	kb:item-107.
+kb:ref-1321	cito:documents	kb:item-51.
+kb:ref-1321	cito:documents	kb:item-55.
+kb:ref-1321	cito:documents	kb:item-56.
+kb:ref-1321	cito:documents	kb:item-47.
+kb:ref-1321	cito:documents	kb:item-114.
+kb:ref-1321	cito:documents	kb:item-111.
+kb:ref-1321	cito:documents	kb:item-63.
+kb:ref-1321	cito:documents	kb:item-106.
+kb:ref-1321	cito:documents	kb:item-112.
+kb:ref-1321	cito:documents	kb:item-118.
+kb:ref-1322	cito:documents	kb:item-152.
+kb:ref-1322	cito:documents	kb:item-153.
+kb:ref-1322	cito:documents	kb:item-147.
+kb:ref-1322	cito:documents	kb:item-149.
+kb:ref-1322	cito:documents	kb:item-148.
+kb:ref-1322	cito:documents	kb:item-150.
+kb:ref-1322	cito:documents	kb:item-151.
+kb:ref-1326	cito:documents	kb:item-3.
+kb:ref-1327	cito:documents	kb:item-23.
+kb:ref-1328	cito:documents	kb:item-123.
+kb:ref-1328	cito:documents	kb:item-129.
+kb:ref-1329	cito:documents	kb:item-149.
+kb:ref-1331-1	cito:documents	kb:item-50.
+kb:ref-1331-1	cito:documents	kb:item-89.
+kb:ref-1331-1	cito:documents	kb:item-65.
+kb:ref-1331-1	cito:documents	kb:item-61.
+kb:ref-1331-1	cito:documents	kb:item-48.
+kb:ref-1331-1	cito:documents	kb:item-62.
+kb:ref-1331-2	cito:documents	kb:item-35.
+kb:ref-1331-2	cito:documents	kb:item-60.
+kb:ref-1331-2	cito:documents	kb:item-124.
+kb:ref-1331-2	cito:documents	kb:item-104.
+kb:ref-1331-2	cito:documents	kb:item-38.
+kb:ref-1331-2	cito:documents	kb:item-54.
+kb:ref-1331-2	cito:documents	kb:item-120.
+kb:ref-1331-2	cito:documents	kb:item-102.
+kb:ref-1331-2	cito:documents	kb:item-6.
+kb:ref-1331-2	cito:documents	kb:item-68.
+kb:ref-1331-2	cito:documents	kb:item-3.
+kb:ref-1331-2	cito:documents	kb:item-5.
+kb:ref-1331-2	cito:documents	kb:item-28.
+kb:ref-1331-2	cito:documents	kb:item-90.
+kb:ref-1331-2	cito:documents	kb:item-43.
+kb:ref-1331-2	cito:documents	kb:item-21.
+kb:ref-1331-2	cito:documents	kb:item-127.
+kb:ref-1331-2	cito:documents	kb:item-27.
+kb:ref-1331-2	cito:documents	kb:item-12.
+kb:ref-1331-2	cito:documents	kb:item-23.
+kb:ref-1331-2	cito:documents	kb:item-87.
+kb:ref-1331-2	cito:documents	kb:item-98.
+kb:ref-1331-2	cito:documents	kb:item-26.
+kb:ref-1331-2	cito:documents	kb:item-126.
+kb:ref-1331-2	cito:documents	kb:item-39.
+kb:ref-1331-2	cito:documents	kb:item-9.
+kb:ref-1331-2	cito:documents	kb:item-15.
+kb:ref-1331-2	cito:documents	kb:item-80.
+kb:ref-1331-2	cito:documents	kb:item-2.
+kb:ref-1331-2	cito:documents	kb:item-37.
+kb:ref-1331-2	cito:documents	kb:item-115.
+kb:ref-1331-2	cito:documents	kb:item-97.
+kb:ref-1331-2	cito:documents	kb:item-52.
+kb:ref-1331-2	cito:documents	kb:item-96.
+kb:ref-1331-2	cito:documents	kb:item-101.
+kb:ref-1331-2	cito:documents	kb:item-93.
+kb:ref-1331-2	cito:documents	kb:item-109.
+kb:ref-1331-2	cito:documents	kb:item-11.
+kb:ref-1331-2	cito:documents	kb:item-74.
+kb:ref-1331-2	cito:documents	kb:item-64.
+kb:ref-1331-2	cito:documents	kb:item-41.
+kb:ref-1331-2	cito:documents	kb:item-24.
+kb:ref-1331-2	cito:documents	kb:item-73.
+kb:ref-1331-2	cito:documents	kb:item-123.
+kb:ref-1331-2	cito:documents	kb:item-67.
+kb:ref-1331-2	cito:documents	kb:item-1.
+kb:ref-1331-2	cito:documents	kb:item-72.
+kb:ref-1331-2	cito:documents	kb:item-78.
+kb:ref-1331-2	cito:documents	kb:item-17.
+kb:ref-1331-2	cito:documents	kb:item-25.
+kb:ref-1331-2	cito:documents	kb:item-89.
+kb:ref-1331-2	cito:documents	kb:item-107.
+kb:ref-1331-2	cito:documents	kb:item-51.
+kb:ref-1331-2	cito:documents	kb:item-116.
+kb:ref-1331-2	cito:documents	kb:item-16.
+kb:ref-1331-2	cito:documents	kb:item-65.
+kb:ref-1331-2	cito:documents	kb:item-75.
+kb:ref-1331-2	cito:documents	kb:item-33.
+kb:ref-1331-2	cito:documents	kb:item-36.
+kb:ref-1331-2	cito:documents	kb:item-84.
+kb:ref-1331-2	cito:documents	kb:item-40.
+kb:ref-1331-2	cito:documents	kb:item-125.
+kb:ref-1331-2	cito:documents	kb:item-53.
+kb:ref-1331-2	cito:documents	kb:item-77.
+kb:ref-1331-2	cito:documents	kb:item-55.
+kb:ref-1331-2	cito:documents	kb:item-42.
+kb:ref-1331-2	cito:documents	kb:item-95.
+kb:ref-1331-2	cito:documents	kb:item-110.
+kb:ref-1331-2	cito:documents	kb:item-56.
+kb:ref-1331-2	cito:documents	kb:item-85.
+kb:ref-1331-2	cito:documents	kb:item-13.
+kb:ref-1331-2	cito:documents	kb:item-86.
+kb:ref-1331-2	cito:documents	kb:item-99.
+kb:ref-1331-2	cito:documents	kb:item-46.
+kb:ref-1331-2	cito:documents	kb:item-48.
+kb:ref-1331-2	cito:documents	kb:item-29.
+kb:ref-1331-2	cito:documents	kb:item-31.
+kb:ref-1331-2	cito:documents	kb:item-92.
+kb:ref-1331-2	cito:documents	kb:item-66.
+kb:ref-1331-2	cito:documents	kb:item-47.
+kb:ref-1331-2	cito:documents	kb:item-114.
+kb:ref-1331-2	cito:documents	kb:item-71.
+kb:ref-1331-2	cito:documents	kb:item-111.
+kb:ref-1331-2	cito:documents	kb:item-63.
+kb:ref-1331-2	cito:documents	kb:item-76.
+kb:ref-1331-2	cito:documents	kb:item-14.
+kb:ref-1331-2	cito:documents	kb:item-83.
+kb:ref-1331-2	cito:documents	kb:item-32.
+kb:ref-1331-2	cito:documents	kb:item-113.
+kb:ref-1331-2	cito:documents	kb:item-20.
+kb:ref-1331-2	cito:documents	kb:item-19.
+kb:ref-1331-2	cito:documents	kb:item-70.
+kb:ref-1331-2	cito:documents	kb:item-106.
+kb:ref-1331-2	cito:documents	kb:item-103.
+kb:ref-1331-2	cito:documents	kb:item-112.
+kb:ref-1331-2	cito:documents	kb:item-18.
+kb:ref-1331-2	cito:documents	kb:item-100.
+kb:ref-1331-2	cito:documents	kb:item-105.
+kb:ref-1331-2	cito:documents	kb:item-57.
+kb:ref-1331-2	cito:documents	kb:item-45.
+kb:ref-1331-2	cito:documents	kb:item-122.
+kb:ref-1331-2	cito:documents	kb:item-94.
+kb:ref-1331-2	cito:documents	kb:item-7.
+kb:ref-1331-2	cito:documents	kb:item-10.
+kb:ref-1331-2	cito:documents	kb:item-121.
+kb:ref-1331-2	cito:documents	kb:item-108.
+kb:ref-1331-2	cito:documents	kb:item-49.
+kb:ref-1331-2	cito:documents	kb:item-79.
+kb:ref-1331-2	cito:documents	kb:item-4.
+kb:ref-1331-2	cito:documents	kb:item-91.
+kb:ref-1331-2	cito:documents	kb:item-59.
+kb:ref-1331-2	cito:documents	kb:item-118.
+kb:ref-1331-2	cito:documents	kb:item-58.
+kb:ref-1331-2	cito:documents	kb:item-34.
+kb:ref-1331-3	cito:documents	kb:item-69.
+kb:ref-1331-3	cito:documents	kb:item-141.
+kb:ref-1331-3	cito:documents	kb:item-130.
+kb:ref-1331-3	cito:documents	kb:item-133.
+kb:ref-1331-3	cito:documents	kb:item-134.
+kb:ref-1331-3	cito:documents	kb:item-137.
+kb:ref-1331-3	cito:documents	kb:item-131.
+kb:ref-1331-3	cito:documents	kb:item-140.
+kb:ref-1331-3	cito:documents	kb:item-129.
+kb:ref-1331-3	cito:documents	kb:item-143.
+kb:ref-1331-3	cito:documents	kb:item-135.
+kb:ref-1331-3	cito:documents	kb:item-139.
+kb:ref-1331-3	cito:documents	kb:item-128.
+kb:ref-1331-3	cito:documents	kb:item-138.
+kb:ref-1331-3	cito:documents	kb:item-142.
+kb:ref-1331-3	cito:documents	kb:item-132.
+kb:ref-1331-4	cito:documents	kb:item-144.
+kb:ref-1331-4	cito:documents	kb:item-146.
+kb:ref-1331-4	cito:documents	kb:item-44.
+kb:ref-1331-4	cito:documents	kb:item-145.
+kb:ref-1331-5	cito:documents	kb:item-147.
+kb:ref-1331-6	cito:documents	kb:item-148.
+kb:ref-1331-7	cito:documents	kb:item-153.
+kb:ref-1331-7	cito:documents	kb:item-149.
+kb:ref-1331-7	cito:documents	kb:item-150.
+kb:ref-1331-7	cito:documents	kb:item-151.
+kb:ref-1334	cito:documents	kb:item-120.
+kb:ref-1334	cito:documents	kb:item-144.
+kb:ref-1334	cito:documents	kb:item-123.
+kb:ref-1334	cito:documents	kb:item-129.
+kb:ref-1334	cito:documents	kb:item-121.
+kb:ref-1336	cito:documents	kb:item-24.
+kb:ref-1337	cito:documents	kb:item-24.
+kb:ref-1338	cito:documents	kb:item-40.
+kb:ref-1339	cito:documents	kb:item-40.
+kb:ref-1340	cito:documents	kb:item-54.
+kb:ref-1340	cito:documents	kb:item-87.
+kb:ref-1340	cito:documents	kb:item-115.
+kb:ref-1340	cito:documents	kb:item-73.
+kb:ref-1340	cito:documents	kb:item-107.
+kb:ref-1340	cito:documents	kb:item-51.
+kb:ref-1340	cito:documents	kb:item-36.
+kb:ref-1340	cito:documents	kb:item-55.
+kb:ref-1340	cito:documents	kb:item-86.
+kb:ref-1340	cito:documents	kb:item-47.
+kb:ref-1340	cito:documents	kb:item-114.
+kb:ref-1340	cito:documents	kb:item-111.
+kb:ref-1340	cito:documents	kb:item-63.
+kb:ref-1340	cito:documents	kb:item-106.
+kb:ref-1340	cito:documents	kb:item-118.
+kb:ref-1340	cito:documents	kb:item-34.
+kb:ref-1342	cito:documents	kb:item-2.
+kb:ref-1343	cito:documents	kb:item-90.
+kb:ref-1343	cito:documents	kb:item-97.
+kb:ref-1343	cito:documents	kb:item-50.
+kb:ref-1343	cito:documents	kb:item-41.
+kb:ref-1343	cito:documents	kb:item-67.
+kb:ref-1343	cito:documents	kb:item-75.
+kb:ref-1343	cito:documents	kb:item-61.
+kb:ref-1343	cito:documents	kb:item-84.
+kb:ref-1343	cito:documents	kb:item-62.
+kb:ref-1343	cito:documents	kb:item-57.
+kb:ref-1343	cito:documents	kb:item-45.
+kb:ref-1345	cito:documents	kb:item-17.
+kb:ref-1345	cito:documents	kb:item-16.
+kb:ref-1345	cito:documents	kb:item-7.
+kb:ref-1346	cito:documents	kb:item-37.
+kb:ref-1346	cito:documents	kb:item-97.
+kb:ref-1346	cito:documents	kb:item-50.
+kb:ref-1346	cito:documents	kb:item-74.
+kb:ref-1346	cito:documents	kb:item-41.
+kb:ref-1346	cito:documents	kb:item-67.
+kb:ref-1346	cito:documents	kb:item-89.
+kb:ref-1346	cito:documents	kb:item-116.
+kb:ref-1346	cito:documents	kb:item-75.
+kb:ref-1346	cito:documents	kb:item-61.
+kb:ref-1346	cito:documents	kb:item-84.
+kb:ref-1346	cito:documents	kb:item-95.
+kb:ref-1346	cito:documents	kb:item-92.
+kb:ref-1346	cito:documents	kb:item-62.
+kb:ref-1346	cito:documents	kb:item-45.
+kb:ref-1346	cito:documents	kb:item-108.
+kb:ref-1346	cito:documents	kb:item-49.
+kb:ref-1347	cito:documents	kb:item-127.
+kb:ref-1347	cito:documents	kb:item-140.
+kb:ref-1347	cito:documents	kb:item-112.
+kb:ref-1347	cito:documents	kb:item-122.
+kb:ref-1348	cito:documents	kb:item-141.
+kb:ref-1348	cito:documents	kb:item-130.
+kb:ref-1348	cito:documents	kb:item-98.
+kb:ref-1348	cito:documents	kb:item-126.
+kb:ref-1348	cito:documents	kb:item-39.
+kb:ref-1348	cito:documents	kb:item-93.
+kb:ref-1348	cito:documents	kb:item-131.
+kb:ref-1348	cito:documents	kb:item-125.
+kb:ref-1348	cito:documents	kb:item-128.
+kb:ref-1348	cito:documents	kb:item-99.
+kb:ref-1348	cito:documents	kb:item-92.
+kb:ref-1348	cito:documents	kb:item-103.
+kb:ref-1348	cito:documents	kb:item-57.
+kb:ref-1348	cito:documents	kb:item-122.
+kb:ref-1348	cito:documents	kb:item-94.
+kb:ref-1348	cito:documents	kb:item-91.
+kb:ref-1348	cito:documents	kb:item-58.
+kb:ref-1349	cito:documents	kb:item-124.
+kb:ref-1349	cito:documents	kb:item-115.
+kb:ref-1349	cito:documents	kb:item-137.
+kb:ref-1349	cito:documents	kb:item-131.
+kb:ref-1349	cito:documents	kb:item-107.
+kb:ref-1349	cito:documents	kb:item-139.
+kb:ref-1349	cito:documents	kb:item-92.
+kb:ref-1349	cito:documents	kb:item-111.
+kb:ref-1349	cito:documents	kb:item-142.
+kb:ref-1350	cito:documents	kb:item-31.
+kb:ref-1350	cito:documents	kb:item-32.
+kb:ref-1351	cito:documents	kb:item-68.
+kb:ref-1351	cito:documents	kb:item-69.
+kb:ref-1351	cito:documents	kb:item-109.
+kb:ref-1351	cito:documents	kb:item-77.
+kb:ref-1351	cito:documents	kb:item-119.
+kb:ref-1352	cito:documents	kb:item-104.
+kb:ref-1352	cito:documents	kb:item-135.
+kb:ref-1352	cito:documents	kb:item-113.
+kb:ref-1353	cito:documents	kb:item-120.
+kb:ref-1353	cito:documents	kb:item-123.
+kb:ref-1353	cito:documents	kb:item-129.
+kb:ref-1353	cito:documents	kb:item-121.
+kb:ref-1354	cito:documents	kb:item-104.
+kb:ref-1354	cito:documents	kb:item-54.
+kb:ref-1354	cito:documents	kb:item-37.
+kb:ref-1354	cito:documents	kb:item-97.
+kb:ref-1354	cito:documents	kb:item-96.
+kb:ref-1354	cito:documents	kb:item-50.
+kb:ref-1354	cito:documents	kb:item-93.
+kb:ref-1354	cito:documents	kb:item-72.
+kb:ref-1354	cito:documents	kb:item-143.
+kb:ref-1354	cito:documents	kb:item-51.
+kb:ref-1354	cito:documents	kb:item-135.
+kb:ref-1354	cito:documents	kb:item-65.
+kb:ref-1354	cito:documents	kb:item-36.
+kb:ref-1354	cito:documents	kb:item-53.
+kb:ref-1354	cito:documents	kb:item-55.
+kb:ref-1354	cito:documents	kb:item-86.
+kb:ref-1354	cito:documents	kb:item-99.
+kb:ref-1354	cito:documents	kb:item-48.
+kb:ref-1354	cito:documents	kb:item-31.
+kb:ref-1354	cito:documents	kb:item-47.
+kb:ref-1354	cito:documents	kb:item-71.
+kb:ref-1354	cito:documents	kb:item-63.
+kb:ref-1354	cito:documents	kb:item-32.
+kb:ref-1354	cito:documents	kb:item-113.
+kb:ref-1354	cito:documents	kb:item-70.
+kb:ref-1354	cito:documents	kb:item-57.
+kb:ref-1354	cito:documents	kb:item-45.
+kb:ref-1354	cito:documents	kb:item-94.
+kb:ref-1354	cito:documents	kb:item-10.
+kb:ref-1354	cito:documents	kb:item-49.
+kb:ref-1354	cito:documents	kb:item-91.
+kb:ref-1354	cito:documents	kb:item-58.
+kb:ref-1354	cito:documents	kb:item-34.
+kb:ref-1356	cito:documents	kb:item-86.
+kb:ref-1356	cito:documents	kb:item-45.
+kb:ref-1357	cito:documents	kb:item-8.
+kb:ref-1357	cito:documents	kb:item-66.
+kb:ref-1357	cito:documents	kb:item-7.
+kb:ref-1358	cito:documents	kb:item-6.
+kb:ref-1358	cito:documents	kb:item-15.
+kb:ref-1358	cito:documents	kb:item-11.
+kb:ref-1358	cito:documents	kb:item-1.
+kb:ref-1358	cito:documents	kb:item-13.
+kb:ref-1358	cito:documents	kb:item-14.
+kb:ref-1358	cito:documents	kb:item-19.
+kb:ref-1360	cito:documents	kb:item-16.
+kb:ref-1360	cito:documents	kb:item-66.
+kb:ref-1360	cito:documents	kb:item-7.
+kb:ref-1362	cito:documents	kb:item-96.
+kb:ref-1362	cito:documents	kb:item-138.
+kb:ref-1364	cito:documents	kb:item-95.
+kb:ref-1234	cito:documents	kb:item-10.
+kb:ref-1361	cito:documents	kb:item-96.
+kb:ref-1361	cito:documents	kb:item-16.
+kb:ref-1361	cito:documents	kb:item-33.
+kb:ref-1361	cito:documents	kb:item-138.
+kb:ref-1361	cito:documents	kb:item-76.
+kb:ref-1361	cito:documents	kb:item-7.
+kb:ref-1341	cito:documents	kb:item-27.
+kb:ref-1269	cito:documents	kb:item-79.
+kb:ref-1214	cito:documents	kb:item-148.
+kb:ref-1303	cito:documents	kb:item-123.
+kb:ref-1303	cito:documents	kb:item-140.
+kb:ref-1303	cito:documents	kb:item-138.
+kb:ref-1305-2	cito:documents	kb:item-137.
+kb:ref-1305-2	cito:documents	kb:item-123.
+kb:ref-1305-2	cito:documents	kb:item-129.
+kb:ref-1305-2	cito:documents	kb:item-135.
+kb:ref-1305-2	cito:documents	kb:item-139.
+kb:ref-1305-2	cito:documents	kb:item-113.
+kb:ref-1305-2	cito:documents	kb:item-103.
+kb:ref-1305-2	cito:documents	kb:item-121.
+kb:ref-1305-2	cito:documents	kb:item-108.
+kb:ref-1305-2	cito:documents	kb:item-132.
+kb:ref-1305-3	cito:documents	kb:item-144.
+kb:ref-1307	cito:documents	kb:item-133.
+kb:ref-1307	cito:documents	kb:item-52.
+kb:ref-1307	cito:documents	kb:item-117.
+kb:ref-1307	cito:documents	kb:item-65.
+kb:ref-1307	cito:documents	kb:item-53.
+kb:ref-1333	cito:documents	kb:item-38.
+kb:ref-1333	cito:documents	kb:item-3.
+kb:ref-1333	cito:documents	kb:item-9.
+kb:ref-1333	cito:documents	kb:item-2.
+kb:ref-1333	cito:documents	kb:item-96.
+kb:ref-1333	cito:documents	kb:item-140.
+kb:ref-1333	cito:documents	kb:item-42.
+kb:ref-1333	cito:documents	kb:item-138.
+kb:ref-1333	cito:documents	kb:item-10.
+kb:ref-1335-1	cito:documents	kb:item-68.
+kb:ref-1335-1	cito:documents	kb:item-69.
+kb:ref-1335-1	cito:documents	kb:item-90.
+kb:ref-1335-1	cito:documents	kb:item-43.
+kb:ref-1335-1	cito:documents	kb:item-98.
+kb:ref-1335-1	cito:documents	kb:item-39.
+kb:ref-1335-1	cito:documents	kb:item-80.
+kb:ref-1335-1	cito:documents	kb:item-37.
+kb:ref-1335-1	cito:documents	kb:item-88.
+kb:ref-1335-1	cito:documents	kb:item-97.
+kb:ref-1335-1	cito:documents	kb:item-50.
+kb:ref-1335-1	cito:documents	kb:item-93.
+kb:ref-1335-1	cito:documents	kb:item-74.
+kb:ref-1335-1	cito:documents	kb:item-67.
+kb:ref-1335-1	cito:documents	kb:item-89.
+kb:ref-1335-1	cito:documents	kb:item-65.
+kb:ref-1335-1	cito:documents	kb:item-75.
+kb:ref-1335-1	cito:documents	kb:item-61.
+kb:ref-1335-1	cito:documents	kb:item-84.
+kb:ref-1335-1	cito:documents	kb:item-53.
+kb:ref-1335-1	cito:documents	kb:item-77.
+kb:ref-1335-1	cito:documents	kb:item-30.
+kb:ref-1335-1	cito:documents	kb:item-42.
+kb:ref-1335-1	cito:documents	kb:item-95.
+kb:ref-1335-1	cito:documents	kb:item-85.
+kb:ref-1335-1	cito:documents	kb:item-99.
+kb:ref-1335-1	cito:documents	kb:item-48.
+kb:ref-1335-1	cito:documents	kb:item-29.
+kb:ref-1335-1	cito:documents	kb:item-31.
+kb:ref-1335-1	cito:documents	kb:item-92.
+kb:ref-1335-1	cito:documents	kb:item-62.
+kb:ref-1335-1	cito:documents	kb:item-32.
+kb:ref-1335-1	cito:documents	kb:item-57.
+kb:ref-1335-1	cito:documents	kb:item-45.
+kb:ref-1335-1	cito:documents	kb:item-94.
+kb:ref-1335-1	cito:documents	kb:item-49.
+kb:ref-1335-1	cito:documents	kb:item-79.
+kb:ref-1335-1	cito:documents	kb:item-91.
+kb:ref-1335-1	cito:documents	kb:item-59.
+kb:ref-1335-1	cito:documents	kb:item-58.
+kb:ref-1335-2	cito:documents	kb:item-103
+    }
+}
+[INFO ] 2024-09-15 13:51:03,847 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: prefix time: <https://www.w3.org/TR/owl-time/> 
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+insert data { 
+kb:ref-1203 dct:date kb:1970 . 
+kb:1970 time:hasBeginning "1970"^^xsd:gYear ;
+time:hasEnd "1970"^^xsd:gYear .
+
+kb:ref-1205 dct:date kb:2011 .
+kb:2011 time:hasBeginning "2011"^^xsd:gYear .
+kb:2011 time:hasEnd "2011"^^xsd:gYear .
+
+kb:ref-1206 dct:date kb:1908 .
+kb:1908 time:hasBeginning "1908"^^xsd:gYear .
+kb:1908 time:hasEnd "1908"^^xsd:gYear .
+
+kb:ref-1207 dct:date kb:1950. 
+kb:1950 time:hasBeginning "1950"^^xsd:gYear .
+kb:1950 time:hasEnd "1950"^^xsd:gYear .
+
+kb:ref-1208 dct:date kb:1956. 
+kb:1956 time:hasBeginning "1956"^^xsd:gYear .
+kb:1956 time:hasEnd "1956"^^xsd:gYear .
+
+kb:ref-1209 dct:date kb:1971. 
+kb:1971 time:hasBeginning "1971"^^xsd:gYear .
+kb:1971 time:hasEnd "1971"^^xsd:gYear .
+
+kb:ref-1210 dct:date kb:1998. 
+kb:1998 time:hasBeginning "1998"^^xsd:gYear .
+kb:1998 time:hasEnd "1998"^^xsd:gYear .
+
+kb:ref-1212 dct:date kb:1984. 
+kb:1984 time:hasBeginning "1984"^^xsd:gYear .
+kb:1984 time:hasEnd "1984"^^xsd:gYear .
+
+kb:ref-1213-1 dct:date kb:1980. 
+kb:1980 time:hasBeginning "1980"^^xsd:gYear .
+kb:1980 time:hasEnd "1980"^^xsd:gYear .
+
+kb:ref-1213-2 dct:date kb:1991. 
+kb:1991 time:hasBeginning "1991"^^xsd:gYear .
+kb:1991 time:hasEnd "1991"^^xsd:gYear .
+
+kb:ref-1215 dct:date kb:1988. 
+kb:1988 time:hasBeginning "1988"^^xsd:gYear .
+kb:1988 time:hasEnd "1988"^^xsd:gYear .
+
+kb:ref-1216 dct:date kb:1911. 
+kb:1911 time:hasBeginning "1911"^^xsd:gYear .
+kb:1911 time:hasEnd "1911"^^xsd:gYear .
+
+kb:ref-1217 dct:date kb:1912. 
+kb:1912 time:hasBeginning "1912"^^xsd:gYear .
+kb:1912 time:hasEnd "1912"^^xsd:gYear .
+
+kb:ref-1218 dct:date kb:1992. 
+kb:1992 time:hasBeginning "1992"^^xsd:gYear .
+kb:1992 time:hasEnd "1992"^^xsd:gYear .
+
+kb:ref-1220 dct:date kb:1960. 
+kb:1960 time:hasBeginning "1960"^^xsd:gYear .
+kb:1960 time:hasEnd "1960"^^xsd:gYear .
+
+kb:ref-1222 dct:date kb:1854. 
+kb:1854 time:hasBeginning "1854"^^xsd:gYear .
+kb:1854 time:hasEnd "1854"^^xsd:gYear .
+
+kb:ref-1224 dct:date kb:1986. 
+kb:1986 time:hasBeginning "1986"^^xsd:gYear .
+kb:1986 time:hasEnd "1986"^^xsd:gYear .
+
+kb:ref-1225 dct:date kb:2011. 
+kb:ref-1226 dct:date kb:2018. 
+kb:2018 time:hasBeginning "2018"^^xsd:gYear .
+kb:2018 time:hasEnd "2018"^^xsd:gYear .
+
+kb:ref-1228 dct:date kb:1938. 
+kb:1938 time:hasBeginning "1938"^^xsd:gYear .
+kb:1938 time:hasEnd "1938"^^xsd:gYear .
+
+kb:ref-1229 dct:date kb:1971. 
+
+kb:ref-1230 dct:date kb:1977. 
+kb:1977 time:hasBeginning "1977"^^xsd:gYear .
+kb:1977 time:hasEnd "1977"^^xsd:gYear .
+
+kb:ref-1231 dct:date kb:1977. 
+kb:ref-1232 dct:date kb:1895. 
+kb:1895 time:hasBeginning "1895"^^xsd:gYear .
+kb:1895 time:hasEnd "1895"^^xsd:gYear .
+
+kb:ref-1233 dct:date kb:1980. 
+kb:ref-1235 dct:date kb:1957. 
+kb:1957 time:hasBeginning "1957"^^xsd:gYear .
+kb:1957 time:hasEnd "1957"^^xsd:gYear .
+
+kb:ref-1236 dct:date kb:1911. 
+kb:ref-1237 dct:date kb:1960. 
+
+kb:ref-1238 dct:date kb:1967. 
+kb:1967 time:hasBeginning "1967"^^xsd:gYear .
+kb:1967 time:hasEnd "1967"^^xsd:gYear .
+
+kb:ref-1239 dct:date kb:1975. 
+kb:1975 time:hasBeginning "1975"^^xsd:gYear .
+kb:1975 time:hasEnd "1975"^^xsd:gYear .
+
+kb:ref-1242 dct:date kb:1971. 
+kb:ref-1244 dct:date kb:1978. 
+kb:1978 time:hasBeginning "1978"^^xsd:gYear .
+kb:1978 time:hasEnd "1978"^^xsd:gYear .
+
+kb:ref-1245 dct:date kb:1987. 
+kb:1987 time:hasBeginning "1987"^^xsd:gYear .
+kb:1987 time:hasEnd "1987"^^xsd:gYear .
+
+kb:ref-1246 dct:date kb:2005. 
+kb:2005 time:hasBeginning "2005"^^xsd:gYear .
+kb:2005 time:hasEnd "2005"^^xsd:gYear .
+
+kb:ref-1247 dct:date kb:2008. 
+kb:2008 time:hasBeginning "2008"^^xsd:gYear .
+kb:2008 time:hasEnd "2008"^^xsd:gYear .
+
+kb:ref-1248 dct:date kb:2011. 
+kb:ref-1249 dct:date kb:1899. 
+kb:1899 time:hasBeginning "1899"^^xsd:gYear .
+kb:1899 time:hasEnd "1899"^^xsd:gYear .
+
+kb:ref-1250 dct:date kb:1960. 
+kb:ref-1251 dct:date kb:1934. 
+kb:1934 time:hasBeginning "1934"^^xsd:gYear .
+kb:1934 time:hasEnd "1934"^^xsd:gYear .
+
+kb:ref-1252 dct:date kb:1961. 
+kb:1961 time:hasBeginning "1961"^^xsd:gYear .
+kb:1961 time:hasEnd "1961"^^xsd:gYear .
+
+kb:ref-1254 dct:date kb:1954. 
+kb:1954 time:hasBeginning "1954"^^xsd:gYear .
+kb:1954 time:hasEnd "1954"^^xsd:gYear .
+
+kb:ref-1255 dct:date kb:1967. 
+kb:ref-1256 dct:date kb:1955. 
+kb:1955 time:hasBeginning "1955"^^xsd:gYear .
+kb:1955 time:hasEnd "1955"^^xsd:gYear .
+
+kb:ref-1257 dct:date kb:1960. 
+kb:ref-1258 dct:date kb:1964. 
+kb:1964 time:hasBeginning "1964"^^xsd:gYear .
+kb:1964 time:hasEnd "1964"^^xsd:gYear .
+
+kb:ref-1259 dct:date kb:1982. 
+kb:1982 time:hasBeginning "1982"^^xsd:gYear .
+kb:1982 time:hasEnd "1982"^^xsd:gYear .
+
+kb:ref-1260 dct:date kb:1969. 
+kb:1969 time:hasBeginning "1969"^^xsd:gYear .
+kb:1969 time:hasEnd "1969"^^xsd:gYear .
+
+kb:ref-1261 dct:date kb:1955. 
+kb:ref-1262 dct:date kb:1976. 
+kb:1976 time:hasBeginning "1976"^^xsd:gYear .
+kb:1976 time:hasEnd "1976"^^xsd:gYear .
+
+kb:ref-1263 dct:date kb:1974. 
+kb:1974 time:hasBeginning "1974"^^xsd:gYear .
+kb:1974 time:hasEnd "1974"^^xsd:gYear .
+
+kb:ref-1264 dct:date kb:1808. 
+kb:1808 time:hasBeginning "1808"^^xsd:gYear .
+kb:1808 time:hasEnd "1808"^^xsd:gYear .
+
+kb:ref-1265 dct:date kb:1910. 
+kb:1910 time:hasBeginning "1910"^^xsd:gYear .
+kb:1910 time:hasEnd "1910"^^xsd:gYear .
+
+kb:ref-1266 dct:date kb:1953-1954. 
+kb:1953-1954 time:hasBeginning "1953"^^xsd:gYear .
+kb:1953-1954 time:hasEnd "1954"^^xsd:gYear .
+
+kb:ref-1267 dct:date kb:1909. 
+kb:1909 time:hasBeginning "1909"^^xsd:gYear .
+kb:1909 time:hasEnd "1909"^^xsd:gYear .
+
+kb:ref-1268 dct:date kb:1957. 
+
+kb:ref-1271 dct:date kb:2015. 
+kb:2015 time:hasBeginning "2015"^^xsd:gYear .
+kb:2015 time:hasEnd "2015"^^xsd:gYear .
+
+kb:ref-1273 dct:date kb:1980. 
+
+kb:ref-1274 dct:date kb:1981. 
+kb:1981 time:hasBeginning "1981"^^xsd:gYear .
+kb:1981 time:hasEnd "1981"^^xsd:gYear .
+
+kb:ref-1275 dct:date kb:1982. 
+kb:ref-1276 dct:date kb:1915. 
+kb:1915 time:hasBeginning "1915"^^xsd:gYear .
+kb:1915 time:hasEnd "1915"^^xsd:gYear .
+
+kb:ref-1277 dct:date kb:1997. 
+kb:1997 time:hasBeginning "1997"^^xsd:gYear .
+
+kb:1997 time:hasEnd "1997"^^xsd:gYear .
+
+kb:ref-1278 dct:date kb:1906-1912. 
+kb:1906-1912 time:hasBeginning "1906"^^xsd:gYear .
+kb:1906-1912 time:hasEnd "1912"^^xsd:gYear .
+
+kb:ref-1279-1 dct:date kb:1829. 
+kb:1829 time:hasBeginning "1829"^^xsd:gYear .
+kb:1829 time:hasEnd "1829"^^xsd:gYear .
+
+kb:ref-1279-2 dct:date kb:1830. 
+kb:1830 time:hasBeginning "1830"^^xsd:gYear .
+kb:1830 time:hasEnd "1830"^^xsd:gYear .
+
+kb:ref-1280 dct:date kb:1906. 
+kb:1906 time:hasBeginning "1906"^^xsd:gYear .
+kb:1906 time:hasEnd "1906"^^xsd:gYear .
+
+kb:ref-1281 dct:date kb:2016. 
+kb:2016 time:hasBeginning "2016"^^xsd:gYear .
+kb:2016 time:hasEnd "2016"^^xsd:gYear .
+
+kb:ref-1282 dct:date kb:1932-1934. 
+kb:1932-1934 time:hasBeginning "1932"^^xsd:gYear .
+kb:1932-1934 time:hasEnd "1934"^^xsd:gYear .
+
+kb:ref-1283 dct:date kb:1940. 
+kb:1940 time:hasBeginning "1940"^^xsd:gYear .
+kb:1940 time:hasEnd "1940"^^xsd:gYear .
+
+kb:ref-1284 dct:date kb:1960. 
+kb:ref-1285 dct:date kb:1879-1884. 
+kb:1879-1884 time:hasBeginning "1879"^^xsd:gYear .
+kb:1879-1884 time:hasEnd "1884"^^xsd:gYear .
+
+kb:ref-1286 dct:date kb:1888. 
+kb:1888 time:hasBeginning "1888"^^xsd:gYear .
+kb:1888 time:hasEnd "1888"^^xsd:gYear .
+
+kb:ref-1288 dct:date kb:1900-1903. 
+kb:1900-1903 time:hasBeginning "1900"^^xsd:gYear .
+kb:1900-1903 time:hasEnd "1903"^^xsd:gYear .
+
+kb:ref-1289 dct:date kb:1941-1978. 
+kb:1941-1978 time:hasBeginning "1941"^^xsd:gYear .
+kb:1941-1978 time:hasEnd "1978"^^xsd:gYear .
+
+kb:ref-1291 dct:date kb:1904. 
+kb:1904 time:hasBeginning "1904"^^xsd:gYear .
+kb:1904 time:hasEnd "1904"^^xsd:gYear .
+
+kb:ref-1292 dct:date kb:1903. 
+kb:1903 time:hasBeginning "1903"^^xsd:gYear .
+kb:1903 time:hasEnd "1903"^^xsd:gYear .
+
+kb:ref-1294-1 dct:date kb:2008. 
+kb:ref-1294-2 dct:date kb:2013. 
+kb:2013 time:hasBeginning "2013"^^xsd:gYear .
+kb:2013 time:hasEnd "2013"^^xsd:gYear .
+
+kb:ref-1294-3 dct:date kb:2013. 
+kb:ref-1294-4 dct:date kb:2017. 
+kb:2017 time:hasBeginning "2017"^^xsd:gYear .
+kb:2017 time:hasEnd "2017"^^xsd:gYear .
+
+kb:ref-1295 dct:date kb:1984-1985. 
+kb:1984-1985 time:hasBeginning "1984"^^xsd:gYear .
+kb:1984-1985 time:hasEnd "1985"^^xsd:gYear .
+
+kb:ref-1296 dct:date kb:2015. 
+kb:ref-1297 dct:date kb:2018. 
+
+kb:ref-1298 dct:date kb:1877. 
+kb:1877 time:hasBeginning "1877"^^xsd:gYear .
+kb:1877 time:hasEnd "1877"^^xsd:gYear .
+
+kb:ref-1299 dct:date kb:1985. 
+kb:1985 time:hasBeginning "1985"^^xsd:gYear .
+kb:1985 time:hasEnd "1985"^^xsd:gYear .
+
+kb:ref-1300 dct:date kb:2008. 
+kb:ref-1304-1 dct:date kb:2016. 
+kb:ref-1304-2 dct:date kb:2017. 
+kb:ref-1304-3 dct:date kb:2017. 
+kb:ref-1305-1 dct:date kb:1992. 
+
+kb:ref-1306 dct:date kb:1850. 
+kb:1850 time:hasBeginning "1850"^^xsd:gYear .
+kb:1850 time:hasEnd "1850"^^xsd:gYear .
+
+kb:ref-1308 dct:date kb:1949. 
+kb:1949 time:hasBeginning "1949"^^xsd:gYear .
+kb:1949 time:hasEnd "1949"^^xsd:gYear .
+
+kb:ref-1309 dct:date kb:2013. 
+kb:ref-1311 dct:date kb:1985. 
+kb:ref-1312 dct:date kb:1989. 
+kb:1989 time:hasBeginning "1989"^^xsd:gYear .
+kb:1989 time:hasEnd "1989"^^xsd:gYear .
+
+kb:ref-1313 dct:date kb:1916. 
+kb:1916 time:hasBeginning "1916"^^xsd:gYear .
+kb:1916 time:hasEnd "1916"^^xsd:gYear .
+
+kb:ref-1314 dct:date kb:1969. 
+kb:ref-1315 dct:date kb:1986. 
+kb:ref-1316 dct:date kb:1989. 
+kb:ref-1317 dct:date kb:1924. 
+kb:1924 time:hasBeginning "1924"^^xsd:gYear .
+kb:1924 time:hasEnd "1924"^^xsd:gYear .
+
+kb:ref-1318 dct:date kb:1868. 
+kb:1868 time:hasBeginning "1868"^^xsd:gYear .
+kb:1868 time:hasEnd "1868"^^xsd:gYear .
+
+kb:ref-1319 dct:date kb:1900. 
+kb:1900 time:hasBeginning "1900"^^xsd:gYear .
+kb:1900 time:hasEnd "1900"^^xsd:gYear .
+
+kb:ref-1320 dct:date kb:1908. 
+kb:ref-1321 dct:date kb:1835. 
+kb:1835 time:hasBeginning "1835"^^xsd:gYear .
+kb:1835 time:hasEnd "1835"^^xsd:gYear .
+
+kb:ref-1322 dct:date kb:1862. 
+kb:1862 time:hasBeginning "1862"^^xsd:gYear .
+kb:1862 time:hasEnd "1862"^^xsd:gYear .
+
+kb:ref-1326 dct:date kb:1882. 
+kb:1882 time:hasBeginning "1882"^^xsd:gYear .
+kb:1882 time:hasEnd "1882"^^xsd:gYear .
+
+kb:ref-1327 dct:date kb:1902-1954. 
+kb:1902-1954 time:hasBeginning "1902"^^xsd:gYear .
+kb:1902-1954 time:hasEnd "1954"^^xsd:gYear .
+
+kb:ref-1328 dct:date kb:1985. 
+kb:ref-1329 dct:date kb:1895. 
+kb:ref-1331-1 dct:date kb:1852. 
+kb:1852 time:hasBeginning "1852"^^xsd:gYear .
+kb:1852 time:hasEnd "1852"^^xsd:gYear .
+
+kb:ref-1331-2 dct:date kb:1856. 
+kb:1856 time:hasBeginning "1856"^^xsd:gYear .
+kb:1856 time:hasEnd "1856"^^xsd:gYear .
+
+kb:ref-1331-3 dct:date kb:1862. 
+kb:ref-1331-4 dct:date kb:1867. 
+kb:1867 time:hasBeginning "1867"^^xsd:gYear .
+kb:1867 time:hasEnd "1867"^^xsd:gYear .
+
+kb:ref-1331-5 dct:date kb:1872. 
+kb:1872 time:hasBeginning "1872"^^xsd:gYear .
+kb:1872 time:hasEnd "1872"^^xsd:gYear .
+
+kb:ref-1331-6 dct:date kb:1876. 
+kb:1876 time:hasBeginning "1876"^^xsd:gYear .
+kb:1876 time:hasEnd "1876"^^xsd:gYear .
+
+kb:ref-1331-7 dct:date kb:1883. 
+kb:1883 time:hasBeginning "1883"^^xsd:gYear .
+kb:1883 time:hasEnd "1883"^^xsd:gYear .
+
+kb:ref-1334 dct:date kb:2003. 
+kb:2003 time:hasBeginning "2003"^^xsd:gYear .
+kb:2003 time:hasEnd "2003"^^xsd:gYear .
+
+kb:ref-1336 dct:date kb:1965. 
+kb:1965 time:hasBeginning "1965"^^xsd:gYear .
+kb:1965 time:hasEnd "1965"^^xsd:gYear .
+
+kb:ref-1337 dct:date kb:1978. 
+kb:ref-1338 dct:date kb:1856. 
+kb:ref-1339 dct:date kb:1954. 
+kb:ref-1340 dct:date kb:1932. 
+kb:1932 time:hasBeginning "1932"^^xsd:gYear .
+kb:1932 time:hasEnd "1932"^^xsd:gYear .
+
+kb:ref-1342 dct:date kb:1978. 
+kb:ref-1343 dct:date kb:1926. 
+kb:1926 time:hasBeginning "1926"^^xsd:gYear .
+kb:1926 time:hasEnd "1926"^^xsd:gYear .
+
+kb:ref-1345 dct:date kb:1955. 
+kb:ref-1346 dct:date kb:1957. 
+kb:ref-1347 dct:date kb:1964. 
+kb:ref-1348 dct:date kb:1968. 
+kb:1968 time:hasBeginning "1968"^^xsd:gYear .
+kb:1968 time:hasEnd "1968"^^xsd:gYear .
+
+kb:ref-1349 dct:date kb:1978-1979. 
+kb:1978-1979 time:hasBeginning "1978"^^xsd:gYear .
+kb:1978-1979 time:hasEnd "1979"^^xsd:gYear .
+
+kb:ref-1350 dct:date kb:1981. 
+kb:ref-1351 dct:date kb:1981. 
+kb:ref-1352 dct:date kb:1987. 
+kb:ref-1353 dct:date kb:2004. 
+
+kb:2004 time:hasBeginning "2004"^^xsd:gYear .
+kb:2004 time:hasEnd "2004"^^xsd:gYear .
+
+kb:ref-1354 dct:date kb:2009. 
+kb:2009 time:hasBeginning "2009"^^xsd:gYear .
+kb:2009 time:hasEnd "2009"^^xsd:gYear .
+
+kb:ref-1356 dct:date kb:2016. 
+kb:ref-1357 dct:date kb:1952. 
+kb:1952 time:hasBeginning "1952"^^xsd:gYear .
+kb:1952 time:hasEnd "1952"^^xsd:gYear .
+
+kb:ref-1358 dct:date kb:1956. 
+kb:ref-1360 dct:date kb:1968. 
+kb:ref-1362 dct:date kb:1986. 
+kb:ref-1364 dct:date kb:1989. 
+kb:ref-1269 dct:date kb:2021. 
+kb:2021 time:hasBeginning "2021"^^xsd:gYear .
+kb:2021 time:hasEnd "2021"^^xsd:gYear .
+
+kb:ref-1214 dct:date kb:1877. 
+kb:ref-1335-1 dct:date kb:1877. 
+kb:ref-1335-2 dct:date kb:1879. 
+kb:1879 time:hasBeginning "1879"^^xsd:gYear .
+kb:1879 time:hasEnd "1879"^^xsd:gYear .
+
+kb:ref-1331-8 dct:date kb:1883 . 
+}
+
+[INFO ] 2024-09-15 14:05:04,223 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: prefix time: <https://www.w3.org/TR/owl-time/> 
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT DATA { 
+    kb:ref-Urkundenverzeuchnis dct:date kb:time-2022 .
+	kb:2022 time:hasBeginning "2022"^^xsd:gYear ;
+    time:hasEnd "2022"^^xsd:gYear .
+} 
+
+[INFO ] 2024-09-15 14:06:32,728 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: prefix time: <https://www.w3.org/TR/owl-time/> 
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT DATA { 
+    kb:ref-Urkundenverzeuchnis dct:date kb:time-2022 .
+	kb:2022 time:hasBeginning "2022"^^xsd:gYear ;
+    time:hasEnd "2022"^^xsd:gYear .
+} 
+
+[INFO ] 2024-09-15 14:06:48,579 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: prefix time: <https://www.w3.org/TR/owl-time/> 
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT DATA { 
+    kb:ref-Urkundenverzeuchnis dct:date kb:time-2022 .
+	kb:time-2022 time:hasBeginning "2022"^^xsd:gYear ;
+    time:hasEnd "2022"^^xsd:gYear .
+} 
+
+[INFO ] 2024-09-15 14:07:06,989 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: prefix time: <https://www.w3.org/TR/owl-time/> 
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT DATA { 
+    kb:ref-Urkundenverzeuchnis dct:date kb:time-2022 .
+	kb:time-2022 time:hasBeginning "2022"^^xsd:gYear ;
+    time:hasEnd "2022"^^xsd:gYear .
+} 
+
+[INFO ] 2024-09-15 14:12:45,908 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 14:59:02,554 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 14:59:50,492 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:26:49,102 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-09-15 16:27:22,239 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:24,339 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:27,226 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:29,006 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:30,658 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:32,489 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:34,502 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:27:36,927 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:33:14,306 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:33:45,726 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:34:17,775 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:34:32,132 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:36:06,472 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:36:58,515 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:58:56,687 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-09-15 16:59:27,210 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:28,755 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:30,066 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:31,836 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:33,236 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:34,924 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:36,163 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 16:59:37,983 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:21:41,356 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:22:49,390 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:23:01,557 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:31:05,632 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:31:41,277 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:32:03,522 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:32:20,870 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:39:18,865 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-09-15 17:43:47,806 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

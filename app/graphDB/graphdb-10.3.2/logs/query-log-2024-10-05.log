@@ -1,0 +1,785 @@
+[INFO ] 2024-10-05 11:10:14,686 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://w3id.org/forgont/Urkundenverzeuchnis/time/>
+
+INSERT DATA {
+    GRAPH kb:factual_data {kb:time-1171-1235 time:hasBeginning "1171"^^xsd:gYear}. 
+    }
+[INFO ] 2024-10-05 11:13:13,495 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://w3id.org/forgont/Urkundenverzeuchnis/time/>
+
+DELETE DATA {
+    GRAPH kb:factual_data {kb:time-1171-1235 time:hasBeginning "1171"^^xsd:gYear}. 
+    }
+
+[INFO ] 2024-10-05 11:13:39,314 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT DATA {
+    GRAPH kb:factual_data {kb:time-1171-1235 time:hasBeginning "1171"^^xsd:gYear}. 
+    }
+
+[INFO ] 2024-10-05 11:14:29,065 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT DATA {
+    GRAPH kb:factual_data {kb:time-1254 time:hasBeginning "1254"^^xsd:gYear}. 
+    }
+
+[INFO ] 2024-10-05 11:19:33,995 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+INSERT {
+    GRAPH kb:factual_data {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+}
+
+[INFO ] 2024-10-05 11:20:18,885 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+DELETE {
+    GRAPH ?g {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    FILTER (?g != kb:factual_data) 
+}
+
+[INFO ] 2024-10-05 11:22:34,640 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-05 11:24:10,364 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+DELETE {
+    GRAPH kb:kb:factual_metadata {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #FILTER (?g != kb:kb:factual_metadata) 
+}
+
+[INFO ] 2024-10-05 11:24:17,677 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+insert {
+    GRAPH kb:kb:factual_metadata {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #FILTER (?g != kb:kb:factual_metadata) 
+}
+
+[INFO ] 2024-10-05 11:24:25,766 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+insert {
+    GRAPH ?g {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    FILTER (?g != kb:kb:factual_metadata) 
+}
+
+[INFO ] 2024-10-05 11:25:35,255 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    FILTER (?g != kb:kb:factual_metadata) 
+}
+
+[INFO ] 2024-10-05 11:26:11,002 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-05 11:26:57,358 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+insert {
+    GRAPH kb:factual_metadata {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #FILTER (?g != kb:kb:factual_metadata) 
+}
+
+[INFO ] 2024-10-05 11:27:28,069 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g conj:settles ?g2. 
+}
+
+[INFO ] 2024-10-05 11:27:35,227 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:AllegedOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:28:15,839 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+insert {
+    GRAPH kb:factual_metadata {
+        ?document a forgont:Copy .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:29:10,212 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+insert {
+    GRAPH kb:factual_metadata {
+        ?document a forgont:Original .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:29:17,007 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+insert {
+    GRAPH kb:factual_metadata {
+        ?document a forgont:SuspiciousOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:29:48,129 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+insert {
+    GRAPH kb:factual_metadata {
+        ?document a forgont:Insert .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    #?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:30:49,926 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Insert .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:30:54,748 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Insert .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g conj:settles ?g2. 
+}
+
+[INFO ] 2024-10-05 11:31:11,221 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Copy .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g conj:settles ?g2. 
+}
+
+[INFO ] 2024-10-05 11:31:20,226 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Copy .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:31:58,215 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Original .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:32:04,882 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Original .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g conj:settles ?g2. 
+}
+
+[INFO ] 2024-10-05 11:32:17,371 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:SuspiciousOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g2 conj:settles ?g. 
+}
+
+[INFO ] 2024-10-05 11:32:22,702 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:SuspiciousOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g conj:settles ?g2. 
+}
+
+[INFO ] 2024-10-05 11:35:36,356 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+delete {
+    GRAPH ?g {
+        ?document a forgont:SuspiciousOriginal .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    FILTER NOT EXISTS {?g2 conj:settles ?g} 
+}
+
+[INFO ] 2024-10-05 11:37:10,553 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+insert {
+    GRAPH ?g {
+        ?document a forgont:Authentic .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    FILTER NOT EXISTS {?g2 conj:settles ?g} 
+}
+
+[INFO ] 2024-10-05 11:38:05,720 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+insert {
+    GRAPH ?g {
+        ?document a forgont:Authentic .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g prov:wasQuotedFrom ?document.
+}
+
+[INFO ] 2024-10-05 11:38:49,640 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+delete {
+    GRAPH ?g {
+        ?document a forgont:Authentic .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g prov:wasQuotedFrom ?document.
+}
+
+[INFO ] 2024-10-05 11:46:47,899 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+INSERT {
+    GRAPH ?newGraph {
+        ?document a forgont:Authentic .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g prov:wasQuotedFrom ?document.
+    BIND(IRI(CONCAT("conj-", STR(?g))) AS ?newGraph)
+}
+
+[INFO ] 2024-10-05 12:28:36,967 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+DELETE { 
+       GRAPH kb:factual_metadata {?document a forgont:AllegedOriginal, forgont:Copy, forgont:Original, forgont:Insert,
+      forgont:SuspiciousOriginal} .
+} 
+
+WHERE {GRAPH kb:factual_metadata {?document a forgont:AllegedOriginal, forgont:Copy, forgont:Original, forgont:Insert,
+      forgont:SuspiciousOriginal} .}
+
+[INFO ] 2024-10-05 12:28:47,828 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-05 12:28:56,600 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+INSERT {
+    GRAPH ?newGraph {
+        ?document a forgont:Authentic .
+    }
+}
+WHERE {
+    ?document a fabio:ArchivalDocument .
+    ?g prov:wasQuotedFrom ?document.
+}
+
+[INFO ] 2024-10-05 12:31:48,567 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:AllegedOriginal} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:AllegedOriginal}
+    ?document a fabio:ArchivalSource.
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:32:03,434 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:AllegedOriginal} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:AllegedOriginal}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:32:37,170 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:Copy} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:Copy}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:34:19,622 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:SuspiciousOriginal} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:SuspiciousOriginal}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:34:32,396 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:Insert} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:Insert}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:34:47,609 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:Original} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:Original}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:35:03,618 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+INSERT { 
+       GRAPH kb:factual_metadata {?document a forgont:Original} .
+} 
+
+WHERE {
+    GRAPH ?g {?document a forgont:Original}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:35:26,489 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Original} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Original}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:35:33,339 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Original} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Original}
+    ?g2 conj:settles ?g
+}
+
+[INFO ] 2024-10-05 12:35:42,111 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Copy} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Copy}
+    ?g2 conj:settles ?g
+}
+
+[INFO ] 2024-10-05 12:35:54,446 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Copy} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Copy}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:36:07,998 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:SuspiciousOriginal} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:SuspiciousOriginal}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:36:13,584 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:SuspiciousOriginal} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:SuspiciousOriginal}
+    ?g2 conj:settles ?g
+}
+
+[INFO ] 2024-10-05 12:36:22,994 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Insert} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Insert}
+    ?g2 conj:settles ?g
+}
+
+[INFO ] 2024-10-05 12:36:55,617 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Insert} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Insert}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:37:05,734 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:AllegedOriginal} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:AllegedOriginal}
+    ?g conj:settles ?g2
+}
+
+[INFO ] 2024-10-05 12:37:10,780 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:AllegedOriginal} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:AllegedOriginal}
+    ?g2 conj:settles ?g
+}
+
+[INFO ] 2024-10-05 12:37:22,283 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX sebi: <https://w3id.org/sebi/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX conj: <https://w3id.org/conjectures/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE { 
+       GRAPH ?g {?document a forgont:Copy} .
+} 
+
+WHERE {
+    GRAPH kb:factual_metadata {?document a forgont:Copy}
+    ?g2 conj:settles ?g
+}
+

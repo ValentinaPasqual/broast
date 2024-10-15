@@ -1,0 +1,287 @@
+[INFO ] 2024-10-06 16:28:34,263 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+
+            INSERT DATA { cito:documents rdfs:label "documents" }
+[INFO ] 2024-10-06 16:34:34,716 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:49,160 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:50,399 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:51,593 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:52,931 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:54,781 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:56,229 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:57,554 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:38:59,231 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:39:06,671 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:22,343 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:23,516 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:24,957 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:26,498 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:28,395 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:29,957 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:31,755 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:33,173 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 16:52:34,650 [import-task-prova2-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:13:06,254 [repositories/prova2 | c.o.t.m.MonitorRepositoryConnection] Incoming update:     prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+
+INSERT DATA { [] <http://www.ontotext.com/owlim/system#reinfer> [] }
+
+
+[INFO ] 2024-10-06 17:21:10,348 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:11,430 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:13,249 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:15,129 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:18,220 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:19,571 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:20,817 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:21:22,230 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:23:20,784 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update: 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+INSERT {
+    [] <http://www.ontotext.com/owlim/system#schemaTransaction> [] .
+
+}
+WHERE {?s owl:inversePropertyOf ?s2}
+
+[INFO ] 2024-10-06 17:26:01,910 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update:     prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+
+PREFIX conj: <https://w3id.org/conjectures/>
+
+INSERT {
+    [] <http://www.ontotext.com/owlim/system#schemaTransaction> [] .
+}
+WHERE {?s owl:inverseOf ?p2}
+
+[INFO ] 2024-10-06 17:26:56,845 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX ex: <http://example.com/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+INSERT data {
+    [] <http://www.ontotext.com/owlim/system#schemaTransaction> [] .
+
+        ex:BusStop a rdfs:Class .
+        ex:SkiResort a rdfs:Class .
+        ex:WebCam a rdfs:Class .
+        ex:OutdoorWebCam a rdfs:Class .
+        ex:Place a rdfs:Class .
+
+        ex:BusStop rdfs:subClassOf ex:Place .
+        ex:SkiResort rdfs:subClassOf ex:Place .
+        ex:WebCam rdfs:subClassOf ex:Place .
+        ex:OutdoorWebCam rdfs:subClassOf ex:WebCam .
+
+}
+[INFO ] 2024-10-06 17:27:05,185 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX ex: <http://example.com/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+INSERT data {
+    GRAPH ex:g1{
+        ex:webcam_g1 a ex:OutdoorWebCam .
+        ex:webcam_g1 ex:containedIn ex:skiresort .
+    }
+     GRAPH ex:g1a{
+        ex:webcam_g1a a ex:OutdoorWebCam .
+        ex:webcam_g1a ex:containedIn ex:skiresort .
+    }
+    GRAPH ex:g2{
+        ex:skiresort a ex:SkiResort .
+        ex:skiresort ex:publicTransport ex:busstop .
+
+    }
+    GRAPH ex:g3{
+        ex:busstop a ex:BusStop .
+        ex:busstop ex:nearBy ex:skiresort .
+    }
+}
+[INFO ] 2024-10-06 17:29:42,021 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update:     prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+
+INSERT data {
+    [] <http://www.ontotext.com/owlim/system#schemaTransaction> [] .
+    cito:documents owl:inverseOf cito:isDocumentedBy
+}
+[INFO ] 2024-10-06 17:32:24,062 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update:     prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+
+INSERT {
+    [] <http://www.ontotext.com/owlim/system#schemaTransaction> [] 
+} 
+WHERE {
+?g owl:inverseOf ?g2
+}
+
+[INFO ] 2024-10-06 17:33:02,533 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update:     prefix dct: <http://purl.org/dc/terms/>
+    prefix forgont: <http://www.example.org/>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
+    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    prefix viaf: <https://viaf.org/viaf/>
+    prefix wd: <http://www.wikidata.org/entity/>
+    prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix schema:<http://schema.org/>
+    prefix kb: <http://www.example.org/forgont/kb/>
+    prefix prov: <http://www.w3.org/ns/prov#>
+    prefix time: <https://www.w3.org/TR/owl-time/>
+    PREFIX sebi: <https://w3id.org/sebi/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+
+INSERT DATA {
+    [] <http://www.ontotext.com/owlim/system#schemaTransaction> [] .
+    cito:documents owl:inverseOf cito:isDocumentedBy
+} 
+
+
+[INFO ] 2024-10-06 17:37:05,287 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 17:45:10,546 [import-task-prova-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-06 18:07:25,340 [repositories/prova | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+    PREFIX : <http://www.w3.org/ns/prov#>
+    PREFIX kb: <http://www.example.org/forgont/kb/>
+    PREFIX forgont: <http://www.example.org/>
+    PREFIX cito: <http://purl.org/spar/cito/>
+
+INSERT {
+    GRAPH kb:factual_metadata { 
+        ?s2 cito:isDocumentedBy ?s 
+    }
+}
+WHERE {
+    GRAPH kb:factual_metadata { 
+        ?s cito:documents ?s2 
+    }
+}
+
+[INFO ] 2024-10-06 18:07:45,690 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX cito: <http://purl.org/spar/cito/>
+INSERT {
+    GRAPH kb:factual_metadata { 
+        ?s2 cito:isDocumentedBy ?s 
+    }
+}
+WHERE {
+    GRAPH kb:factual_metadata { 
+        ?s cito:documents ?s2 
+    }
+}
+
+[INFO ] 2024-10-06 18:07:56,715 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX cito: <http://purl.org/spar/cito/>
+INSERT {
+    GRAPH kb:factual_metadata { 
+        ?s cito:documents ?s2 
+       
+    }
+}
+WHERE {
+    GRAPH kb:factual_metadata { 
+         ?s2 cito:isDocumentedBy ?s 
+    }
+}
+
+[INFO ] 2024-10-06 18:08:10,136 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX cito: <http://purl.org/spar/cito/>
+DELETE {
+    GRAPH kb:factual_metadata { 
+        ?s cito:documents ?s2 
+       
+    }
+}
+WHERE {
+    GRAPH kb:factual_metadata { 
+         ?s2 cito:isDocumentedBy ?s 
+    }
+}
+
+[INFO ] 2024-10-06 18:09:05,024 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX cito: <http://purl.org/spar/cito/>
+INSERT {
+    GRAPH kb:factual_metadata { 
+        ?s cito:documents ?s2 
+       
+    }
+}
+WHERE {
+    GRAPH kb:factual_metadata { 
+         ?s2 cito:isDocumentedBy ?s 
+    }
+}
+
+[INFO ] 2024-10-06 18:09:18,331 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX cito: <http://purl.org/spar/cito/>
+DELETE {
+    GRAPH kb:factual_metadata { 
+        ?s cito:isDocumentedBy ?s2 
+       
+    }
+}
+WHERE {
+    GRAPH kb:factual_metadata { 
+         ?s2 cito:documents ?s 
+    }
+}
+

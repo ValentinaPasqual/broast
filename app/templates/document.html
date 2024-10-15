@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Sartini Bruno, Pasqual Valentina">
+  <title>Broast.</title>
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./assets/style.css"> -->
+
+  <!-- analytics and cookies -->
+  <script src="./assets/js/stats.js"></script>
+  <script src="./assets/js/matomo.js"></script>
+  <script src="https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=20"></script>
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- <link href="../assets/vendor/aos/aos.css" rel="stylesheet"> -->
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+  </head>
+
+
+  <body data-aos="fade-up">
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <h1>Broast<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#"><span>Broast in a nutshell</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#what_is">What is BROAST?</a></li>
+              <li><a href="#insights">The collection insights</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Browse the collection</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="/documents/">Documents catalogue</a></li>
+              <li><a href="/scholars/">Scholars index</a></li>
+            </ul>
+          </li>
+          <li><a href="#gallery">Knowledge Organisation</a></li>
+        </ul>
+      </nav>
+      
+    <!-- navbar -->
+
+    {{undisputed_info}}
+
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      
+
+    </div>
+
+  </header><!-- End Header -->
+
+    <!-- ======= Main Content Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container p-5 m-5" data-aos="fade-up">
+
+        <div class="row gy-4">
+          <div class="align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Factual data (undisputed) -->
+            <div class="container">
+              {% for undisputed_info in undisputed_data.results.bindings %}
+              {% if 'uri' in undisputed_info.o.type %}
+                <p><b>{{undisputed_info.pLabel.value|capitalize}}</b>: {{undisputed_info.oLabel.value|capitalize}} <a href="{{undisputed_info.o.value|replace('https://w3id.org/broast/urk/', '../')}}" target="__blank"><i class="bi bi-box-arrow-up-right"></i></a></p>
+                {% else %}
+                  {% if 'anyURI' in undisputed_info.o.datatype %}
+                  <p><b>{{undisputed_info.pLabel.value|capitalize}}</b>: <a href="{{undisputed_info.o.value|replace('https://w3id.org/broast/urk/', '../')}}" target="__blank"><i class="bi bi-box-arrow-up-right"></i></a></p>
+                  {% else %}
+                  <p><b>{{undisputed_info.pLabel.value|capitalize}}</b>: {{undisputed_info.o.value|capitalize}}</p>
+                  {% endif %}
+              {% endif %}
+              {% endfor %}
+            </div>
+          
+            
+              <div class="container row">
+                
+                <div class="col-md-7 pe-md-5">
+                
+                <!-- info button and title for assessments -->  
+                <div class="d-flex align-items-center pt-5">
+                  <h3 class="me-3">Evolution of document's authenticity</h3>
+                  <button class="text-center" id="seeMore" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
+                    <i class="bi bi-info-lg"></i>
+                  </button>
+                </div>
+                
+                <div class="collapse p-3" id="collapseInfo">
+                  <small>
+                  This section reports all available <b>assessments</b> addressing the <b>authenticity</b> of the document. <br>
+                  Assessments are sorted in <b>descendant chronological order</b> (from the latest assessment to the oldest) <br>
+                  The <b>settled assessments</b> is represented with a star <i class="bi bi-star-fill"></i> on the top-left. <br>
+                  Other assessments with <span class="badge bg-success">green</span> border are in <b>agreement</b> with the settled opinion. <br>
+                  Other assessments with <span class="badge bg-danger">red</span> border are in <b>disagreement</b> with the settled opinion. 
+                  </small>
+                </div>
+                <p><span class="badge bg-secondary">{{grouped_data|length}}</span> available claims about this document</p>
+
+                {% for key, value in grouped_data.items() %}
+                  <div class="row pt-3">
+                    <div class="card h-100 claim_card {% if value['asserted'] == 'no' %}non_asserted_claims{% endif %}" id="{{key|replace('conj-https://w3id.org/broast/urk/', '')}}">
+                      <div class="card-body">
+                          <small class="float-end">Claim ID: {{key|replace('conj-https://w3id.org/broast/urk/', '')}}
+                            <!-- adds the star for sett -->
+                            {% if value.settled is not none %}
+                              <i class="bi bi-star-fill"></i>
+                            {% endif %}
+                          </small>
+
+                          <ul class="list-group list-group-flush">
+                              {% for item in value['claim_data'] %}
+                                  {% if item[1][1] != '' %}
+                                    <li class="list-group-item"><strong>{{ item[0][1]|capitalize }}</strong>: {{ item[1][1]|capitalize }}                         
+                                      {% for qualifier in item[2] %}
+                                      <span class="badge bg-secondary">{{qualifier}}</span>
+                                      {% endfor %}
+                                    </li>
+                                  {% else %}
+                                    <li class="list-group-item"><strong>{{ item[0][1]|capitalize }}</strong>: {{ item[1][0]|capitalize }}
+                                    {% for qualifier in item[2] %}
+                                      <span class="badge bg-secondary">{{qualifier}}</span>
+                                    {% endfor %}
+                                    </li>
+                                  {% endif %}
+                              {% endfor %}
+                          </ul>
+                      </div>
+                                    
+                      <div class="accordion accordion-flush" id="accordionFlush{{key|replace('conj-https://w3id.org/broast/urk/', '')}}">
+                        <div class="accordion-item {% if value['asserted'] == 'no' %}non_asserted_claims{% endif %}" id="{{key|replace('conj-https://w3id.org/broast/urk/', '')}}">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed {% if value['asserted'] == 'no' %}non_asserted_claims{% endif %}" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{key|replace('conj-https://w3id.org/broast/urk/', '')}}" aria-expanded="false" aria-controls="flush-collapse{{key|replace('conj-https://w3id.org/broast/urk/', '')}}">
+                              Contextual information
+                            </button>
+                          </h2>
+                          <div id="flush-collapse{{key|replace('conj-https://w3id.org/broast/urk/', '')}}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{key|replace('conj-https://w3id.org/broast/urk/', '')}}" data-bs-parent="#accordionFlush{{key|replace('conj-https://w3id.org/broast/urk/', '')}}">
+                            <div class="accordion-body">
+                              <div class="card-footer">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item"> <strong>Publised in year</strong>: {{value.publication_date}}</li>                          
+                                    {% for meta in value['contextual_metadata'] %}
+                                      {% if meta[0][1] != 'wasDerivedFrom'  %}
+                                        {% if meta[1][1] != '' %}
+                                          <li class="list-group-item"><strong>{{ meta[0][1]|capitalize }}</strong>: <a href="{{meta[1][0]|replace('https://w3id.org/broast/urk/', '../')}} ">{{ meta[1][1]|capitalize }}</a></li>
+                                        {% else %}
+                                          {% if 'ref' not in meta[1][0] %}
+                                            <li class="list-group-item"><strong>{{ meta[0][1]|capitalize }}</strong>: {{ meta[1][0]|capitalize }}</li>
+                                          {% endif %}
+                                        {% endif %}
+                                      {% endif %}
+                                    {% endfor %}
+                                    
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+                </div>
+                <!-- References (works) -->
+                <div class="col-md-5 ps-md-5">
+                  <h3 class="pt-5">Related publications</h3>
+                  <ul class="list-group list-group-flush">
+                    {% for row in documenting_sources.results.bindings %}  
+                    <li class="list-group-item">
+                      <a href="{{row.ref.value|replace('https://w3id.org/broast/urk/', '../')}}">{{row.title.value}}</a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+           
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <div id="scatterplot">{{ plot_div | safe }}</div>
+
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

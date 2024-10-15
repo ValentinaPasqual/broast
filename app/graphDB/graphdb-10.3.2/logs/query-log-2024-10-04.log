@@ -1,0 +1,214 @@
+[INFO ] 2024-10-04 00:41:09,861 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE {
+	?s a fabio:ArchivalDocumentSet
+}
+WHERE {
+   	?s a fabio:ArchivalDocumentSet
+}
+
+
+
+[INFO ] 2024-10-04 00:43:53,422 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE {
+	dct:publisher rdfs:label 'has publisher'@en.
+}
+WHERE {
+	dct:publisher rdfs:label 'has publisher'@en.
+}
+
+
+
+[INFO ] 2024-10-04 00:44:04,985 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+DELETE {
+	dct:contributor rdfs:label 'has contributor'@en.
+}
+WHERE {
+	dct:contributor rdfs:label 'has contributor'@en.
+}
+
+
+
+[INFO ] 2024-10-04 00:59:36,663 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT {
+	kb:person-HuberAlfonsHistoriker rdfs:label "Huber, Alfons (Historiker)"^^xsd:string .
+
+}
+WHERE {
+	kb:person-HuberAlfonsHistoriker rdfs:label "Huber, Alfons (Historiker)"^^xsd:string .
+}
+
+
+
+[INFO ] 2024-10-04 00:59:48,333 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT data {
+	kb:person-HuberAlfonsHistoriker rdfs:label "Huber, Alfons (Historiker)"^^xsd:string .
+
+}
+
+
+
+[INFO ] 2024-10-04 01:00:04,209 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+DELETE{
+	kb:person-HuberAlfonsHistoriker rdfs:Label "Huber, Alfons (Historiker)"^^xsd:string .
+
+}
+WHERE {
+	kb:person-HuberAlfonsHistoriker rdfs:Label "Huber, Alfons (Historiker)"^^xsd:string .
+}
+
+
+
+[INFO ] 2024-10-04 11:09:33,605 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+DELETE{
+	kb:ref-1304-1 a kb:person-ua .
+    kb:person-ua a dct:Agent ; 
+		rdfs:label "u.a." .
+
+    kb:person-ua owl:sameAs wd:Q503419 .
+}
+WHERE {
+	kb:person-HuberAlfonsHistoriker rdfs:Label "Huber, Alfons (Historiker)"^^xsd:string .
+   	kb:ref-1304-1 a kb:person-ua .
+    kb:person-ua a dct:Agent ; 
+		rdfs:label "u.a." .
+
+    kb:person-ua owl:sameAs wd:Q503419 .
+}
+
+
+
+[INFO ] 2024-10-04 11:09:44,331 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+DELETE{
+	kb:ref-1304-1 a kb:person-ua .
+    kb:person-ua a dct:Agent ; 
+		rdfs:label "u.a." .
+
+    kb:person-ua owl:sameAs wd:Q503419 .
+}
+WHERE {
+   	kb:ref-1304-1 a kb:person-ua .
+    kb:person-ua a dct:Agent ; 
+		rdfs:label "u.a." .
+
+    kb:person-ua owl:sameAs wd:Q503419 .
+}
+
+
+
+[INFO ] 2024-10-04 11:09:53,728 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+DELETE{
+	kb:ref-1304-1 a kb:person-ua .
+
+}
+WHERE {
+   	kb:ref-1304-1 a kb:person-ua .
+
+}
+
+
+
+[INFO ] 2024-10-04 11:10:29,980 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+DELETE{
+	kb:ref-1304-1 dct:contributor kb:person-ua .
+        kb:person-ua a dct:Agent ; 
+		rdfs:label "u.a." .
+
+    kb:person-ua owl:sameAs wd:Q503419 .
+
+}
+WHERE {
+   	kb:ref-1304-1 dct:contributor kb:person-ua .
+
+}
+
+
+
+[INFO ] 2024-10-04 15:16:30,303 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+INSERT DATA { 
+	rdf:type rdfs:label "Type"
+}
+
+[INFO ] 2024-10-04 15:16:35,236 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+INSERT DATA { 
+	rdf:type rdfs:label "type"
+}
+
+[INFO ] 2024-10-04 15:16:39,284 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+INSERT DATA { 
+	rdf:type rdfs:label "type"@en
+}
+
+[INFO ] 2024-10-04 15:17:23,927 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+DELETE { 
+	rdf:type rdfs:label ?label
+}
+WHERE { rdf:type rdfs:label ?label }
+
+[INFO ] 2024-10-04 15:17:41,262 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+insert data { 
+	rdf:type rdfs:label "Type"
+}
+
+[INFO ] 2024-10-04 15:51:52,269 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+insert data { 
+	owl:sameAs rdfs:label "Same as"
+}  
+

@@ -1,0 +1,102 @@
+@prefix forgont: <http://www.example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.example.org/> .
+
+<http://www.example.org/> rdf:type owl:Ontology ;
+      owl:versionIRI <http://www.example.org/2024-04-09> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+### http://www.example.org/evidence
+<http://www.example.org/evidence> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The evidence used to support a claim" ;
+                                    rdfs:label "evidence" .
+
+#################################################################
+#    Datatype Properties
+#################################################################
+
+### http://www.example.org/qualifier
+<http://www.example.org/qualifier> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A qualifier associated with an entity" ;
+                                    rdfs:label "qualifier" .
+
+### http://www.example.org/beginning
+<http://www.example.org/beginning> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The starting point of a temporal period" ;
+                                    rdfs:label "beginning" .
+
+### http://www.example.org/end
+<http://www.example.org/end> rdf:type owl:ObjectProperty ;
+                              rdfs:comment "The ending point of a temporal period" ;
+                              rdfs:label "end" .
+
+### http://www.example.org/hasLatitude
+<http://www.example.org/hasLatitude> rdf:type owl:ObjectProperty ;
+                                      rdfs:comment "The latitude coordinate of a location" ;
+                                      rdfs:label "latitude" .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.example.org/Copy
+<http://www.example.org/Copy> rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Copy".
+
+###  http://www.example.org/AllegedOriginal
+<http://www.example.org/AllegedOriginal> rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Alleged original".
+
+###  http://www.example.org/Forgery
+forgont:Forgery rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Forgery".
+
+###  http://www.example.org/Original
+forgont:Original rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Original".
+
+###  http://www.example.org/IntegrallyForgedDocument
+forgont:IntegrallyForgedDocument rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Integrally Forged Document".
+
+###  http://www.example.org/Insert
+forgont:Insert rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Insert".
+
+###  http://www.example.org/open-question
+forgont:opened-question rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Opened Question".
+
+###  http://www.example.org/SuspectedForgery
+forgont:SuspectedForgery rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Suspected Forgery".
+
+###  http://www.example.org/SuspiciousOriginal
+forgont:SuspiciousOriginal rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Suspicious Original".
+
+###  http://www.example.org/Authentic
+forgont:Authentic rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Authentic".
+
+###  http://www.example.org/Edition
+forgont:Edition rdf:type owl:Class ;
+      rdfs:comment "" ;
+      rdfs:label "Edition".

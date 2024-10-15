@@ -1,0 +1,175 @@
+[INFO ] 2024-10-03 15:13:40,305 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+insert data { 
+	forgont:Document rdf:label "Document" . 
+}
+
+[INFO ] 2024-10-03 15:14:04,895 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+insert data { 
+	forgont:Document rdfs:label "Document" . 
+}
+
+[INFO ] 2024-10-03 15:14:12,871 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX forgont: <http://www.example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+delete data { 
+	forgont:Document rdf:label "Document" . 
+}
+
+[INFO ] 2024-10-03 16:50:26,830 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-03 16:51:18,398 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-03 20:43:43,173 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    ?s dct:label "has creator" .
+}
+WHERE {
+    ?s dct:label "has creator" .
+}
+
+[INFO ] 2024-10-03 20:44:26,193 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    ?s dct:creator "has creator" .
+}
+WHERE {
+    ?s dct:creator "has creator" .
+}
+
+[INFO ] 2024-10-03 20:45:37,830 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+DELETE {
+    dct:creator rdfs:label "has creator" .
+}
+WHERE {
+    dct:creator rdfs:label "has creator" .
+}
+
+
+[INFO ] 2024-10-03 20:47:03,202 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    dct:creator rdfs:label "has creator"
+}
+WHERE {
+    dct:creator rdfs:label "has creator" .
+}
+
+#SELECT distinct ?label
+#WHERE {dct:creator rdfs:label ?label}
+
+
+[INFO ] 2024-10-03 20:47:13,019 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    dct:creator rdfs:label "has creator"@en
+}
+WHERE {
+    dct:creator rdfs:label "has creator"@en .
+}
+
+#SELECT distinct ?label
+#WHERE {dct:creator rdfs:label ?label}
+
+
+[INFO ] 2024-10-03 20:47:25,701 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    dct:date rdfs:label "has date"@en
+}
+WHERE {
+    dct:date rdfs:label "has date"@en .
+}
+
+#SELECT distinct ?label
+#WHERE {dct:creator rdfs:label ?label}
+
+
+[INFO ] 2024-10-03 22:19:03,613 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    dct:language rdfs:label "has language"@en
+}
+WHERE {
+    dct:language rdfs:label "has language"@en
+}
+
+#SELECT distinct ?label
+#WHERE {dct:creator rdfs:label ?label}
+
+
+[INFO ] 2024-10-03 22:19:34,731 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    dct:title rdfs:label "has title"@en
+}
+WHERE {
+    dct:title rdfs:label "has title"@en
+}
+
+#SELECT distinct ?label
+#WHERE {dct:creator rdfs:label ?label}
+
+
+[INFO ] 2024-10-03 22:19:55,220 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+    dct:description rdfs:label "has description"@en
+}
+WHERE {
+    dct:description rdfs:label "has description"@en
+}
+
+#SELECT distinct ?label
+#WHERE {dct:creator rdfs:label ?label}
+
+
+[INFO ] 2024-10-03 22:21:06,613 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+DELETE {
+	?s dct:type ?o
+}
+WHERE {
+   	?s dct:type ?o
+}
+
+
+
+[INFO ] 2024-10-03 22:41:40,073 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-03 22:42:03,952 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+DELETE {
+	?s a forgont:Document
+}
+WHERE {
+   	?s a forgont:Document
+}
+
+
+
+[INFO ] 2024-10-03 22:42:17,435 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+DELETE {
+	?s a forgont:Edition
+}
+WHERE {
+   	?s a forgont:Edition
+}
+
+
+
+[INFO ] 2024-10-03 22:43:25,727 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX forgont: <http://www.example.org/>
+DELETE {
+	?s a forgont:Document
+}
+WHERE {
+   	?s a forgont:Document
+}
+
+
+
+[INFO ] 2024-10-03 23:13:31,982 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

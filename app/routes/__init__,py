@@ -1,0 +1,11 @@
+# run.py
+
+from app import create_app # Importing create_app function from app/__init__.py
+
+# Create Flask application instance using the factory function
+app = create_app()
+
+# This block allows the script to be run directly or imported as a module
+if __name__ == '__main__':
+    # Run the Flask application in debug mode
+    app.run(debug=True, port = 8000)

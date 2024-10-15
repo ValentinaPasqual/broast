@@ -1,0 +1,63 @@
+[
+    {
+        "title": "The most productive centuries in the perspective of the scholarly community (earliest dates)",
+        "description": "Number of documents for each century according to the earlies dates provided by settled sources",
+        "query": "SELECT ?label (COUNT(?date) AS ?n)\n WHERE {\n SETT ?g {?s dct:date ?date .}\n ?date a time:Interval ;\n time:hasBeginning ?start ;\n time:hasEnd ?end .\n \n BIND(YEAR(?start) AS ?startYear)\n BIND(FLOOR(?startYear / 100) * 100 AS ?centuryStart)\n BIND(?centuryStart AS ?label)\n }\n GROUP BY ?label\n ORDER BY ?label" 
+    },
+    {
+        "title": "Most productive centuries as allegedly considered",
+        "description": "Number of documents for each century according to the information now deemed questioned by the community (usually provided by the documents themselves)",
+        "query": "PREFIX conj: <https://w3id.org/conjectures/> \n SELECT ?label (COUNT(?date) AS ?n)\n WHERE {\n CONJ ?g {?s dct:date ?date .}\n ?date a time:Interval ;\n time:hasBeginning ?start ;\n time:hasEnd ?end . \n \n BIND(YEAR(?start) AS ?startYear)\n BIND(FLOOR(?startYear / 100) * 100 AS ?centuryStart)\n BIND(?centuryStart AS ?label)\n FILTER NOT EXISTS {?g2 conj:settles ?g}}\n GROUP BY ?label\n ORDER BY ?label" 
+    },
+    {
+        "title": "Most debated documents",
+        "description": "Which are the most debated documents of the collection?",
+        "query": "SELECT ?result ?label (COUNT(DISTINCT ?g) as ?n) \nWHERE {\n\tCONJ ?g {?result ?p ?o} \n\t?doc dct:title ?label. \n\tFILTER (lang(?label) = 'en')\n} \nGROUP BY ?result ?label \nORDER BY DESC (?n) \nLIMIT 10" 
+    },
+    {
+        "title": "Most productive scholars",
+        "description": "Which are the scholars which are mostly involved in the critical debate?",
+        "query": "SELECT ?result ?label (COUNT(DISTINCT ?ref) as ?n) \nWHERE {\n\t?opinion prov:wasDerivedFrom|prov:wasQuotedFrom ?ref. \n\t?ref dct:creator ?result. \n\t?result rdfs:label ?label. \n\t FILTER NOT EXISTS{?ref a fabio:ArchivalDocument}\n} \nGROUP BY ?result ?label \nORDER BY DESC (?n) \nLIMIT 10" 
+    },
+    {
+        "title": "Most cited scholars",
+        "description": "Which are the scholars whose works have cited in a scholalry opinion?",
+        "query": "SELECT ?result ?label (COUNT(?ref) as ?n) \nWHERE {\n\t?g prov:wasDerivedFrom ?ref. \n\t?ref dct:creator ?result. \n\t?result rdfs:label ?label. \n\t FILTER NOT EXISTS{?ref a fabio:ArchivalDocument}\n} \nGROUP BY ?result ?label \nORDER BY DESC (?n) \nLIMIT 10" 
+    },
+    {
+        "title": "Number of scholarly claims",
+        "description": "Who are the scholars which produced the highest number of claims?",
+        "query": "SELECT ?result ?label (COUNT(?ref) as ?n) \nWHERE {\n\t?g prov:wasQuotedFrom ?ref. \n\t?ref dct:creator ?result. \n\t?result rdfs:label ?label. \n\t FILTER NOT EXISTS{?ref a fabio:ArchivalDocument}\n} \nGROUP BY ?result ?label \nORDER BY DESC (?n) \nLIMIT 10" 
+    },
+    {
+        "title": "Most accounted features",
+        "description": "Which are the most accounted documentary features when scholars assess a document's authenticity?",
+        "query": "SELECT ?label (COUNT(?feature) AS ?n) \nWHERE {\n\t?evidence sebi:account ?feature. \n\t?feature rdfs:label ?label \n} \nGROUP BY ?label \nORDER BY DESC (?n)" 
+    },
+    {
+        "title": "Most accounted feature types",
+        "description": "Which are the most accounted types of documentary features when scholars assess a document's authenticity?",
+        "query": "SELECT ?label (COUNT(?evidence) AS ?n) \nWHERE {\n\t?evidence sebi:account ?feature. \n\t?feature a ?class. \n\t?class rdfs:label ?label. \n\tFILTER(?class != owl:NamedIndividual) \n} \nGROUP BY ?label \nORDER BY DESC (?n)" 
+    },    
+    {
+        "title": "Most performed evaluations",
+        "description": "Which are the evaluations mostly performed by scholars when assessing a document's authenticity?",
+        "query": "SELECT ?label (COUNT(?evaluation) AS ?n) \nWHERE {\n\t?evidence sebi:evaluate ?evaluation. \n\t?evaluation rdfs:label ?label \n} \nGROUP BY ?label \nORDER BY DESC (?n)" 
+    },    
+    {
+        "title": "Most used evidences",
+        "description": "Which types of evidence are most commonly used by scholars when assessing the authenticity of a document?",
+        "query": "SELECT (CONCAT(IF(?score = 0, \"no \", \"\"), ?label1, \" \", ?label2) AS ?label) \n(COUNT(?result) AS ?n) \nWHERE {\n\t?opinion sebi:account ?result; \n\t\tsebi:evaluate ?result2; \n\t\tsebi:hasEvaluationScore ?score. \n\t?result rdfs:label ?label1. \n\t?result2 rdfs:label ?label2. \n} \nGROUP BY ?result ?result2 ?label1 ?label2 ?score \nORDER BY DESC(?n) \nLIMIT 10" 
+    },    
+    {
+        "title": "Most recent works on the documents",
+        "description": "Which are the most recent works addressing the documents of the collection?",
+        "query": "SELECT ?result ?label ?n \nWHERE {\n\t?g prov:wasDerivedFrom ?result. \n\t?result dct:date ?date. \n\t ?date time:hasBeginning ?n. \n\t?result dct:title ?label \n} \nGROUP BY ?result ?label ?n \nORDER BY DESC (?n) \nLIMIT 10"
+    },  
+    {
+        "title": "Earliest works on the documents",
+        "description": "Which are the earliest works addressing the documents of the collection?",
+        "query": "SELECT ?result ?label ?n \nWHERE {\n\t?g prov:wasDerivedFrom ?result. \n\t?result dct:date ?date.\n\t ?date time:hasBeginning ?n. \n\t?result dct:title ?label \n} \nGROUP BY ?result ?label ?n \nORDER BY ASC (?n) \nLIMIT 10"
+    }
+
+]

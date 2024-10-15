@@ -1,0 +1,2972 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@prefix forgont: <http://www.example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+forgont:Correspondence_of_Paul_and_Seneca64178684 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Suspicious .
+}
+
+forgont:Vinland_Map106945469 {
+    forgont:VinlandMap a forgont:Forgery .
+}
+
+forgont:Pami%C4%99tnik_handlowca_document_claim {
+    forgont:PamiC499tnikhandlowca a forgont:diary ;
+        dct:creator "Zbigniew Stefański"^^xsd:string ;
+        dct:date "1625"^^xsd:string ;
+        dct:place "Jamestown Colony, Virginia"^^xsd:string .
+}
+
+<http://www.example.org/The_Protocols_of_the_Elders_of_Zion33084339> {
+    forgont:TheProtocolsoftheEldersofZion a forgont:Forgery .
+}
+
+forgont:Ashtiname_of_Muhammad23304243 {
+    forgont:AshtinameofMuhammad a forgont:Authentic .
+}
+
+forgont:Oath_of_a_Freeman96987389 {
+    forgont:OathofaFreeman a forgont:Forgery .
+}
+
+forgont:Mussolini_diaries24860670 {
+    forgont:Mussolinidiaries a forgont:Forgery .
+}
+
+forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin14677 {
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin a forgont:Suspicious .
+}
+
+forgont:Oath_of_a_Freeman43315786 {
+    forgont:OathofaFreeman a forgont:Forgery .
+}
+
+<http://www.example.org/The_Protocols_of_the_Elders_of_Zion_document_claim> {
+    forgont:TheProtocolsoftheEldersofZion a forgont:manuscript ;
+        dct:creator "unknown"^^xsd:string ;
+        dct:date "1903"^^xsd:string ;
+        dct:place "Imperial Russia"^^xsd:string .
+}
+
+forgont:Salamander_letter116901852 {
+    forgont:Salamanderletter a forgont:Forgery .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca97650725 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Suspicious .
+}
+
+forgont:Salamander_letter46120508 {
+    forgont:Salamanderletter a forgont:Forgery .
+}
+
+forgont:Brain-Washing_\(book\)95274115 {
+    forgont:BrainWashingbook a forgont:Authentic .
+}
+
+forgont:Salamander_letter70208273 {
+    forgont:Salamanderletter a forgont:Forgery .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora64048119 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine54276711 {
+    forgont:DonationofConstantine a forgont:Authentic .
+}
+
+{
+    forgont:A_Protocol_of_1919 forgont:author forgont: ;
+        rdfs:comment "[...] reproduced it in the appendix of a greatly expanded English-language edition of The Protocols of the Elders of Zion, published in 1934 [...]"^^xsd:string .
+
+    forgont:A_Protocol_of_1919108248727 forgont:author forgont:108248727 ;
+        rdfs:comment "[...] states that 'the German right-wing extremist press was supplied for years with information first published in Prizyv during its nine months of existence', and points to A Protocol of 1919 as a 'typical' example."^^xsd:string .
+
+    forgont:A_Protocol_of_1919249285257 forgont:author forgont:249285257 ;
+        rdfs:comment "[...] owned Postimees at the time."^^xsd:string .
+
+    forgont:A_Protocol_of_1919Q15635173 forgont:author forgont:Q15635173 ;
+        rdfs:comment "[...] described it as 'an interesting document'."^^xsd:string .
+
+    forgont:Amado_Crowley199819528 forgont:author forgont:199819528 ;
+        rdfs:comment "Amado used and taught a syncretic mix of Western magical techniques along with Eastern methods including meditation and yoga. However, he maintained that the cornerstone of Aleister's religion of Thelema, The Book of the Law, was a fraud and that The Book of Desolation, a purported text given to him by Aleister, is the only true Crowleyan holy writ."^^xsd:string .
+
+    forgont:Amado_Crowley41838530 forgont:author forgont:41838530 ;
+        rdfs:comment "Crowley's biographers have found no documentary evidence regarding Amado's claim of descent from Aleister Crowley, and the claim is universally dismissed as bogus by Crowley scholars."^^xsd:string .
+
+    forgont:Amado_Crowley64062199 forgont:author forgont:64062199 ;
+        rdfs:comment "Amado claims in his book that Aleister taught him between the ages of 7 and 14: i.e.1937–1944. If so, why isn't there a single mention of this vital matter in Crowley's Diaries? There he records matters as trivial as the breaking of a tooth or the quality of his dinner: but he does not see fit to record meetings with an initiation of a son destined to be his successor."^^xsd:string .
+
+    forgont:Amado_CrowleyQ37961592 forgont:author forgont:Q37961592 ;
+        rdfs:comment "The book has yet to be published and has only been seen by one other person other than Crowley, the writer, musician and filmmaker Jason Brett Serle."^^xsd:string .
+
+    forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin14677 forgont:author forgont:14677 ;
+        rdfs:comment "[...] doubted the veracity of the book and the history that it was said to contain; nevertheless, he agreed to publish it. [...] I decided it didn't really matter to me how much of this was actually accurate. It was a life's work. [Kriwaczek] was dedicated to this guild not being forgotten, dedicated to the music. I decided this is just an amazing piece of work, and I wanted to publish it,... Who knows if it's true, but it's unbelievable reading."^^xsd:string .
+
+    forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin17023421 forgont:author forgont:17023421 ;
+        rdfs:comment "[...] refused to publish the article."^^xsd:string .
+
+    forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin6115643 forgont:author forgont:6115643 ;
+        rdfs:comment "[...] argues that his book is neither a hoax nor an attempt to mislead. He issued a statement on October 5, 2006, saying that he wanted to 'expand the notion of musical composition to encompass the creation of an entire artistic genre, with its necessary accompanying history, mythology, philosophy, social function, etc.'"^^xsd:string .
+
+    forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin71191452 forgont:author forgont:71191452 ;
+        rdfs:comment "[...] became suspicious that the images had been faked and that the facts could not be corroborated."^^xsd:string .
+
+    forgont:An_Incomplete_History_of_the_Art_of_Funerary_ViolinQ498544 forgont:author forgont:Q498544 ;
+        rdfs:comment "[...] originally spotted the hoax. The author had submitted an article with illustrations and facsimiles of music manuscripts, but the sub-editor on the title, Matthew Rye, became suspicious that the images had been faked and that the facts could not be corroborated."^^xsd:string .
+
+    forgont:Ashtiname_of_Muhammad12600749 forgont:author forgont:12600749 ;
+        rdfs:comment "[...] has also confirmed the authenticity of the document, pointing out that the document is replicated verbatim across numerous Islamic sources, including more than a thousand years of Caliphs and Sultans."^^xsd:string .
+
+    forgont:Ashtiname_of_Muhammad13071405 forgont:author forgont:13071405 ;
+        rdfs:comment "[...] at the beginning of the 20th century, Bernhard Moritz, in his seminal work, claimed that: 'The impossibility of finding this document to be authentic is clearly evident. The date, style and content all prove the inauthenticity.'"^^xsd:string .
+
+    forgont:Ashtiname_of_Muhammad214927001 forgont:author forgont:214927001 ;
+        rdfs:comment "[...] accepted as authentic by modern and ancient scholars, including [...] Kara Mustafa Pasha."^^xsd:string .
+
+    forgont:Ashtiname_of_Muhammad23304243 forgont:author forgont:23304243 ;
+        rdfs:comment "[...] accepted as authentic by modern and ancient scholars, including Franciscus Quaresmius [...]"^^xsd:string .
+
+    forgont:Ashtiname_of_Muhammad59261078 forgont:author forgont:59261078 ;
+        rdfs:comment "[...] points out that there are no existent codices, Islamic or otherwise, which predate the 16th century [...]"^^xsd:string .
+
+    forgont:Ashtiname_of_Muhammad69076676 forgont:author forgont:69076676 ;
+        rdfs:comment "[...] accepted as authentic by modern and ancient scholars, including [...] Balthasar de Monconys [...]"^^xsd:string .
+
+    forgont:Book_of_Jasher_\(Pseudo-Jasher\)311833225 forgont:author forgont:311833225 ;
+        rdfs:comment "Monthly Review : '[...] declared the supposed lost book an obvious hoax in the December of the year of publication.'"^^xsd:string .
+
+    forgont:Book_of_Jasher_\(Pseudo-Jasher\)64007206 forgont:author forgont:64007206 ;
+        rdfs:comment "Jacob Ilive : '[...] was sentenced in 1756 to three years' imprisonment with hard labour in the House of Correction at Clerkenwell, for writing, printing, and publishing the anonymous pamphlet Some Remarks on the excellent Discourses lately published by a very worthy Prelate by a Searcher after Religious Truth (1754).'"^^xsd:string .
+
+    forgont:Book_of_Veles20490599 forgont:author forgont:20490599 ;
+        rdfs:comment "cited the Book of Veles as historical."^^xsd:string .
+
+    forgont:Book_of_Veles36925746 forgont:author forgont:36925746 ;
+        rdfs:comment "[...] consider it a forgery. According to these scholars the thorough analysis of the book shows that it was written sometime in the 20th century."^^xsd:string .
+
+    forgont:Book_of_Veles37095601 forgont:author forgont:37095601 ;
+        rdfs:comment "This analysis leads us to a definite conclusion: we are dealing with an artificial language, 'invented' by a person unacquainted with the history of Slavic languages and one who could not create his own language system."^^xsd:string .
+
+    forgont:Book_of_Veles96987389 forgont:author forgont:96987389 ;
+        rdfs:comment "[...] consider it a forgery. According to these scholars the thorough analysis of the book shows that it was written sometime in the 20th century."^^xsd:string .
+
+    forgont:Brain-Washing_\(book\)30154440063835340015 forgont:author forgont:30154440063835340015 ;
+        rdfs:comment "The final results [...] declared: 'The Board is not concerned to find that the scientology techniques are brainwashing techniques as practised, so it is understood, in some communist-controlled countries. Scientology techniques are, nevertheless, a kind of brainwashing ... The astonishing feature of Scientology is that its techniques and propagation resemble very closely those set out in a book entitled Brain-washing, advertised and sold by the [Hubbard Association of Scientologists International].'"^^xsd:string .
+
+    forgont:Brain-Washing_\(book\)31487600 forgont:author forgont:31487600 ;
+        rdfs:comment "[...] has written 'the document [the brain-washing manual] is filled with what is clearly evidence of Hubbard's own writing style.'"^^xsd:string .
+
+    forgont:Brain-Washing_\(book\)95274115 forgont:author forgont:95274115 ;
+        rdfs:comment "[...] wrote a rather similar statement under his own name, saying that mankind was so desperate that he 'will buy almost any ideology whether it is communism or druidism. He will buy the garbage of Marx and even write it unsuspectingly into the United States Constitution under the heading of 'Income Tax.' He will seek solutions to his overpowering problems from indigestible sources such as Russian psychiatry or Wundtian German psychology, neither one of which was intended to free Man or to give him understanding and which were intended only to enslave and debase."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir11893421 forgont:author forgont:11893421 ;
+        rdfs:comment "supported Margetić's claim according to which Justin was Archbishop of Split in year 840 after Archbishop Petar which is mentioned in the Charter."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir123550468 forgont:author forgont:123550468 ;
+        rdfs:comment "considered that indiction refers to the year 838, which cannot be because of indiction"^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir228727038 forgont:author forgont:228727038 ;
+        rdfs:comment "considered this Charter to be forgery from 14th century because of its 'unconvincing arguments and arbitrary assumptions'."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir24674815 forgont:author forgont:24674815 ;
+        rdfs:comment "gave the first extensive palaeographic-diplomatic analysis to attempt to reconstruct the original text."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir24945117 forgont:author forgont:24945117 ;
+        rdfs:comment "considered that the indiction XV refers to the year 837"^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir39506292 forgont:author forgont:39506292 ;
+        rdfs:comment "corrected the opinion of Farlati and Kukuljević Sakcinski because Lothair I reigned as 'Francorum rex', King of Franks, only since year 840, and also because, according to chronicler John the Deacon, Duke Mislav reigned over Duchy of Croatia in year 837. Accordingly, indiction XV can only refer to year 852."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir46800033 forgont:author forgont:46800033 ;
+        rdfs:comment "also came to the similar results noting that at least two old and different language layers can be found in the text of the Charter."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir54135913 forgont:author forgont:54135913 ;
+        rdfs:comment "considered that the indiction XV refers to the year 837"^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir84223346 forgont:author forgont:84223346 ;
+        rdfs:comment "thought that, because Lothari had already left Italy in year 840 and succeeded his father to the imperial throne, it is very unlikely that Trpimir was unaware of that change on the imperial throne even twelve years later. According to Margetić, the real date when the document was written would be March 4, 840."^^xsd:string .
+
+    forgont:Charter_of_Duke_Trpimir84405363 forgont:author forgont:84405363 ;
+        rdfs:comment "presented some interesting observations in support of Charter authenticity. First observation refers to the name of people from the Trpimir's escort that are mentioned in the eschatocol of the Charter, which points out that all the names are national, Croatian names, and not Christian, unless of course those from the priests. This is understandable because it was a time when only traditional names were prevailing among newly baptized nations. Budak disputes the contention that the institution of chaplain as a court scribe did not exist in the 9th century, stating that it is known in Bavaria in the 8th century and that it was accepted by Carolingian dynasty."^^xsd:string .
+
+    forgont:Chronicle_of_Rivius35286232 forgont:author forgont:35286232 ;
+        rdfs:comment "referred to the chronicle as Kronika niemiecka J. F. R. (German Chronicle of J. F. R.) and revealed its author to be Jan Fryderyk Rivius (1673–1730/1735), grandson of Johann Rivius (1528–1596)."^^xsd:string .
+
+    forgont:Chronicle_of_Rivius54281716 forgont:author forgont:54281716 ;
+        rdfs:comment "provided his grandfather's biography that supplied no new information in addition to what was already known from the encyclopedias of Johann Friedrich von Recke and Karl Eduard von Napiersky, published in 1831, and of Friedrich Konrad Gadebusch [ru], published in 1777. The biography also repeated some mistakes found in these encyclopedias. Also, the 77-year gap between grandfather's death and grandson's birth is virtually impossible. The chronicle makes no mention of Rivius' father or his own life, other than he was born in Königsberg and in 1689 moved to Courland, where he worked as a pastor after pastor Grott moved to Libau."^^xsd:string .
+
+    forgont:Chronicle_of_Rivius54911729 forgont:author forgont:54911729 ;
+        rdfs:comment "presented to Narbutt the exact same information about Grott in a letter written in April 1833."^^xsd:string .
+
+    forgont:Chronicle_of_Rivius63358417 forgont:author forgont:63358417 ;
+        rdfs:comment "concluded that Rivius' biography was invented between 1833 and 1842."^^xsd:string .
+
+    <http://www.example.org/Chronicles_of_Eri101042819> forgont:author forgont:101042819 ;
+        rdfs:comment "[...] in his A Compendium of Irish Biography (1878) was less charitable, deeming the Chronicles of Eri to be 'a piece of gross literary forgery.'."^^xsd:string .
+
+    <http://www.example.org/Chronicles_of_Eri56955188> forgont:author forgont:56955188 ;
+        rdfs:comment "[...] ever produced for examination was an 18 in (460 mm)-long scroll purporting to be 'a facsimile of part of the great roll of the Laws of Eri', currently held in the John Rylands Library of the University of Manchester. Scholars who have examined this manuscript 'are unable to find in them the likeness of any known ancient language'. The rest O'Connor claimed were lost or destroyed in various circumstances."^^xsd:string .
+
+    <http://www.example.org/Chronicles_of_Eri768886> forgont:author forgont:768886 ;
+        rdfs:comment "[...] dismissed the book as 'an amalgam of bombastic paraphrases of Irish annalistic matter, irreverent parodies of Biblical excerpts, 'etymologies' (which have to be seen to be believed), and wildly irresponsible inventions resembling those in the closely analogous Book of Mormon.'"^^xsd:string .
+
+    forgont:Clotilde_de_Surville104023256 forgont:author forgont:104023256 ;
+        rdfs:comment "[...] had been in the possession of the manuscript [...] returned to France in 1798 to raise an insurrection in Provence, and had paid the penalty with his life. [...]"^^xsd:string .
+
+    forgont:Clotilde_de_Surville213140642 forgont:author forgont:213140642 ;
+        rdfs:comment "[...] published as the Poésies de Clotilde some forty poems dealing with love and war. The history given in the introduction of the discovery of the manuscript was evidently a fable, and the poems were set down by most authorities as forgeries, especially as they contained many anachronisms and were written in accordance with modern laws of prosody. [...] This correspondence makes it clear that Vanderbourg was innocent of forgery and believed that the poems were of 15th century date, and that the anachronisms of matter and form were due to retouching by Surville."^^xsd:string .
+
+    forgont:Clotilde_de_Surville36925746 forgont:author forgont:36925746 ;
+        rdfs:comment "[...] had been in the possession of the manuscript [...] returned to France in 1798 to raise an insurrection in Provence, and had paid the penalty with his life. [...]"^^xsd:string .
+
+    forgont:Clotilde_de_Surville55461368 forgont:author forgont:55461368 ;
+        rdfs:comment "[...] made further inquiries on the subject and discovered letters from Vanderbourg to Surville's widow. [...] But the researches of Mace interested local antiquarians, and documentary evidence was produced that the wife of Berenger de Surville was Marguerite Chalis, not Clotilde, and that the marriage dated only from 1428. Moreover, Berenger, whose death at the siege of Orléans was one of the leading motives of the book, lived for twenty years after that date."^^xsd:string .
+
+    forgont:Code_of_Kalantiaw305214868 forgont:author forgont:305214868 ;
+        rdfs:comment "called for: (1) the official affirmation that the Kalantiaw Code is a twentieth-century fraudulent work by Jose Marco, (2) the President of the Philippines cease to honor retiring Supreme justices and other international dignitaries with the ‘Order of Kalantiaw’, and (3) the revoking of Executive Order 234, which recognized Datu Bondahara Kalantiaw as The First Philippine Lawgiver and declared a Hall of Fame and Library to be constructed in his honor in Batan, Aklan as a national shrine."^^xsd:string .
+
+    forgont:Code_of_Kalantiaw32140436 forgont:author forgont:32140436 ;
+        rdfs:comment "presented it in San Francisco in 1915 in a paper entitled Social structure of, and ideas of law among early Philippine peoples, in a recently discovered pre-Hispanic criminal code of the Philippine Islands."^^xsd:string .
+
+    forgont:Code_of_Kalantiaw37100540 forgont:author forgont:37100540 ;
+        rdfs:comment "published a Spanish version of his The Philippines Through the Centuries as Historia de Filipinas (Madrid, 1984),  he replaced the Code with one sentence: La tesis doctoral del historador Scott desbarata la existencia misma de dicho Código. (The doctoral dissertation of the historian Scott demolishes the very existence of the Code)."^^xsd:string .
+
+    forgont:Code_of_Kalantiaw64201887 forgont:author forgont:64201887 ;
+        rdfs:comment "wrote about the Code of Kalantiaw in his 1917 book Historia Prehispana de Filipinas (Prehispanic History of the Philippines) where he moved the location of the Code's origin from Negros to the Panay province of Aklan because he suspected that it may be related to the Ati-atihan festival."^^xsd:string .
+
+    forgont:Code_of_Kalantiaw7393146 forgont:author forgont:7393146 ;
+        rdfs:comment "called for: (1) the official affirmation that the Kalantiaw Code is a twentieth-century fraudulent work by Jose Marco, (2) the President of the Philippines cease to honor retiring Supreme justices and other international dignitaries with the ‘Order of Kalantiaw’, and (3) the revoking of Executive Order 234, which recognized Datu Bondahara Kalantiaw as The First Philippine Lawgiver and declared a Hall of Fame and Library to be constructed in his honor in Batan, Aklan as a national shrine."^^xsd:string .
+
+    forgont:Code_of_Kalantiaw78251614 forgont:author forgont:78251614 ;
+        rdfs:comment "began an examination of pre-hispanic sources for the study of Philippine history. Scott eventually demonstrated that the code was a forgery committed by Marco. When Scott presented these conclusions in his doctoral dissertation, defended on 16 June 1968 before a panel of eminent Filipino historians [...]. Scott later published his findings debunking the code in his book Prehispanic Source Materials for the Study of Philippine History."^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca109798119 forgont:author forgont:109798119 ;
+        rdfs:comment "['wrote that it was to show the superiority of Christianity over pagan philosophy.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca22267857 forgont:author forgont:22267857 ;
+        rdfs:comment "['suggests that the creation of the letters may have been part of early Christian apologia.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca29541502 forgont:author forgont:29541502 ;
+        rdfs:comment "['found that the writing style matched neither Seneca nor Paul, and the letters were denounced by Erasmus.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca46773879 forgont:author forgont:46773879 ;
+        rdfs:comment "[\"According to the Italian historian, it is probable that Seneca had a personal knowledge of St Paul, taking into account that: contacts between Paul and the gens Annaea are documented since the first century; when Paul arrived in Rome between 56 and 58, Seneca was the most powerful man after Nero; Paul had friends among the praetorians, including Afranius Burrus, himself a friend of Seneca; Seneca's brother had intervened on Paul's behalf.\"]"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca61584042 forgont:author forgont:61584042 ;
+        rdfs:comment "['in his History of the Christian Church said that They are very poor in thought and style, full of errors of chronology and history, and undoubtedly a forgery.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca64178684 forgont:author forgont:64178684 ;
+        rdfs:comment "['wrote that it was likely either to recommend Seneca to Christian readers or to recommend Christianity to students of Seneca.', 'was caustic about the overall worth of the correspondence, criticizing the poverty of thought and style, the errors in chronology and history, and the whole conception of the relative positions of the Stoic philosopher and the Christian Apostle.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca7673996 forgont:author forgont:7673996 ;
+        rdfs:comment "['denounced the letters.', 'wrote that I do not see how he could have made these letters in a more feeble or insipid fashion.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca97650725 forgont:author forgont:97650725 ;
+        rdfs:comment "['thought that the writings might have been a rhetorical exercise; essentially, a fictional essay by a novice writer practicing their craft that escaped to readers who did not realize its origins.']"^^xsd:string .
+
+    forgont:Correspondence_of_Paul_and_Seneca9886393 forgont:author forgont:9886393 ;
+        rdfs:comment "[\"agreed with J.B. Lightfoot's position.\"]"^^xsd:string .
+
+    forgont:Crying_Wind136371071 forgont:author forgont:136371071 ;
+        rdfs:comment "Harvest House stated that it is honest to call Crying Wind a 'biographical novel.'"^^xsd:string .
+
+    forgont:Crying_Wind142015293 forgont:author forgont:142015293 ;
+        rdfs:comment "In 1979, Moody Press took the books out of print due to concerns that the books were not presented as fiction."^^xsd:string .
+
+    forgont:Crying_Wind79402808 forgont:author forgont:79402808 ;
+        rdfs:comment "Stafford said the problem arose due to 'an unfortunate misunderstanding' between herself and Moody Press, connected to changes in staff and policies at Moody. She maintained that Crying Wind 'is still based on my life', and that her mother was indeed raised on a Kickapoo reservation."^^xsd:string .
+
+    forgont:Document_12-571-3570107057903 forgont:author forgont:107057903 ;
+        rdfs:comment "Brian Welch referred to the document as a 'fairly well-known 'urban legend'."^^xsd:string .
+
+    forgont:Document_12-571-357092613115 forgont:author forgont:92613115 ;
+        rdfs:comment "Pierre Kohler rediscovered and widely publicized this fictional document, using it as a major source about sex experiments in space in his 2000 book, The Final Mission. Kohler conceded in his book that astronauts are mute on the subject of human sex in orbit, even if they have conducted reproduction research on South African frogs and Japanese fish."^^xsd:string .
+
+    forgont:Donation_of_Constantine14773105 forgont:author forgont:14773105 ;
+        rdfs:comment "Ulrich von Hutten and Martin Luther, writers of the Protestant Reformation, took up vehemently Valla's treatise."^^xsd:string .
+
+    forgont:Donation_of_Constantine17262342 forgont:author forgont:17262342 ;
+        rdfs:comment "Giovanni Cavalcanti reported that, in the very year of Valla's treatise, Filippo Maria Visconti, Duke of Milan, made diplomatic overtures toward Cosimo de' Medici in Florence, proposing an alliance against the pope."^^xsd:string .
+
+    forgont:Donation_of_Constantine17326794 forgont:author forgont:17326794 ;
+        rdfs:comment "Caesar Baronius, in his Annales Ecclesiastici (published 1588–1607) admitted that it was a forgery, after which it was almost universally accepted as such."^^xsd:string .
+
+    forgont:Donation_of_Constantine29541502 forgont:author forgont:29541502 ;
+        rdfs:comment "Lorenzo Valla argued in his philological study of the text that the language used in manuscript could not be dated to the 4th century. Valla believed the forgery to be so obvious that he suspected that the Church knew the document to be inauthentic. Valla further argued that papal usurpation of temporal power had corrupted the church, caused the wars of Italy, and reinforced the 'overbearing, barbarous, tyrannical priestly domination.'"^^xsd:string .
+
+    forgont:Donation_of_Constantine307174275 forgont:author forgont:307174275 ;
+        rdfs:comment "Pope Pius II wrote a tract in 1453, five years before becoming pope, to show that though the Donation was a forgery, the papacy owed its lands to Charlemagne and its powers of the keys to Peter; however, he did not publish it."^^xsd:string .
+
+    forgont:Donation_of_Constantine44413993 forgont:author forgont:44413993 ;
+        rdfs:comment "Reginald Pecocke, Bishop of Chichester reached a similar conclusion."^^xsd:string .
+
+    forgont:Donation_of_Constantine54276711 forgont:author forgont:54276711 ;
+        rdfs:comment "Wolfram Setz has affirmed that at the time of Valla's refutation, Constantine's alleged 'donation' was no longer a matter of contemporary relevance in political theory and that it simply provided an opportunity for an exercise in legal rhetoric."^^xsd:string .
+
+    forgont:Donation_of_Constantine7425989 forgont:author forgont:7425989 ;
+        rdfs:comment "Christian Wolff, nearly a century after Annales Ecclesiastici, still alluded to the Donation as undisputed fact."^^xsd:string .
+
+    forgont:Donation_of_Constantine89524548 forgont:author forgont:89524548 ;
+        rdfs:comment "Filippo Maria Visconti, Duke of Milan. In reference to the Donation, Visconti wrote: 'It so happens that even if Constantine consigned to Sylvester so many and such rich gifts – which is doubtful, because such a privilege can nowhere be found – he could only have granted them for his lifetime: the empire takes precedence over any lordship.'"^^xsd:string .
+
+    forgont:Donation_of_Constantine89623095 forgont:author forgont:89623095 ;
+        rdfs:comment "Cardinal Nicholas of Cusa declared it to be a forgery and spoke of it as an apocryphal work."^^xsd:string .
+
+    forgont:Donation_of_Constantine95193756 forgont:author forgont:95193756 ;
+        rdfs:comment "Ulrich von Hutten and Martin Luther, writers of the Protestant Reformation, took up vehemently Valla's treatise."^^xsd:string .
+
+    forgont:Donation_of_Constantine9857569 forgont:author forgont:9857569 ;
+        rdfs:comment "Otto III, Holy Roman Emperor did possibly raise suspicions of the document 'in letters of gold' as a forgery, in making a gift to the See of Rome."^^xsd:string .
+
+    forgont:Franklin_Prophecy forgont:author forgont: ;
+        rdfs:comment "On February 18, 1998, a member of the Fatah Central Committee revived this myth, while mistakenly referring to Franklin as a former President of the United States."^^xsd:string .
+
+    forgont:Franklin_Prophecy116406399 forgont:author forgont:116406399 ;
+        rdfs:comment "According to Pelley, Pinckney wrote that he had kept a journal of the convention. This journal has never been found, and no evidence exists for Pelley's claim that it was printed privately. The Franklin Institute has rejected Pelley's claims that it owns a manuscript copy of the speech."^^xsd:string .
+
+    forgont:Franklin_Prophecy262745393 forgont:author forgont:262745393 ;
+        rdfs:comment "noted that the reference to the civilized world giving Palestine back to the Jews was an anachronism, since the modern Zionist movement did not arise until nearly a century after Franklin's death."^^xsd:string .
+
+    forgont:Franklin_Prophecy31432428 forgont:author forgont:31432428 ;
+        rdfs:comment "In 1790, in a marked sign of religious tolerance, Washington sent a letter to the Jewish community in Rhode Island, writing 'May the Children of the Stock of Abraham, who dwell in this land, continue to merit and enjoy the good will of the other Inhabitants; while every one shall sit under his own vine and fig tree, and there shall be none to make him afraid.'"^^xsd:string .
+
+    forgont:Franklin_Prophecy96987389 forgont:author forgont:96987389 ;
+        rdfs:comment "states:The Franklin 'Prophecy' is a classic anti-Semitic canard that falsely claims that American statesman Benjamin Franklin made anti-Jewish statements during the Constitutional Convention of 1787. It has found widening acceptance in Muslim and Arab media, where it has been used to criticize Israel and Jews..."^^xsd:string .
+
+    forgont:Franklin_Prophecy97678624 forgont:author forgont:97678624 ;
+        rdfs:comment "used this canard briefly in his October 2002 'Letter to the American People.'"^^xsd:string .
+
+    forgont:Historia_Augusta165083362 forgont:author forgont:165083362 ;
+        rdfs:comment "postulated that the History was composed by a team of writers during the reign of Constantius II after the defeat of Magnentius on behalf of the senatorial aristocracy who had supported the usurper."^^xsd:string .
+
+    forgont:Historia_Augusta17226974 forgont:author forgont:17226974 ;
+        rdfs:comment "summarizing the literature from Dessau down to 1954, defined the question as 'res iudicanda' (i.e. 'a matter to be decided') and not as 'res iudicata' ('a matter that has been decided')."^^xsd:string .
+
+    forgont:Historia_Augusta206723429 forgont:author forgont:206723429 ;
+        rdfs:comment "suggests that the editor was the author of the second half of the History, operating under the pseudonyms of Pollio and Vopiscus."^^xsd:string .
+
+    forgont:Historia_Augusta24601933 forgont:author forgont:24601933 ;
+        rdfs:comment "observed that there was something wrong with the numbers and names of the imperial biographers, and that this had already been recognised by older historians who had written on that subject."^^xsd:string .
+
+    forgont:Historia_Augusta37018460 forgont:author forgont:37018460 ;
+        rdfs:comment "proposed a date of 330 for when the work was written, based upon an analysis of style and language."^^xsd:string .
+
+    forgont:Historia_Augusta39414140 forgont:author forgont:39414140 ;
+        rdfs:comment "were the most prominent 20th century critics of the Dessau-Syme theory amongst English-speaking scholars."^^xsd:string .
+
+    forgont:Historia_Augusta46838013 forgont:author forgont:46838013 ;
+        rdfs:comment "considered the diaries genuine when verifying them for Newsweek, and then changed his mind."^^xsd:string .
+
+    forgont:Historia_Augusta4937390 forgont:author forgont:4937390 ;
+        rdfs:comment "the first historian to examine the diaries was cautious, but impressed with the volume of documentation in front of him."^^xsd:string .
+
+    forgont:Historia_Augusta61552836 forgont:author forgont:61552836 ;
+        rdfs:comment "devoted three books to the subject and was prepared to date the writing of the work closely in the region of AD 395."^^xsd:string .
+
+    forgont:Historia_Augusta73847911 forgont:author forgont:73847911 ;
+        rdfs:comment "abandoned the early 4th-century date but only advanced it as far as the reign of Julian the Apostate."^^xsd:string .
+
+    forgont:Historia_Augusta7402506 forgont:author forgont:7402506 ;
+        rdfs:comment "originally postulated the presence of a post-Constantinian editor."^^xsd:string,
+            "postulated a Theodosian 'editor' of the Scriptores' work, an idea that has resurfaced many times since."^^xsd:string .
+
+    forgont:Historia_Augusta85338033 forgont:author forgont:85338033 ;
+        rdfs:comment "and his negotiation team arrived in Zürich. A deal was provisionally agreed for $2.5 million for the US serialisation rights, with an additional $750,000 for British and Commonwealth rights."^^xsd:string .
+
+    forgont:Historia_Augusta91284763 forgont:author forgont:91284763 ;
+        rdfs:comment "rebutted a number of Syme's and Barnes' arguments for a composition date c. 395–400, suggesting a composition date between 361 and the 380s."^^xsd:string .
+
+    forgont:Historia_Augusta9916170 forgont:author forgont:9916170 ;
+        rdfs:comment "proposed that the six authors were all fictitious personae, and that the work was in fact composed by a single author in the late 4th century, probably in the reign of Theodosius I."^^xsd:string .
+
+    forgont:Historias_de_la_Conquista_del_Mayab187336608 forgont:author forgont:187336608 ;
+        rdfs:comment "\"Archivo de Historia de México Condumex\" : \"[...] acquired the manuscript in Mexico City shortly after 1970.\""^^xsd:string .
+
+    forgont:Hitler_Diaries100259089 forgont:author forgont:100259089 ;
+        rdfs:comment "Irving explained that Stern had shown him a diary from April 1945 in which the writing sloped downwards from left to right, and the script of which got smaller along the line."^^xsd:string .
+
+    forgont:Hitler_Diaries38190770 forgont:author forgont:38190770 ;
+        rdfs:comment "When Baur told Hitler what had happened, the German leader expressed grief at the loss of Arndt, one of his most favoured servants, and added: 'I entrusted him with extremely valuable documents which would show posterity the truth of my actions!'"^^xsd:string .
+
+    forgont:Hitler_Diaries40173403 forgont:author forgont:40173403 ;
+        rdfs:comment "in 1970 Kujau visited his family in East Germany and discovered that many of the locals held Nazi memorabilia, contrary to the laws of the communist government. He saw an opportunity to buy the material cheaply on the black market, and make a profit in the West, where the increasing demand among Stuttgart collectors was raising memorabilia prices up to ten times the amount he would pay."^^xsd:string .
+
+    forgont:Hitler_Diaries4979002 forgont:author forgont:4979002 ;
+        rdfs:comment "Rendell's first impression was that the diaries were forged. He later reported that 'everything looked wrong', including new-looking ink, poor quality paper and signatures that were 'terrible renditions' of Hitler's."^^xsd:string .
+
+    forgont:Hotsuma_Tsutae108161663 forgont:author forgont:108161663 ;
+        rdfs:comment "Yoshinosuke Matsumoto published some popular books on the subject in the mid-20th century. Matsumoto theorizes that Amaterasu was feminized in the Kojiki and Nihon Shoki to provide a justification for the reign of Empress Suiko who reigned just before those documents were written."^^xsd:string .
+
+    forgont:Hotsuma_Tsutae37719205 forgont:author forgont:37719205 ;
+        rdfs:comment "Hirata Atsutane noted the printing of some excerpts of the manuscript in his work on jindai moji, a Japanese writing system developed prior to the use of Chinese characters, but otherwise ignored the work. Atsutane's Kokugaku was principally concerned with the Kojiki and the Hotsuma Tsutae would have only muddled his theories."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries forgont:author forgont: ;
+        rdfs:comment "[...] had turned up a genuine John Heminges signature, and of course it looked nothing like the signatures William Henry had produced."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries17949909 forgont:author forgont:17949909 ;
+        rdfs:comment "[...] concentrated on the manuscript of Lear, observing that if this is Shakespeare's original, and the printed versions contaminated with alterations by the actors, then the players are 'at once converted ... into the most elaborate and polished masters of versification, and Shakspeare into a writer without the necessary ear for rhythm—a man who produced a series of harmonious versification by chance, and lost the supreme ascendancy in his art, from the not being able to number ten syllables upon his fingers.'"^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries204142468 forgont:author forgont:204142468 ;
+        rdfs:comment "[...] play about the forgeries, Another Shakespeare was broadcast by BBC Radio 4 in 2004."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries24751220 forgont:author forgont:24751220 ;
+        rdfs:comment "[...] accused the two [William Henry and Samuel Ireland] of collusion."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries32373173 forgont:author forgont:32373173 ;
+        rdfs:comment "[...] came to examine the seal on the Fraser lease. He announced that it represented a quintain, a device used in lance practice, and the conclusion was that Shakespeare had used it as a play on his own name."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries32766147 forgont:author forgont:32766147 ;
+        rdfs:comment "[...] in 1859 and George Dawson in 1888 took the position that the father was responsible for the forgeries and the son's Confession was a tissue of lies."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries34467427 forgont:author forgont:34467427 ;
+        rdfs:comment "[...] provides an imaginative account of the Irelands' forgeries in his novel The Lambs of London published by Chatto & Windus in 2004."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries36925746 forgont:author forgont:36925746 ;
+        rdfs:comment "[...] correctly recognised the documents as forgeries."^^xsd:string,
+            "[...] on hearing Samuel Ireland read the 'Profession of Faith' proclaimed it superior to anything in the English liturgy."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries36991115 forgont:author forgont:36991115 ;
+        rdfs:comment "[...] showed one by one that each document was flawed in its handwriting, its language, its orthography, and its history."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries71411983 forgont:author forgont:71411983 ;
+        rdfs:comment "[...] learned of a technique for simulating the appearance of ancient writing by using a special ink and then heating the paper. After a trial run creating a couple of relatively insignificant documents, he set out to devise something with Shakespeare's signature. [...]"^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries7815755 forgont:author forgont:7815755 ;
+        rdfs:comment "[...] accepted [the forged document] as authentic, and the next day took it to the Heralds' Office, which approved it as genuine."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries96994048 forgont:author forgont:96994048 ;
+        rdfs:comment "[...] on hearing Samuel Ireland read the 'Profession of Faith' proclaimed it superior to anything in the English liturgy."^^xsd:string .
+
+    forgont:Ireland_Shakespeare_forgeries98930150 forgont:author forgont:98930150 ;
+        rdfs:comment "[...] correctly recognised the documents as forgeries."^^xsd:string .
+
+    forgont:Letter_of_Benan76347560 forgont:author forgont:76347560 ;
+        rdfs:comment "[...] Strange New Gospels. Chicago: University of Chicago Press (1931). pp. 73–85."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora12323678 forgont:author forgont:12323678 ;
+        rdfs:comment "[...] seconded this opinion, accusing Hanka of being the author of the hoax."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora22229790 forgont:author forgont:22229790 ;
+        rdfs:comment "[...] supported the manuscripts' authenticity [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora29681156 forgont:author forgont:29681156 ;
+        rdfs:comment "[...] had dealings with authorities on both sides of the debate. When he first sought suitable Czech material, he approached Kopitar [...]. Later, Čelakovský learned of this enterprise, and not only furnished his own list, but became Bowring's close collaborator [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora44312086 forgont:author forgont:44312086 ;
+        rdfs:comment "[...] supported the manuscripts' authenticity [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora54147355 forgont:author forgont:54147355 ;
+        rdfs:comment "[...] supported the manuscripts' authenticity [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora56628990 forgont:author forgont:56628990 ;
+        rdfs:comment "[...] pronounced [the second manuscript] a forgery [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora56651696 forgont:author forgont:56651696 ;
+        rdfs:comment "[...] doubted the authenticity of the manuscripts, [and] used his journal Athenaeum to publish a body of literature to support that view."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora62654398 forgont:author forgont:62654398 ;
+        rdfs:comment "[...] wrote a book in 1879 which contended that the \"Libušin soud\" poem (the second manuscript) was a forgery and named Josef Linda [cz] as its creator."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora64048119 forgont:author forgont:64048119 ;
+        rdfs:comment "[...] wrote an article debunking the manuscripts in the February 1886 issue of Athenaeum [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora67260492 forgont:author forgont:67260492 ;
+        rdfs:comment "[...] the discoverer of the first manuscript, and his friend and roommate Josef Linda are generally regarded to have been the forgers of the poetry, but they never confessed to writing them [...]."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora74700045 forgont:author forgont:74700045 ;
+        rdfs:comment "[...] noted in his 1852 translation that he was well aware of the controversy when he published his translation, but determined that the skeptics had not made their case."^^xsd:string .
+
+    forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora85337187 forgont:author forgont:85337187 ;
+        rdfs:comment "[...] supported the manuscripts' authenticity [...]."^^xsd:string .
+
+    forgont:Marquise_de_Cr%C3%A9quy51687807 forgont:author forgont:51687807 ;
+        rdfs:comment "[...] was the production of a Breton adventurer, Cousin de Courchamps. The first two volumes appeared in English in 1834 and were severely criticized in the Quarterly Review."^^xsd:string .
+
+    forgont:Marquise_de_Cr%C3%A9quy61554719 forgont:author forgont:61554719 ;
+        rdfs:comment "[...] If, on the other hand, the French tabloids of the 1850s published Madame de Créquy's story based on her memoirs, it's possible she believed the story to be true, or that the story is true."^^xsd:string .
+
+    forgont:Marriage_Charter_of_Empress_Theophanu110689804 forgont:author forgont:110689804 ;
+        rdfs:comment "Carlrichard Brühl believe that the document is not the original as it lacks a seal and the lines are unusually shaped."^^xsd:string .
+
+    forgont:Marriage_Charter_of_Empress_Theophanu19694574 forgont:author forgont:19694574 ;
+        rdfs:comment "Hans K. Schulze believe that the document was presented by Otto II at their wedding feast, and then given to Theophanu."^^xsd:string .
+
+    forgont:Marriage_Charter_of_Empress_Theophanu270844287 forgont:author forgont:270844287 ;
+        rdfs:comment "Walter Deeters (1972) says that the separations in the text act as reading aids, showing that the document was intended to be read."^^xsd:string .
+
+    forgont:Marriage_Charter_of_Empress_Theophanu64134275 forgont:author forgont:64134275 ;
+        rdfs:comment "Hans Goetting believe that the document was presented by Otto II at their wedding feast, and then given to Theophanu."^^xsd:string .
+
+    forgont:Marriage_Charter_of_Empress_Theophanu66599526 forgont:author forgont:66599526 ;
+        rdfs:comment "Theodor von Sickel believe that the document is not the original as it lacks a seal and the lines are unusually shaped."^^xsd:string .
+
+    forgont:Mathilde_Lefebvre_letter forgont:author forgont: ;
+        rdfs:comment "the handwriting attributed to Mathilde Lefebvre isn't like that expected from people of the working classes of the time, especially when compared with the correspondence of the Poilu of the Great War."^^xsd:string .
+
+    forgont:Mathilde_Lefebvre_letter126146574008638102591 forgont:author forgont:126146574008638102591 ;
+        rdfs:comment "explains that if we start from the premise that the document is a forgery, it is very easy to explain: it is much more common to find the city of origin of the Lefebvre's Family than their destination...and a forger did not necessarily have this information. Such bottles would certainly not have been available in the third class dining room, which did not offer self-service liquors. A lone mother traveling with children who did not speak English would also have had a difficult time obtaining them from the crew."^^xsd:string .
+
+    forgont:Mathilde_Lefebvre_letter305656916 forgont:author forgont:305656916 ;
+        rdfs:comment "agrees with Franck Gavard-Perret on the handwriting attributed to Mathilde Lefebvre."^^xsd:string .
+
+    forgont:Minuscule_2427130145969998032250452 forgont:author forgont:130145969998032250452 ;
+        rdfs:comment "Stephen Carlson had announced his findings that the codex was a forgery, and proved his case beyond a doubt at the 2006 Annual Meeting of the Society of Biblical Literature."^^xsd:string .
+
+    forgont:Minuscule_2427143657677 forgont:author forgont:143657677 ;
+        rdfs:comment "University of Chicago announced that digital images of the manuscript had appeared online in an effort to foster further research."^^xsd:string .
+
+    forgont:Minuscule_24274138418 forgont:author forgont:4138418 ;
+        rdfs:comment "Robert P. Casey voiced his suspicion in 1947."^^xsd:string .
+
+    forgont:Minuscule_242792322430 forgont:author forgont:92322430 ;
+        rdfs:comment "Mary V. Orna found that one of the illustrations contained Prussian blue (KFe[Fe(CN)6]), produced since 1704 only."^^xsd:string .
+
+    forgont:Mussolini_diaries forgont:author forgont: ;
+        rdfs:comment "Libero (newspaper) tried to defend the authenticity of the diaries, despite scholarly agreement that they are a forgery."^^xsd:string .
+
+    forgont:Mussolini_diaries13759450 forgont:author forgont:13759450 ;
+        rdfs:comment "Elisabetta Sgarbi tried to defend the authenticity of the diaries, despite scholarly agreement that they are a forgery."^^xsd:string .
+
+    forgont:Mussolini_diaries24860670 forgont:author forgont:24860670 ;
+        rdfs:comment "Roberto Travaglini independently discovered that these diaries had indeed been forged. The historians claimed that these diaries had been around for some time and that someone had tried to sell them to journalists, auction houses and publishing houses before offering them to Dell'Utri. According to Travaglini 'there were too many elements that did not match up'."^^xsd:string .
+
+    forgont:Mussolini_diaries84210432 forgont:author forgont:84210432 ;
+        rdfs:comment "Silvio Berlusconi claimed that they are authentic and went so far to quote them in a 2010 OSCE meeting in Paris."^^xsd:string .
+
+    forgont:Mussolini_diaries84752464 forgont:author forgont:84752464 ;
+        rdfs:comment "Emilio Gentile independently discovered that these diaries had indeed been forged. The historians claimed that these diaries had been around for some time and that someone had tried to sell them to journalists, auction houses and publishing houses before offering them to Dell'Utri. According to Gentile, the diaries contain 'historical errors' and that the authors 'seem to have copied various articles from old newspapers'."^^xsd:string .
+
+    forgont:Mussolini_diaries89741829 forgont:author forgont:89741829 ;
+        rdfs:comment "Marcello Dell'Utri claimed that diaries, covering the years from 1935 to 1939 had been found. Moreover, he claimed in the newspaper Corriere della Sera, these Mussolini diaries were with a lawyer at Bellinzona, in the Italian-speaking part of Switzerland. He said he examined the diaries and found that the 'handwriting is clear and recognisably' that of Mussolini, though 'a bit hurried'. Dell'Utri stated that his claim was supported by an unknown handwriting expert. He said further that the diaries had been found in a suitcase the dictator was carrying when he was caught by partisans in Dongo, at Lake Como, while he was fleeing to Switzerland in April 1945. The books had been hidden by one of the partisans who had died recently."^^xsd:string .
+
+    forgont:My_Sister_and_I_\(Nietzsche\)30805289 forgont:author forgont:30805289 ;
+        rdfs:comment "Walter K. Stewart in his 185 page monograph Nietzsche: My Sister and I — A Critical Study published in 2007, argues for the original's potential legitimacy by conducting a point-by-point analysis of Kaufmann's book review. In his 2011 followup, Friedrich Nietzsche My Sister and I: Investigation, Analysis, Interpretation, Stewart uses direct textual analysis to argue that whoever wrote My Sister and I was intimate with every aspect of Nietzsche’s life and perspective."^^xsd:string .
+
+    forgont:My_Sister_and_I_\(Nietzsche\)89798474 forgont:author forgont:89798474 ;
+        rdfs:comment "Nietzsche scholars in general adopted the opinion of Kaufmann, who immediately identified the book as a forgery in a 1952 article. Evidence against the book cited both by Kaufmann and later commentators includes anachronisms, such as a reference to an 1898 incident, incongruous references to Marxism, and the city of Detroit (globally unknown in the late 19th century), along with a seemingly poor grasp of philosophy and sexualized pulpy content. Kaufmann also notes instances of clever wordplay in this English text that are impossible to express as such in the German language."^^xsd:string .
+
+    forgont:My_Sister_and_I_\(Nietzsche\)95148968 forgont:author forgont:95148968 ;
+        rdfs:comment "Kaufmann immediately identified the book as a forgery in a 1952 article. Evidence against the book cited both by Kaufmann and later commentators includes anachronisms, such as a reference to an 1898 incident, incongruous references to Marxism, and the city of Detroit (globally unknown in the late 19th century), along with a seemingly poor grasp of philosophy and sexualized pulpy content. Kaufmann also notes instances of clever wordplay in this English text that are impossible to express as such in the German language."^^xsd:string .
+
+    forgont:Oath_of_a_Freeman151962300 forgont:author forgont:151962300 ;
+        rdfs:comment "The Library of Congress declared that the discovery “would be one of the most important and exciting finds of the century” and stated that its examination “found nothing inconsistent with a mid-17th century attribution”. Both organizations wanted to undertake further testing of the “Oath” to determine its authenticity and remained interested in acquiring the document despite some troubling events after its discovery."^^xsd:string .
+
+    forgont:Oath_of_a_Freeman305214868 forgont:author forgont:305214868 ;
+        rdfs:comment "His forgeries fooled experts in the field, such as Charles Hamilton, Kenneth W. Rendell, and investigators at the National Archives and the Federal Bureau of Investigation."^^xsd:string .
+
+    forgont:Oath_of_a_Freeman43315786 forgont:author forgont:43315786 ;
+        rdfs:comment "Mark Hofmann claimed to have found a broadside of the “Oath” in a New York bookstore in 1985. Hofmann's print of the “Oath” was offered for sale to both the Library of Congress and the American Antiquarian Society, at a reported asking price of US$1.5 million. The purported discovery was a clever forgery by Hofmann. Hofmann later pled guilty to the bombings. Hofmann demonstrated considerable skill in the creation of his forgeries. During his confession, Hofmann stated that he did most of his printing from plates that he made himself but “got lazy and had the ‘Oath’ plate made professionally."^^xsd:string .
+
+    forgont:Oath_of_a_Freeman96987389 forgont:author forgont:96987389 ;
+        rdfs:comment "His forgeries fooled experts in the field, such as Charles Hamilton, Kenneth W. Rendell, and investigators at the National Archives and the Federal Bureau of Investigation."^^xsd:string .
+
+    forgont:Oath_of_a_Freeman99258155 forgont:author forgont:99258155 ;
+        rdfs:comment "His forgeries fooled experts in the field, such as Charles Hamilton, Kenneth W. Rendell, and investigators at the National Archives and the Federal Bureau of Investigation."^^xsd:string .
+
+    forgont:Oath_of_a_FreemanQ123921505 forgont:author forgont:Q123921505 ;
+        rdfs:comment "The American Antiquarian Society had possession of the document for two months and announced, “as far as we know, there are no anomalies”. Both organizations wanted to undertake further testing of the “Oath” to determine its authenticity and remained interested in acquiring the document despite some troubling events after its discovery."^^xsd:string .
+
+    forgont:Old_High_German_lullaby22142747 forgont:author forgont:22142747 ;
+        rdfs:comment "in a 46-page essay examines the poem in detail and concludes that it is clearly a falsification."^^xsd:string .
+
+    forgont:Old_High_German_lullaby24601399 forgont:author forgont:24601399 ;
+        rdfs:comment "Zappert is suspected of having produced other forgeries, too."^^xsd:string,
+            "again concludes that without a doubt, the poem is a falsification."^^xsd:string .
+
+    forgont:Old_High_German_lullaby30282213 forgont:author forgont:30282213 ;
+        rdfs:comment "still considers the text genuine, but the mainstream opinion in the late 19th century and until today remains Grohmann's."^^xsd:string .
+
+    forgont:Old_High_German_lullaby31997136 forgont:author forgont:31997136 ;
+        rdfs:comment "in Berliner Sitzungsberichte, 1859, 254—58 refers to Zappert's publication as an independent attestation of the name Zanfana, apparently without doubting its authenticity."^^xsd:string .
+
+    forgont:Old_High_German_lullaby37658750 forgont:author forgont:37658750 ;
+        rdfs:comment "had scathing criticism for Zappert's analysis, disagreeing with literally every one of Zappert's conclusions and emendations, but did not question the authenticity of the document."^^xsd:string .
+
+    forgont:Old_High_German_lullaby54373066 forgont:author forgont:54373066 ;
+        rdfs:comment "F. Mairinger has investigated the ink of the lullaby and the Hebrew line and concluded that unlike the remaining Hebrew words, they were not executed “in the typical medieval 'Eisengallentinte' with soot admixture”. This points to a forgery."^^xsd:string,
+            "claims that J. Grimm intended to publish a defence of the lullaby, and “stood out from the beginning because of his enthusiastic advocacy of the lullaby”."^^xsd:string,
+            "states that from six essays which appeared on the topic of the lullaby during the 20th century, three consider it a forgery, while three declare it as genuine."^^xsd:string .
+
+    forgont:Old_High_German_lullaby66470391 forgont:author forgont:66470391 ;
+        rdfs:comment "argues that the text presupposes some linguistic knowledge which could not have been available to Zappert at the time."^^xsd:string .
+
+    forgont:Old_High_German_lullaby90664199 forgont:author forgont:90664199 ;
+        rdfs:comment "concludes that the evidence adduced in his essay against the authenticity of the lullaby “points more than one finger of suspicion, but falls short of certainty”."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)21795289 forgont:author forgont:21795289 ;
+        rdfs:comment "[...] dated the document to the 13th century."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)24674815 forgont:author forgont:24674815 ;
+        rdfs:comment "[...] thought it was made in 1102."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)267454094 forgont:author forgont:267454094 ;
+        rdfs:comment "[...] said the Pacta was an incomplete historical source, but not a forgery."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)36925746 forgont:author forgont:36925746 ;
+        rdfs:comment "[...] thought the area between Drava and Sava belonged neither to Croatia nor to Hungary at the time."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)37725281 forgont:author forgont:37725281 ;
+        rdfs:comment "[...] first declaring it an outright forgery, and later saying it was a 14th-century 'addendum' to the manuscript of Thomas the Archdeacon."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)66806872 forgont:author forgont:66806872 ;
+        rdfs:comment "[...] thought the area between Drava and Sava belonged neither to Croatia nor to Hungary at the time."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)68957492 forgont:author forgont:68957492 ;
+        rdfs:comment "[...] thought it was a 14th-century forgery."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)71410641 forgont:author forgont:71410641 ;
+        rdfs:comment "[...] thought it was a forgery probably made in the 14th century [...] elaborated her 'lack of opinion' over the matter of 1102 [...] said she would not preclude the opinion that the area between Drava and Sava belonged neither to Croatia nor to Hungary."^^xsd:string .
+
+    forgont:Pacta_conventa_\(Croatia\)71700319 forgont:author forgont:71700319 ;
+        rdfs:comment "[...] assuming Tomislav of Croatia had ruled most of the area inhabited by Croats, including Slavonia."^^xsd:string .
+
+    forgont:Pami%C4%99tnik_handlowca292327444 forgont:author forgont:292327444 ;
+        rdfs:comment "who claimed to have seen it and to have made a partial copy for his records. Waldo claimed that his copy had been given away and refused to provide further details to fellow researchers."^^xsd:string .
+
+    forgont:Pami%C4%99tnik_handlowca45544575 forgont:author forgont:45544575 ;
+        rdfs:comment "a person offered to sell it to Mieczysław Haiman, the director of the Polish Museum of America."^^xsd:string .
+
+    forgont:Pami%C4%99tnik_handlowca71521610 forgont:author forgont:71521610 ;
+        rdfs:comment "in 2008 concluded, 'Given all of the vain attempts to locate so much as a single reference to the Pamietnik, let alone an extant copy, it would appear that, unless some independent verification surfaces, Stefański's memoir must be rejected as a legitimate source.'"^^xsd:string .
+
+    forgont:Pata_Khazana100267620 forgont:author forgont:100267620 ;
+        rdfs:comment "Habibi dismissed such critics, stating that their arguments were not 'scientifically based'."^^xsd:string .
+
+    forgont:Pata_Khazana14211345 forgont:author forgont:14211345 ;
+        rdfs:comment "Juma Khan Sufi in his critical exposition of Pata Khazana also questions the authenticity of the Pata Khazana."^^xsd:string .
+
+    forgont:Pata_Khazana236290531 forgont:author forgont:236290531 ;
+        rdfs:comment "Loi considers the manuscript a forgery of the late 19th century."^^xsd:string,
+            "Lucia Serena Loi wrote the first translation into a European language, with a detailed critical commentary, only appeared in 1987."^^xsd:string .
+
+    forgont:Pata_Khazana38690792 forgont:author forgont:38690792 ;
+        rdfs:comment "Qalandar Mohmand published the most intensive critical occupation with the manuscript among Pashto scholars in 1988."^^xsd:string .
+
+    forgont:Pata_Khazana9897477 forgont:author forgont:9897477 ;
+        rdfs:comment "David Neil MacKenzie concludes from the anachronisms that the document was fabricated only shortly before its claimed discovery in 1944. MacKenzie's central argument refers to the use of the modern Pashto letters ẓ̌e (ـږ) and ṇun (ڼ) throughout the script. These letters were only introduced into the Pashto alphabet in 1936 when the Afghan government reformed the Pashto orthography. MacKenzie claims that the two letters have never been found simultaneously in any genuine manuscript before 1935."^^xsd:string .
+
+    forgont:Privilegium_Maius64086545 forgont:author forgont:64086545 ;
+        rdfs:comment "in 1852, it was proven a forgery by historian Wilhelm Wattenbach."^^xsd:string .
+
+    forgont:Salamander_letter forgont:author forgont: ;
+        rdfs:comment "John Tvedtnes responded with Joseph Smith's statement that 'a prophet was a prophet only when he was acting as such,' and that purchasing historical materials is a business activity rather than a prophetic undertaking."^^xsd:string .
+
+    forgont:Salamander_letter116901852 forgont:author forgont:116901852 ;
+        rdfs:comment "Gordon B. Hinckley continued to field criticism for some time for 'being duped' and being 'unable to discern the evil intentions of a man like Hofmann'. Hinckley later noted: 'I accepted him to come into my office on a basis of trust … I frankly admit that Hofmann tricked us. He also tricked experts from New York to Utah, however .... I am not ashamed to admit that we were victimized. It is not the first time the Church has found itself in such a position. Joseph Smith was victimized again and again. The Savior was victimized. I am sorry to say that sometimes it happens.'"^^xsd:string .
+
+    forgont:Salamander_letter36925746 forgont:author forgont:36925746 ;
+        rdfs:comment "George Throckmorton and William Flynn examined a poem supposedly written by Harris and placed in his old Book of Common Prayer and determined it had actually been created by Hofmann. Although this was enough proof by itself that the letter was a forgery, Throckmorton and Flynn bolstered their case by getting in touch with Frances Magee."^^xsd:string .
+
+    forgont:Salamander_letter43315786 forgont:author forgont:43315786 ;
+        rdfs:comment "Hofmann drew suspicion for discovering so many astounding documents that others had missed, including the so-called 'Oath of a Freeman', which he was attempting to sell to the Library of Congress. Hofmann was struggling under massive debt and falling behind on delivering on deals that he had made. In 1985, when he learned that the pedigree of the salamander letter was under widespread suspicion, he produced and placed a number of bombs."^^xsd:string .
+
+    forgont:Salamander_letter46120508 forgont:author forgont:46120508 ;
+        rdfs:comment "Frances Magee told investigators that she'd never seen the poem before. She suspected someone had planted it there after she sold the book."^^xsd:string .
+
+    forgont:Salamander_letter70208273 forgont:author forgont:70208273 ;
+        rdfs:comment "Jerald Tanner concluded there was significant doubt as to the salamander letter's authenticity. He even went so far as to publish an attack on the document, which surprised many scholars and students since this and other 'discoveries' of important Mormon documents by Hofmann often appeared to bolster the Tanners' own arguments. By late 1984, Jerald Tanner questioned the authenticity of most if not all of Hofmann's 'discoveries', based in large part on their unproven provenance."^^xsd:string .
+
+    forgont:Salamander_letter98930150 forgont:author forgont:98930150 ;
+        rdfs:comment "George Throckmorton and William Flynn examined a poem supposedly written by Harris and placed in his old Book of Common Prayer and determined it had actually been created by Hofmann. Although this was enough proof by itself that the letter was a forgery, Throckmorton and Flynn bolstered their case by getting in touch with Frances Magee."^^xsd:string .
+
+    forgont:The_Dark_Tower_\(Lewis_novel\)61708932 forgont:author forgont:61708932 ;
+        rdfs:comment "advanced the theory that The Dark Tower and other posthumously published works attributed to Lewis were forgeries written by or at the behest of Walter Hooper, based upon her impressions of their style and questions she raised about their provenance. Lindskoog claimed that The Dark Tower resembled stories by other writers, including A Wrinkle in Time by Madeleine L'Engle (1962) and The Planet of the Dead by Clark Ashton Smith (1932)."^^xsd:string .
+
+    forgont:The_Dark_Tower_\(Lewis_novel\)9887705 forgont:author forgont:9887705 ;
+        rdfs:comment "wrote in 2003 that he saw portions of The Dark Tower including the Stinging Man and discussed them with Lewis in 1952."^^xsd:string .
+
+    forgont:The_Description_of_Britain32771157 forgont:author forgont:32771157 ;
+        rdfs:comment "[...] in that year the German writer Friedrich Carl Wex effectively challenged the authority of the Description in the Rheinisches Museum. [...]. His work was translated into English and printed by the Gentleman's Magazine in October 1846."^^xsd:string .
+
+    forgont:The_Description_of_Britain64149842018102842885 forgont:author forgont:64149842018102842885 ;
+        rdfs:comment "[...] the 1911 Encyclopædia Britannica account, which asserts that Thomas Reynolds was 'sceptical as to the value of Bertram's manuscript'."^^xsd:string .
+
+    forgont:The_Description_of_Britain66577257 forgont:author forgont:66577257 ;
+        rdfs:comment "[...] the librarian of the University of Cambridge. In his 1869 preface to the second volume of the work, he included a thorough 90-page condemnation of Bertram's manuscript."^^xsd:string .
+
+    forgont:The_Description_of_Britain69060428 forgont:author forgont:69060428 ;
+        rdfs:comment "[...] preferred instead to identify Bertram's 'Richard of Westminster' with Richard of Cirencester, who had lived at Westminster in the late 14th century and was known to have journeyed to Rome and to have compiled another history known as the Historial Mirror. [...]. His letters state that he bought a copperplate to engrave it himself. [...]. Stukeley later employed this version for the 2nd edition of his own Itinerarium Curiosum, published posthumously in 1776. [...]. At Stukeley's urging, Bertram published the full text in a volume alongside Gildas's Ruin of Britain and the History of the Britons traditionally ascribed to Nennius."^^xsd:string .
+
+    forgont:The_Description_of_Britain73704902 forgont:author forgont:73704902 ;
+        rdfs:comment "[...] described his text's author as 'Richard, monk of Westminster' [...]. Bertram claimed to have borrowed the text from a friend who admitted he had come by it as an act of theft from an English library. [...]. Bertram's letters to Stukeley proposed that the map accompanying the text was even older than Pseudo-Richard's text. [...]. Bertram's own engraving appeared in his 1757 Three Authors but was dated to 1755. [...]. Bertram published the full text in a volume alongside Gildas's Ruin of Britain and the History of the Britons traditionally ascribed to Nennius. [...]. Bertram had on several occasions adopted variant readings and hypotheses unknown before Camden."^^xsd:string .
+
+    forgont:The_Description_of_Britain74608937 forgont:author forgont:74608937 ;
+        rdfs:comment "[...] as late as 1840 Sir Frederic Madden of the manuscript department of the British Museum had not only expressed his belief in its validity but also criticised the English Historical Society for its omission of the Description of Britain in its 1838 list of important works."^^xsd:string .
+
+    forgont:The_Description_of_Britain76226192 forgont:author forgont:76226192 ;
+        rdfs:comment "[...] the librarian of Windsor Castle, wrote a series of articles for the Gentleman's Magazine that challenged the validity of the text."^^xsd:string .
+
+    forgont:The_Description_of_Britain92825324 forgont:author forgont:92825324 ;
+        rdfs:comment "[...] criticised those errors retained by the Ordnance Survey in his book Roman Roads in Britain (1903)."^^xsd:string .
+
+    forgont:The_English_Mercurie32076090 forgont:author forgont:32076090 ;
+        rdfs:comment "The English Mercurie was referred to by George Chalmers, a Scottish antiquarian and political writer, in his 1794 book The Life of Thomas Ruddiman. It predated the Mercurius Gallobelgicus which is widely accepted in studies of the history of journalism to be the true first newspaper[citation needed] which was written in Latin and appeared in 1594 in Cologne, Germany, and distributed across Europe. Chalmers adduced the Mercurie as evidence of English invention, saying 'It may gratify our national pride to be told, that mankind are indebted to the wisdom of Elizabeth, and the prudence of Burleigh, for the first newspaper.'"^^xsd:string .
+
+    forgont:The_English_Mercurie41203443 forgont:author forgont:41203443 ;
+        rdfs:comment "Chalmers's assertion was unchallenged for 45 years until Thomas Watts uncovered the existence of the original manuscript in the archives of the British Museum in 1839.  He identified the handwriting on the manuscript as being identical to that used in a letter from Yorke as part of Dr Birch's collection. There were other inconsistencies, including the typeface and some spellings  and Watts also found corrections on the manuscript in Dr Birch's handwriting."^^xsd:string .
+
+    forgont:The_English_Mercurie4956694 forgont:author forgont:4956694 ;
+        rdfs:comment "Dr Birch bequeathed the manuscript and printed copies of the English Mercurie to the British Museum in 1766, without any explanation of their origin."^^xsd:string .
+
+    forgont:The_English_Mercurie50067453 forgont:author forgont:50067453 ;
+        rdfs:comment "The orchestrator of the hoax was Philip Yorke, 2nd Earl of Hardwicke, along with his friend Dr Thomas Birch, and possibly Yorke's brother Charles. They produced five issues  of which three were printed and two were manuscript newsletters."^^xsd:string .
+
+    <http://www.example.org/The_Protocols_of_the_Elders_of_Zion27883499> forgont:author forgont:27883499 ;
+        rdfs:comment "widely distributed first edition contains the dates '1902–1903', and it is likely that the document was actually written at this time in Russia."^^xsd:string .
+
+    <http://www.example.org/The_Protocols_of_the_Elders_of_Zion305138876> forgont:author forgont:305138876 ;
+        rdfs:comment "Source material for the forgery consisted jointly of Dialogue aux enfers entre Machiavel et Montesquieu (Dialogue in Hell Between Machiavelli and Montesquieu), an 1864 political satire by Maurice Joly."^^xsd:string .
+
+    <http://www.example.org/The_Protocols_of_the_Elders_of_Zion33084339> forgont:author forgont:33084339 ;
+        rdfs:comment "argues that it was manufactured in the months after a Russian Zionist congress in September 1902, and that it was originally a parody of Jewish idealism meant for internal circulation among antisemites until it was decided to clean it up and publish it as if it were real."^^xsd:string .
+
+    <http://www.example.org/The_Protocols_of_the_Elders_of_Zion45095055> forgont:author forgont:45095055 ;
+        rdfs:comment "and a chapter from Biarritz, an 1868 novel by the antisemitic German novelist Hermann Goedsche, which had been translated into Russian in 1872."^^xsd:string .
+
+    <http://www.example.org/The_Protocols_of_the_Elders_of_Zion45706766> forgont:author forgont:45706766 ;
+        rdfs:comment "the text's initial publisher, Pavel Krushevan—deliberately obscured the origins of the text and lied about it in the decades afterwards."^^xsd:string .
+
+    forgont:The_Report_from_Iron_Mountain108307703 forgont:author forgont:108307703 ;
+        rdfs:comment "'I was in general a member of the conspiracy, but I was not the author. I have always assumed that it was the man who wrote the foreword – Mr. Lewin'."^^xsd:string,
+            "[...] jokingly admitted that he was a member of the conspiracy. The following day, Galbraith backed off. When asked about his 'conspiracy' statement, he replied: 'For the first time since Charles II The Times has been guilty of a misquotation... Nothing shakes my conviction that it was written by either Dean Rusk or Mrs. Clare Boothe Luce'."^^xsd:string .
+
+    forgont:The_Report_from_Iron_Mountain305214868 forgont:author forgont:305214868 ;
+        rdfs:comment "[...] wrote that he knew firsthand of the report's authenticity because he had been invited to participate in its creation; that although he was unable to be part of the official group, he was consulted from time to time and had been asked to keep the project secret; and that while he doubted the wisdom of letting the public know about the report, he agreed totally with its conclusions."^^xsd:string .
+
+    forgont:The_Report_from_Iron_Mountain36925746 forgont:author forgont:36925746 ;
+        rdfs:comment "[...] wrote that he knew firsthand of the report's authenticity because he had been invited to participate in its creation; that although he was unable to be part of the official group, he was consulted from time to time and had been asked to keep the project secret; and that while he doubted the wisdom of letting the public know about the report, he agreed totally with its conclusions."^^xsd:string .
+
+    forgont:The_Report_from_Iron_Mountain61565249 forgont:author forgont:61565249 ;
+        rdfs:comment "[...] said that he had written the book."^^xsd:string .
+
+    forgont:The_Report_from_Iron_Mountain92259595 forgont:author forgont:92259595 ;
+        rdfs:comment "[...] asserted his involvement in creating Report from Iron Mountain, naming Leonard Lewin as the main writer with 'input' from economist John Kenneth Galbraith, two editors of the satirical magazine Monocle (Marvin Kitman and Richard Lingeman) and himself."^^xsd:string,
+            "[...] asserted that Galbraith was indeed McLandress, and that he was 'in on the hoax from the beginning.'."^^xsd:string .
+
+    forgont:The_Will_of_Peter_the_Great10688809 forgont:author forgont:10688809 ;
+        rdfs:comment "Michel Sokolnicki found in archives of French Ministry of Foreign Affairs a 1797 memorandum \"Aperçu sur la Russie\" of his ancestor, general Michał Sokolnicki and wrote a journal article \"Le Testament de Pierre le Grand: Origines d'un prétendu document historique\"."^^xsd:string .
+
+    forgont:The_Will_of_Peter_the_Great46606778 forgont:author forgont:46606778 ;
+        rdfs:comment "General Sokolnicki claimed that he glimpsed a plan of Peter I to subjugate Europe in Russian archives and memorized major points. These points bear a remarkable similarity to those presented by Lesur, so it is quite possible that Lesur borrowed from Sokolnicky."^^xsd:string,
+            "Historian Sokolnicki also maintains that his ancestor did not invent The Will himself, but rather wrote down a long-existing Polish tradition."^^xsd:string .
+
+    forgont:Vinland_Map106945469 forgont:author forgont:106945469 ;
+        rdfs:comment "Raymond Clemens considers that the latest historical and scientific research proves 'beyond a doubt' that the Vinland map 'was a forgery, not a medieval product as it claimed to be.' In a March 2019 article, Clemens highlights the fact that 'historical investigations by John Paul Floyd have revealed that the Vinland Map is actually based not on Bianco’s 1436 map, but on a printed facsimile map made in 1782. Floyd discovered this by noting mistakes in the 1782 map that were replicated on the Vinland map, but could be found nowhere else.' Furthermore, the map has been studied at the Beinecke Library using new technology. 'In the case of the Vinland map we were able to prove... [the map] was clearly a 20th century fake.' Despite the reveal of the map's forged origins, Clemens stated that the map would remain at the Beinecke Library, as it had 'become an historical object in and of itself.'"^^xsd:string .
+
+    forgont:Vinland_Map271037790 forgont:author forgont:271037790 ;
+        rdfs:comment "Paul Freedman did express his view that the map was 'unfortunately a fake'."^^xsd:string .
+
+    forgont:Vinland_Map61605014 forgont:author forgont:61605014 ;
+        rdfs:comment "Richard Hark revealed the results of new global chemical analyses of the Map and the Tartar Relation, which established, among many other things, that the ink lines of the Map contain varying amounts of anatase 'consistent with modern manufacture'. So too do two small patches on the first page of the Tartar Relation, where the original iron-gall ink appears to have been erased and replaced."^^xsd:string .
+
+    forgont:Vinland_Map77661021 forgont:author forgont:77661021 ;
+        rdfs:comment "Alice Prochaska commented that 'We regard ourselves as the custodians of an extremely interesting and controversial document…and we watch the scholarly work on it with great interest.'"^^xsd:string .
+
+    forgont:Voyage_of_the_Zeno_brothers34691570 forgont:author forgont:34691570 ;
+        rdfs:comment "[...]disagrees, stating that the younger Nicolò was 'a first-class muddler, not a fablemonger', whose inaccuracy was the result of second-hand retelling that still contains much of the truth of his forebears' voyages."^^xsd:string,
+            "[...]suggests this interpretation is in error."^^xsd:string .
+
+    forgont:Voyage_of_the_Zeno_brothers34809099 forgont:author forgont:34809099 ;
+        rdfs:comment "[...]described and analysed the story at length in The Royal Navy, a History from the Earliest Times to the Present, and was sceptical about its veracity, noting 'At the date when the work was published Venice was extremely eager to claim for herself some share in the credit of Columbus's discoveries as against her old rival Genoa, from whom Columbus had sprung.'"^^xsd:string .
+
+    forgont:Voyage_of_the_Zeno_brothers89623095 forgont:author forgont:89623095 ;
+        rdfs:comment "[...]continues to attract debate. Some of the islands the Zeno brothers allegedly visited either conflate existing locations or do not exist at all. Research has shown that the Zeno brothers were occupied elsewhere when they were supposedly doing their exploring. Contemporary Venetian court documents place Nicolò as undergoing trial for embezzlement in 1394 for his actions as military governor of Modone and Corone in Greece from 1390–1392. He wrote his last will and testament in Venice in 1400, many years after his alleged death in Frislanda around 1394. There is disagreement about the brothers' whereabouts at the time of the supposed voyages, with some readings of archival records placing the brothers in Venice at that time."^^xsd:string .
+
+    forgont:William_Lynch_speech153999899 forgont:author forgont:153999899 ;
+        rdfs:comment "[...] posted the document on the library's Gopher server [...] later revealed that she had obtained the document from the publisher of a local annual business directory, The St. Louis Black Pages  in which the narrative had recently appeared. Though eventually convinced the document was a forgery, the librarian elected to leave it on the Gopher server, as she believed that \"even as an inauthentic document, it says something about the former and current state of African America\", but added a warning about its provenance."^^xsd:string .
+
+    forgont:William_Lynch_speech248579229 forgont:author forgont:248579229 ;
+        rdfs:comment "[...] have concluded that the William Lynch speech is a modern hoax."^^xsd:string .
+
+    forgont:William_Lynch_speech61629171 forgont:author forgont:61629171 ;
+        rdfs:comment "[...] noted the divisions emphasized in the text – skin color, age, and gender – are distinctly 20th-century in nature, making little sense in an 18th-century context."^^xsd:string .
+
+    <http://www.example.org/https://www.wikidata.org/wiki/Q11388116107037737> forgont:author forgont:107037737 ;
+        rdfs:comment "In a review for Monumenta Nipponica, Mark Teeuwen criticized Bentley's methodology."^^xsd:string .
+
+    <http://www.example.org/https://www.wikidata.org/wiki/Q1138811618117039> forgont:author forgont:18117039 ;
+        rdfs:comment "Made in 2006 by John R. Bentley, who argued based on his examinations of extant manuscripts that the Kujiki was indeed written in the early eighth century CE, before the Kogo Shūi, and as part of the same historiographical movement that produced the Nihon Shoki and the Kojiki. Bentley took the preface, which attributes the work to the early-7th century statesman Prince Shōtoku, to be a later interpolation."^^xsd:string .
+
+    forgont:AbelFosdykpapers dc:title "The Abel Fosdyk papers"^^xsd:string .
+
+    forgont:Feihuaqinghan dc:title "Fei hua qing han"^^xsd:string .
+
+    forgont:GoldenCharterofBern dc:title "The Golden Charter of Bern"^^xsd:string .
+
+    forgont:HistoriaCroylandensis dc:title "Historia Croylandensis"^^xsd:string .
+
+    forgont:LetterofLentulus dc:title "The Letter of Lentulus"^^xsd:string .
+
+    forgont:SupetarCartulary dc:title "Supetar cartulary"^^xsd:string .
+
+    forgont:100259089 rdfs:label "Irving, David John Cawdell, 1938-...."^^xsd:string ;
+        owl:sameAs wd:Q158629,
+            viaf:100259089 .
+
+    forgont:100267620 rdfs:label "Ḥabībī, Imīl"^^xsd:string ;
+        owl:sameAs wd:Q36916817,
+            viaf:100267620 .
+
+    forgont:101042819 rdfs:label "Webb, Alfred, 1834-1908"^^xsd:string ;
+        owl:sameAs wd:Q4723601,
+            viaf:101042819 .
+
+    forgont:104023256 rdfs:label "Dostoyevsky, Fyodor, 1821-1881"^^xsd:string ;
+        owl:sameAs wd:Q573,
+            viaf:104023256 .
+
+    forgont:10688809 rdfs:label "Sokolnicki, Michał, 1760-1816"^^xsd:string ;
+        owl:sameAs wd:Q4427460,
+            viaf:10688809 .
+
+    forgont:106945469 rdfs:label "Clemens, Raymond, 1966-...."^^xsd:string ;
+        owl:sameAs wd:Q112425727,
+            viaf:106945469 .
+
+    forgont:107037737 rdfs:label "Teeuwen, Mark, 1966-...."^^xsd:string ;
+        owl:sameAs wd:Q6769960,
+            viaf:107037737 .
+
+    forgont:107057903 rdfs:label "Welch, Brian, 1970-"^^xsd:string ;
+        owl:sameAs wd:Q331733,
+            viaf:107057903 .
+
+    forgont:108161663 rdfs:label "Matsumoto, Yoshinosuke, 1919-"^^xsd:string ;
+        owl:sameAs wd:Q11530961,
+            viaf:108161663 .
+
+    forgont:108248727 rdfs:label "Laqueur, Walter, 1921-2018."^^xsd:string ;
+        owl:sameAs wd:Q213692,
+            viaf:108248727 .
+
+    forgont:108307703 rdfs:label "Galbraith, John Kenneth, 1908-2006."^^xsd:string ;
+        owl:sameAs wd:Q186042,
+            viaf:108307703 .
+
+    forgont:109798119 rdfs:label "Elliott, J. K. (James Keith)"^^xsd:string ;
+        owl:sameAs wd:Q88771133,
+            viaf:109798119 .
+
+    forgont:110689804 rdfs:label "Brühl, Carlrichard, 1925-1997"^^xsd:string ;
+        owl:sameAs wd:Q1043335,
+            viaf:110689804 .
+
+    forgont:116406399 rdfs:label "Pelley, William Dudley, 1890-1965"^^xsd:string ;
+        owl:sameAs wd:Q1501730,
+            viaf:116406399 .
+
+    forgont:116901852 rdfs:label "Hinckley, Gordon Bitner, 1910-2008"^^xsd:string ;
+        owl:sameAs wd:Q553147,
+            viaf:116901852 .
+
+    forgont:11893421 rdfs:label "Ioannes, đakon"^^xsd:string ;
+        owl:sameAs wd:Q3768443,
+            viaf:11893421 .
+
+    forgont:12323678 rdfs:label "Kopitar, Bartholomäus, 1780-1844"^^xsd:string ;
+        owl:sameAs wd:Q84444,
+            viaf:12323678 .
+
+    forgont:123550468 rdfs:label "Društvo studenata povijesti \"Ivan Lučić-Lucius\" (Zagreb)"^^xsd:string ;
+        owl:sameAs viaf:123550468 .
+
+    forgont:12600749 rdfs:label "Morrow, John Andrew, 1971-...."^^xsd:string ;
+        owl:sameAs wd:Q113669159,
+            viaf:12600749 .
+
+    forgont:126146574008638102591 rdfs:label "Resche, Antoine, 1990-...."^^xsd:string ;
+        owl:sameAs wd:Q32827051,
+            viaf:126146574008638102591 .
+
+    forgont:130145969998032250452 rdfs:label "Carlson, Stephen 1967-"^^xsd:string ;
+        owl:sameAs wd:Q73166634,
+            viaf:130145969998032250452 .
+
+    forgont:13071405 rdfs:label "Moritz, B., (Bernhard), 1859-1939"^^xsd:string ;
+        owl:sameAs wd:Q106300,
+            viaf:13071405 .
+
+    forgont:136371071 rdfs:label "Harvest House Publishers."^^xsd:string ;
+        owl:sameAs wd:Q4638037,
+            viaf:136371071 .
+
+    forgont:13759450 rdfs:label "Sgarbi, Elisabetta"^^xsd:string ;
+        owl:sameAs wd:Q16268759,
+            viaf:13759450 .
+
+    forgont:142015293 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:142015293 .
+
+    forgont:14211345 rdfs:label "Sufi, Juma Khan, 1948-"^^xsd:string ;
+        owl:sameAs viaf:14211345 .
+
+    forgont:143657677 rdfs:label "University of Chicago."^^xsd:string ;
+        owl:sameAs wd:Q131252,
+            viaf:143657677 .
+
+    forgont:14677 rdfs:label "Mayer, Jacob Peter, 1903-1992"^^xsd:string ;
+        owl:sameAs wd:Q7175723,
+            viaf:14677 .
+
+    forgont:14773105 rdfs:label "Luther, Martin, 1483-1546."^^xsd:string ;
+        owl:sameAs wd:Q9554,
+            viaf:14773105 .
+
+    forgont:151962300 rdfs:label "Library of Congress."^^xsd:string ;
+        owl:sameAs wd:Q107018514,
+            viaf:151962300 .
+
+    forgont:153999899 rdfs:label "University of Missouri--Kansas City. Library. Kenneth J. LaBudde Department of Special Collections"^^xsd:string ;
+        owl:sameAs wd:Q5870653,
+            viaf:153999899 .
+
+    forgont:165083362 rdfs:label "Stern, Henri"^^xsd:string ;
+        owl:sameAs wd:Q3132033,
+            viaf:165083362 .
+
+    forgont:17023421 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:17023421 .
+
+    forgont:17226974 rdfs:label "Momigliano, Arnaldo, 1908-1987."^^xsd:string ;
+        owl:sameAs wd:Q644418,
+            viaf:17226974 .
+
+    forgont:17262342 rdfs:label "Cavalcanti, Giovanni, 1381?-1451?"^^xsd:string ;
+        owl:sameAs wd:Q3766991,
+            viaf:17262342 .
+
+    forgont:17326794 rdfs:label "Baronio, Cesare, 1538-1607"^^xsd:string ;
+        owl:sameAs wd:Q317900,
+            viaf:17326794 .
+
+    forgont:17949909 rdfs:label "Boaden, James, 1762-1839"^^xsd:string ;
+        owl:sameAs wd:Q6129910,
+            viaf:17949909 .
+
+    forgont:18117039 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:18117039 .
+
+    forgont:187336608 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q5059962,
+            viaf:187336608 .
+
+    forgont:19694574 rdfs:label "Schulze, Hans K."^^xsd:string ;
+        owl:sameAs wd:Q1506950,
+            viaf:19694574 .
+
+    forgont:199819528 rdfs:label "Crowley, Amado"^^xsd:string ;
+        owl:sameAs wd:Q4739056,
+            viaf:199819528 .
+
+    forgont:204142468 rdfs:label "None"^^xsd:string ;
+        owl:sameAs viaf:204142468 .
+
+    forgont:20490599 rdfs:label "Lukʼjanenko, Levko Hryhorovyč 1928-2018"^^xsd:string ;
+        owl:sameAs wd:Q1996140,
+            viaf:20490599 .
+
+    forgont:206723429 rdfs:label "Hengst, Daniël den"^^xsd:string ;
+        owl:sameAs wd:Q41267221,
+            viaf:206723429 .
+
+    forgont:213140642 rdfs:label "Vanderbourg, Charles, 1765-1827"^^xsd:string ;
+        owl:sameAs wd:Q768351,
+            viaf:213140642 .
+
+    forgont:214927001 rdfs:label "Kemankeş Kara Mustafa Pascha -1644"^^xsd:string ;
+        owl:sameAs wd:Q334140,
+            viaf:214927001 .
+
+    forgont:21795289 rdfs:label "Hauptmann, Ljudmil"^^xsd:string ;
+        owl:sameAs wd:Q12795030,
+            viaf:21795289 .
+
+    forgont:22142747 rdfs:label "Grohmann, Will, 1887-1968."^^xsd:string ;
+        owl:sameAs wd:Q21449361,
+            viaf:22142747 .
+
+    forgont:22229790 rdfs:label "Jungmann, Josef, 1773-1847"^^xsd:string ;
+        owl:sameAs wd:Q508939,
+            viaf:22229790 .
+
+    forgont:22267857 rdfs:label "Ehrman, Bart D."^^xsd:string ;
+        owl:sameAs wd:Q127876,
+            viaf:22267857 .
+
+    forgont:228727038 rdfs:label "Švob, Držislav"^^xsd:string ;
+        owl:sameAs viaf:228727038 .
+
+    forgont:23304243 rdfs:label "Quaresmio, Francesco, 1583-1650"^^xsd:string ;
+        owl:sameAs wd:Q351779,
+            viaf:23304243 .
+
+    forgont:236290531 rdfs:label "Loi, Lucia Serena"^^xsd:string ;
+        owl:sameAs wd:Q95673018,
+            viaf:236290531 .
+
+    forgont:24601399 rdfs:label "Fichtenau, Heinrich, 1912-2000"^^xsd:string ;
+        owl:sameAs wd:Q81059,
+            viaf:24601399 .
+
+    forgont:24601933 rdfs:label "Gibbon, Edward, 1737-1794."^^xsd:string ;
+        owl:sameAs wd:Q161841,
+            viaf:24601933 .
+
+    forgont:24751220 rdfs:label "Steevens, George, 1736-1800"^^xsd:string ;
+        owl:sameAs wd:Q1450536,
+            viaf:24751220 .
+
+    forgont:248579229 rdfs:label "Cobb, William Jelani"^^xsd:string ;
+        owl:sameAs wd:Q8013536,
+            viaf:248579229 .
+
+    forgont:24860670 rdfs:label "Travaglini, Roberto"^^xsd:string ;
+        owl:sameAs wd:Q114452845,
+            viaf:24860670 .
+
+    forgont:249285257 rdfs:label "Tõnisson, Jaan, 1868-1941?"^^xsd:string ;
+        owl:sameAs wd:Q710956,
+            viaf:249285257 .
+
+    forgont:24945117 rdfs:label "Farlati, Daniele"^^xsd:string ;
+        owl:sameAs wd:Q797181,
+            viaf:24945117 .
+
+    forgont:262745393 rdfs:label "Anti-defamation League"^^xsd:string ;
+        owl:sameAs wd:Q158818,
+            viaf:262745393 .
+
+    forgont:267454094 rdfs:label "Antoljak, Stjepan"^^xsd:string ;
+        owl:sameAs wd:Q12295365,
+            viaf:267454094 .
+
+    forgont:270844287 rdfs:label "Deeters, Walter, 1930-2004"^^xsd:string ;
+        owl:sameAs wd:Q15450221,
+            viaf:270844287 .
+
+    forgont:271037790 rdfs:label "Freedman, Paul H., 1949-...."^^xsd:string ;
+        owl:sameAs wd:Q16241764,
+            viaf:271037790 .
+
+    forgont:27883499 rdfs:label "Nilusʺ, Sergi︠e︡ĭ, 1862-1930"^^xsd:string ;
+        owl:sameAs wd:Q764438,
+            viaf:27883499 .
+
+    forgont:292327444 rdfs:label "Thomas, Arthur W."^^xsd:string ;
+        owl:sameAs wd:Q105617621,
+            viaf:292327444 .
+
+    forgont:29681156 rdfs:label "Bowring, John, 1792-1872."^^xsd:string ;
+        owl:sameAs wd:Q332508,
+            viaf:29681156 .
+
+    forgont:30154440063835340015 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q18608090,
+            viaf:30154440063835340015 .
+
+    forgont:30282213 rdfs:label "Kletke, Hermann, 1813-1886."^^xsd:string ;
+        owl:sameAs wd:Q36859316,
+            viaf:30282213 .
+
+    forgont:305138876 rdfs:label "Joly, Maurice, 1831-1878"^^xsd:string ;
+        owl:sameAs wd:Q1349289,
+            viaf:305138876 .
+
+    forgont:305656916 rdfs:label "Beaudry, Nicolas, 1964-...."^^xsd:string ;
+        owl:sameAs wd:Q111453900,
+            viaf:305656916 .
+
+    forgont:307174275 rdfs:label "Pie II, 1405-1464, pape"^^xsd:string ;
+        owl:sameAs wd:Q101437,
+            viaf:307174275 .
+
+    forgont:30805289 rdfs:label "Stewart, Walter K., 1944-"^^xsd:string ;
+        owl:sameAs viaf:30805289 .
+
+    forgont:311833225 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q1946330,
+            viaf:311833225 .
+
+    forgont:31432428 rdfs:label "Washington, George, 1732-1799."^^xsd:string ;
+        owl:sameAs wd:Q23,
+            viaf:31432428 .
+
+    forgont:31487600 rdfs:label "Redfern, Nicholas, 1964-"^^xsd:string ;
+        owl:sameAs wd:Q7027791,
+            viaf:31487600 .
+
+    forgont:31997136 rdfs:label "Grimm, Jacob, 1785-1863."^^xsd:string ;
+        owl:sameAs wd:Q6701,
+            viaf:31997136 .
+
+    forgont:32076090 rdfs:label "Chalmers, George, 1742-1825"^^xsd:string ;
+        owl:sameAs wd:Q320810,
+            viaf:32076090 .
+
+    forgont:32140436 rdfs:label "Robertson, James Alexander, 1873-1939"^^xsd:string ;
+        owl:sameAs wd:Q6128553,
+            viaf:32140436 .
+
+    forgont:32373173 rdfs:label "Pargiter, Frederick Eden, 1852-1927"^^xsd:string ;
+        owl:sameAs wd:Q7526766,
+            viaf:32373173 .
+
+    forgont:32766147 rdfs:label "Ingleby, C.M. (Clement Mansfield), 1823-1886"^^xsd:string ;
+        owl:sameAs wd:Q1100266,
+            viaf:32766147 .
+
+    forgont:32771157 rdfs:label "Wex, Friedrich Karl, 1801-1865"^^xsd:string ;
+        owl:sameAs wd:Q1347567,
+            viaf:32771157 .
+
+    forgont:33084339 rdfs:label "De Michelis, Cesare, 1944-...."^^xsd:string ;
+        owl:sameAs wd:Q1056824,
+            viaf:33084339 .
+
+    forgont:34467427 rdfs:label "Ackroyd, Peter, 1949-...."^^xsd:string ;
+        owl:sameAs wd:Q319169,
+            viaf:34467427 .
+
+    forgont:34691570 rdfs:label "Di Robilant, Andrea, 1957-"^^xsd:string ;
+        owl:sameAs wd:Q2652504,
+            wd:Q493776,
+            viaf:34691570 .
+
+    forgont:34809099 rdfs:label "Wilson, Herbert Wrigley, 1866-1940"^^xsd:string ;
+        owl:sameAs wd:Q5735980,
+            viaf:34809099 .
+
+    forgont:35286232 rdfs:label "Narbutt, Teodor, 1784-1864"^^xsd:string ;
+        owl:sameAs wd:Q2622193,
+            viaf:35286232 .
+
+    forgont:36991115 rdfs:label "Malone, Edmond, 1741-1812"^^xsd:string ;
+        owl:sameAs wd:Q1229512,
+            viaf:36991115 .
+
+    forgont:37018460 rdfs:label "Peter, Hermann, 1837-1914"^^xsd:string ;
+        owl:sameAs wd:Q15453178,
+            viaf:37018460 .
+
+    forgont:37095601 rdfs:label "Tvorogov, Oleg Viktorovič (1928-2015)."^^xsd:string ;
+        owl:sameAs viaf:37095601 .
+
+    forgont:37100540 rdfs:label "Molina, Antonio, 1928-1992"^^xsd:string ;
+        owl:sameAs wd:Q9618156,
+            viaf:37100540 .
+
+    forgont:37658750 rdfs:label "Kelle, Johann, 1829-1909"^^xsd:string ;
+        owl:sameAs wd:Q21341647,
+            viaf:37658750 .
+
+    forgont:37719205 rdfs:label "Hirata, Atsutane, 1776-1843"^^xsd:string ;
+        owl:sameAs wd:Q2572749,
+            viaf:37719205 .
+
+    forgont:37725281 rdfs:label "Šufflay, Milan, 1879-1931"^^xsd:string ;
+        owl:sameAs wd:Q1280614,
+            viaf:37725281 .
+
+    forgont:38190770 rdfs:label "Hitler, Adolf, 1889-1945."^^xsd:string ;
+        owl:sameAs wd:Q352,
+            viaf:38190770 .
+
+    forgont:38690792 rdfs:label "Momand, Qalandar, 1930-2003"^^xsd:string ;
+        owl:sameAs viaf:38690792 .
+
+    forgont:39414140 rdfs:label "Jones, A.H.M. (Arnold Hugh Martin), 1904-1970"^^xsd:string ;
+        owl:sameAs wd:Q695399,
+            viaf:39414140 .
+
+    forgont:39506292 rdfs:label "Rački, Franjo, 1828-1894"^^xsd:string ;
+        owl:sameAs wd:Q516286,
+            viaf:39506292 .
+
+    forgont:40173403 rdfs:label "Kujau, Konrad, 1938-2000"^^xsd:string ;
+        owl:sameAs wd:Q447925,
+            viaf:40173403 .
+
+    forgont:41203443 rdfs:label "Watts, Thomas Hill, 1819-1892"^^xsd:string ;
+        owl:sameAs wd:Q879281,
+            viaf:41203443 .
+
+    forgont:4138418 rdfs:label "Casey, Robert Patrick 1932-2000"^^xsd:string ;
+        owl:sameAs wd:Q887841,
+            viaf:4138418 .
+
+    forgont:41838530 rdfs:label "Crowley, Aleister, 1875-1947"^^xsd:string ;
+        owl:sameAs wd:Q1022973,
+            viaf:41838530 .
+
+    forgont:44312086 rdfs:label "Čelakovský, František Ladislav, 1799-1852"^^xsd:string ;
+        owl:sameAs wd:Q545818,
+            viaf:44312086 .
+
+    forgont:44413993 rdfs:label "Pecock, Reginald, 1395?-1460?"^^xsd:string ;
+        owl:sameAs wd:Q7308836,
+            viaf:44413993 .
+
+    forgont:45095055 rdfs:label "Retcliffe, John, 1815-1878"^^xsd:string ;
+        owl:sameAs wd:Q66858,
+            viaf:45095055 .
+
+    forgont:45544575 rdfs:label "Haiman, Mieczysław, 1888-1949"^^xsd:string ;
+        owl:sameAs wd:Q11779756,
+            viaf:45544575 .
+
+    forgont:45706766 rdfs:label "Krushevan, P. A. (Pavel Aleksandrovich), 1860-1909"^^xsd:string ;
+        owl:sameAs wd:Q1444084,
+            viaf:45706766 .
+
+    forgont:46120508 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q100606092,
+            viaf:46120508 .
+
+    forgont:46606778 rdfs:label "Sokolnicki, Michał, 1880-1967"^^xsd:string ;
+        owl:sameAs wd:Q37458579,
+            viaf:46606778 .
+
+    forgont:46773879 rdfs:label "Sordi, Marta, 1925-2009"^^xsd:string ;
+        owl:sameAs wd:Q3849965,
+            viaf:46773879 .
+
+    forgont:46800033 rdfs:label "Perić, Olga."^^xsd:string ;
+        owl:sameAs wd:Q113805923,
+            viaf:46800033 .
+
+    forgont:46838013 rdfs:label "Weinberg, Gerhard L., 1928-...."^^xsd:string ;
+        owl:sameAs wd:Q214357,
+            viaf:46838013 .
+
+    forgont:4937390 rdfs:label "Trevor-Roper, Hugh Redwald, 1914-2003."^^xsd:string ;
+        owl:sameAs wd:Q335087,
+            viaf:4937390 .
+
+    forgont:4956694 rdfs:label "Birch, Thomas, 1705-1766"^^xsd:string ;
+        owl:sameAs wd:Q175370,
+            viaf:4956694 .
+
+    forgont:4979002 rdfs:label "Rendell, Kenneth W."^^xsd:string ;
+        owl:sameAs wd:Q6390785,
+            viaf:4979002 .
+
+    forgont:50067453 rdfs:label "Hardwicke, Philip Yorke, Earl of, 1720-1790"^^xsd:string ;
+        owl:sameAs wd:Q5790329,
+            viaf:50067453 .
+
+    forgont:51687807 rdfs:label "Cousin de Courchamps, Pierre-Marie-Jean, 1783-1849"^^xsd:string ;
+        owl:sameAs viaf:51687807 .
+
+    forgont:54135913 rdfs:label "Kukuljević Sakcinski, Ivan"^^xsd:string ;
+        owl:sameAs wd:Q697783,
+            viaf:54135913 .
+
+    forgont:54147355 rdfs:label "Erben, Karel Jaromír, 1811-1870."^^xsd:string ;
+        owl:sameAs wd:Q352914,
+            viaf:54147355 .
+
+    forgont:54276711 rdfs:label "Setz, Wolfram"^^xsd:string ;
+        owl:sameAs wd:Q98265,
+            viaf:54276711 .
+
+    forgont:54281716 rdfs:label "Rivius, Johann, 1500-1553."^^xsd:string ;
+        owl:sameAs wd:Q114853742,
+            viaf:54281716 .
+
+    forgont:54373066 rdfs:label "Edwards, Cyril W."^^xsd:string ;
+        owl:sameAs wd:Q66438703,
+            viaf:54373066 .
+
+    forgont:54911729 rdfs:label "Napiersky, Karl Eduard, 1793-1864."^^xsd:string ;
+        owl:sameAs wd:Q21254275,
+            viaf:54911729 .
+
+    forgont:55461368 rdfs:label "Macek, Antonín, 1872-1923"^^xsd:string ;
+        owl:sameAs wd:Q55693863,
+            viaf:55461368 .
+
+    forgont:56628990 rdfs:label "Dobrovský, Josef, 1753-1829."^^xsd:string ;
+        owl:sameAs wd:Q283121,
+            viaf:56628990 .
+
+    forgont:56651696 rdfs:label "Masaryk, Tomáš Garrigue, 1850-1937."^^xsd:string ;
+        owl:sameAs wd:Q78492,
+            viaf:56651696 .
+
+    forgont:56955188 rdfs:label "O'Connor, Roger, 1762-1834"^^xsd:string ;
+        owl:sameAs wd:Q18527579,
+            viaf:56955188 .
+
+    forgont:59261078 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q105794029,
+            viaf:59261078 .
+
+    forgont:6115643 rdfs:label "Kriwaczek, Rohan"^^xsd:string ;
+        owl:sameAs wd:Q7359692,
+            viaf:6115643 .
+
+    forgont:61552836 rdfs:label "Syme, Ronald, 1903-1989"^^xsd:string ;
+        owl:sameAs wd:Q707856,
+            viaf:61552836 .
+
+    forgont:61554719 rdfs:label "Créquy, Renée Caroline de Froulay, 1714-1803, marquise de"^^xsd:string ;
+        owl:sameAs wd:Q3427107,
+            viaf:61554719 .
+
+    forgont:61565249 rdfs:label "Lewin, Kurt, 1890-1947."^^xsd:string ;
+        owl:sameAs wd:Q30171715,
+            viaf:61565249 .
+
+    forgont:61584042 rdfs:label "Schaff, Philip, 1819-1893."^^xsd:string ;
+        owl:sameAs wd:Q115922,
+            viaf:61584042 .
+
+    forgont:61605014 rdfs:label "Harker, Richard"^^xsd:string ;
+        owl:sameAs wd:Q95153928,
+            viaf:61605014 .
+
+    forgont:61629171 rdfs:label "Rosenzweig, Roy"^^xsd:string ;
+        owl:sameAs wd:Q1298389,
+            viaf:61629171 .
+
+    forgont:61708932 rdfs:label "Lindskoog, Kathryn Ann"^^xsd:string ;
+        owl:sameAs wd:Q6377083,
+            viaf:61708932 .
+
+    forgont:62654398 rdfs:label "Šembera, Alois Vojtěch, 1807-1882"^^xsd:string ;
+        owl:sameAs wd:Q1375612,
+            viaf:62654398 .
+
+    forgont:63358417 rdfs:label "Dubonis, Artūras, 1962-"^^xsd:string ;
+        owl:sameAs wd:Q3919852,
+            viaf:63358417 .
+
+    forgont:64007206 rdfs:label "Ilive, Jacob, 1705-1763"^^xsd:string ;
+        owl:sameAs wd:Q4058881,
+            viaf:64007206 .
+
+    forgont:64048119 rdfs:label "Gebauer, Jan, 1838-1907"^^xsd:string ;
+        owl:sameAs wd:Q1388833,
+            viaf:64048119 .
+
+    forgont:64062199 rdfs:label "Suster, Gerald"^^xsd:string ;
+        owl:sameAs wd:Q5549612,
+            viaf:64062199 .
+
+    forgont:64086545 rdfs:label "Wattenbach, Wilhelm, 1819-1897"^^xsd:string ;
+        owl:sameAs wd:Q72864,
+            viaf:64086545 .
+
+    forgont:64134275 rdfs:label "Goetting, Hans, 1911-1994"^^xsd:string ;
+        owl:sameAs wd:Q1123765,
+            viaf:64134275 .
+
+    forgont:64149842018102842885 rdfs:label "Reynolds, Thomas, 1667?-1727"^^xsd:string ;
+        owl:sameAs wd:Q7793485,
+            viaf:64149842018102842885 .
+
+    forgont:64178684 rdfs:label "Lightfoot, Joseph Barber, 1828-1889"^^xsd:string ;
+        owl:sameAs wd:Q1706574,
+            viaf:64178684 .
+
+    forgont:64201887 rdfs:label "Lucchesi, José 1897-1989"^^xsd:string ;
+        owl:sameAs wd:Q9014297,
+            viaf:64201887 .
+
+    forgont:66470391 rdfs:label "Lovecraft, H.P. (Howard Phillips), 1890-1937"^^xsd:string ;
+        owl:sameAs wd:Q908051,
+            viaf:66470391 .
+
+    forgont:66577257 rdfs:label "Mayor, John Eyton Bickersteth, 1825-1910"^^xsd:string ;
+        owl:sameAs viaf:66577257 .
+
+    forgont:66599526 rdfs:label "Sickel, Theodor von 1826-1908"^^xsd:string ;
+        owl:sameAs wd:Q66729,
+            viaf:66599526 .
+
+    forgont:66806872 rdfs:label "Augustine, of Hippo, Saint, 354-430"^^xsd:string ;
+        owl:sameAs wd:Q8799,
+            viaf:66806872 .
+
+    forgont:67260492 rdfs:label "Hanka, Václav, 1791-1861."^^xsd:string ;
+        owl:sameAs wd:Q1354493,
+            viaf:67260492 .
+
+    forgont:68957492 rdfs:label "Karácsonyi, János, 1858-1929"^^xsd:string ;
+        owl:sameAs wd:Q1105077,
+            viaf:68957492 .
+
+    forgont:69060428 rdfs:label "Stukeley, William, 1687-1765"^^xsd:string ;
+        owl:sameAs wd:Q25113620,
+            viaf:69060428 .
+
+    forgont:69076676 rdfs:label "Monconys, Balthasar de 1611-1665"^^xsd:string ;
+        owl:sameAs wd:Q2262911,
+            viaf:69076676 .
+
+    forgont:70208273 rdfs:label "Tanner, Jerald, 1938-2006"^^xsd:string ;
+        owl:sameAs wd:Q40739905,
+            viaf:70208273 .
+
+    forgont:71191452 rdfs:label "Rye, Matthew."^^xsd:string ;
+        owl:sameAs wd:Q38318893,
+            viaf:71191452 .
+
+    forgont:71410641 rdfs:label "Klaić, Nada"^^xsd:string ;
+        owl:sameAs wd:Q1276244,
+            viaf:71410641 .
+
+    forgont:71411983 rdfs:label "Gladstone, William Ewart, 1809-1898."^^xsd:string ;
+        owl:sameAs wd:Q130822,
+            viaf:71411983 .
+
+    forgont:71521610 rdfs:label "Pula, James S., 1946-"^^xsd:string ;
+        owl:sameAs wd:Q16107475,
+            viaf:71521610 .
+
+    forgont:71700319 rdfs:label "Šišić, Ferdo, 1869-1940"^^xsd:string ;
+        owl:sameAs wd:Q1558008,
+            viaf:71700319 .
+
+    forgont:73704902 rdfs:label "Bertram, Charles, 1723-1765"^^xsd:string ;
+        owl:sameAs wd:Q5075584,
+            viaf:73704902 .
+
+    forgont:73847911 rdfs:label "Baynes, Norman Hepburn, 1877-1961"^^xsd:string ;
+        owl:sameAs wd:Q7052305,
+            viaf:73847911 .
+
+    forgont:7393146 rdfs:label "Lenin, Vladimir Ilʹič, 1870-1924"^^xsd:string ;
+        owl:sameAs wd:Q659,
+            viaf:7393146 .
+
+    forgont:7402506 rdfs:label "Mommsen, Theodor, 1817-1903."^^xsd:string ;
+        owl:sameAs wd:Q25351,
+            viaf:7402506 .
+
+    forgont:7425989 rdfs:label "Wolff, Christian, Freiherr von, 1679-1754"^^xsd:string ;
+        owl:sameAs wd:Q76510,
+            viaf:7425989 .
+
+    forgont:74608937 rdfs:label "Madden, Frederic, 1801-1873."^^xsd:string ;
+        owl:sameAs wd:Q5497095,
+            viaf:74608937 .
+
+    forgont:74700045 rdfs:label "Wratislaw, Albert Henry, 1822-1892"^^xsd:string ;
+        owl:sameAs wd:Q4710457,
+            viaf:74700045 .
+
+    forgont:76226192 rdfs:label "Woodward, B. B. (Bernard Bolingbroke), 1816-1869"^^xsd:string ;
+        owl:sameAs viaf:76226192 .
+
+    forgont:76347560 rdfs:label "Goodspeed, Edgar J. (Edgar Johnson), 1871-1962"^^xsd:string ;
+        owl:sameAs wd:Q3567041,
+            viaf:76347560 .
+
+    forgont:7673996 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q43499,
+            viaf:7673996 .
+
+    forgont:768886 rdfs:label "Macalister, Robert Alexander Stewart, 1870-1950"^^xsd:string ;
+        owl:sameAs wd:Q983129,
+            viaf:768886 .
+
+    forgont:77661021 rdfs:label "Prochaska, Alice"^^xsd:string ;
+        owl:sameAs wd:Q4726056,
+            viaf:77661021 .
+
+    forgont:7815755 rdfs:label "Ireland, Samuel, -1800"^^xsd:string ;
+        owl:sameAs wd:Q7411777,
+            viaf:7815755 .
+
+    forgont:78251614 rdfs:label "Scott, William Henry, 1921-1993"^^xsd:string ;
+        owl:sameAs wd:Q27825593,
+            viaf:78251614 .
+
+    forgont:79402808 rdfs:label "Crying Wind"^^xsd:string ;
+        owl:sameAs wd:Q5190478,
+            viaf:79402808 .
+
+    forgont:84210432 rdfs:label "Berlusconi, Silvio, 1936-2023"^^xsd:string ;
+        owl:sameAs wd:Q11860,
+            viaf:84210432 .
+
+    forgont:84223346 rdfs:label "Margetić, Lujo"^^xsd:string ;
+        owl:sameAs wd:Q1564163,
+            viaf:84223346 .
+
+    forgont:84405363 rdfs:label "Budak, Neven"^^xsd:string ;
+        owl:sameAs wd:Q854539,
+            viaf:84405363 .
+
+    forgont:84752464 rdfs:label "Gentile, Emílio, 1946-"^^xsd:string ;
+        owl:sameAs wd:Q1229044,
+            viaf:84752464 .
+
+    forgont:85337187 rdfs:label "Palacký, František, 1929-2002"^^xsd:string ;
+        owl:sameAs wd:Q95464907,
+            viaf:85337187 .
+
+    forgont:85338033 rdfs:label "Murdoch, Rupert, 1931-...."^^xsd:string ;
+        owl:sameAs wd:Q53944,
+            viaf:85338033 .
+
+    forgont:89524548 rdfs:label "Philipp Maria 1392-1447 Mailand, Herzog"^^xsd:string ;
+        owl:sameAs wd:Q289285,
+            viaf:89524548 .
+
+    forgont:89741829 rdfs:label "Dell'Utri, Marcello, 1941-...."^^xsd:string ;
+        owl:sameAs wd:Q558815,
+            viaf:89741829 .
+
+    forgont:89798474 rdfs:label "Nietzsche, Friedrich, 1844-1900."^^xsd:string ;
+        owl:sameAs wd:Q9358,
+            viaf:89798474 .
+
+    forgont:90664199 rdfs:label "Andrews, Julie, 1935-...."^^xsd:string ;
+        owl:sameAs wd:Q2691159,
+            viaf:90664199 .
+
+    forgont:91284763 rdfs:label "Cameron, Alan, 1938-2017"^^xsd:string ;
+        owl:sameAs wd:Q2623113,
+            viaf:91284763 .
+
+    forgont:92259595 rdfs:label "Navasky, Victor S."^^xsd:string ;
+        owl:sameAs wd:Q2522488,
+            viaf:92259595 .
+
+    forgont:92322430 rdfs:label "Orna, Mary Virginia."^^xsd:string ;
+        owl:sameAs wd:Q108541098,
+            viaf:92322430 .
+
+    forgont:92613115 rdfs:label "Kohler, Pierre, 1945-...."^^xsd:string ;
+        owl:sameAs wd:Q119414,
+            viaf:92613115 .
+
+    forgont:92825324 rdfs:label "Codrington, Thomas, -1918"^^xsd:string ;
+        owl:sameAs wd:Q75610943,
+            viaf:92825324 .
+
+    forgont:95148968 rdfs:label "Kauffmann, Angelica, 1741-1807"^^xsd:string ;
+        owl:sameAs wd:Q11004155,
+            viaf:95148968 .
+
+    forgont:95193756 rdfs:label "Hutten, Ulrich von 1488-1523"^^xsd:string ;
+        owl:sameAs wd:Q77107,
+            viaf:95193756 .
+
+    forgont:95274115 rdfs:label "Hubbard, L. Ron (La Fayette Ron), 1911-1986"^^xsd:string ;
+        owl:sameAs wd:Q216896,
+            viaf:95274115 .
+
+    forgont:96994048 rdfs:label "Shakespeare, William, 1564-1616."^^xsd:string ;
+        owl:sameAs wd:Q131,
+            viaf:96994048 .
+
+    forgont:97650725 rdfs:label "Barlow, Claude W."^^xsd:string ;
+        owl:sameAs wd:Q53791098,
+            viaf:97650725 .
+
+    forgont:97678624 rdfs:label "Bin Laden, Osama, 1957-2011."^^xsd:string ;
+        owl:sameAs wd:Q1317,
+            viaf:97678624 .
+
+    forgont:9857569 rdfs:label "Otto III. Heiliges Römisches Reich, Kaiser 980-1002"^^xsd:string ;
+        owl:sameAs viaf:9857569 .
+
+    forgont:9886393 rdfs:label "Harnack, Adolf von 1851-1930"^^xsd:string ;
+        owl:sameAs wd:Q164699,
+            viaf:9886393 .
+
+    forgont:9887705 rdfs:label "Fowler, Alastair"^^xsd:string ;
+        owl:sameAs wd:Q14948933,
+            viaf:9887705 .
+
+    forgont:9897477 rdfs:label "MacKenzie, D. N."^^xsd:string ;
+        owl:sameAs wd:Q4819498,
+            viaf:9897477 .
+
+    forgont:9916170 rdfs:label "Dessau, Hermann, 1856-1931"^^xsd:string ;
+        owl:sameAs wd:Q65239,
+            viaf:9916170 .
+
+    forgont:99258155 rdfs:label "Čajkovskij, Pëtr Il'ič 1840-1893"^^xsd:string ;
+        owl:sameAs wd:Q623,
+            viaf:99258155 .
+
+    forgont:HistoriasdelaConquistadelMayab dc:title "Historias de la Conquista del Mayab"^^xsd:string .
+
+    forgont:LetterofBenan dc:title "The Letter of Benan"^^xsd:string .
+
+    forgont:PrivilegiumMaius dc:title "Privilegium maius"^^xsd:string .
+
+    forgont:Q123921505 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q123921505 .
+
+    forgont:Q15635173 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q15635173 .
+
+    forgont:Q37961592 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q37961592 .
+
+    forgont:Q498544 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q498544 .
+
+    forgont:BookofJasherPseudoJasher dc:title "The Book of Jasher"^^xsd:string .
+
+    forgont:Document125713570 dc:title "Document 12-571-3570 (NASA No. 12 571-3570)"^^xsd:string .
+
+    forgont:HotsumaTsutae dc:title "Hotsuma Tsutae"^^xsd:string .
+
+    forgont:MarquisedeCrC3A9quy dc:title "Souvenirs de la Marquise de Créquy"^^xsd:string .
+
+    forgont:TheDarkTowerLewisnovel dc:title "The Dark Tower"^^xsd:string .
+
+    forgont:TheWillofPetertheGreat dc:title "The Will of Peter the Great"^^xsd:string .
+
+    forgont:httpswwwwikidataorgwikiQ11388116 dc:title "Kujiki or Sendai Kuji Hongi"^^xsd:string .
+
+    forgont:24674815 rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q16114446,
+            viaf:24674815 .
+
+    forgont:29541502 rdfs:label "Valla, Lorenzo, 1407-1457."^^xsd:string ;
+        owl:sameAs wd:Q214115,
+            viaf:29541502 .
+
+    forgont:43315786 rdfs:label "Hofmann, Mark"^^xsd:string ;
+        owl:sameAs wd:Q4354485,
+            viaf:43315786 .
+
+    forgont:89623095 rdfs:label "Nicolaus, Cusanus, 1401-1464"^^xsd:string ;
+        owl:sameAs wd:Q154751,
+            wd:Q19819799,
+            viaf:89623095 .
+
+    forgont:98930150 rdfs:label "Jalāl al-Dīn Rūmī, Maulana, 1207-1273"^^xsd:string ;
+        owl:sameAs wd:Q206904,
+            wd:Q41803,
+            viaf:98930150 .
+
+    forgont:BrainWashingbook dc:title "Brain-Washing: A Synthesis of the Russian Textbook on Psychopolitics"^^xsd:string .
+
+    forgont:ChroniclesofEri dc:title "The Chronicles of Eri; Being the History of the Gaal Sciot Iber: or, the Irish People"^^xsd:string .
+
+    forgont:MathildeLefebvreletter dc:title "Mathilde Lefebvre letter"^^xsd:string .
+
+    forgont:MySisterandINietzsche dc:title "My Sister and I"^^xsd:string .
+
+    forgont:PamiC499tnikhandlowca dc:title "Pamiętnik handlowca"^^xsd:string .
+
+    forgont:VoyageoftheZenobrothers dc:title "Zeno Map and Letters"^^xsd:string .
+
+    forgont:WilliamLynchspeech dc:title "William Lynch Speech"^^xsd:string .
+
+    forgont:AProtocolof1919 dc:title "A Protocol of 1919"^^xsd:string .
+
+    forgont:BookofVeles dc:title "The Book of Veles"^^xsd:string .
+
+    forgont:ChronicleofRivius dc:title "The Chronicle of Rivius"^^xsd:string .
+
+    forgont:ClotildedeSurville dc:title "Poésies de Marguerite-Éléonore-Clotilde de Vallon-Chalys, depuis Madame de Surville, poète français du xve siècle"^^xsd:string .
+
+    forgont:HitlerDiaries dc:title "The Hitler Diaries"^^xsd:string .
+
+    forgont:Minuscule2427 dc:title "Codex 2427"^^xsd:string .
+
+    forgont:TheEnglishMercurie dc:title "The English Mercurie"^^xsd:string .
+
+    forgont:VinlandMap dc:title "The Vinland Map"^^xsd:string .
+
+    forgont:305214868 rdfs:label "Jean Chrysostome, 0347?-0407, saint"^^xsd:string ;
+        owl:sameAs wd:Q11579,
+            wd:Q556,
+            viaf:305214868 .
+
+    forgont:96987389 rdfs:label "Tolstoj, Lev Nikolaevič,  1828-1910"^^xsd:string ;
+        owl:sameAs wd:Q11582,
+            wd:Q127,
+            viaf:96987389 .
+
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin dc:title "An Incomplete History of the Art of the Funerary Violin"^^xsd:string .
+
+    forgont:MarriageCharterofEmpressTheophanu dc:title "The Marriage Charter of Empress Theophanu"^^xsd:string .
+
+    forgont:PataKhazana dc:title "Pata Khazāna"^^xsd:string .
+
+    forgont:TheProtocolsoftheEldersofZion dc:title "The Protocols of the Elders of Zion"^^xsd:string .
+
+    forgont:TheReportfromIronMountain dc:title "The Report from Iron Mountain"^^xsd:string .
+
+    forgont:AshtinameofMuhammad dc:title "Ashtiname of Muhammad"^^xsd:string .
+
+    forgont:CodeofKalantiaw dc:title "Code of Rajah Kalantiaw"^^xsd:string .
+
+    forgont:FranklinProphecy dc:title "The Franklin Prophecy"^^xsd:string .
+
+    forgont:Mussolinidiaries dc:title "Mussolini Diaries"^^xsd:string .
+
+    forgont:OathofaFreeman dc:title "Oath of a Freeman"^^xsd:string .
+
+    forgont:Salamanderletter dc:title "The Salamander Letter"^^xsd:string .
+
+    forgont:OldHighGermanlullaby dc:title "Althochdeutsches Schlummerlied"^^xsd:string .
+
+    forgont:TheDescriptionofBritain dc:title "De Situ Britanniae"^^xsd:string .
+
+    forgont:CorrespondenceofPaulandSeneca dc:title "The Correspondence of Paul and Seneca"^^xsd:string .
+
+    forgont:PactaconventaCroatia dc:title "Pacta Conventa"^^xsd:string .
+
+    forgont:CharterofDukeTrpimir dc:title "Charter of Duke Trpimir"^^xsd:string .
+
+    forgont: rdfs:label "None"^^xsd:string ;
+        owl:sameAs wd:Q5060619,
+            wd:Q536798,
+            viaf: .
+
+    forgont:36925746 rdfs:label "Voltaire, 1694-1778"^^xsd:string ;
+        owl:sameAs wd:Q1741,
+            wd:Q25269,
+            wd:Q577,
+            viaf:36925746 .
+
+    forgont:DonationofConstantine dc:title "Donation of Constantine"^^xsd:string .
+
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora dc:title "The Dvůr Králové and Zelená Hora manuscripts"^^xsd:string .
+
+    forgont:IrelandShakespeareforgeries dc:title "Ireland Shakespeare Manuscripts"^^xsd:string .
+
+    forgont:HistoriaAugusta dc:title "Historia Augusta"^^xsd:string .
+}
+
+forgont:Franklin_Prophecy262745393 {
+    forgont:FranklinProphecy a forgont:Forgery .
+}
+
+forgont:Ireland_Shakespeare_forgeries36991115 {
+    forgont:IrelandShakespeareforgeries a forgont:Forgery .
+}
+
+<http://www.example.org/The_Protocols_of_the_Elders_of_Zion45706766> {
+    forgont:TheProtocolsoftheEldersofZion a forgont:Forgery .
+}
+
+forgont:My_Sister_and_I_\(Nietzsche\)30805289 {
+    forgont:MySisterandINietzsche a forgont:Authentic .
+}
+
+forgont:Historia_Augusta85338033 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora74700045 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Suspicious .
+}
+
+forgont:Old_High_German_lullaby66470391 {
+    forgont:OldHighGermanlullaby a forgont:Forgery .
+}
+
+forgont:Ireland_Shakespeare_forgeries34467427 {
+    forgont:IrelandShakespeareforgeries a forgont:Suspicious .
+}
+
+forgont:Charter_of_Duke_Trpimir123550468 {
+    forgont:CharterofDukeTrpimir a forgont:Suspicious .
+}
+
+forgont:Pacta_conventa_\(Croatia\)66806872 {
+    forgont:PactaconventaCroatia a forgont:Suspicious .
+}
+
+forgont:Voyage_of_the_Zeno_brothers34809099 {
+    forgont:VoyageoftheZenobrothers a forgont:Suspicious .
+}
+
+forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin6115643 {
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin a forgont:Suspicious .
+}
+
+forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin_document_claim {
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin a forgont:printedbook ;
+        dct:creator "Rohan Kriwaczek"^^xsd:string ;
+        dct:date "2006"^^xsd:string ;
+        dct:place "Not specified"^^xsd:string .
+}
+
+forgont:Pacta_conventa_\(Croatia\)71410641 {
+    forgont:PactaconventaCroatia a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine307174275 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Ireland_Shakespeare_forgeries {
+    forgont:IrelandShakespeareforgeries a forgont:Forgery .
+}
+
+forgont:A_Protocol_of_1919249285257 {
+    forgont:AProtocolof1919 a forgont:Authentic .
+}
+
+forgont:Historia_Augusta4937390 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Charter_of_Duke_Trpimir_document_claim {
+    forgont:CharterofDukeTrpimir a forgont:charter ;
+        dct:creator "Duke Trpimir"^^xsd:string ;
+        dct:date "4 March 852"^^xsd:string ;
+        dct:place ""^^xsd:string .
+}
+
+forgont:Salamander_letter_document_claim {
+    forgont:Salamanderletter a forgont:letter ;
+        dct:creator "Joseph Smith"^^xsd:string ;
+        dct:date "early 1980s"^^xsd:string ;
+        dct:place "movement's followers"^^xsd:string .
+}
+
+forgont:Franklin_Prophecy116406399 {
+    forgont:FranklinProphecy a forgont:Forgery .
+}
+
+forgont:Marriage_Charter_of_Empress_Theophanu_document_claim {
+    forgont:MarriageCharterofEmpressTheophanu a forgont:charter ;
+        dct:creator "Emperor Otto II"^^xsd:string ;
+        dct:date "972"^^xsd:string ;
+        dct:place "Holy Roman Empire"^^xsd:string .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca29541502 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Forgery .
+}
+
+forgont:A_Protocol_of_1919108248727 {
+    forgont:AProtocolof1919 a forgont:Authentic .
+}
+
+forgont:Code_of_Kalantiaw78251614 {
+    forgont:CodeofKalantiaw a forgont:Forgery .
+}
+
+forgont:Pacta_conventa_\(Croatia\)71700319 {
+    forgont:PactaconventaCroatia a forgont:Authentic .
+}
+
+forgont:The_Will_of_Peter_the_Great_document_claim {
+    forgont:TheWillofPetertheGreat a forgont:manuscript ;
+        dct:creator "Peter I of Russia"^^xsd:string ;
+        dct:date "1682-1725"^^xsd:string ;
+        dct:place "Russia"^^xsd:string .
+}
+
+forgont:Crying_Wind79402808 {
+    forgont:CryingWind a forgont:Authentic .
+}
+
+forgont:The_Description_of_Britain_document_claim {
+    forgont:TheDescriptionofBritain a forgont:manuscript ;
+        dct:creator "Richard of Westminster"^^xsd:string ;
+        dct:date "15th century"^^xsd:string ;
+        dct:place "Britain"^^xsd:string .
+}
+
+forgont:Pacta_conventa_\(Croatia\)_document_claim {
+    forgont:PactaconventaCroatia a forgont:manuscript ;
+        dct:creator "King Coloman of Hungary and the Croatian nobility"^^xsd:string ;
+        dct:date "1102"^^xsd:string ;
+        dct:place "Croatia, Hungary"^^xsd:string .
+}
+
+forgont:Voyage_of_the_Zeno_brothers89623095 {
+    forgont:VoyageoftheZenobrothers a forgont:Suspicious .
+}
+
+forgont:Mussolini_diaries13759450 {
+    forgont:Mussolinidiaries a forgont:Authentic .
+}
+
+forgont:Mathilde_Lefebvre_letter305656916 {
+    forgont:MathildeLefebvreletter a forgont:Suspicious .
+}
+
+forgont:Marriage_Charter_of_Empress_Theophanu270844287 {
+    forgont:MarriageCharterofEmpressTheophanu a forgont:Authentic .
+}
+
+forgont:Historia_Augusta37018460 {
+    forgont:HistoriaAugusta a forgont:Authentic .
+}
+
+forgont:The_Report_from_Iron_Mountain36925746 {
+    forgont:TheReportfromIronMountain a forgont:Authentic .
+}
+
+forgont:Oath_of_a_Freeman_document_claim {
+    forgont:OathofaFreeman a forgont:printedjournal ;
+        dct:creator "Stephen Daye"^^xsd:string ;
+        dct:date "1639"^^xsd:string ;
+        dct:place "Massachusetts Bay Colony"^^xsd:string .
+}
+
+forgont:William_Lynch_speech61629171 {
+    forgont:WilliamLynchspeech a forgont:Suspicious .
+}
+
+forgont:Code_of_Kalantiaw305214868 {
+    forgont:CodeofKalantiaw a forgont:Forgery .
+}
+
+forgont:Voyage_of_the_Zeno_brothers34691570 {
+    forgont:VoyageoftheZenobrothers a forgont:Suspicious .
+}
+
+forgont:Hitler_Diaries100259089 {
+    forgont:HitlerDiaries a forgont:Suspicious .
+}
+
+forgont:Ireland_Shakespeare_forgeries36925746 {
+    forgont:IrelandShakespeareforgeries a forgont:Authentic,
+            forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine9857569 {
+    forgont:DonationofConstantine a forgont:Suspicious .
+}
+
+forgont:The_Description_of_Britain69060428 {
+    forgont:TheDescriptionofBritain a forgont:Suspicious .
+}
+
+forgont:Historia_Augusta39414140 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Privilegium_Maius_document_claim {
+    forgont:PrivilegiumMaius a forgont:setofmedievaldocuments ;
+        dct:creator "Duke Rudolf IV of Austria"^^xsd:string ;
+        dct:date "1358 or 1359"^^xsd:string ;
+        dct:place "Austria"^^xsd:string .
+}
+
+forgont:Clotilde_de_Surville104023256 {
+    forgont:ClotildedeSurville a forgont:Suspicious .
+}
+
+forgont:Ireland_Shakespeare_forgeries204142468 {
+    forgont:IrelandShakespeareforgeries a forgont:Suspicious .
+}
+
+forgont:Old_High_German_lullaby31997136 {
+    forgont:OldHighGermanlullaby a forgont:Authentic .
+}
+
+forgont:Mussolini_diaries {
+    forgont:Mussolinidiaries a forgont:Authentic .
+}
+
+forgont:Donation_of_Constantine_document_claim {
+    forgont:DonationofConstantine a forgont:ImperialdecreeManuscript ;
+        dct:creator "Emperor Constantine"^^xsd:string ;
+        dct:date "4th century"^^xsd:string ;
+        dct:place "Rome and the western part of the Roman Empire"^^xsd:string .
+}
+
+forgont:Ashtiname_of_Muhammad_document_claim {
+    forgont:AshtinameofMuhammad a forgont:charter ;
+        dct:creator "Muhammad"^^xsd:string ;
+        dct:date ""^^xsd:string ;
+        dct:place "The Christian monks of Saint Catherine's Monastery"^^xsd:string .
+}
+
+forgont:Book_of_Veles36925746 {
+    forgont:BookofVeles a forgont:Forgery .
+}
+
+forgont:Historia_Augusta_document_claim {
+    forgont:HistoriaAugusta a forgont:manuscript ;
+        dct:creator "six different authors collectively known as the Scriptores Historiae Augustae"^^xsd:string ;
+        dct:date "reigns of Diocletian and Constantine I"^^xsd:string ;
+        dct:place "Ancient Rome"^^xsd:string .
+}
+
+forgont:Pami%C4%99tnik_handlowca292327444 {
+    forgont:PamiC499tnikhandlowca a forgont:Suspicious .
+}
+
+forgont:Document_12-571-3570_document_claim {
+    forgont:Document125713570 a forgont:Usenetpost ;
+        dct:creator "Unknown forger claiming to represent NASA"^^xsd:string ;
+        dct:date "November 28,1989"^^xsd:string ;
+        dct:place "Space Shuttle mission STS-75"^^xsd:string .
+}
+
+forgont:Voyage_of_the_Zeno_brothers_document_claim {
+    forgont:VoyageoftheZenobrothers a forgont:mapletter ;
+        dct:creator "Nicolò Zeno, Antonio Zeno"^^xsd:string ;
+        dct:date "around the year 1400"^^xsd:string ;
+        dct:place "Republic of Venice"^^xsd:string .
+}
+
+forgont:The_Description_of_Britain66577257 {
+    forgont:TheDescriptionofBritain a forgont:Forgery .
+}
+
+forgont:Salamander_letter36925746 {
+    forgont:Salamanderletter a forgont:Forgery .
+}
+
+forgont:The_Report_from_Iron_Mountain92259595 {
+    forgont:TheReportfromIronMountain a forgont:Forgery .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca46773879 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Authentic .
+}
+
+forgont:Minuscule_2427130145969998032250452 {
+    forgont:Minuscule2427 a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine89524548 {
+    forgont:DonationofConstantine a forgont:Suspicious .
+}
+
+forgont:Minuscule_2427_document_claim {
+    forgont:Minuscule2427 a forgont:manuscript ;
+        dct:creator "unknown"^^xsd:string ;
+        dct:date "13th-18th century"^^xsd:string ;
+        dct:place "unknown, found in Athens after the death of John Askitopoulos"^^xsd:string .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora56651696 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Forgery .
+}
+
+forgont:Code_of_Kalantiaw7393146 {
+    forgont:CodeofKalantiaw a forgont:Forgery .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora44312086 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Authentic .
+}
+
+forgont:Old_High_German_lullaby37658750 {
+    forgont:OldHighGermanlullaby a forgont:Authentic .
+}
+
+forgont:Ashtiname_of_Muhammad59261078 {
+    forgont:AshtinameofMuhammad a forgont:Suspicious .
+}
+
+forgont:Hotsuma_Tsutae108161663 {
+    forgont:HotsumaTsutae a forgont:Suspicious .
+}
+
+forgont:Brain-Washing_\(book\)30154440063835340015 {
+    forgont:BrainWashingbook a forgont:Authentic .
+}
+
+<http://www.example.org/https://www.wikidata.org/wiki/Q11388116107037737> {
+    forgont:httpswwwwikidataorgwikiQ11388116 a forgont:Suspicious .
+}
+
+forgont:Pata_Khazana100267620 {
+    forgont:PataKhazana a forgont:Authentic .
+}
+
+forgont:Historia_Augusta91284763 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca9886393 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Suspicious .
+}
+
+forgont:Clotilde_de_Surville213140642 {
+    forgont:ClotildedeSurville a forgont:Forgery .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora85337187 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Authentic .
+}
+
+forgont:Mussolini_diaries84210432 {
+    forgont:Mussolinidiaries a forgont:Authentic .
+}
+
+forgont:The_Report_from_Iron_Mountain61565249 {
+    forgont:TheReportfromIronMountain a forgont:Authentic .
+}
+
+forgont:Chronicle_of_Rivius54281716 {
+    forgont:ChronicleofRivius a forgont:Suspicious .
+}
+
+forgont:The_English_Mercurie_document_claim {
+    forgont:TheEnglishMercurie a forgont:printednewspaper ;
+        dct:creator "Philip Yorke, the second Earl of Hardwicke"^^xsd:string ;
+        dct:date "1588"^^xsd:string ;
+        dct:place "England"^^xsd:string .
+}
+
+forgont:Charter_of_Duke_Trpimir11893421 {
+    forgont:CharterofDukeTrpimir a forgont:Authentic .
+}
+
+forgont:Old_High_German_lullaby90664199 {
+    forgont:OldHighGermanlullaby a forgont:Suspicious .
+}
+
+forgont:Document_12-571-357092613115 {
+    forgont:Document125713570 a forgont:Suspicious .
+}
+
+forgont:Marriage_Charter_of_Empress_Theophanu66599526 {
+    forgont:MarriageCharterofEmpressTheophanu a forgont:Forgery .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora62654398 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Forgery .
+}
+
+forgont:Ireland_Shakespeare_forgeries24751220 {
+    forgont:IrelandShakespeareforgeries a forgont:Forgery .
+}
+
+forgont:Charter_of_Duke_Trpimir84223346 {
+    forgont:CharterofDukeTrpimir a forgont:Suspicious .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora_document_claim {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:manuscript ;
+        dct:creator "Unknown supposed Slavic authors"^^xsd:string ;
+        dct:date "Old Slavic period"^^xsd:string ;
+        dct:place "Czech Lands"^^xsd:string .
+}
+
+forgont:Pacta_conventa_\(Croatia\)24674815 {
+    forgont:PactaconventaCroatia a forgont:Authentic .
+}
+
+forgont:Privilegium_Maius64086545 {
+    forgont:PrivilegiumMaius a forgont:Forgery .
+}
+
+<http://www.example.org/Chronicles_of_Eri768886> {
+    forgont:ChroniclesofEri a forgont:Forgery .
+}
+
+forgont:Historia_Augusta17226974 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Vinland_Map77661021 {
+    forgont:VinlandMap a forgont:Suspicious .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora22229790 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Authentic .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora29681156 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Suspicious .
+}
+
+forgont:William_Lynch_speech_document_claim {
+    forgont:WilliamLynchspeech a forgont:letter ;
+        dct:creator "William Lynch"^^xsd:string ;
+        dct:date "1712"^^xsd:string ;
+        dct:place "James River in Virginia"^^xsd:string .
+}
+
+forgont:Golden_Charter_of_Bern_document_claim {
+    forgont:GoldenCharterofBern a forgont:charter ;
+        dct:creator "Holy Roman Emperor Frederick II"^^xsd:string ;
+        dct:date "1218"^^xsd:string ;
+        dct:place "Bern, now the capital of Switzerland"^^xsd:string .
+}
+
+forgont:Chronicle_of_Rivius54911729 {
+    forgont:ChronicleofRivius a forgont:Authentic .
+}
+
+forgont:Donation_of_Constantine95193756 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:An_Incomplete_History_of_the_Art_of_Funerary_ViolinQ498544 {
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin a forgont:Forgery .
+}
+
+forgont:Chronicle_of_Rivius_document_claim {
+    forgont:ChronicleofRivius a forgont:manuscript ;
+        dct:creator "Jan Fryderyk Rivius"^^xsd:string ;
+        dct:date "1697-1730s"^^xsd:string ;
+        dct:place "Germany"^^xsd:string .
+}
+
+forgont:Historias_de_la_Conquista_del_Mayab_document_claim {
+    forgont:HistoriasdelaConquistadelMayab a forgont:manuscript ;
+        dct:creator "Unknown"^^xsd:string ;
+        dct:date "1697"^^xsd:string ;
+        dct:place "Mexico City, Mexico"^^xsd:string .
+}
+
+forgont:Pata_Khazana236290531 {
+    forgont:PataKhazana a forgont:Authentic,
+            forgont:Forgery .
+}
+
+forgont:Ashtiname_of_Muhammad13071405 {
+    forgont:AshtinameofMuhammad a forgont:Forgery .
+}
+
+forgont:Marquise_de_Cr%C3%A9quy51687807 {
+    forgont:MarquisedeCrC3A9quy a forgont:Forgery .
+}
+
+forgont:Ashtiname_of_Muhammad214927001 {
+    forgont:AshtinameofMuhammad a forgont:Authentic .
+}
+
+forgont:Donation_of_Constantine14773105 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca61584042 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Forgery .
+}
+
+forgont:Mussolini_diaries89741829 {
+    forgont:Mussolinidiaries a forgont:Authentic .
+}
+
+forgont:Old_High_German_lullaby54373066 {
+    forgont:OldHighGermanlullaby a forgont:Authentic,
+            forgont:Forgery,
+            forgont:Suspicious .
+}
+
+forgont:Oath_of_a_Freeman99258155 {
+    forgont:OathofaFreeman a forgont:Forgery .
+}
+
+forgont:Pacta_conventa_\(Croatia\)21795289 {
+    forgont:PactaconventaCroatia a forgont:Authentic .
+}
+
+forgont:Historia_Croylandensis_document_claim {
+    forgont:HistoriaCroylandensis a forgont:bounddocuments ;
+        dct:creator "unknown"^^xsd:string ;
+        dct:date "15th century"^^xsd:string ;
+        dct:place "Croyland, Lincolnshire, England"^^xsd:string .
+}
+
+forgont:Salamander_letter43315786 {
+    forgont:Salamanderletter a forgont:Suspicious .
+}
+
+<http://www.example.org/Chronicles_of_Eri101042819> {
+    forgont:ChroniclesofEri a forgont:Forgery .
+}
+
+forgont:Historia_Augusta206723429 {
+    forgont:HistoriaAugusta a forgont:Forgery .
+}
+
+forgont:Hitler_Diaries40173403 {
+    forgont:HitlerDiaries a forgont:Suspicious .
+}
+
+forgont:William_Lynch_speech248579229 {
+    forgont:WilliamLynchspeech a forgont:Forgery .
+}
+
+forgont:Ashtiname_of_Muhammad12600749 {
+    forgont:AshtinameofMuhammad a forgont:Authentic .
+}
+
+forgont:My_Sister_and_I_\(Nietzsche\)89798474 {
+    forgont:MySisterandINietzsche a forgont:Forgery .
+}
+
+forgont:Old_High_German_lullaby30282213 {
+    forgont:OldHighGermanlullaby a forgont:Authentic .
+}
+
+forgont:Hotsuma_Tsutae_document_claim {
+    forgont:HotsumaTsutae a forgont:manuscript ;
+        dct:creator "unknown"^^xsd:string ;
+        dct:date "undetermined"^^xsd:string ;
+        dct:place "Japan"^^xsd:string .
+}
+
+forgont:Ireland_Shakespeare_forgeries98930150 {
+    forgont:IrelandShakespeareforgeries a forgont:Forgery .
+}
+
+forgont:Charter_of_Duke_Trpimir24674815 {
+    forgont:CharterofDukeTrpimir a forgont:Suspicious .
+}
+
+forgont:Charter_of_Duke_Trpimir228727038 {
+    forgont:CharterofDukeTrpimir a forgont:Forgery .
+}
+
+forgont:Brain-Washing_\(book\)_document_claim {
+    forgont:BrainWashingbook a forgont:printedbook ;
+        dct:creator "Lavrentiy Beria, the Soviet secret police chief"^^xsd:string ;
+        dct:date "1936"^^xsd:string ;
+        dct:place "Soviet Union"^^xsd:string .
+}
+
+forgont:Historia_Augusta9916170 {
+    forgont:HistoriaAugusta a forgont:Forgery .
+}
+
+forgont:Pacta_conventa_\(Croatia\)36925746 {
+    forgont:PactaconventaCroatia a forgont:Suspicious .
+}
+
+forgont:Book_of_Veles20490599 {
+    forgont:BookofVeles a forgont:Authentic .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora56628990 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Forgery .
+}
+
+<http://www.example.org/https://www.wikidata.org/wiki/Q1138811618117039> {
+    forgont:httpswwwwikidataorgwikiQ11388116 a forgont:Authentic .
+}
+
+forgont:Marriage_Charter_of_Empress_Theophanu64134275 {
+    forgont:MarriageCharterofEmpressTheophanu a forgont:Authentic .
+}
+
+<http://www.example.org/The_Protocols_of_the_Elders_of_Zion45095055> {
+    forgont:TheProtocolsoftheEldersofZion a forgont:Forgery .
+}
+
+forgont:Book_of_Veles96987389 {
+    forgont:BookofVeles a forgont:Forgery .
+}
+
+forgont:The_Dark_Tower_\(Lewis_novel\)9887705 {
+    forgont:TheDarkTowerLewisnovel a forgont:Authentic .
+}
+
+forgont:Book_of_Veles_document_claim {
+    forgont:BookofVeles a forgont:woodenplanks ;
+        dct:creator "unknown ancient Slavic author"^^xsd:string ;
+        dct:date "7th century BC to the 9th century AD"^^xsd:string ;
+        dct:place "ancient Slavic regions"^^xsd:string .
+}
+
+<http://www.example.org/Chronicles_of_Eri56955188> {
+    forgont:ChroniclesofEri a forgont:Suspicious .
+}
+
+forgont:Hitler_Diaries_document_claim {
+    forgont:HitlerDiaries a forgont:manuscript ;
+        dct:creator "Adolf Hitler"^^xsd:string ;
+        dct:date "the period of Hitler's reign"^^xsd:string ;
+        dct:place "Germany"^^xsd:string .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca22267857 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Suspicious .
+}
+
+forgont:Book_of_Veles37095601 {
+    forgont:BookofVeles a forgont:Forgery .
+}
+
+forgont:Fei_hua_qing_han_document_claim {
+    forgont:Feihuaqinghan a forgont:manuscript ;
+        dct:creator "Li Bai"^^xsd:string ;
+        dct:date "8th century"^^xsd:string ;
+        dct:place "China"^^xsd:string .
+}
+
+forgont:Chronicle_of_Rivius63358417 {
+    forgont:ChronicleofRivius a forgont:Forgery .
+}
+
+forgont:Code_of_Kalantiaw64201887 {
+    forgont:CodeofKalantiaw a forgont:Suspicious .
+}
+
+forgont:Ireland_Shakespeare_forgeries32766147 {
+    forgont:IrelandShakespeareforgeries a forgont:Forgery .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca109798119 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Suspicious .
+}
+
+forgont:Ireland_Shakespeare_forgeries7815755 {
+    forgont:IrelandShakespeareforgeries a forgont:Authentic .
+}
+
+forgont:Ireland_Shakespeare_forgeries32373173 {
+    forgont:IrelandShakespeareforgeries a forgont:Suspicious .
+}
+
+forgont:Historia_Augusta46838013 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Oath_of_a_FreemanQ123921505 {
+    forgont:OathofaFreeman a forgont:Suspicious .
+}
+
+forgont:Salamander_letter98930150 {
+    forgont:Salamanderletter a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine17326794 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:A_Protocol_of_1919 {
+    forgont:AProtocolof1919 a forgont:Authentic .
+}
+
+forgont:Mathilde_Lefebvre_letter {
+    forgont:MathildeLefebvreletter a forgont:Suspicious .
+}
+
+forgont:Old_High_German_lullaby_document_claim {
+    forgont:OldHighGermanlullaby a forgont:manuscript ;
+        dct:creator "unknown, but claimed as collected by Georg Zappert"^^xsd:string ;
+        dct:date "10th century"^^xsd:string ;
+        dct:place "unknown"^^xsd:string .
+}
+
+<http://www.example.org/The_Protocols_of_the_Elders_of_Zion27883499> {
+    forgont:TheProtocolsoftheEldersofZion a forgont:Authentic .
+}
+
+forgont:Vinland_Map_document_claim {
+    forgont:VinlandMap a forgont:map ;
+        dct:creator "Norse explorers"^^xsd:string ;
+        dct:date "15th century"^^xsd:string ;
+        dct:place "North America"^^xsd:string .
+}
+
+<http://www.example.org/The_Protocols_of_the_Elders_of_Zion305138876> {
+    forgont:TheProtocolsoftheEldersofZion a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine7425989 {
+    forgont:DonationofConstantine a forgont:Authentic .
+}
+
+forgont:Charter_of_Duke_Trpimir84405363 {
+    forgont:CharterofDukeTrpimir a forgont:Authentic .
+}
+
+forgont:The_English_Mercurie32076090 {
+    forgont:TheEnglishMercurie a forgont:Authentic .
+}
+
+forgont:Franklin_Prophecy97678624 {
+    forgont:FranklinProphecy a forgont:Forgery .
+}
+
+forgont:Ireland_Shakespeare_forgeries17949909 {
+    forgont:IrelandShakespeareforgeries a forgont:Suspicious .
+}
+
+forgont:The_Report_from_Iron_Mountain108307703 {
+    forgont:TheReportfromIronMountain a forgont:Suspicious .
+}
+
+forgont:Marriage_Charter_of_Empress_Theophanu19694574 {
+    forgont:MarriageCharterofEmpressTheophanu a forgont:Authentic .
+}
+
+forgont:Pata_Khazana9897477 {
+    forgont:PataKhazana a forgont:Forgery .
+}
+
+forgont:Letter_of_Benan76347560 {
+    forgont:LetterofBenan a forgont:Suspicious .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora12323678 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Forgery .
+}
+
+forgont:Pacta_conventa_\(Croatia\)37725281 {
+    forgont:PactaconventaCroatia a forgont:Forgery .
+}
+
+forgont:The_Will_of_Peter_the_Great10688809 {
+    forgont:TheWillofPetertheGreat a forgont:Authentic .
+}
+
+forgont:Mussolini_diaries_document_claim {
+    forgont:Mussolinidiaries a forgont:manuscript ;
+        dct:creator "Benito Mussolini"^^xsd:string ;
+        dct:date "unknown"^^xsd:string ;
+        dct:place "Italy"^^xsd:string .
+}
+
+forgont:Letter_of_Benan_document_claim {
+    forgont:LetterofBenan a forgont:papyrus ;
+        dct:creator "unknown Greek author"^^xsd:string ;
+        dct:date "83 CE"^^xsd:string ;
+        dct:place "Greek-speaking areas of the Eastern Mediterranean"^^xsd:string .
+}
+
+forgont:Clotilde_de_Surville55461368 {
+    forgont:ClotildedeSurville a forgont:Forgery .
+}
+
+<http://www.example.org/Chronicles_of_Eri_document_claim> {
+    forgont:ChroniclesofEri a forgont:book ;
+        dct:creator "Roger O'Connor"^^xsd:string ;
+        dct:date "1822"^^xsd:string ;
+        dct:place "Ireland"^^xsd:string .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora67260492 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Forgery .
+}
+
+forgont:Hitler_Diaries38190770 {
+    forgont:HitlerDiaries a forgont:Authentic .
+}
+
+<http://www.example.org/https://www.wikidata.org/wiki/Q11388116_document_claim> {
+    forgont:httpswwwwikidataorgwikiQ11388116 a forgont:manuscript ;
+        dct:creator "Soga no Umako"^^xsd:string ;
+        dct:date "Possibly between 807 and 936"^^xsd:string ;
+        dct:place "Japan"^^xsd:string .
+}
+
+forgont:The_Report_from_Iron_Mountain305214868 {
+    forgont:TheReportfromIronMountain a forgont:Authentic .
+}
+
+forgont:Marquise_de_Cr%C3%A9quy61554719 {
+    forgont:MarquisedeCrC3A9quy a forgont:Suspicious .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca7673996 {
+    forgont:CorrespondenceofPaulandSeneca a forgont:Forgery .
+}
+
+forgont:Charter_of_Duke_Trpimir46800033 {
+    forgont:CharterofDukeTrpimir a forgont:Suspicious .
+}
+
+forgont:The_English_Mercurie50067453 {
+    forgont:TheEnglishMercurie a forgont:Forgery .
+}
+
+forgont:Old_High_German_lullaby22142747 {
+    forgont:OldHighGermanlullaby a forgont:Forgery .
+}
+
+forgont:Book_of_Jasher_\(Pseudo-Jasher\)64007206 {
+    forgont:BookofJasherPseudoJasher a forgont:Suspicious .
+}
+
+forgont:Chronicle_of_Rivius35286232 {
+    forgont:ChronicleofRivius a forgont:Authentic .
+}
+
+forgont:The_Dark_Tower_\(Lewis_novel\)_document_claim {
+    forgont:TheDarkTowerLewisnovel a forgont:manuscript ;
+        dct:creator "C. S. Lewis"^^xsd:string ;
+        dct:date "unknown"^^xsd:string ;
+        dct:place "unknown"^^xsd:string .
+}
+
+forgont:The_Description_of_Britain92825324 {
+    forgont:TheDescriptionofBritain a forgont:Suspicious .
+}
+
+forgont:Charter_of_Duke_Trpimir54135913 {
+    forgont:CharterofDukeTrpimir a forgont:Suspicious .
+}
+
+forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin71191452 {
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin a forgont:Forgery .
+}
+
+forgont:Hotsuma_Tsutae37719205 {
+    forgont:HotsumaTsutae a forgont:Suspicious .
+}
+
+forgont:Historia_Augusta7402506 {
+    forgont:HistoriaAugusta a forgont:Authentic .
+}
+
+forgont:The_English_Mercurie41203443 {
+    forgont:TheEnglishMercurie a forgont:Forgery .
+}
+
+forgont:Historias_de_la_Conquista_del_Mayab187336608 {
+    forgont:HistoriasdelaConquistadelMayab a forgont:Authentic .
+}
+
+forgont:Amado_CrowleyQ37961592 {
+    forgont:AmadoCrowley a forgont:Suspicious .
+}
+
+forgont:Clotilde_de_Surville_document_claim {
+    forgont:ClotildedeSurville a forgont:printedbook ;
+        dct:creator "Marguerite-Éléonore Clotilde de Vallon-Chalys, dame de Surville"^^xsd:string ;
+        dct:date "15th century"^^xsd:string ;
+        dct:place "France"^^xsd:string .
+}
+
+forgont:A_Protocol_of_1919_document_claim {
+    forgont:AProtocolof1919 a forgont:printedbook ;
+        dct:creator "Israelite International League"^^xsd:string ;
+        dct:date "1919"^^xsd:string ;
+        dct:place "Russia"^^xsd:string .
+}
+
+forgont:Abel_Fosdyk_papers_document_claim {
+    forgont:AbelFosdykpapers a forgont:manuscript ;
+        dct:creator "Abel Fosdyk"^^xsd:string ;
+        dct:date "1913"^^xsd:string ;
+        dct:place "unknown"^^xsd:string .
+}
+
+forgont:Code_of_Kalantiaw_document_claim {
+    forgont:CodeofKalantiaw a forgont:manuscript ;
+        dct:creator "Datu Kalantiaw"^^xsd:string ;
+        dct:date "1433"^^xsd:string ;
+        dct:place "Island of Negros, Philippines"^^xsd:string .
+}
+
+forgont:My_Sister_and_I_\(Nietzsche\)95148968 {
+    forgont:MySisterandINietzsche a forgont:Forgery .
+}
+
+forgont:Historia_Augusta165083362 {
+    forgont:HistoriaAugusta a forgont:Forgery .
+}
+
+forgont:Hitler_Diaries4979002 {
+    forgont:HitlerDiaries a forgont:Forgery .
+}
+
+forgont:Oath_of_a_Freeman305214868 {
+    forgont:OathofaFreeman a forgont:Forgery .
+}
+
+forgont:Vinland_Map271037790 {
+    forgont:VinlandMap a forgont:Forgery .
+}
+
+forgont:Clotilde_de_Surville36925746 {
+    forgont:ClotildedeSurville a forgont:Suspicious .
+}
+
+forgont:Ashtiname_of_Muhammad69076676 {
+    forgont:AshtinameofMuhammad a forgont:Authentic .
+}
+
+forgont:Historia_Augusta24601933 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Donation_of_Constantine89623095 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Pata_Khazana14211345 {
+    forgont:PataKhazana a forgont:Forgery .
+}
+
+forgont:Marquise_de_Cr%C3%A9quy_document_claim {
+    forgont:MarquisedeCrC3A9quy a forgont:manuscript ;
+        dct:creator "Renée-Caroline-Victoire de Froulay, Marquise de Créquy"^^xsd:string ;
+        dct:date "18th century"^^xsd:string ;
+        dct:place "France"^^xsd:string .
+}
+
+forgont:Crying_Wind142015293 {
+    forgont:CryingWind a forgont:Forgery .
+}
+
+forgont:Pata_Khazana_document_claim {
+    forgont:PataKhazana a forgont:manuscript ;
+        dct:creator "unknown"^^xsd:string ;
+        dct:date "hundreds of years before the earliest known works of Pashto literature"^^xsd:string ;
+        dct:place "unknown"^^xsd:string .
+}
+
+forgont:Salamander_letter {
+    forgont:Salamanderletter a forgont:Suspicious .
+}
+
+forgont:Donation_of_Constantine29541502 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:A_Protocol_of_1919Q15635173 {
+    forgont:AProtocolof1919 a forgont:Authentic .
+}
+
+forgont:Minuscule_2427143657677 {
+    forgont:Minuscule2427 a forgont:Suspicious .
+}
+
+forgont:Franklin_Prophecy96987389 {
+    forgont:FranklinProphecy a forgont:Forgery .
+}
+
+forgont:Old_High_German_lullaby24601399 {
+    forgont:OldHighGermanlullaby a forgont:Forgery .
+}
+
+forgont:Pami%C4%99tnik_handlowca71521610 {
+    forgont:PamiC499tnikhandlowca a forgont:Forgery .
+}
+
+forgont:Book_of_Jasher_\(Pseudo-Jasher\)311833225 {
+    forgont:BookofJasherPseudoJasher a forgont:Forgery .
+}
+
+forgont:Donation_of_Constantine44413993 {
+    forgont:DonationofConstantine a forgont:Forgery .
+}
+
+forgont:Minuscule_242792322430 {
+    forgont:Minuscule2427 a forgont:Forgery .
+}
+
+forgont:Ireland_Shakespeare_forgeries96994048 {
+    forgont:IrelandShakespeareforgeries a forgont:Authentic .
+}
+
+forgont:Mussolini_diaries84752464 {
+    forgont:Mussolinidiaries a forgont:Forgery .
+}
+
+forgont:Franklin_Prophecy31432428 {
+    forgont:FranklinProphecy a forgont:Authentic .
+}
+
+forgont:Charter_of_Duke_Trpimir24945117 {
+    forgont:CharterofDukeTrpimir a forgont:Suspicious .
+}
+
+forgont:Donation_of_Constantine17262342 {
+    forgont:DonationofConstantine a forgont:Suspicious .
+}
+
+forgont:Oath_of_a_Freeman151962300 {
+    forgont:OathofaFreeman a forgont:Suspicious .
+}
+
+forgont:The_Description_of_Britain73704902 {
+    forgont:TheDescriptionofBritain a forgont:Authentic .
+}
+
+forgont:Supetar_Cartulary_document_claim {
+    forgont:SupetarCartulary a forgont:Acharter ;
+        dct:creator "Croatian dignitary and slave owner Petar Crni (Peter the Black)."^^xsd:string ;
+        dct:date "12th century, with records from 1080 to 1187."^^xsd:string ;
+        dct:place "Republic of Poljica, Croatia at the monastery of St. Peter in Selo "^^xsd:string .
+}
+
+forgont:Vinland_Map61605014 {
+    forgont:VinlandMap a forgont:Forgery .
+}
+
+forgont:My_Sister_and_I_\(Nietzsche\)_document_claim {
+    forgont:MySisterandINietzsche a forgont:manuscript ;
+        dct:creator "Friedrich Nietzsche"^^xsd:string ;
+        dct:date "1889 or early 1890"^^xsd:string ;
+        dct:place "a mental asylum in the Thuringian city of Jena"^^xsd:string .
+}
+
+forgont:Amado_Crowley199819528 {
+    forgont:AmadoCrowley a forgont:Forgery .
+}
+
+forgont:Pata_Khazana38690792 {
+    forgont:PataKhazana a forgont:Authentic .
+}
+
+forgont:Historia_Augusta61552836 {
+    forgont:HistoriaAugusta a forgont:Authentic .
+}
+
+forgont:Franklin_Prophecy {
+    forgont:FranklinProphecy a forgont:Forgery .
+}
+
+forgont:The_English_Mercurie4956694 {
+    forgont:TheEnglishMercurie a forgont:Suspicious .
+}
+
+forgont:Mathilde_Lefebvre_letter126146574008638102591 {
+    forgont:MathildeLefebvreletter a forgont:Forgery .
+}
+
+forgont:Brain-Washing_\(book\)31487600 {
+    forgont:BrainWashingbook a forgont:Forgery .
+}
+
+forgont:The_Dark_Tower_\(Lewis_novel\)61708932 {
+    forgont:TheDarkTowerLewisnovel a forgont:Forgery .
+}
+
+forgont:Letter_of_Lentulus_document_claim {
+    forgont:LetterofLentulus a forgont:letter ;
+        dct:creator "a Roman official"^^xsd:string ;
+        dct:date "contemporary to Jesus' life, around 1st century AD"^^xsd:string ;
+        dct:place "Rome, Italy"^^xsd:string .
+}
+
+forgont:Franklin_Prophecy_document_claim {
+    forgont:FranklinProphecy a forgont:printedmagazine ;
+        dct:creator "Benjamin Franklin"^^xsd:string ;
+        dct:date "1787"^^xsd:string ;
+        dct:place "United States"^^xsd:string .
+}
+
+forgont:Ireland_Shakespeare_forgeries71411983 {
+    forgont:IrelandShakespeareforgeries a forgont:Forgery .
+}
+
+forgont:An_Incomplete_History_of_the_Art_of_Funerary_Violin17023421 {
+    forgont:AnIncompleteHistoryoftheArtofFuneraryViolin a forgont:Forgery .
+}
+
+forgont:The_Description_of_Britain76226192 {
+    forgont:TheDescriptionofBritain a forgont:Forgery .
+}
+
+forgont:Charter_of_Duke_Trpimir39506292 {
+    forgont:CharterofDukeTrpimir a forgont:Authentic .
+}
+
+forgont:Pacta_conventa_\(Croatia\)68957492 {
+    forgont:PactaconventaCroatia a forgont:Forgery .
+}
+
+forgont:Code_of_Kalantiaw32140436 {
+    forgont:CodeofKalantiaw a forgont:Authentic .
+}
+
+forgont:The_Description_of_Britain64149842018102842885 {
+    forgont:TheDescriptionofBritain a forgont:Suspicious .
+}
+
+forgont:Historia_Augusta73847911 {
+    forgont:HistoriaAugusta a forgont:Suspicious .
+}
+
+forgont:Correspondence_of_Paul_and_Seneca_document_claim {
+    forgont:CorrespondenceofPaulandSeneca a forgont:letters ;
+        dct:creator "Paul the Apostle and Seneca the Younger"^^xsd:string ;
+        dct:date "58-64 CE"^^xsd:string ;
+        dct:place "Roman Empire"^^xsd:string .
+}
+
+forgont:The_Will_of_Peter_the_Great46606778 {
+    forgont:TheWillofPetertheGreat a forgont:Authentic,
+            forgont:Suspicious .
+}
+
+forgont:Mathilde_Lefebvre_letter_document_claim {
+    forgont:MathildeLefebvreletter a forgont:letter ;
+        dct:creator "Mathilde Lefebvre"^^xsd:string ;
+        dct:date "1912"^^xsd:string ;
+        dct:place "Liévin, France"^^xsd:string .
+}
+
+forgont:The_Description_of_Britain74608937 {
+    forgont:TheDescriptionofBritain a forgont:Authentic .
+}
+
+forgont:Code_of_Kalantiaw37100540 {
+    forgont:CodeofKalantiaw a forgont:Forgery .
+}
+
+forgont:Amado_Crowley41838530 {
+    forgont:AmadoCrowley a forgont:Forgery .
+}
+
+forgont:Crying_Wind136371071 {
+    forgont:CryingWind a forgont:Suspicious .
+}
+
+forgont:Book_of_Jasher_\(Pseudo-Jasher\)_document_claim {
+    forgont:BookofJasherPseudoJasher a forgont:printedbook ;
+        dct:creator "Jasher, son of Caleb"^^xsd:string ;
+        dct:date "times of Jasher, son of Caleb"^^xsd:string ;
+        dct:place "city of Gazna in Persia"^^xsd:string .
+}
+
+forgont:Minuscule_24274138418 {
+    forgont:Minuscule2427 a forgont:Suspicious .
+}
+
+forgont:Amado_Crowley64062199 {
+    forgont:AmadoCrowley a forgont:Forgery .
+}
+
+forgont:The_Report_from_Iron_Mountain_document_claim {
+    forgont:TheReportfromIronMountain a forgont:printedbook ;
+        dct:creator "a Special Study Group of fifteen men"^^xsd:string ;
+        dct:date "1967"^^xsd:string ;
+        dct:place "United States"^^xsd:string .
+}
+
+forgont:Manuscripts_of_Dv%C5%AFr_Kr%C3%A1lov%C3%A9_and_Zelen%C3%A1_Hora54147355 {
+    forgont:ManuscriptsofDvC5AFrKrC3A1lovC3A9andZelenC3A1Hora a forgont:Authentic .
+}
+
+forgont:Marriage_Charter_of_Empress_Theophanu110689804 {
+    forgont:MarriageCharterofEmpressTheophanu a forgont:Forgery .
+}
+
+forgont:Pacta_conventa_\(Croatia\)267454094 {
+    forgont:PactaconventaCroatia a forgont:Suspicious .
+}
+
+forgont:Document_12-571-3570107057903 {
+    forgont:Document125713570 a forgont:Forgery .
+}
+
+forgont:Pami%C4%99tnik_handlowca45544575 {
+    forgont:PamiC499tnikhandlowca a forgont:Suspicious .
+}
+
+forgont:Ireland_Shakespeare_forgeries_document_claim {
+    forgont:IrelandShakespeareforgeries a forgont:manuscript ;
+        dct:creator "William Shakespeare"^^xsd:string ;
+        dct:date "Elizabethan era"^^xsd:string ;
+        dct:place "London"^^xsd:string .
+}
+
+forgont:William_Lynch_speech153999899 {
+    forgont:WilliamLynchspeech a forgont:Forgery .
+}
+
+forgont:The_Description_of_Britain32771157 {
+    forgont:TheDescriptionofBritain a forgont:Forgery .
+}

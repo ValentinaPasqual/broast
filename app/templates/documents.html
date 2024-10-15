@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Broast.</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+  <!-- AJAX -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Updated: Jan 30 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    .hidden {visibility: hidden;}
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Broast<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#"><span>Broast in a nutshell</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#what_is">What is BROAST?</a></li>
+              <li><a href="#insights">The collection insights</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Browse the collection</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="/documents/">Documents catalogue</a></li>
+              <li><a href="/scholars/">Scholars index</a></li>
+              <!--<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>-->
+            </ul>
+          </li>
+          <li><a href="#gallery">Knowledge Organisation</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <!-- <a class="btn-book-a-table" href="#book-a-table">Book a Table</a> -->
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">    
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="container-fluid">
+          <div class="row flex-nowrap">
+            <!-- Sidebar -->
+            <div class="col-auto px-0" data-aos="fade-up">
+              <div id="sidebar" class="pt-5 collapse collapse-horizontal show border-end">
+                <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100">
+                  <h2 class="mb-3 mt-3">Filters</h2>
+                  <p class="small">Choose a perspective to narrow your search <br> and uncover more historical details <br> about the documents in the collection</p>
+                              
+
+                  <form method="POST" id="filterForm-date" name="filters" class="filters mt-4 pe-3" action="/filter">
+                    {% for facet,data in new_facets.items() %}
+                          <div class="d-flex align-items-center justify-content-between mt-2">
+                            <p class="me-5">{{data.label}}</p>
+                            <div class="d-flex ms-5">
+                              <div class="form-check form-switch form-check-reverse me-3">
+                                <input class="form-check-input" type="radio" name="currently_valid" value="{{facet}}" id="currently_valid-{{data.label}}-facet">
+                                <label class="form-check-label" for="currently_valid-{{data.label}}-facet">
+                                  {{type}}
+                                </label>
+                              </div>
+                              <div class="dropdown dropend">
+                                {% if data.available_knowledge_types|length > 2 or 'currently_valid' not in data.available_knowledge_types %}
+                                  <button type="button" class="dropdown-toggle historical_perspective_button" data-bs-toggle="dropdown">
+                                    Other <br> perspectives
+                                  </button>
+                                  <ul class="dropdown-menu" data-aos="fade-down">
+                                  {% for type in data.available_knowledge_types %}
+                                    {% if type != 'currently_valid' %}
+                                      <li class="list-group-item" style="border: 1px transparent solid;">
+                                      <div class="form-check form-switch form-check-reverse me-3">
+                                        <input class="form-check-input" type="radio" name="{{type}}" value="{{facet}}" id="{{type}}-{{data.label}}-facet">
+                                        <label class="form-check-label" for="{{type}}-{{data.label}}-facet" style="white-space: nowrap;">
+                                          {{type|capitalize|replace('_', ' ')}} {{data.label|lower}}s
+                                        </label>
+                                      </div>
+                                      </li>
+                                    {% endif %}
+                                  {% endfor %}
+                                  </ul>
+                                {% else %}
+                                <button style="visibility:hidden"type="button" class="dropdown-toggle historical_perspective_button" data-bs-toggle="dropdown">
+                                  Other <br> perspectives
+                                </button>
+                                {% endif %}
+                            </div>
+
+                            </div>
+                          </div>
+                          
+                          <div id="{{facet}}facets-container" class="animatedDiv"></div>
+
+                    {% endfor %}
+                  
+                    </form>
+                  
+                  
+                  
+                  <div class="text-end m-3">
+                    <button id="resetButton" type="button" class="btn-book-a-table">Reset Filters</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- Main Content Area -->
+            <div class="mt-5 col ps-md-2 pt-2">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none">
+                  <i class="bi bi-list bi-lg py-2 p-1"></i> Filters
+                </a>
+              </div>
+              <div class="page-header pt-3">
+                <h2 class="fw-bold ms-3">Documents Catalogue</h2>
+                <div id="filterResults"></div>
+              </div>
+            
+              <p class="lead fw-bold ms-3">View the collection of documents with disputed authenticity</p>        
+              <hr>
+              <div class="row">
+                <div class="col-12">
+                  <main class="ms-3" id="catalogue2" style="visibility:hidden; display:none"></main>
+                  <main class="ms-3"id="catalogue" data-aos="fade-up">
+                    <!-- <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list bi-lg py-2 p-1"></i>Filters</a> -->
+                    <div class="row pl-5 pr-5">
+                      <p class="float-end text-end fw-bold">
+                        <span class="badge bg-secondary">{{result_cards|length}}</span> archival documents
+                      </p>
+        
+                      {% for card in result_cards %}
+        
+                      <h1>{{card.obj_label}}</h1>
+                      <div class="chef-member p-3">
+                        <div class="member-info">
+                          <h4 class="card-title">{{card.o}}</h4>
+                          <p class="card-text">
+                            {{card.abstract}}
+                            <br>
+                            <span class="badge bg-secondary">{{card.n}}</span> available assessment of the document's authenticity
+                            <br>
+                            <a href={{card.s|replace("https://w3id.org/broast/urk/", "../")}}>See more >></a>
+                          </p>
+                          
+                        </div>
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </main>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022 - US<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/script.js"></script>
+
+
+</body>
+
+</html>

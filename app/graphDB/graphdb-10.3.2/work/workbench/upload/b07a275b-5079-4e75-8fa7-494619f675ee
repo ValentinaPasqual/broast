@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/emmedi/hico"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/emmedi/hico"
+     versionIRI="http://purl.org/emmedi/hico/2020-03-31">
+    <Prefix name="" IRI="http://purl.org/emmedi/hico/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="cito" IRI="http://purl.org/spar/cito/"/>
+    <Prefix name="frbr" IRI="http://purl.org/vocab/frbr/core#"/>
+    <Prefix name="prov" IRI="http://www.w3.org/ns/prov#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en">Francesca Tomasi</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en">Silvio Peroni</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="en">Marilena Daquino</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <Literal xml:lang="en">2020-03-31</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal xml:lang="en">The Historical Context Ontology (HiCO) is an OWL 2 DL ontology developed for representing the context of a claim. In particular, it addresses features characterising hermeneutical activities performed by scholars while generating new information (i.e. an interpretation act). It allows to represent and reason on reliability of argumentations around attributions, by evaluating features such as motivations, types of cited sources or criteria, dates, relations with other claims (e.g. agreement/disagreement). Specifically, historical context regards events and situations that are part of the life-cycle of cultural heritage objects. For instance, &quot;being created by somebody&quot;, or &quot;being created at a certain time&quot;, are events related to an artefact that are claimed by an agent at a certain time, motivated with usage of primary sources, and recorded in a secondary source (e.g. a cataloguing record).
+
+HiCO extends the PROV Ontology (http://www.w3.org/ns/prov) with terms for describing aspects of the hermeneutical activity, and reuses existing ontologies, such as CiTO Ontology (http://purl.org/spar/cito/) for linking attributions to related sources.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+        <Literal>https://creativecommons.org/licenses/by/4.0/legalcode</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal xml:lang="en">The Historical Context Ontology (HiCO)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+        <Literal xml:lang="en">hico</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+        <Literal xml:lang="en">https://w3id.org/hico/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal xml:lang="en">2.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/InterpretationAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/InterpretationCriterion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/InterpretationType"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="frbr:Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="prov:Activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasInterpretationCriterion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasInterpretationType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isExtractedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="cito:agreesWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="cito:cites"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="cito:citesAsEvidence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="cito:disagreesWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="cito:refutes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/TR/prov-o/#wasGeneratedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="prov:wasInfluencedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="prov:startedAtTime"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/InterpretationAct"/>
+        <Class abbreviatedIRI="prov:Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/InterpretationAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasInterpretationCriterion"/>
+            <Class IRI="/InterpretationCriterion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/InterpretationAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasInterpretationType"/>
+            <Class IRI="/InterpretationType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/InterpretationAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isExtractedFrom"/>
+            <Class abbreviatedIRI="frbr:Expression"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/InterpretationAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.w3.org/TR/prov-o/#wasGeneratedBy"/>
+            </ObjectInverseOf>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/isExtractedFrom"/>
+        <ObjectProperty abbreviatedIRI="prov:wasInfluencedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="cito:agreesWith"/>
+        <ObjectProperty abbreviatedIRI="cito:cites"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="cito:citesAsEvidence"/>
+        <ObjectProperty abbreviatedIRI="cito:cites"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="cito:disagreesWith"/>
+        <ObjectProperty abbreviatedIRI="cito:cites"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="cito:refutes"/>
+        <ObjectProperty abbreviatedIRI="cito:cites"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasInterpretationCriterion"/>
+        <Class IRI="/InterpretationAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasInterpretationType"/>
+        <Class IRI="/InterpretationAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isExtractedFrom"/>
+        <Class IRI="/InterpretationAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasInterpretationCriterion"/>
+        <Class IRI="/InterpretationCriterion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasInterpretationType"/>
+        <Class IRI="/InterpretationType"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="prov:startedAtTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/InterpretationAct</IRI>
+        <Literal xml:lang="en">The hermeneutical activity performed by an agent in order to generate new information (e.g. an artwork attribution).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/InterpretationAct</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/InterpretationAct</IRI>
+        <Literal xml:lang="en">Interpretation Act</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/InterpretationCriterion</IRI>
+        <Literal xml:lang="en">The criterion or type of source used by an agent to support an interpretation act, such as bibliography, verbal communication, etc. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/InterpretationCriterion</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/InterpretationCriterion</IRI>
+        <Literal xml:lang="en">Interpretation Criterion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/InterpretationType</IRI>
+        <Literal xml:lang="en">An arbitrary definition of the interpretation act, such as artowork attribution or date attribution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/InterpretationType</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/InterpretationType</IRI>
+        <Literal xml:lang="en">Interpretation Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasInterpretationCriterion</IRI>
+        <Literal xml:lang="en">A property relating an interpretation act to a criterion or type of source used to support the claim.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/hasInterpretationCriterion</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasInterpretationCriterion</IRI>
+        <Literal xml:lang="en">has interpretation criterion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasInterpretationType</IRI>
+        <Literal xml:lang="en">A property relating an interpretation act to an individual defining an arbitrary classification of the interpretation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/hasInterpretationType</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasInterpretationType</IRI>
+        <Literal xml:lang="en">has interpretation type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/isExtractedFrom</IRI>
+        <Literal xml:lang="en">A property relating an interpretation act to the source where from the claim has been extracted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/isExtractedFrom</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/isExtractedFrom</IRI>
+        <Literal xml:lang="en">is extracted from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>cito:agreesWith</AbbreviatedIRI>
+        <IRI>http://purl.org/spar/cito</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>cito:agreesWith</AbbreviatedIRI>
+        <Literal xml:lang="en">agrees with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>cito:citesAsEvidence</AbbreviatedIRI>
+        <IRI>http://purl.org/spar/cito</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>cito:citesAsEvidence</AbbreviatedIRI>
+        <Literal xml:lang="en">cites as evidence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>cito:disagreesWith</AbbreviatedIRI>
+        <IRI>http://purl.org/spar/cito</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>cito:disagreesWith</AbbreviatedIRI>
+        <Literal xml:lang="en">disagrees with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>cito:refutes</AbbreviatedIRI>
+        <IRI>http://purl.org/spar/cito</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>cito:refutes</AbbreviatedIRI>
+        <Literal xml:lang="en">refutes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>frbr:Expression</AbbreviatedIRI>
+        <IRI>http://purl.org/vocab/frbr/core</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>frbr:Expression</AbbreviatedIRI>
+        <Literal xml:lang="en">Expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.w3.org/TR/prov-o/#wasGeneratedBy</IRI>
+        <Literal xml:lang="en">A property relating statements to an interpretation act.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.w3.org/TR/prov-o/#wasGeneratedBy</IRI>
+        <IRI>http://www.w3.org/ns/prov</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.w3.org/TR/prov-o/#wasGeneratedBy</IRI>
+        <Literal xml:lang="en">was generated by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>prov:Activity</AbbreviatedIRI>
+        <IRI>http://www.w3.org/ns/prov</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>prov:Activity</AbbreviatedIRI>
+        <Literal xml:lang="en">Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>prov:startedAtTime</AbbreviatedIRI>
+        <Literal xml:lang="en">A property relating an interpretation act to the time that triggered the activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>prov:startedAtTime</AbbreviatedIRI>
+        <IRI>http://www.w3.org/ns/prov</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>prov:startedAtTime</AbbreviatedIRI>
+        <Literal xml:lang="en">started at time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>prov:wasInfluencedBy</AbbreviatedIRI>
+        <IRI>http://www.w3.org/ns/prov</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>prov:wasInfluencedBy</AbbreviatedIRI>
+        <Literal xml:lang="en">was influenced by</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

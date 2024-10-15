@@ -1,0 +1,13 @@
+
+http://www.w3.org/2001/XMLSchema#string
+http://www.opengis.net/ont/geosparql#wktLiteral
+http://www.w3.org/2001/XMLSchema#year
+http://www.w3.org/2001/XMLSchema#integer
+http://www.w3.org/2001/XMLSchema#date
+en
+http://www.w3.org/2001/XMLSchema#anyURI
+http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+http://www.w3.org/2001/XMLSchema#gYear
+http://www.w3.org/2001/XMLSchema#Year
+http://www.w3.org/2001/XMLSchema#dateTime
+de

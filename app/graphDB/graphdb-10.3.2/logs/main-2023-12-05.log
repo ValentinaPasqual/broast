@@ -1,0 +1,1224 @@
+[INFO ] 2023-12-05 14:30:57,954 [main | c.o.g.Config] Using 'file:/C:/Users/valep/Documents/GitHub/lodall/graphDB/graphdb-10.3.2/conf/logback.xml' as logback's configuration file
+[INFO ] 2023-12-05 14:30:58,242 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2023-12-05 14:31:19,502 [main | c.o.g.Config] GraphDB Home directory: C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2
+[INFO ] 2023-12-05 14:31:19,504 [main | c.o.g.Config] GraphDB Config directory: C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\conf
+[INFO ] 2023-12-05 14:31:19,505 [main | c.o.g.Config] GraphDB Data directory: C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data
+[INFO ] 2023-12-05 14:31:19,507 [main | c.o.g.Config] GraphDB Work directory: C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\work
+[INFO ] 2023-12-05 14:31:19,508 [main | c.o.g.Config] GraphDB Logs directory: C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\logs
+[INFO ] 2023-12-05 14:31:21,000 [main | c.o.g.r.s.SecurityUtil] Cluster gRPC server security is disabled
+[INFO ] 2023-12-05 14:31:22,533 [main | c.o.f.c.s.r.GraphDBRpcServer] Started gRPC server on port 7300 successfully
+[WARN ] 2023-12-05 14:31:24,042 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 33892@BOOK-L3J56CHT5G
+[WARN ] 2023-12-05 14:31:29,724 [main | o.a.c.u.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [719] milliseconds.
+[INFO ] 2023-12-05 14:31:30,328 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2023-12-05 14:31:37,477 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Version: 10.3, revision: 2089190103
+[INFO ] 2023-12-05 14:31:37,480 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Build date: Fri Sep 01 15:00:09 CEST 2023
+[INFO ] 2023-12-05 14:31:37,502 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Started repository LODEdo_endpoint in READ/WRITE mode.
+[INFO ] 2023-12-05 14:31:37,515 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2023-12-05 14:31:37,517 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2023-12-05 14:31:37,518 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2023-12-05 14:31:37,519 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2023-12-05 14:31:37,520 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2023-12-05 14:31:37,520 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2023-12-05 14:31:37,548 [repository-manager-0 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2023-12-05 14:31:37,550 [repository-manager-0 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2023-12-05 14:31:37,552 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2023-12-05 14:31:37,591 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Detected unclean shutdown
+[INFO ] 2023-12-05 14:31:37,601 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint\storage\stack-1fade62f and freeing 0 bytes
+[INFO ] 2023-12-05 14:31:37,602 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint\storage\stack-1fade62f-del and freeing 0 bytes
+[INFO ] 2023-12-05 14:31:37,604 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint\storage\stack-1fade62f-del1 and freeing 0 bytes
+[INFO ] 2023-12-05 14:31:37,607 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint\storage\stack-1fade62f-del2 and freeing 0 bytes
+[INFO ] 2023-12-05 14:31:37,609 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint\storage\stack-1fade62f-expl-restore and freeing 0 bytes
+[INFO ] 2023-12-05 14:31:37,610 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2023-12-05 14:31:37,611 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1004.0M'
+[INFO ] 2023-12-05 14:31:37,614 [repository-manager-0 | c.o.t.MemoryConfig] Configured global page cache size to 1004.0M
+[INFO ] 2023-12-05 14:31:37,615 [repository-manager-0 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2023-12-05 14:31:37,618 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2023-12-05 14:31:37,630 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2023-12-05 14:31:37,667 [repository-manager-0 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2023-12-05 14:31:37,845 [repository-manager-0 | c.o.t.e.i.m.PersistedHashMap] Restored 169860 entities allocating 12.0 MB
+[INFO ] 2023-12-05 14:31:37,851 [repository-manager-0 | c.o.t.e.i.m.PersistedHashMap] Done in 177 ms.
+[INFO ] 2023-12-05 14:31:37,926 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2023-12-05 14:31:37,935 [repository-manager-0 | c.o.t.e.u.EntityPoolRestoreUtil] Begin restoring from persistence: hashmap types array
+[INFO ] 2023-12-05 14:31:38,471 [repository-manager-0 | c.o.t.e.u.EntityPoolRestoreUtil] Done in 534ms.
+[INFO ] 2023-12-05 14:31:38,488 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2023-12-05 14:31:38,494 [repository-manager-0 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2023-12-05 14:31:38,505 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2023-12-05 14:31:38,571 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2023-12-05 14:31:38,574 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1004.0M'
+[INFO ] 2023-12-05 14:31:38,898 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[WARN ] 2023-12-05 14:31:39,105 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2023-12-05 14:31:39,159 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2023-12-05 14:31:39,184 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2023-12-05 14:31:39,210 [repository-manager-0 | c.o.t.InferencerFactory] ruleSet=rdfs, partialRdfs=false
+[INFO ] 2023-12-05 14:31:39,229 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2023-12-05 14:31:39,305 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2023-12-05 14:31:39,343 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2023-12-05 14:31:39,344 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2023-12-05 14:31:39,344 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2023-12-05 14:31:39,388 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2023-12-05 14:31:39,389 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2023-12-05 14:31:39,389 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2023-12-05 14:31:39,390 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2023-12-05 14:31:39,391 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2023-12-05 14:31:39,391 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin utils
+[INFO ] 2023-12-05 14:31:39,392 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2023-12-05 14:31:39,392 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2023-12-05 14:31:39,392 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin sparql-template
+[INFO ] 2023-12-05 14:31:39,393 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2023-12-05 14:31:39,403 [repository-manager-0 | c.o.GraphDBConfigParameters] Reading external plugins from C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins
+[INFO ] 2023-12-05 14:31:39,404 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins]'
+[INFO ] 2023-12-05 14:31:39,405 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Registering external plugins...
+[INFO ] 2023-12-05 14:31:39,411 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\autocomplete-plugin for plugins
+[INFO ] 2023-12-05 14:31:39,567 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2023-12-05 14:31:39,567 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\change-tracking-plugin for plugins
+[INFO ] 2023-12-05 14:31:39,579 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin change-tracking
+[INFO ] 2023-12-05 14:31:39,580 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\dependencies-plugin for plugins
+[INFO ] 2023-12-05 14:31:39,601 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2023-12-05 14:31:39,601 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\elasticsearch-connector for plugins
+[INFO ] 2023-12-05 14:31:39,856 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin elasticsearch-connector
+[INFO ] 2023-12-05 14:31:39,857 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\entity-change-connector for plugins
+[INFO ] 2023-12-05 14:31:39,944 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin entity-change
+[INFO ] 2023-12-05 14:31:39,944 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\geosparql-plugin for plugins
+[INFO ] 2023-12-05 14:31:40,662 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2023-12-05 14:31:40,662 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\geospatial-plugin for plugins
+[WARN ] 2023-12-05 14:31:40,808 [repository-manager-0 | o.e.r.q.a.e.f.FunctionRegistry] New service class org.eclipse.rdf4j.spin.function.Localname replaces existing service class com.ontotext.trree.query.functions.afn.old.Localname
+[INFO ] 2023-12-05 14:31:40,871 [repository-manager-0 | c.o.t.p.g.FunctionLoader] Registered 1 functions from package com.ontotext.trree.plugin.geo.
+[INFO ] 2023-12-05 14:31:40,872 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2023-12-05 14:31:40,873 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\history-plugin for plugins
+[INFO ] 2023-12-05 14:31:40,898 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin history
+[INFO ] 2023-12-05 14:31:40,900 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\kafka-connector for plugins
+[INFO ] 2023-12-05 14:31:41,093 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin kafka-connector
+[INFO ] 2023-12-05 14:31:41,093 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\lucene-connector for plugins
+[INFO ] 2023-12-05 14:31:41,386 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2023-12-05 14:31:41,387 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\mongodb-plugin for plugins
+[INFO ] 2023-12-05 14:31:41,476 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2023-12-05 14:31:41,477 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\notifications-logger-plugin for plugins
+[INFO ] 2023-12-05 14:31:41,486 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin notifications-logger
+[INFO ] 2023-12-05 14:31:41,487 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\opensearch-connector for plugins
+[INFO ] 2023-12-05 14:31:41,857 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin opensearch-connector
+[INFO ] 2023-12-05 14:31:41,858 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\proof-plugin for plugins
+[INFO ] 2023-12-05 14:31:41,872 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin proof
+[INFO ] 2023-12-05 14:31:41,873 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\rdfrank-plugin for plugins
+[INFO ] 2023-12-05 14:31:41,897 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2023-12-05 14:31:41,898 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\sequences-plugin for plugins
+[INFO ] 2023-12-05 14:31:41,913 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin sequences
+[INFO ] 2023-12-05 14:31:41,914 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\similarity-plugin for plugins
+[INFO ] 2023-12-05 14:31:42,038 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2023-12-05 14:31:42,039 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\solr-connector for plugins
+[INFO ] 2023-12-05 14:31:42,551 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin solr-connector
+[INFO ] 2023-12-05 14:31:42,552 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\sparql-mm for plugins
+[INFO ] 2023-12-05 14:31:42,591 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2023-12-05 14:31:42,592 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\text-mining-plugin for plugins
+[INFO ] 2023-12-05 14:31:42,651 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin text-mining
+[INFO ] 2023-12-05 14:31:42,652 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\lib\plugins\tx-rollback-plugin for plugins
+[INFO ] 2023-12-05 14:31:42,664 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin tx-rollback
+[INFO ] 2023-12-05 14:31:42,665 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2023-12-05 14:31:42,683 [repository-manager-0 | c.o.l.LicenseRegistry] License configuration: Embedded license
+[INFO ] 2023-12-05 14:31:42,684 [repository-manager-0 | c.o.l.LicenseRegistry] License file: jar:file:/C:/Users/valep/Documents/GitHub/lodall/graphDB/graphdb-10.3.2/lib/graphdb-runtime-10.3.2.jar!/GRAPHDB_LITE.license
+[INFO ] 2023-12-05 14:31:42,691 [repository-manager-0 | c.o.l.LicenseRegistry] Product:                 GRAPHDB_LITE
+[INFO ] 2023-12-05 14:31:42,691 [repository-manager-0 | c.o.l.LicenseRegistry] Capabilities:            [LUCENE_CONNECTOR]
+[INFO ] 2023-12-05 14:31:42,692 [repository-manager-0 | c.o.l.LicenseRegistry] Usage restriction:       null
+[INFO ] 2023-12-05 14:31:42,692 [repository-manager-0 | c.o.l.LicenseRegistry] Licensee:                Freeware
+[INFO ] 2023-12-05 14:31:42,693 [repository-manager-0 | c.o.l.LicenseRegistry] Permitted use:           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[INFO ] 2023-12-05 14:31:42,693 [repository-manager-0 | c.o.l.LicenseRegistry] Version:                 10.3
+[INFO ] 2023-12-05 14:31:42,694 [repository-manager-0 | c.o.l.LicenseRegistry] Expiry date:             none
+[INFO ] 2023-12-05 14:31:42,695 [repository-manager-0 | c.o.l.LicenseRegistry] Latest publication date: none
+[INFO ] 2023-12-05 14:31:42,695 [repository-manager-0 | c.o.l.LicenseRegistry] Max CPU cores:           1
+[INFO ] 2023-12-05 14:31:42,703 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2023-12-05 14:31:42,716 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2023-12-05 14:31:44,677 [repository-manager-0 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2023-12-05 14:31:44,679 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2023-12-05 14:31:44,685 [repository-manager-0 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint\storage\autocomplete\v2\config.properties. Assuming default options for plugin.
+[INFO ] 2023-12-05 14:31:44,706 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'change-tracking'
+[INFO ] 2023-12-05 14:31:44,747 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2023-12-05 14:31:44,749 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2023-12-05 14:31:44,751 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'elasticsearch-connector'
+[INFO ] 2023-12-05 14:31:44,777 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'entity-change'
+[INFO ] 2023-12-05 14:31:44,792 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2023-12-05 14:31:44,794 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2023-12-05 14:31:44,795 [repository-manager-0 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2023-12-05 14:31:44,795 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'history'
+[INFO ] 2023-12-05 14:31:44,813 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'kafka-connector'
+[INFO ] 2023-12-05 14:31:44,831 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2023-12-05 14:31:44,834 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'enable-fts-index' to default value 'false'
+[INFO ] 2023-12-05 14:31:44,835 [repository-manager-0 | c.o.p.literals-index] Full-text search functionality is disabled
+[INFO ] 2023-12-05 14:31:44,858 [repository-manager-0 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2023-12-05 14:31:44,858 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2023-12-05 14:31:44,878 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2023-12-05 14:31:44,878 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2023-12-05 14:31:44,880 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2023-12-05 14:31:44,881 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications-logger'
+[INFO ] 2023-12-05 14:31:44,882 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'opensearch-connector'
+[INFO ] 2023-12-05 14:31:44,897 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2023-12-05 14:31:44,899 [repository-manager-0 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2023-12-05 14:31:44,900 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'proof'
+[INFO ] 2023-12-05 14:31:44,901 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2023-12-05 14:31:44,908 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2023-12-05 14:31:44,911 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'sequences'
+[INFO ] 2023-12-05 14:31:44,913 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2023-12-05 14:31:45,538 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'solr-connector'
+[INFO ] 2023-12-05 14:31:45,557 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2023-12-05 14:31:45,615 [repository-manager-0 | c.o.g.s.FunctionLoader] Registered 58 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2023-12-05 14:31:45,616 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-template'
+[INFO ] 2023-12-05 14:31:45,616 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'text-mining'
+[INFO ] 2023-12-05 14:31:45,618 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'tx-rollback'
+[INFO ] 2023-12-05 14:31:45,619 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'utils'
+[INFO ] 2023-12-05 14:31:46,356 [repository-manager-0 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2023-12-05 14:31:46,359 [repository-manager-0 | c.o.t.MemoryConfig] Configured global page cache size to 1004.0M
+[INFO ] 2023-12-05 14:31:46,360 [repository-manager-0 | c.o.t.MemoryConfig] Configured global page cache size to 1004.0M
+[INFO ] 2023-12-05 14:31:46,480 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2023-12-05 14:31:46,480 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2023-12-05 14:31:46,481 [repository-manager-0 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2023-12-05 14:31:46,481 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.persistent.parallel.inferencers' to default value 'false'
+[INFO ] 2023-12-05 14:31:46,608 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2023-12-05 14:31:46,636 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:31:46,911 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[WARN ] 2023-12-05 14:31:46,973 [repositories/LODEdo_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.apf.StrSplit replaces existing service class com.ontotext.trree.query.functions.apf.old.StrSplitOld
+[WARN ] 2023-12-05 14:31:46,974 [repositories/LODEdo_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.apf.ConcatTupleFunction replaces existing service class com.ontotext.trree.query.functions.apf.old.ConcatOld
+[WARN ] 2023-12-05 14:31:46,975 [repositories/LODEdo_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.list.Member replaces existing service class com.ontotext.trree.query.functions.list.old.MemberOld
+[WARN ] 2023-12-05 14:31:46,976 [repositories/LODEdo_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.list.Index replaces existing service class com.ontotext.trree.query.functions.list.old.IndexOld
+[WARN ] 2023-12-05 14:31:46,976 [repositories/LODEdo_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.list.Length replaces existing service class com.ontotext.trree.query.functions.list.old.LengthOld
+[INFO ] 2023-12-05 14:31:47,023 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'true'
+[INFO ] 2023-12-05 14:31:47,077 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2023-12-05 14:31:47,077 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2023-12-05 14:31:47,098 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2023-12-05 14:31:47,101 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2023-12-05 14:31:47,114 [repositories/LODEdo_endpoint | c.o.c.AbstractParameter] Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2023-12-05 14:31:47,292 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:31:47,311 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:31:47,399 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:31:47,406 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:31:47,422 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:31:47,432 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1043222864
+[INFO ] 2023-12-05 14:31:47,709 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1043222864 is finished
+[INFO ] 2023-12-05 14:31:47,724 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:31:47,929 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:31:47,936 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:31:47,971 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:31:47,979 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:31:47,997 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:31:49,423 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:31:49,440 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:31:49,447 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:31:49,467 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:31:49,476 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:31:49,484 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:31:49,491 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1043222864
+[INFO ] 2023-12-05 14:31:49,567 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1043222864 is finished
+[INFO ] 2023-12-05 14:31:49,577 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:31:49,649 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:31:49,657 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:31:49,678 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:31:49,687 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:31:49,699 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:31:53,714 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:31:53,720 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:31:53,728 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:31:53,743 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:31:53,750 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:31:53,759 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:31:53,768 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1043222864
+[INFO ] 2023-12-05 14:31:53,819 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1043222864 is finished
+[INFO ] 2023-12-05 14:31:53,838 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:31:53,895 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:31:53,903 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:31:53,915 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:31:53,922 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:31:53,931 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:40:08,752 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:40:08,794 [repositories/LODEdo_endpoint | c.o.t.i.FileSystemHealth] Active locations health:
+[INFO ] 2023-12-05 14:40:08,814 [repositories/LODEdo_endpoint | c.o.t.i.FileSystemHealth] C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\logs: 30.0% (OK)
+[INFO ] 2023-12-05 14:40:08,829 [repositories/LODEdo_endpoint | c.o.t.i.FileSystemHealth] C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\work: 30.0% (OK)
+[INFO ] 2023-12-05 14:40:08,847 [repositories/LODEdo_endpoint | c.o.t.i.FileSystemHealth] C:\Users\valep\Documents\GitHub\lodall\graphDB\graphdb-10.3.2\data\repositories\LODEdo_endpoint: 30.0% (OK)
+[INFO ] 2023-12-05 14:40:09,522 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:40:10,304 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:40:34,634 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:40:34,858 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:40:35,199 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[ERROR] 2023-12-05 14:40:41,911 [repositories/LODEdo_endpoint | c.o.f.s.GraphDBProtocolExceptionResolver] Error while handling request (500)
+org.eclipse.rdf4j.http.server.ServerHTTPException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:412)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.handleRequestInternal(StatementsController.java:121)
+	at com.ontotext.graphdb.sesame.StatementsController.handleRequestInternal(StatementsController.java:68)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:318)
+	at org.apache.catalina.connector.InputBuffer.checkByteBufferEof(InputBuffer.java:596)
+	at org.apache.catalina.connector.InputBuffer.read(InputBuffer.java:336)
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:131)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.apache.commons.io.input.BOMInputStream.read(BOMInputStream.java:452)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:127)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:112)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:164)
+	at java.base/java.io.FilterReader.read(FilterReader.java:65)
+	at java.base/java.io.PushbackReader.read(PushbackReader.java:90)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.readCodePoint(TurtleParser.java:1223)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.skipWSC(TurtleParser.java:1176)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:352)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:334)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:202)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:164)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:127)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:302)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:229)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:285)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:219)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:400)
+	... 50 common frames omitted
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.apache.tomcat.util.net.NioChannel.read(NioChannel.java:161)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1320)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1234)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.access$400(Http11InputBuffer.java:41)
+	at org.apache.coyote.http11.Http11InputBuffer$SocketInputBuffer.doRead(Http11InputBuffer.java:1185)
+	at org.apache.coyote.http11.filters.IdentityInputFilter.doRead(IdentityInputFilter.java:97)
+	at org.apache.coyote.http11.Http11InputBuffer.doRead(Http11InputBuffer.java:244)
+	at org.apache.coyote.Request.doRead(Request.java:619)
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:313)
+	... 76 common frames omitted
+[ERROR] 2023-12-05 14:40:41,912 [repositories/LODEdo_endpoint | c.o.f.s.GraphDBProtocolExceptionResolver] Error while handling request (500)
+org.eclipse.rdf4j.http.server.ServerHTTPException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:412)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.handleRequestInternal(StatementsController.java:121)
+	at com.ontotext.graphdb.sesame.StatementsController.handleRequestInternal(StatementsController.java:68)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:318)
+	at org.apache.catalina.connector.InputBuffer.checkByteBufferEof(InputBuffer.java:596)
+	at org.apache.catalina.connector.InputBuffer.read(InputBuffer.java:336)
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:131)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.apache.commons.io.input.BOMInputStream.read(BOMInputStream.java:452)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:127)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:112)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:164)
+	at java.base/java.io.FilterReader.read(FilterReader.java:65)
+	at java.base/java.io.PushbackReader.read(PushbackReader.java:90)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.readCodePoint(TurtleParser.java:1223)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseQNameOrBoolean(TurtleParser.java:1025)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseValue(TurtleParser.java:573)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseObject(TurtleParser.java:452)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseObjectList(TurtleParser.java:374)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:369)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:334)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:202)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:164)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:127)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:302)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:229)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:285)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:219)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:400)
+	... 50 common frames omitted
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.apache.tomcat.util.net.NioChannel.read(NioChannel.java:161)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1320)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1234)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.access$400(Http11InputBuffer.java:41)
+	at org.apache.coyote.http11.Http11InputBuffer$SocketInputBuffer.doRead(Http11InputBuffer.java:1185)
+	at org.apache.coyote.http11.filters.IdentityInputFilter.doRead(IdentityInputFilter.java:97)
+	at org.apache.coyote.http11.Http11InputBuffer.doRead(Http11InputBuffer.java:244)
+	at org.apache.coyote.Request.doRead(Request.java:619)
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:313)
+	... 79 common frames omitted
+[INFO ] 2023-12-05 14:40:50,011 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:40:50,039 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:40:50,046 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:40:50,060 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:40:50,068 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:40:50,074 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:40:50,078 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1043222864
+[INFO ] 2023-12-05 14:40:50,113 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1043222864 is finished
+[INFO ] 2023-12-05 14:40:50,122 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:40:50,206 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:40:50,215 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:40:50,226 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:40:50,233 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:40:50,245 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:47:23,093 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:47:23,346 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:47:23,678 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:47:32,335 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:47:32,619 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:47:32,835 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:47:33,026 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:48:33,700 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:48:33,716 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:48:33,722 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:48:33,734 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:48:33,741 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:48:33,750 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:48:33,756 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1043222864
+[INFO ] 2023-12-05 14:48:33,786 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1043222864 is finished
+[INFO ] 2023-12-05 14:48:33,801 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:48:33,856 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:48:33,863 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:48:33,876 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:48:33,888 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:48:33,901 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:50:22,470 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:22,658 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:22,932 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:31,184 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:31,423 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:31,606 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:31,736 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:50:31,936 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:50:31,949 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:52:30,117 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:30,330 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:30,608 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:38,872 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:39,107 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:39,307 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:39,509 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:52:39,715 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:52:39,725 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:58:03,468 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:03,684 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:03,970 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:13,245 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:13,486 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:13,669 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:13,825 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 14:58:14,043 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:58:14,055 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:58:14,063 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:58:14,075 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:58:14,082 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:58:14,088 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:58:14,095 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 14:58:14,121 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 14:58:14,130 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:58:14,175 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:58:14,183 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:58:14,194 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:58:14,202 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:58:14,211 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:58:25,474 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:58:25,486 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:58:25,492 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:58:25,504 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:58:25,509 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:58:25,516 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:58:25,522 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 14:58:25,540 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 14:58:25,545 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:58:25,590 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:58:25,596 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:58:25,604 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:58:25,610 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:58:25,620 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:58:25,645 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1181883718
+[INFO ] 2023-12-05 14:58:25,669 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1181883718 is finished
+[INFO ] 2023-12-05 14:58:29,576 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:58:29,589 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:58:29,595 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:58:29,609 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:58:29,613 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:58:29,620 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:58:29,626 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 14:58:29,651 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 14:58:29,664 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:58:29,711 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:58:29,720 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:58:29,734 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:58:29,740 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:58:29,751 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:58:29,758 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:58:29,771 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:58:34,740 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 14:58:34,753 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 14:58:34,758 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 14:58:34,769 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 14:58:34,774 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 14:58:34,783 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 14:58:34,789 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 14:58:34,818 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 14:58:34,828 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 14:58:34,871 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 14:58:34,877 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 14:58:34,890 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 14:58:34,895 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 14:58:34,905 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 14:58:34,911 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2134876755
+[INFO ] 2023-12-05 14:58:34,944 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2134876755 is finished
+[INFO ] 2023-12-05 15:11:01,774 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:01,976 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:02,179 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:10,432 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:10,675 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:10,861 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:11,044 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:11:11,259 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 15:11:11,270 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 15:11:11,275 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 15:11:11,287 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 15:11:11,292 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 15:11:11,296 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 15:11:11,304 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 15:11:11,328 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 15:11:11,336 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 15:11:11,376 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 15:11:11,380 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 15:11:11,392 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 15:11:11,396 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 15:11:11,408 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 15:14:54,314 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:14:54,447 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:14:54,635 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:14:54,971 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 15:14:54,983 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 15:14:54,987 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 15:14:55,001 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 15:14:55,004 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 15:14:55,012 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 15:14:55,017 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 15:14:55,041 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 15:14:55,049 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 15:14:55,078 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 15:14:55,086 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 15:14:55,095 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 15:14:55,111 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 15:14:55,127 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 15:15:02,707 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:16:20,505 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:16:20,674 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:16:20,904 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:16:29,033 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:18:47,471 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:18:47,827 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:18:48,835 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:47,464 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:47,642 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:47,847 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:51,510 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:51,701 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:51,887 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:52,033 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:52,212 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 15:19:52,223 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 15:19:52,227 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 15:19:52,235 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 15:19:52,239 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 15:19:52,247 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 15:19:52,251 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 15:19:52,275 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 15:19:52,284 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 15:19:52,316 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 15:19:52,321 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 15:19:52,332 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 15:19:52,336 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 15:19:52,344 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 15:19:56,204 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:56,428 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:56,627 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:56,785 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:19:56,967 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 15:19:56,975 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 15:19:56,983 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 15:19:56,991 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 15:19:56,999 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 15:19:57,003 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 15:19:57,011 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 15:19:57,024 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 15:19:57,028 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 15:19:57,064 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 15:19:57,068 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 15:19:57,076 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 15:19:57,080 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 15:19:57,089 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 15:23:36,354 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:23:36,560 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:23:36,854 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:23:40,554 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 15:23:40,568 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 15:23:40,583 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 15:23:40,590 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 15:23:40,599 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 15:23:40,606 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 15:23:40,614 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 15:23:40,643 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 15:23:40,651 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 15:23:40,695 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 15:23:40,699 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 15:23:40,712 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 15:23:40,715 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 15:23:40,723 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 15:23:45,993 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:14,433 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:14,627 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:14,849 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:23,824 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:24,082 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:24,297 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:24,488 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 15:25:24,714 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 15:25:24,726 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 15:25:24,735 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 15:25:24,746 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 15:25:24,750 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 15:25:24,758 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 15:25:24,766 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 15:25:24,786 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 15:25:24,790 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 15:25:24,826 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 15:25:24,834 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 15:25:24,842 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 15:25:24,850 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 15:25:24,859 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:33:50,864 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:33:50,884 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:33:50,888 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:33:50,896 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:33:50,904 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:33:50,908 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:33:50,916 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:33:50,936 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:33:50,950 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:33:50,979 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:33:50,986 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:33:50,994 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:33:50,998 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:33:51,005 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:35:45,282 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:35:45,740 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:35:46,588 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:30,548 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:30,772 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:31,012 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:31,331 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:36:31,343 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:36:31,351 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:36:31,359 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:36:31,363 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:36:31,368 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:36:31,376 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:36:31,396 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:36:31,404 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:36:31,440 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:36:31,447 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:36:31,457 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:36:31,465 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:36:31,470 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:36:33,819 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:34,013 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:34,192 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:34,359 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:36:34,562 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:36:34,570 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:36:34,576 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:36:34,583 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:36:34,588 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:36:34,591 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:36:34,599 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:36:34,620 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:36:34,628 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:36:34,645 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:36:34,653 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:36:34,661 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:36:34,666 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:36:34,673 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:36:39,480 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:04,237 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:04,436 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:04,701 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:13,811 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:14,065 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:14,269 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:14,453 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:38:14,664 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:38:14,676 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:38:14,685 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:38:14,693 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:38:14,701 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:38:14,705 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:38:14,713 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:38:14,729 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:38:14,738 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:38:14,759 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:38:14,765 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:38:14,776 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:38:14,780 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:38:14,789 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:40:23,070 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:23,276 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:23,482 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:32,261 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:32,497 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:32,704 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:32,879 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:40:33,091 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:40:33,099 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:40:33,104 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:40:33,111 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:40:33,119 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:40:33,127 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:40:33,131 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:40:33,159 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:40:33,163 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:40:33,196 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:40:33,200 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:40:33,210 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:40:33,216 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:40:33,228 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:44:24,621 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:44:25,506 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:44:27,325 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:44:30,458 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:44:30,461 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:44:30,526 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:44:30,534 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:44:30,571 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:44:30,578 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:44:30,658 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:44:30,679 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:44:30,770 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:44:30,798 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:44:30,910 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:44:30,917 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:44:31,035 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:44:31,043 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:44:32,367 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:44:32,375 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:44:32,491 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:44:32,494 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:44:32,608 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:44:32,616 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:44:32,677 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:44:32,697 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:44:33,093 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:44:33,115 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:44:33,263 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:44:33,271 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:44:33,356 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:44:33,360 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:44:45,953 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:44:46,523 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:44:49,246 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:34,705 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:34,930 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:35,191 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:39,962 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:41,408 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:41,561 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:41,705 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:41,839 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:41,980 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:42,107 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:42,229 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:42,398 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:45:42,410 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:45:42,414 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:45:42,426 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:45:42,430 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:45:42,434 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:45:42,438 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:45:42,454 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:45:42,463 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:45:42,506 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:45:42,512 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:45:42,526 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:45:42,530 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:45:42,539 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:45:42,571 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:45:42,583 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:45:42,591 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:45:42,599 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:45:42,607 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:45:42,611 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:45:42,619 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:45:42,643 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:45:42,655 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:45:42,680 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:45:42,687 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:45:42,695 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:45:42,703 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:45:42,711 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:45:44,962 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:45,176 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:45,382 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:45,535 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:45:45,737 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:45:45,749 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:45:45,755 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:45:45,762 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:45:45,765 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:45:45,770 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:45:45,777 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:45:45,790 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:45:45,798 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:45:45,839 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:45:45,847 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:45:45,851 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:45:45,857 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:45:45,862 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:48:06,058 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:06,262 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:06,472 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:14,639 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:14,855 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:15,001 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:15,150 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:48:15,349 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:48:15,355 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:48:15,359 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:48:15,361 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:48:15,366 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:48:15,366 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:48:15,373 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:48:15,388 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:48:15,400 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:48:15,440 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:48:15,444 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:48:15,452 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:48:15,460 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:48:15,468 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 16:50:07,781 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:07,971 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:08,212 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:15,975 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:16,165 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:16,337 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:16,502 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 16:50:16,667 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 16:50:16,679 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 16:50:16,684 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 16:50:16,687 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 16:50:16,691 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 16:50:16,696 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 16:50:16,700 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 16:50:16,712 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 16:50:16,717 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 16:50:16,745 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 16:50:16,749 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 16:50:16,757 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 16:50:16,764 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 16:50:16,770 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 17:04:54,013 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:04:54,203 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:04:54,417 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:05:09,416 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 17:05:09,420 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 17:05:09,424 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 17:05:09,428 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 17:05:09,432 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 17:05:09,437 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 17:05:09,437 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 17:05:09,453 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 17:05:09,457 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 17:05:09,491 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 17:05:09,493 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 17:05:09,497 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 17:05:09,501 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 17:05:09,505 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 17:06:25,671 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:25,878 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:26,109 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:34,948 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:35,171 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:35,384 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:35,573 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:06:35,808 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 17:06:35,815 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 17:06:35,824 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 17:06:35,828 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 17:06:35,834 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 17:06:35,836 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 17:06:35,844 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 17:06:35,865 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 17:06:35,873 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 17:06:35,909 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 17:06:35,913 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 17:06:35,921 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 17:06:35,925 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 17:06:35,933 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 17:10:38,308 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:10:38,726 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:10:39,745 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:11:40,679 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:11:40,885 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:11:41,128 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[ERROR] 2023-12-05 17:11:49,887 [repositories/LODEdo_endpoint | c.o.f.s.GraphDBProtocolExceptionResolver] Error while handling request (500)
+org.eclipse.rdf4j.http.server.ServerHTTPException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:412)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.handleRequestInternal(StatementsController.java:121)
+	at com.ontotext.graphdb.sesame.StatementsController.handleRequestInternal(StatementsController.java:68)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:318)
+	at org.apache.catalina.connector.InputBuffer.checkByteBufferEof(InputBuffer.java:596)
+	at org.apache.catalina.connector.InputBuffer.read(InputBuffer.java:336)
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:131)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.apache.commons.io.input.BOMInputStream.read(BOMInputStream.java:452)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:127)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:112)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:164)
+	at java.base/java.io.FilterReader.read(FilterReader.java:65)
+	at java.base/java.io.PushbackReader.read(PushbackReader.java:90)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.readCodePoint(TurtleParser.java:1223)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseQNameOrBoolean(TurtleParser.java:1025)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseValue(TurtleParser.java:573)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parsePredicate(TurtleParser.java:425)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:365)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:334)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:202)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:164)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:127)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:302)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:229)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:285)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:219)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:400)
+	... 50 common frames omitted
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.apache.tomcat.util.net.NioChannel.read(NioChannel.java:161)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1320)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1234)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.access$400(Http11InputBuffer.java:41)
+	at org.apache.coyote.http11.Http11InputBuffer$SocketInputBuffer.doRead(Http11InputBuffer.java:1185)
+	at org.apache.coyote.http11.filters.IdentityInputFilter.doRead(IdentityInputFilter.java:97)
+	at org.apache.coyote.http11.Http11InputBuffer.doRead(Http11InputBuffer.java:244)
+	at org.apache.coyote.Request.doRead(Request.java:619)
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:313)
+	... 78 common frames omitted
+[INFO ] 2023-12-05 17:14:33,698 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 17:14:33,710 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 17:14:33,714 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 17:14:33,718 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 17:14:33,722 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 17:14:33,727 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 17:14:33,734 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 17:14:33,750 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 17:14:33,750 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 17:14:33,780 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 17:14:33,783 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 17:14:33,787 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 17:14:33,791 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 17:14:33,795 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 17:23:31,531 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:23:31,718 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:23:31,931 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[ERROR] 2023-12-05 17:23:37,936 [repositories/LODEdo_endpoint | c.o.f.s.GraphDBProtocolExceptionResolver] Error while handling request (500)
+org.eclipse.rdf4j.http.server.ServerHTTPException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:412)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.handleRequestInternal(StatementsController.java:121)
+	at com.ontotext.graphdb.sesame.StatementsController.handleRequestInternal(StatementsController.java:68)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:82)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.clusterproxy.ClusterFilterBean.doFilter(ClusterFilterBean.java:73)
+	at com.ontotext.forest.clusterproxy.ClusterLoadBalancerFilter.doFilterInternal(ClusterLoadBalancerFilter.java:25)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:318)
+	at org.apache.catalina.connector.InputBuffer.checkByteBufferEof(InputBuffer.java:596)
+	at org.apache.catalina.connector.InputBuffer.read(InputBuffer.java:336)
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:131)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.apache.commons.io.input.BOMInputStream.read(BOMInputStream.java:452)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:127)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:112)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:164)
+	at java.base/java.io.FilterReader.read(FilterReader.java:65)
+	at java.base/java.io.PushbackReader.read(PushbackReader.java:90)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.readCodePoint(TurtleParser.java:1223)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseQNameOrBoolean(TurtleParser.java:1025)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseValue(TurtleParser.java:573)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseObject(TurtleParser.java:452)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseObjectList(TurtleParser.java:374)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:369)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:334)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:202)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:164)
+	at org.eclipse.rdf4j.rio.turtle.TurtleParser.parse(TurtleParser.java:127)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.loadInputStreamOrReader(RDFLoader.java:302)
+	at org.eclipse.rdf4j.repository.util.RDFLoader.load(RDFLoader.java:229)
+	at org.eclipse.rdf4j.repository.base.AbstractRepositoryConnection.add(AbstractRepositoryConnection.java:285)
+	at com.ontotext.trree.monitorRepository.MonitorRepositoryConnection.add(MonitorRepositoryConnection.java:219)
+	at org.eclipse.rdf4j.http.server.repository.statements.StatementsController.getAddDataResult(StatementsController.java:400)
+	... 50 common frames omitted
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.apache.tomcat.util.net.NioChannel.read(NioChannel.java:161)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1320)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1234)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.access$400(Http11InputBuffer.java:41)
+	at org.apache.coyote.http11.Http11InputBuffer$SocketInputBuffer.doRead(Http11InputBuffer.java:1185)
+	at org.apache.coyote.http11.filters.IdentityInputFilter.doRead(IdentityInputFilter.java:97)
+	at org.apache.coyote.http11.Http11InputBuffer.doRead(Http11InputBuffer.java:244)
+	at org.apache.coyote.Request.doRead(Request.java:619)
+	at org.apache.catalina.connector.InputBuffer.realReadBytes(InputBuffer.java:313)
+	... 79 common frames omitted
+[INFO ] 2023-12-05 17:26:12,252 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 17:26:12,256 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 17:26:12,265 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 17:26:12,269 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 17:26:12,273 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 17:26:12,277 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 17:26:12,280 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 17:26:12,289 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 17:26:12,293 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 17:26:12,317 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 17:26:12,319 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 17:26:12,323 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 17:26:12,325 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 17:26:12,329 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 17:33:58,706 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:33:58,914 [repositories/LODEdo_endpoint | c.o.g.s.StatementsController] POST data to repository
+[INFO ] 2023-12-05 17:46:12,796 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 17:46:12,810 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 17:46:12,818 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 17:46:12,823 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 17:46:12,827 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 17:46:12,832 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 17:46:12,837 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 17:46:12,848 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 17:46:12,855 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 17:46:12,892 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 17:46:12,897 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 17:46:12,901 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 17:46:12,907 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 17:46:12,909 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished
+[INFO ] 2023-12-05 18:09:34,390 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2050956578
+[INFO ] 2023-12-05 18:09:34,406 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2050956578 is finished
+[INFO ] 2023-12-05 18:09:34,418 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 305896976
+[INFO ] 2023-12-05 18:09:34,430 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 305896976 is finished
+[INFO ] 2023-12-05 18:09:34,434 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2039268406
+[INFO ] 2023-12-05 18:09:34,442 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2039268406 is finished
+[INFO ] 2023-12-05 18:09:34,446 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1234233264
+[INFO ] 2023-12-05 18:09:34,479 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1234233264 is finished
+[INFO ] 2023-12-05 18:09:34,483 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -718717235
+[INFO ] 2023-12-05 18:09:34,540 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -718717235 is finished
+[INFO ] 2023-12-05 18:09:34,544 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1836091192
+[INFO ] 2023-12-05 18:09:34,549 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1836091192 is finished
+[INFO ] 2023-12-05 18:09:34,552 [repositories/LODEdo_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1762449496
+[INFO ] 2023-12-05 18:09:34,565 [repositories/LODEdo_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1762449496 is finished

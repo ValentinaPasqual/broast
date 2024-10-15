@@ -1,0 +1,162 @@
+[INFO ] 2024-10-09 15:31:50,508 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    GRAPH ?g { ?subject ?p ?oldUri } .
+}
+INSERT {
+    GRAPH ?g { ?subject ?p ?oldUri } .
+}
+WHERE {
+    ?subject dct:identifier ?oldUri .
+    FILTER (CONTAINS(STR(?oldUri), "oldPartOfUri"))  # Adjust condition as needed
+    BIND(IRI(REPLACE(STR(?oldUri), "oldPartOfUri", "newPartOfUri")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 15:32:26,352 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    GRAPH ?g { ?subject ?p ?oldUri } .
+}
+INSERT {
+    GRAPH ?g { ?subject ?p ?oldUri } .
+}
+WHERE {
+    ?subject dct:identifier ?oldUri .
+    FILTER (CONTAINS(STR(?oldUri), "item-")) 
+    BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-1")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 15:33:33,271 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?newUri ?p ?o . 
+    ?o2 ?p2 ?newUri . 
+}
+INSERT {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+}
+WHERE {
+    ?subject dct:identifier ?oldUri .
+    FILTER (CONTAINS(STR(?oldUri), "item-")) 
+    BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-1")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 15:33:58,255 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+}
+INSERT {
+    ?newUri ?p ?o . 
+    ?o2 ?p2 ?newUri .
+}
+WHERE {
+    ?subject dct:identifier ?oldUri .
+    FILTER (CONTAINS(STR(?oldUri), "item-")) 
+    BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-1")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 15:34:31,556 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+}
+INSERT {
+    ?newUri ?p ?o . 
+    ?o2 ?p2 ?newUri .
+}
+WHERE {
+    ?subject dct:identifier ?oldUri .
+    FILTER (CONTAINS(STR(?oldUri), "item-")) 
+    BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 15:34:47,217 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+}
+INSERT {
+    ?newUri ?p ?o . 
+    ?o2 ?p2 ?newUri .
+}
+WHERE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+    FILTER (CONTAINS(STR(?oldUri), "item-")) 
+    BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 15:37:59,520 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-09 15:38:12,760 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 15:40:47,871 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-09 15:40:59,284 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 15:48:02,720 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 15:49:21,993 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 15:50:39,113 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 15:51:54,867 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-09 15:52:03,884 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 16:48:52,351 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+}
+WHERE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+    FILTER (CONTAINS(STR(?oldUri), "conj-conj-")) 
+    #BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 16:49:00,634 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?oldUri ?p ?o . 
+    ?o2 ?p2 ?oldUri . 
+}
+WHERE {
+    ?oldUri ?p ?o . 
+    FILTER (CONTAINS(STR(?oldUri), "conj-conj-")) 
+    #BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 16:49:06,056 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update:     PREFIX kb: <http://www.example.org/forgont/kb/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX : <http://www.w3.org/ns/prov#>
+PREFIX provo: <http://www.w3.org/ns/prov#>
+DELETE {
+    ?oldUri ?p ?o . 
+}
+WHERE {
+    ?oldUri ?p ?o . 
+    FILTER (CONTAINS(STR(?oldUri), "conj-conj-")) 
+    #BIND(IRI(REPLACE(STR(?oldUri), "item-", "documents/item-")) AS ?newUri) .
+}
+[INFO ] 2024-10-09 16:58:24,933 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-09 16:58:31,464 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 17:39:04,743 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-09 17:39:26,295 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-09 17:51:47,483 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-09 17:52:03,609 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

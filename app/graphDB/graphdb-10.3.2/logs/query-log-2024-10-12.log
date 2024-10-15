@@ -1,0 +1,2 @@
+[INFO ] 2024-10-12 15:04:09,297 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-12 15:10:15,491 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
