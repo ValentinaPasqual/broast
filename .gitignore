@@ -19,3 +19,11 @@ index.lock
 # ignore pycache
 __pycache__
 
+
+
+#nginx
+#nohup
+#gunicorn
+#openjdk11
+#python-pip
+

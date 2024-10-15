@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import Blueprint, render_template, send_from_directory, request,  url_for, redirect, session, Response, jsonify
-from SPARQLWrapper import SPARQLWrapper, JSON
 from urllib.parse import parse_qs , quote
 import uuid
 import requests
