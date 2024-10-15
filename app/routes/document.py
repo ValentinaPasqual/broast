@@ -2,8 +2,6 @@
 
 from flask import Blueprint, render_template, request, jsonify
 from app import endpoint_configuration, set_prefixes
-from collections import Counter
-import math
 
 repository, sparql_api = endpoint_configuration()
 prefixes = set_prefixes()

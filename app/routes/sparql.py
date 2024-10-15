@@ -1,9 +1,6 @@
 from flask import Flask
 from flask import Blueprint, render_template, send_from_directory, request,  url_for, redirect, session, Response, jsonify
 from urllib.parse import parse_qs , quote
-import uuid
-import requests
-import json
 from app import endpoint_configuration, set_prefixes
 
 repository, sparql_api = endpoint_configuration()

@@ -2,7 +2,6 @@
 
 from flask import Blueprint, render_template
 from app import endpoint_configuration, set_prefixes
-import requests
 
 repository, sparql_api = endpoint_configuration()
 prefixes = set_prefixes()

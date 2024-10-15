@@ -2,9 +2,6 @@
 
 from flask import Blueprint, render_template, request, jsonify
 from app import endpoint_configuration, set_prefixes
-import pandas as pd
-from collections import Counter
-import plotly.express as px
 
 repository, sparql_api = endpoint_configuration()
 prefixes = set_prefixes()
