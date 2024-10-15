@@ -4,7 +4,6 @@
 from flask import Flask
 from flask import Flask
 from flask import Blueprint, render_template, send_from_directory, request,  url_for, redirect, session, Response, jsonify
-from flask_socketio import SocketIO, emit
 
 # Triplestore manager imports
 from graphdb.rdf4j.api.repositories_api import RepositoriesApi
