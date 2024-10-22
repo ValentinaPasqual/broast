@@ -1,0 +1,117 @@
+@prefix : <https://w3id.org/hico#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/emmedi/hico> rdf:type owl:Ontology ;
+    rdfs:comment "The Historical Context Ontology (HiCO) is an OWL 2 DL ontology developed for representing the context of a claim. In particular, it addresses features characterising hermeneutical activities performed by scholars while generating new information (i.e. an interpretation act). It allows to represent and reason on reliability of argumentations around attributions, by evaluating features such as motivations, types of cited sources or criteria, dates, relations with other claims (e.g. agreement/disagreement). Specifically, historical context regards events and situations that are part of the life-cycle of cultural heritage objects. For instance, \"being created by somebody\", or \"being created at a certain time\", are events related to an artefact that are claimed by an agent at a certain time, motivated with usage of primary sources, and recorded in a secondary source (e.g. a cataloguing record).\n\nHiCO extends the PROV Ontology (http://www.w3.org/ns/prov) with terms for describing aspects of the hermeneutical activity, and reuses existing ontologies, such as CiTO Ontology (http://purl.org/spar/cito/) for linking attributions to related sources."@en ;
+    rdfs:label "The Historical Context Ontology (HiCO)"@en ;
+    rdfs:seeAlso <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+    owl:versionInfo "2.0"@en ;
+    <http://purl.org/dc/elements/1.1/contributor> "Francesca Tomasi"@en, "Silvio Peroni"@en ;
+    <http://purl.org/dc/elements/1.1/creator> "Marilena Daquino"@en ;
+    <http://purl.org/dc/elements/1.1/date> "2020-03-31"@en ;
+    <http://purl.org/vocab/vann/preferredNamespacePrefix> "hico"@en ;
+    <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/hico/"@en .
+
+:InterpretationAct rdf:type owl:Class ;
+    rdfs:comment "The hermeneutical activity performed by an agent in order to generate new information (e.g. an artwork attribution)."@en ;
+    rdfs:label "Interpretation Act" ;
+    rdfs:isDefinedBy <http://purl.org/emmedi/hico> ;
+    rdfs:subClassOf prov:Activity, [
+        rdf:type owl:Restriction ;
+        owl:onProperty :hasInterpretationCriterion ;
+        owl:someValuesFrom :InterpretationCriterion
+    ], [
+        rdf:type owl:Restriction ;
+        owl:onProperty :hasInterpretationType ;
+        owl:someValuesFrom :InterpretationType
+    ], [
+        rdf:type owl:Restriction ;
+        owl:onProperty :isExtractedFrom ;
+        owl:someValuesFrom frbr:Expression
+    ], [
+        rdf:type owl:Restriction ;
+        owl:onProperty [ owl:inverseOf <http://www.w3.org/TR/prov-o/#wasGeneratedBy> ] ;
+        owl:someValuesFrom owl:Thing
+    ] .
+
+:InterpretationCriterion rdf:type owl:Class ;
+    rdfs:comment "The criterion or type of source used by an agent to support an interpretation act, such as bibliography, verbal communication, etc."@en ;
+    rdfs:label "Interpretation Criterion"@en ;
+    rdfs:isDefinedBy <http://purl.org/emmedi/hico> .
+
+:InterpretationType rdf:type owl:Class ;
+    rdfs:comment "An arbitrary definition of the interpretation act, such as artwork attribution or date attribution."@en ;
+    rdfs:label "Interpretation Type"@en ;
+    rdfs:isDefinedBy <http://purl.org/emmedi/hico> .
+
+:hasInterpretationCriterion rdf:type owl:ObjectProperty ;
+    rdfs:comment "A property relating an interpretation act to a criterion or type of source used to support the claim."@en ;
+    rdfs:label "has interpretation criterion"@en ;
+    rdfs:isDefinedBy <http://purl.org/emmedi/hico> ;
+    rdfs:domain :InterpretationAct ;
+    rdfs:range :InterpretationCriterion .
+
+:hasInterpretationType rdf:type owl:ObjectProperty ;
+    rdfs:comment "A property relating an interpretation act to an individual defining an arbitrary classification of the interpretation."@en ;
+    rdfs:label "has interpretation type"@en ;
+    rdfs:isDefinedBy <http://purl.org/emmedi/hico> ;
+    rdfs:domain :InterpretationAct ;
+    rdfs:range :InterpretationType .
+
+:isExtractedFrom rdf:type owl:ObjectProperty ;
+    rdfs:comment "A property relating an interpretation act to the source where the claim has been extracted."@en ;
+    rdfs:label "is extracted from"@en ;
+    rdfs:isDefinedBy <http://purl.org/emmedi/hico> ;
+    rdfs:domain :InterpretationAct ;
+    rdfs:range frbr:Expression ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .
+
+<http://www.w3.org/TR/prov-o/#wasGeneratedBy> rdf:type owl:ObjectProperty ;
+    rdfs:comment "A property relating statements to an interpretation act."@en ;
+    rdfs:label "was generated by"@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov> .
+
+cito:agreesWith rdf:type owl:ObjectProperty ;
+    rdfs:label "agrees with"@en ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    rdfs:subPropertyOf cito:cites .
+
+cito:citesAsEvidence rdf:type owl:ObjectProperty ;
+    rdfs:label "cites as evidence"@en ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    rdfs:subPropertyOf cito:cites .
+
+cito:disagreesWith rdf:type owl:ObjectProperty ;
+    rdfs:label "disagrees with"@en ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    rdfs:subPropertyOf cito:cites .
+
+cito:refutes rdf:type owl:ObjectProperty ;
+    rdfs:label "refutes"@en ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    rdfs:subPropertyOf cito:cites .
+
+prov:Activity rdf:type owl:Class ;
+    rdfs:label "Activity"@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov> .
+
+prov:startedAtTime rdf:type owl:DatatypeProperty ;
+    rdfs:comment "A property relating an interpretation act to the time that triggered the activity."@en ;
+    rdfs:label "started at time"@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov> ;
+    rdfs:range xsd:dateTime .
+
+prov:wasInfluencedBy rdf:type owl:ObjectProperty ;
+    rdfs:label "was influenced by"@en ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/prov> .
+
+frbr:Expression rdf:type owl:Class ;
+    rdfs:label "Expression"@en ;
+    rdfs:isDefinedBy <http://purl.org/vocab/frbr/core> .

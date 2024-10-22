@@ -70,6 +70,8 @@ def create_app():
     from .routes.scholars import schols_bp
     from .routes.publications import pubs_bp
     from .routes.sparql import sparql_bp
+    from .routes.insights import viz_bp
+
 
     app.register_blueprint(main_bp)
     app.register_blueprint(pub_bp)
@@ -79,6 +81,7 @@ def create_app():
     app.register_blueprint(schols_bp)
     app.register_blueprint(pubs_bp)
     app.register_blueprint(sparql_bp)
+    app.register_blueprint(viz_bp)
 
     return app
 

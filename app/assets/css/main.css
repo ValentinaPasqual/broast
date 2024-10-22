@@ -59,7 +59,6 @@ a {
   justify-content: space-between;
   padding: 0 3px;
   font-family: var(--font-default);
-  font-size: 16px;
   font-weight: 350;
   transition: 0.3s;
   position: relative;
@@ -1879,3 +1878,5 @@ p.icon-box-description {
   position: relative;
 
 }
+
+footer {font-size: 70% !important}

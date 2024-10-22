@@ -23,8 +23,8 @@ def get_label(uri):
 def execute_sparql_query(query):
     return sparql_api.execute_get_select_query(repository, query=query)
 
-# function to process claim items and group data
-def process_claims(claims, settled_claim, get_label_func):
+# Updated function to process claim items and group data
+def process_claims(claims, settled_claim):
     grouped_data = {}
 
     # Initialize a dictionary to hold unique qualifiers
@@ -48,18 +48,14 @@ def process_claims(claims, settled_claim, get_label_func):
             if qualifier_value not in qualifiers_dict[key]:
                 qualifiers_dict[key].append(qualifier_value)
 
-    # gets the qualifiers
-    for item in claims['results']['bindings']:
-        if 'qualifier' in item:
-            (item['p']['value'], item['o']['value'], [item['qualifier']['value']])
-
     for item in claims['results']['bindings']:
         group_key = item['g']['value']
 
-        pLabel = get_label_func(item['p']['value']) if item['p']['type'] == 'uri' else ''
-        oLabel = get_label_func(item['o']['value']) if item['o']['type'] == 'uri' else ''
-        p2Label = get_label_func(item['p2']['value']) if item['p2']['type'] == 'uri' else ''
-        o2Label = get_label_func(item['o2']['value']) if item['o2']['type'] == 'uri' else ''
+        # Directly use the labels from the item instead of calling get_label
+        pLabel = item.get('pLabel', {}).get('value', '') if 'pLabel' in item else ''
+        oLabel = item.get('oLabel', {}).get('value', '') if 'oLabel' in item else ''
+        p2Label = item.get('p2Label', {}).get('value', '') if 'p2Label' in item else ''
+        o2Label = item.get('o2Label', {}).get('value', '') if 'o2Label' in item else ''
         
         qualifier = item.get('qualifier', {}).get('value', '')
         beginning = item.get('beginning', {}).get('value', 'no date available')
@@ -70,7 +66,7 @@ def process_claims(claims, settled_claim, get_label_func):
 
         if group_key not in grouped_data:
             grouped_data[group_key] = {
-                'claim_data': {((item['p']['value'], pLabel), (item['o']['value'], oLabel), tuple(qualifiers_dict.get(claim_key, [])))},
+                'claim_data': {((item['p']['value'], pLabel), (item['o']['value'], oLabel), tuple(qualifiers_dict.get(claim_key, [])))} ,
                 'contextual_metadata': {((item['p2']['value'], p2Label), (item['o2']['value'], o2Label))},
                 'asserted': asserted,
                 'publication_date': beginning,
@@ -84,12 +80,9 @@ def process_claims(claims, settled_claim, get_label_func):
             if 'beginning' in item:
                 grouped_data[group_key]['publication_date'] = beginning
 
-
-    print(grouped_data)
-    
     return grouped_data
 
-# handles the archival document route 
+# Updated document function to execute the new SPARQL query
 @doc_bp.route("/documents/<documentID>", methods=["GET", "POST"])
 def document(documentID):
 
@@ -130,7 +123,11 @@ def document(documentID):
             OPTIONAL {{?o ov:confidence|rico:dateQualifier ?qualifier}} 
             }} 
         ?g ?p2 ?o2  
-        OPTIONAL {{?g2 conj:settles ?g}}  
+        OPTIONAL {{?o rdfs:label|rdfs:description|dct:title ?oLabel}}
+        OPTIONAL {{?p rdfs:label|rdfs:description|dct:title ?pLabel}}
+        OPTIONAL {{?p2 rdfs:label|rdfs:description|dct:title ?p2Label}}
+        OPTIONAL {{?o2 rdfs:label|rdfs:description|dct:title ?o2Label}}
+        OPTIONAL {{?g2 conj:settles ?g}}
         OPTIONAL {{?g prov:wasQuotedFrom ?ref. ?ref dct:date ?date. ?date time:hasBeginning ?beginning}} 
     }} 
     ORDER BY DESC (?beginning)
@@ -148,7 +145,7 @@ def document(documentID):
     settled_claim_value = settled_claim['results']['bindings'][0]['g']['value'] if settled_claim['results']['bindings'] else None
 
     # process and group claim data
-    grouped_data = process_claims(claims, settled_claim_value, get_label)
+    grouped_data = process_claims(claims, settled_claim_value)
 
     # renders the template
     return render_template("document.html", plot_div='', undisputed_data=undisputed_data, grouped_data=grouped_data, documenting_sources=documenting_sources)

@@ -127,8 +127,8 @@ CONJ kb:ass-lit-112-ref2 {
 
 CONJ kb:ass-lit-62-ref2 {
     doc:62 a forgont:Authentic ;
-        dct:date kb:time-1150 ;
-        ov:confidence "circa"^^xsd:string .
+        dct:date kb:time-1150 .
+    kb:time-1150 rico:dateQualifier "circa"^^xsd:string .
 }
 
 CONJ kb:ass-lit-12-ref2 {
@@ -195,7 +195,7 @@ CONJ kb:ass-lit-45-ref1 {
 # REGEST CLAIMS
 
 CONJ kb:ass-reg-79-ref1 {
-    doc:79 a forgont:OpenQuestion .
+    doc:79 a [ rdfs:label "Open question" ].
 }
 
 CONJ kb:ass-reg-103-ref1 {
@@ -612,8 +612,8 @@ CONJ kb:ass-ed-90-ref1 {
 }
 
 CONJ kb:ass-ed-27-ref1 {
-    doc:27 dct:date kb:time-1050 ;
-        rico:dateQualifier "circa"^^xsd:string .
+    doc:27 dct:date kb:time-1050 .
+    kb:time-1050 rico:dateQualifier "circa"^^xsd:string .
 }
 
 CONJ kb:ass-ed-45-ref1 {
@@ -639,8 +639,8 @@ CONJ kb:ass-ed-73-ref2 {
 }
 
 CONJ kb:ass-ed-86-ref1 {
-    doc:86 dct:date kb:time-1163-1165 ;
-        ov:confidence "?"^^xsd:string .
+    doc:86 dct:date kb:time-1163-1165 .
+    kb:time-1163-1165 ov:confidence "?"^^xsd:string .
 }
 
 CONJ kb:ass-ed-94-ref1 {
@@ -732,8 +732,8 @@ CONJ kb:ass-ed-92-ref3 {
 }
 
 CONJ kb:ass-ed-29-ref1 {
-    doc:29 dct:date kb:time-1070 ;
-        rico:dateQualifier "circa"^^xsd:string .
+    doc:29 dct:date kb:time-1070 .
+    kb:time-1070 rico:dateQualifier "circa"^^xsd:string .
 }
 
 CONJ kb:ass-ed-52-ref2 {
@@ -804,8 +804,8 @@ CONJ kb:ass-ed-95-ref1 {
 
 CONJ kb:ass-ed-71-ref2 {
     doc:71 a forgont:Forgery ;
-        dct:date kb:time-1265-1332 ;
-        rico:dateQualifier "circa"^^xsd:string .
+        dct:date kb:time-1265-1332 .
+    kb:time-1265-1332 rico:dateQualifier "circa"^^xsd:string .
 }
 
 CONJ kb:ass-ed-73-ref2 {
@@ -866,8 +866,8 @@ CONJ kb:ass-ed-73-ref1 {
 }
 
 CONJ kb:ass-ed-45-ref3 {
-    doc:45 dct:date kb:time-1180 ;
-        rico:dateQualifier "circa"^^xsd:string .
+    doc:45 dct:date kb:time-1180 .
+    kb:time-1180 rico:dateQualifier "circa"^^xsd:string .
 }
 
 CONJ kb:ass-ed-48-ref3 {
@@ -999,11 +999,9 @@ SETT kb:ass-104-2 {
 }
 
 SETT kb:ass-38-2 {
-    doc:38 dct:date [ a time:Interval ] .
+    doc:38 dct:date [ a time:Interval; ov:confidence "?"^^xsd:string ] .
     doc:38 dct:type kb:Copy .
     doc:38 a forgont:Forgery .
-
-    kb:unknown ov:confidence "?"^^xsd:string .
 }
 
 SETT kb:ass-54-2 {
@@ -1015,7 +1013,6 @@ SETT kb:ass-54-2 {
 
 SETT kb:ass-136-2 {
     doc:136 dct:date kb:time-1254-1265 .
-    doc:136 a forgont:Forgery .
     doc:136 a forgont:Forgery .
 }
 
@@ -1168,7 +1165,7 @@ SETT kb:ass-43-2 {
 }
 
 SETT kb:ass-21-2 {
-    doc:21 dct:date  [ a time:Interval ] .
+    doc:21 dct:date  [ a time:Interval; rdfs:label "unknown"^^xsd:string ] .
 }
 
 SETT kb:ass-127-2 {
@@ -1413,9 +1410,9 @@ SETT kb:ass-2-2 {
 
 SETT kb:ass-37-2 {
     doc:37 dct:date kb:time-1216 .
-    doc:2 dct:type kb:Original .
+    doc:37 dct:type kb:Original .
 	kb:Original ov:confidence "allegedly"^^xsd:string .
-    doc:2 a forgont:Forgery .
+    doc:37 a forgont:Forgery .
 
     kb:time-1216 rico:dateQualifier "after"^^xsd:string .
 }
@@ -1450,6 +1447,12 @@ SETT kb:ass-115-2 {
 CONJ kb:ass-9 {
     doc:9 dct:date kb:time-888 ;
         dct:coverage kb:Regensburg ;
+        a forgont:Authentic .
+}
+
+CONJ kb:ass-10 {
+    doc:10 dct:date kb:time-893 ;
+        dct:coverage kb:Ranhofen ;
         a forgont:Authentic .
 }
 
@@ -1871,9 +1874,9 @@ SETT kb:ass-17-2 {
 }
 
 CONJ kb:ass-131 {
-    doc:131 dct:date kb:time-1239 .
-    doc:143 dct:coverage kb:Steyr ;
-    a forgont:Authentic .
+    doc:131 dct:date kb:time-1239 ;
+        dct:coverage kb:Steyr ;
+        a forgont:Authentic .
 }
 
 CONJ kb:ass-47 {
@@ -2541,7 +2544,7 @@ CONJ kb:ass-118 {
 }
 
 SETT kb:ass-20-2 {
-    doc:20 dct:date [ a time:Interval ] .
+    doc:20 dct:date [ rdfs:label "unknown"; a time:Interval ] .
     doc:20 dct:type kb:Copy .
     doc:20 a forgont:Forgery .
 }
@@ -2874,7 +2877,7 @@ SETT kb:ass-59-2 {
 }
 
 CONJ kb:ass-136 {
-    doc:136 dct:date kb:1246 ;
+    doc:136 dct:date kb:time-1246 ;
         a forgont:Authentic .
 }
 
@@ -2950,7 +2953,7 @@ CONJ kb:ass-69 {
 }
 
 SETT kb:ass-22-2 {
-    doc:22 dct:date [ a time:Interval ] .
+    doc:22 dct:date [ a time:Interval; rdfs:label "unknown"^^xsd:string ] .
     doc:22 dct:type kb:Copy .
     doc:22 a forgont:Forgery .
 }
@@ -3483,6 +3486,49 @@ GRAPH kb:factual_metadata {
     pub:1328	cito:documents	doc:123.
     pub:1328	cito:documents	doc:129.
     pub:1329	cito:documents	doc:149.
+    pub:1330-1 cito:documents doc:124 .
+    pub:1330-1 cito:documents doc:130 .
+    pub:1330-1 cito:documents doc:133 .
+    pub:1330-1 cito:documents doc:126 .
+    pub:1330-1 cito:documents doc:115 .
+    pub:1330-1 cito:documents doc:88 .
+    pub:1330-1 cito:documents doc:134 .
+    pub:1330-1 cito:documents doc:52 .
+    pub:1330-1 cito:documents doc:137 .
+    pub:1330-1 cito:documents doc:64 .
+    pub:1330-1 cito:documents doc:131 .
+    pub:1330-1 cito:documents doc:117 .
+    pub:1330-1 cito:documents doc:89 .
+    pub:1330-1 cito:documents doc:107 .
+    pub:1330-1 cito:documents doc:116 .
+    pub:1330-1 cito:documents doc:84 .
+    pub:1330-1 cito:documents doc:110 .
+    pub:1330-1 cito:documents doc:128 .
+    pub:1330-1 cito:documents doc:92 .
+    pub:1330-1 cito:documents doc:114 .
+    pub:1330-1 cito:documents doc:111 .
+    pub:1330-1 cito:documents doc:106 .
+    pub:1330-1 cito:documents doc:103 .
+    pub:1330-1 cito:documents doc:100 .
+    pub:1330-1 cito:documents doc:105 .
+    pub:1330-1 cito:documents doc:94 .
+    pub:1330-1 cito:documents doc:108 .
+    pub:1330-1 cito:documents doc:91 .
+    pub:1330-1 cito:documents doc:132 .
+    pub:1330-1 cito:documents doc:118 .
+    pub:1330-2 cito:documents doc:124 .
+    pub:1330-2 cito:documents doc:136 .
+    pub:1330-2 cito:documents doc:130 .
+    pub:1330-2 cito:documents doc:126 .
+    pub:1330-2 cito:documents doc:134 .
+    pub:1330-2 cito:documents doc:137 .
+    pub:1330-2 cito:documents doc:131 .
+    pub:1330-2 cito:documents doc:128 .
+    pub:1330-2 cito:documents doc:132 .
+    pub:1330-3 cito:documents doc:35 .
+    pub:1330-3 cito:documents doc:21 .
+    pub:1330-3 cito:documents doc:78 .
+    pub:1330-3 cito:documents doc:33 .
     pub:1331-1	cito:documents	doc:50.
     pub:1331-1	cito:documents	doc:89.
     pub:1331-1	cito:documents	doc:65.
@@ -3974,6 +4020,10 @@ GRAPH kb:factual_metadata {
     kb:time-1895 time:hasEnd "1895"^^xsd:gYear .
     kb:time-1895 rdfs:label "1895"^^xsd:string .
 
+    kb:time-1886 time:hasBeginning "1886"^^xsd:gYear .
+    kb:time-1886 time:hasEnd "1886"^^xsd:gYear .
+    kb:time-1886 rdfs:label "1886"^^xsd:string .
+
     pub:1233 dct:date kb:time-1980. 
     pub:1235 dct:date kb:time-1957. 
     kb:time-1957 time:hasBeginning "1957"^^xsd:gYear .
@@ -4041,6 +4091,10 @@ GRAPH kb:factual_metadata {
     kb:time-1955 time:hasBeginning "1955"^^xsd:gYear .
     kb:time-1955 time:hasEnd "1955"^^xsd:gYear .
     kb:time-1955 rdfs:label "1955"^^xsd:string .
+
+    kb:time-1755 time:hasBeginning "1755"^^xsd:gYear .
+    kb:time-1755 time:hasEnd "1755"^^xsd:gYear .
+    kb:time-1755 rdfs:label "1755"^^xsd:string .
 
     pub:1257 dct:date kb:time-1960. 
     pub:1258 dct:date kb:time-1964. 
@@ -4303,6 +4357,10 @@ GRAPH kb:factual_metadata {
     kb:time-1876 time:hasEnd "1876"^^xsd:gYear .
     kb:time-1876 rdfs:label "1876"^^xsd:string .
 
+    kb:time-1999 time:hasBeginning "1999"^^xsd:gYear .
+    kb:time-1999 time:hasEnd "1999"^^xsd:gYear .
+    kb:time-1999 rdfs:label "1999"^^xsd:string .
+
     pub:1331-7 dct:date kb:time-1883. 
     kb:time-1883 time:hasBeginning "1883"^^xsd:gYear .
     kb:time-1883 time:hasEnd "1883"^^xsd:gYear .
@@ -4454,6 +4512,7 @@ GRAPH kb:factual_metadata {
     people:MikoletzkyHannsLeo owl:sameAs wd:Q55847930 .
     people:MischkeBritta owl:sameAs wd:Q113803532 .
     people:MitisOskarvon owl:sameAs wd:Q55844988 .
+    people:DienstHeide owl:sameAs wd:Q1593890 . 
     people:Mochty-WeltinChristina owl:sameAs wd:Q112549416 .
     people:MuhlbacherEngelbert owl:sameAs wd:Q87151 .
     people:OpllFerdinand owl:sameAs wd:Q1405665 .
@@ -4503,13 +4562,13 @@ GRAPH kb:factual_metadata {
     kb:ass-lit-122-ref2 prov:wasQuotedFrom pub:1255 .
     kb:ass-lit-147-ref4 prov:wasQuotedFrom pub:1254 .
     kb:ass-lit-149-ref4 prov:wasQuotedFrom pub:1320 .
-    kb:ass-lit-3-ref1 prov:wasQuotedFrom pub:1305 .
+    kb:ass-lit-3-ref1 prov:wasQuotedFrom pub:1305-1 .
     kb:ass-lit-45-ref1 prov:wasQuotedFrom pub:1354 .
     kb:ass-lit-62-ref1 prov:wasQuotedFrom pub:1271 .
     kb:ass-lit-62-ref2 prov:wasQuotedFrom pub:1311 .
     kb:ass-lit-7-ref3 prov:wasQuotedFrom pub:1323 .
     kb:ass-lit-72-ref3 prov:wasQuotedFrom pub:1236 .
-    kb:ass-lit-78-ref2 prov:wasQuotedFrom pub:1213 .
+    kb:ass-lit-78-ref2 prov:wasQuotedFrom pub:1213-1 .
     kb:ass-lit-79-ref2 prov:wasQuotedFrom pub:1269 .
     kb:ass-lit-79-ref3 prov:wasQuotedFrom pub:1236 .
     kb:ass-lit-96-ref2 prov:wasQuotedFrom pub:1277 .
@@ -4604,7 +4663,7 @@ GRAPH kb:factual_metadata {
     kb:ass-ed-114-ref1 prov:wasQuotedFrom pub:1331-2 .
     kb:ass-ed-118-ref1 prov:wasQuotedFrom pub:1331-2 .
     kb:ass-ed-12-ref1 prov:wasQuotedFrom pub:1331-2 .
-    kb:ass-ed-123-ref3 prov:wasQuotedFrom pub:unknown .
+    kb:ass-ed-123-ref3 prov:wasQuotedFrom pub:1279-12 .
     kb:ass-ed-13-ref3 prov:wasQuotedFrom pub:1295 .
     kb:ass-ed-139-ref1 prov:wasQuotedFrom pub:1331-3 .
     kb:ass-ed-14-ref3 prov:wasQuotedFrom pub:1295 .
@@ -4936,7 +4995,7 @@ GRAPH kb:factual_metadata {
     kb:time-975 rdfs:label "975"^^xsd:string .
     kb:time-975-1000 rdfs:label "975-1000"^^xsd:string .
     kb:time-977 rdfs:label "977"^^xsd:string .
-    kb:time-992-993 rdfs:label "992-"^^xsd:string .
+    kb:time-992-993 rdfs:label "992-993"^^xsd:string .
     kb:time-993 rdfs:label "993"^^xsd:string .
 
     people:SiegfriedHaider rdfs:label "Siegfried Haider"^^xsd:string .
@@ -5094,6 +5153,11 @@ GRAPH kb:factual_metadata {
         rdfs:label "Regensburg"^^xsd:string ;
         forgont:hasLatitude "POINT (12.083333333 49.016666666)"^^geo:wktLiteral ;
         owl:sameAs <http://www.wikidata.org/entity/Q2978> .
+
+    kb:Ranhofen a dct:Location ;
+        rdfs:label "Ranhofen"^^xsd:string ;
+        forgont:hasLatitude "Point(13.015833333333 48.233055555556)"^^geo:wktLiteral ;
+        owl:sameAs <http://www.wikidata.org/entity/Q42328863>  .
 
     kb:Rom a dct:Location ;
         rdfs:label "Rom"^^xsd:string ;
@@ -5571,7 +5635,7 @@ GRAPH kb:factual_metadata {
             pub:1331-2,
             pub:1334,
             pub:1353,
-            pub:unknown ;
+            pub:1279-12 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
 
     kb:ass-123-2 a hico:InterpretationAct .
@@ -5587,7 +5651,7 @@ GRAPH kb:factual_metadata {
     kb:ass-124-2 prov:wasAttributedTo people:SiegfriedHaider ;
         prov:wasDerivedFrom pub:1278,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-2,
             pub:1349 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
@@ -5604,7 +5668,7 @@ GRAPH kb:factual_metadata {
     kb:ass-126-2 prov:wasAttributedTo people:SiegfriedHaider ;
         prov:wasDerivedFrom pub:1278,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-2,
             pub:1348 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
@@ -5626,7 +5690,7 @@ GRAPH kb:factual_metadata {
     kb:ass-128-2 prov:wasAttributedTo people:SiegfriedHaider ;
         prov:wasDerivedFrom pub:1278,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-3,
             pub:1348 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
@@ -5669,7 +5733,7 @@ GRAPH kb:factual_metadata {
     kb:ass-130-2 prov:wasAttributedTo people:SiegfriedHaider ;
         prov:wasDerivedFrom pub:1278,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-3,
             pub:1348 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
@@ -5679,7 +5743,7 @@ GRAPH kb:factual_metadata {
     kb:ass-131-2 prov:wasAttributedTo people:SiegfriedHaider ;
         prov:wasDerivedFrom pub:1278,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-3,
             pub:1348,
             pub:1349 ;
@@ -5695,7 +5759,7 @@ GRAPH kb:factual_metadata {
             pub:1299,
             pub:1305-2,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-3 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
 
@@ -5705,13 +5769,13 @@ GRAPH kb:factual_metadata {
         prov:wasDerivedFrom pub:1278,
             pub:1307,
             pub:1330-1,
-            pub:1331-3 ;
+            pub:1331-2 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
 
     kb:ass-134 prov:wasQuotedFrom doc:134 .
 
     kb:ass-134-2 prov:wasAttributedTo people:SiegfriedHaider ;
-        prov:wasDerivedFrom pub:1330-1,
+        prov:wasDerivedFrom pub:1330-2,
             pub:1331-3 ;
         forgont:evidence "document of doubtful validity"^^xsd:string ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
@@ -5731,7 +5795,7 @@ GRAPH kb:factual_metadata {
     kb:ass-136 prov:wasQuotedFrom doc:136 .
 
     kb:ass-136-2 prov:wasAttributedTo people:SiegfriedHaider ;
-        prov:wasDerivedFrom pub:1330 ;
+        prov:wasDerivedFrom pub:1330-2 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
 
     kb:ass-136-2 a hico:InterpretationAct .
@@ -5751,7 +5815,7 @@ GRAPH kb:factual_metadata {
             pub:1299,
             pub:1305-2,
             pub:1306,
-            pub:1330-1,
+            pub:1330-2,
             pub:1331-3,
             pub:1349 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
@@ -6031,6 +6095,13 @@ GRAPH kb:factual_metadata {
             pub:1333,
             pub:1342 ;
         prov:wasQuotedFrom pub:Urkundenverzeichnis .
+
+    kb:ass-22-2 prov:wasAttributedTo people:SiegfriedHaider ;
+    prov:wasDerivedFrom pub:1350,
+        pub:1354, 
+        pub:1305-1,
+        pub:1331-2 ;
+    prov:wasQuotedFrom pub:Urkundenverzeichnis .
 
     kb:ass-2-2 a hico:InterpretationAct .
     kb:ev1-ass-2-2 a sebi:Evidence ;
@@ -6871,7 +6942,7 @@ GRAPH kb:factual_metadata {
         prov:wasDerivedFrom kb:ass-lit-7-ref3,
             pub:1206,
             pub:1282,
-            pub:1323,
+            pub:1323-1,
             pub:1331-2,
             pub:1345,
             pub:1357,
@@ -8420,7 +8491,7 @@ GRAPH kb:factual_metadata {
 
     kb:ass-lit-149-ref4 prov:wasQuotedFrom pub:1320 .
 
-    kb:ass-lit-3-ref1 prov:wasQuotedFrom pub:1305 .
+    kb:ass-lit-3-ref1 prov:wasQuotedFrom pub:1305-1 .
 
     kb:ass-lit-45-ref1 prov:wasQuotedFrom pub:1354 .
 
@@ -8432,7 +8503,7 @@ GRAPH kb:factual_metadata {
 
     kb:ass-lit-72-ref3 prov:wasQuotedFrom pub:1236 .
 
-    kb:ass-lit-78-ref2 prov:wasQuotedFrom pub:1213 .
+    kb:ass-lit-78-ref2 prov:wasQuotedFrom pub:1213-1 .
 
     kb:ass-lit-79-ref2 prov:wasQuotedFrom pub:1269 .
 
@@ -9782,6 +9853,45 @@ doc:77 dct:title "Urkundenbuch des Landes ob der Enns, Volume 2, number 182"@en 
     people:ZwierleinSusanne a dct:Agent ; 
 		rdfs:label "Zwierlein, Susanne" .
 
+    pub:1330-1 dct:contributor people:FichtenauHeinrich ;
+        dct:language "ger"^^xsd:string ;
+        dct:relation "Publikationen des Instituts für Österreichische Geschichtsforschung. Reihe 3 / 1"^^xsd:string ;
+        dct:subject "Österreich; 13. Jahrhundert; Urkundenbücher; Sphragistik; Babenberger; Fichtenau, Heinrich (1912-2000)"^^xsd:string ;
+        dct:title "Urkundenbuch zur Geschichte der Babenberger in Österreich. Bd. 1: Die Siegelurkunden der Babenberger bis 1215"^^xsd:string ;
+        a fabio:ArchivalRecordSet ;
+        dct:date kb:time-1950 ;
+        dct:description "Urkundenbuch zur Geschichte der Babenberger in Österreich, Bd. 1: Siegelurkunden der Babenberger bis 1215, vorbereitet von Oskar von Mitis, bearb. von Heinrich Fichtenau − Erich Zöllner (Publikationen des Instituts für Österreichische Geschichtsforschung, Bd. 3/1), Wien 1950." ;
+        owl:sameAs riopac:126552 .
+
+    pub:1330-2 dct:contributor people:FichtenauHeinrich ;
+        dct:language "ger"^^xsd:string ;
+        dct:relation "Publikationen des Instituts für Österreichische Geschichtsforschung. Reihe 3 / 2"^^xsd:string ;
+        dct:subject "Österreich; 13. Jahrhundert; Urkundenbücher; Sphragistik; Babenberger; Fichtenau, Heinrich (1912-2000)"^^xsd:string ;
+        dct:title "Urkundenbuch zur Geschichte der Babenberger in Österreich. Bd. 2: Die Siegelurkunden der Babenberger und ihrer Nachkommen von 1216-1279"^^xsd:string ;
+        a fabio:ArchivalRecordSet ;
+        dct:date kb:time-1955 ;
+        dct:description "Urkundenbuch zur Geschichte der Babenberger in Österreich, Bd. 2: Urkunden der Babenberger und ihrer Nachkommen von 1216 bis 1279, vorbereitet von Oskar von Mitis, bearb. von Heinrich Fichtenau − Erich Zöllner (Publikationen des Instituts für Österreichische Geschichtsforschung, Bd. 3/2), Wien 1955." ;
+        owl:sameAs riopac:126553 .
+
+    pub:1279-12 dct:language "lat"^^xsd:string ;
+        dct:relation "Monumenta Boica S. 321ff."^^xsd:string ;
+        dct:subject "Niederbayern; Urkunden; Stifte und Klöster/A-Z"^^xsd:string ;
+        dct:title "Monumenta Osterhoviana (Monumenta Boica 12, p. 321ff)"^^xsd:string ;
+        a fabio:BookChapter ;
+        dct:date kb:time-1755 ;
+        dct:description "Monumenta Osterhoviana, Buchbeitrag (1775)." ;
+        owl:sameAs riopac:57124 .
+
+    pub:1330-3 dct:contributor people:FichtenauHeinrich, people:MitisOskarvon, people:DienstHeide ;
+        dct:language "ger"^^xsd:string ;
+        dct:date kb:time-1968 ;
+        dct:relation "Publikationen des Instituts für Österreichische Geschichtsforschung. Reihe 3 / 4, 1"^^xsd:string ;
+        dct:subject "Österreich; Mittelalter; Urkundenbücher; Babenberger; Dienst, Heide (1939-); Fichtenau, Heinrich (1912-2000); Mitis, Oskar von (1874-1955)"^^xsd:string ;
+        dct:title "Urkundenbuch zur Geschichte der Babenberger in Österreich. Bd. 4, 1: Ergänzende Quellen 976-1194"^^xsd:string ;
+        a fabio:ArchivalRecordSet ;
+        dct:description "Urkundenbuch zur Geschichte der Babenberger in Österreich, Bd. 4/1: Ergänzende Quellen 976−1194, unter Mitwirkung von Heide Dienst bearb. von Heinrich Fichtenau (Publikationen des Instituts für Österreichische Geschichtsforschung, Bd. 3/4/1), Wien 1968." ;
+        owl:sameAs riopac:126555 .
+
     pub:1203 dct:creator people:AignerGertrude ;
         dct:language "ger"^^xsd:string ;
         dct:subject "Oberösterreich; Baumgartenberg; Mittelalter; Hochschulschriften; Zisterzienser; Stifte und Klöster/A-Z; Verfassungsgeschichte"^^xsd:string ;
@@ -10050,6 +10160,16 @@ doc:77 dct:title "Urkundenbuch des Landes ob der Enns, Volume 2, number 182"@en 
         dct:description "Karl Spreitzhofer, Georgenberger Handfeste. Entstehung und Folgen der ersten Verfassungsurkunde der Steiermark (Styriaca, Neue Reihe, Bd. 3), Graz – Wien − Köln 1986." ;
         owl:sameAs riopac:203969 .
 
+    pub:1307 dct:contributor people:MeillerAndreasvon ;
+        dct:language "ger"^^xsd:string ;
+        dct:date kb:time-1886 ;
+        dct:relation "Regesten zur Geschichte der Salzburger Erzbischöfe"^^xsd:string ;
+        dct:subject "Salzburg; 12. Jahrhundert; 13. Jahrhundert; Regesten; Erzbischöfe, Bischöfe, Patriarchen; Meiller, Andreas von (1812-1871)"^^xsd:string ;
+        dct:title "Regesta archiepiscoporum Salisburgensium inde ab anno 1106 usque ad annum 1246. Regesten zur Geschichte der Salzburger Erzbischöfe"^^xsd:string ;
+        a fabio:ArchivalRecordSet ;
+        dct:description "Regesta archiepiscoporum Salisburgensium inde ab anno 1106 usque ad annum 1246. Regesten zur Geschichte der Salzburger Erzbischöfe, bearb. von Andreas von Meiller (1886)." ;
+        owl:sameAs riopac:9695 .
+
     pub:1326 dct:creator people:UhlirzKarl ;
         dct:language "ger"^^xsd:string ;
         dct:relation "Mitteilungen des Instituts für Österreichische Geschichtsforschung 3 () S. 178-229"^^xsd:string ;
@@ -10167,6 +10287,8 @@ doc:77 dct:title "Urkundenbuch des Landes ob der Enns, Volume 2, number 182"@en 
     people:MayrHubert rdfs:label "Mayr, Hubert" .
 
     people:MitisOskarvon rdfs:label "Mitis, Oskar von" .
+
+    people:DienstHeide rdfs:label "Dienst, Heide" .
 
     people:Mochty-WeltinChristina rdfs:label "Mochty-Weltin, Christina" .
 
@@ -11039,6 +11161,16 @@ pub:1335-2 dct:contributor people:ZahnJosephvon ;
         dct:description "Jodok Stülz, Geschichte des regulirten Chorherrn-Stiftes St. Florian. Ein Beitrag zur Geschichte des Landes Oesterreich ob der Enns, Linz 1835." ;
         owl:sameAs riopac:63830 .
 
+    pub:1323 dct:contributor people:RathGebhard, people:ReiterErich ;
+        dct:language "ger"^^xsd:string ;
+        dct:date kb:time-1989 ;
+        dct:subject "Mondsee; Mittelalter; Urkunden"^^xsd:string ;
+        dct:title "Das älteste Traditionsbuch des Klosters Mondsee (Liber traditionum ... de pago quod dicitur Matahgauue)"^^xsd:string ;
+        a fabio:ArchivalRecordSet ;
+        dct:relation: 'Forschungen zur Geschichte Oberösterreichs / 16'^^xsd:string;
+        dct:description "Das älteste Traditionsbuch des Klosters Mondsee, bearb. von Gebhard Rath† − Erich Reiter (Forschungen zur Geschichte Oberösterreichs, Bd. 16), Linz 1989."^^xsd:string ;
+        owl:sameAs riopac:56209 .
+
     pub:1331-3 dct:contributor people:TrinksErich ;
         dct:language "ger"^^xsd:string ;
         dct:source "http://www.archive.org/details/urkundenbuchdes02landgoog; http://books.google.de/books?id=gIpJAAAAMAAJ"^^xsd:string ;
@@ -11150,6 +11282,16 @@ pub:1335-2 dct:contributor people:ZahnJosephvon ;
         a fabio:ArchivalRecordSet ;
         dct:description "Die Regesten der Bischöfe von Passau, Bd. 1: 731−1206, bearb. von Egon Boshof (Regesten zur bayerischen Geschichte, Bd. 1), München 1992." ;
         owl:sameAs riopac:9678 .
+
+    pub:1305-2 dct:contributor people:BoshofEgon ;
+        dct:language "ger"^^xsd:string ;
+        dct:date kb:time-1999 ;
+        dct:relation "Regesten zur bayerischen Geschichte / 2"^^xsd:string ;
+        dct:subject "Passau; Frühmittelalter; Hochmittelalter; 13. Jahrhundert; Regesten; Boshof, Egon (1937-)"^^xsd:string ;
+        dct:title "Die Regesten der Bischöfe von Passau. Bd. 2: 1206-1254"^^xsd:string ;
+        a fabio:ArchivalRecordSet ;
+        dct:description "Die Regesten der Bischöfe von Passau. Bd. 2: 1206-1254, bearb. von Egon Boshof (1999)." ;
+        owl:sameAs riopac:577595 .
 
     pub:1331-2 dct:contributor people:TrinksErich ;
         dct:language "ger"^^xsd:string ;

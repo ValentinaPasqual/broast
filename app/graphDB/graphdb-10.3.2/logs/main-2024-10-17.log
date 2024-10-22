@@ -1,0 +1,239 @@
+[INFO ] 2024-10-17 17:17:15,678 [main | c.o.g.Config] Using 'file:/C:/Users/valep/Documents/GitHub/broast/app/graphDB/graphdb-10.3.2/conf/logback.xml' as logback's configuration file
+[INFO ] 2024-10-17 17:17:15,997 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2024-10-17 17:17:33,668 [main | c.o.g.Config] GraphDB Home directory: C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2
+[INFO ] 2024-10-17 17:17:33,668 [main | c.o.g.Config] GraphDB Config directory: C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\conf
+[INFO ] 2024-10-17 17:17:33,668 [main | c.o.g.Config] GraphDB Data directory: C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data
+[INFO ] 2024-10-17 17:17:33,668 [main | c.o.g.Config] GraphDB Work directory: C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\work
+[INFO ] 2024-10-17 17:17:33,668 [main | c.o.g.Config] GraphDB Logs directory: C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\logs
+[INFO ] 2024-10-17 17:17:35,417 [main | c.o.g.r.s.SecurityUtil] Cluster gRPC server security is disabled
+[INFO ] 2024-10-17 17:17:36,648 [main | c.o.f.c.s.r.GraphDBRpcServer] Started gRPC server on port 7300 successfully
+[WARN ] 2024-10-17 17:17:38,378 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 12796@BOOK-L3J56CHT5G
+[WARN ] 2024-10-17 17:17:45,828 [main | o.a.c.u.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [672] milliseconds.
+[INFO ] 2024-10-17 17:17:46,738 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2024-10-17 17:17:58,890 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Version: 10.3, revision: 2089190103
+[INFO ] 2024-10-17 17:17:58,895 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Build date: Fri Sep 01 15:00:09 CEST 2023
+[INFO ] 2024-10-17 17:17:58,910 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Started repository forgont_endpoint in READ/WRITE mode.
+[INFO ] 2024-10-17 17:17:58,920 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2024-10-17 17:17:58,920 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2024-10-17 17:17:58,920 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2024-10-17 17:17:58,920 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2024-10-17 17:17:58,920 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'entity-pool-implementation' to default value 'transactional'
+[INFO ] 2024-10-17 17:17:58,927 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2024-10-17 17:17:58,944 [repository-manager-0 | c.o.GraphDBConfigParameters] Cache pages for tuples: 7829
+[INFO ] 2024-10-17 17:17:58,944 [repository-manager-0 | c.o.GraphDBConfigParameters] Cache pages for predicates: 1118
+[INFO ] 2024-10-17 17:17:58,945 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2024-10-17 17:17:58,997 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Detected unclean shutdown
+[INFO ] 2024-10-17 17:17:59,007 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data\repositories\forgont_endpoint\storage\stack-5da28bfc and freeing 0 bytes
+[INFO ] 2024-10-17 17:17:59,007 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data\repositories\forgont_endpoint\storage\stack-5da28bfc-del and freeing 0 bytes
+[INFO ] 2024-10-17 17:17:59,007 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data\repositories\forgont_endpoint\storage\stack-5da28bfc-del1 and freeing 0 bytes
+[INFO ] 2024-10-17 17:17:59,012 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data\repositories\forgont_endpoint\storage\stack-5da28bfc-del2 and freeing 0 bytes
+[INFO ] 2024-10-17 17:17:59,014 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Removing old inference file C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data\repositories\forgont_endpoint\storage\stack-5da28bfc-expl-restore and freeing 0 bytes
+[INFO ] 2024-10-17 17:17:59,016 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2024-10-17 17:17:59,017 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1004.0M'
+[INFO ] 2024-10-17 17:17:59,017 [repository-manager-0 | c.o.t.MemoryConfig] Configured global page cache size to 1004.0M
+[INFO ] 2024-10-17 17:17:59,018 [repository-manager-0 | c.o.t.e.EntityPoolFactory] Using entity pool implementation: transactional-disk
+[INFO ] 2024-10-17 17:17:59,019 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2024-10-17 17:17:59,033 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2024-10-17 17:17:59,079 [repository-manager-0 | c.o.t.e.i.m.PersistedHashMap] Restoring entity hash table...
+[INFO ] 2024-10-17 17:17:59,240 [repository-manager-0 | c.o.t.e.i.m.PersistedHashMap] Restored 20208 entities allocating 12.0 MB
+[INFO ] 2024-10-17 17:17:59,249 [repository-manager-0 | c.o.t.e.i.m.PersistedHashMap] Done in 161 ms.
+[INFO ] 2024-10-17 17:17:59,330 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2024-10-17 17:17:59,339 [repository-manager-0 | c.o.t.e.u.EntityPoolRestoreUtil] Begin restoring from persistence: hashmap types array
+[INFO ] 2024-10-17 17:17:59,708 [repository-manager-0 | c.o.t.e.u.EntityPoolRestoreUtil] Done in 362ms.
+[INFO ] 2024-10-17 17:17:59,719 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2024-10-17 17:17:59,727 [repository-manager-0 | c.o.t.u.l.LimitedObjectCacheFactory] Using LRU cache type: synch
+[INFO ] 2024-10-17 17:17:59,740 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2024-10-17 17:17:59,809 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2024-10-17 17:17:59,815 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.page.cache.size' to default value '1004.0M'
+[INFO ] 2024-10-17 17:18:00,201 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'virtual.repository.mode' to default value 'false'
+[WARN ] 2024-10-17 17:18:00,437 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Rule list configuration present, it will override all other rule sets parameters!
+[INFO ] 2024-10-17 17:18:00,483 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2024-10-17 17:18:00,509 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2024-10-17 17:18:00,532 [repository-manager-0 | c.o.t.InferencerFactory] ruleSet=rdfs, partialRdfs=false
+[INFO ] 2024-10-17 17:18:00,551 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2024-10-17 17:18:00,649 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2024-10-17 17:18:00,697 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2024-10-17 17:18:00,698 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2024-10-17 17:18:00,698 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Searching for plugins available in the classpath...
+[INFO ] 2024-10-17 17:18:00,743 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin direct
+[INFO ] 2024-10-17 17:18:00,743 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin notifications
+[INFO ] 2024-10-17 17:18:00,747 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin expose-entity
+[INFO ] 2024-10-17 17:18:00,748 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin literals-index
+[INFO ] 2024-10-17 17:18:00,749 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin script
+[INFO ] 2024-10-17 17:18:00,749 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin utils
+[INFO ] 2024-10-17 17:18:00,749 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin plugincontrol
+[INFO ] 2024-10-17 17:18:00,749 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin magic-predicates
+[INFO ] 2024-10-17 17:18:00,749 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin sparql-template
+[INFO ] 2024-10-17 17:18:00,749 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2024-10-17 17:18:00,759 [repository-manager-0 | c.o.GraphDBConfigParameters] Reading external plugins from C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins
+[INFO ] 2024-10-17 17:18:00,759 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'register-external-plugins' to default value '[C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins]'
+[INFO ] 2024-10-17 17:18:00,759 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Registering external plugins...
+[INFO ] 2024-10-17 17:18:00,778 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\autocomplete-plugin for plugins
+[INFO ] 2024-10-17 17:18:00,932 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin autocomplete
+[INFO ] 2024-10-17 17:18:00,932 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\change-tracking-plugin for plugins
+[INFO ] 2024-10-17 17:18:00,945 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin change-tracking
+[INFO ] 2024-10-17 17:18:00,947 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\dependencies-plugin for plugins
+[INFO ] 2024-10-17 17:18:00,968 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin dependencies-plugin
+[INFO ] 2024-10-17 17:18:00,968 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\elasticsearch-connector for plugins
+[INFO ] 2024-10-17 17:18:01,243 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin elasticsearch-connector
+[INFO ] 2024-10-17 17:18:01,243 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\entity-change-connector for plugins
+[INFO ] 2024-10-17 17:18:01,324 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin entity-change
+[INFO ] 2024-10-17 17:18:01,324 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\geosparql-plugin for plugins
+[INFO ] 2024-10-17 17:18:02,038 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin GeoSPARQL
+[INFO ] 2024-10-17 17:18:02,038 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\geospatial-plugin for plugins
+[WARN ] 2024-10-17 17:18:02,179 [repository-manager-0 | o.e.r.q.a.e.f.FunctionRegistry] New service class org.eclipse.rdf4j.spin.function.Localname replaces existing service class com.ontotext.trree.query.functions.afn.old.Localname
+[INFO ] 2024-10-17 17:18:02,247 [repository-manager-0 | c.o.t.p.g.FunctionLoader] Registered 1 functions from package com.ontotext.trree.plugin.geo.
+[INFO ] 2024-10-17 17:18:02,247 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin geospatial
+[INFO ] 2024-10-17 17:18:02,249 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\history-plugin for plugins
+[INFO ] 2024-10-17 17:18:02,284 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin history
+[INFO ] 2024-10-17 17:18:02,284 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\kafka-connector for plugins
+[INFO ] 2024-10-17 17:18:02,483 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin kafka-connector
+[INFO ] 2024-10-17 17:18:02,483 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\lucene-connector for plugins
+[INFO ] 2024-10-17 17:18:02,786 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin lucene-connector
+[INFO ] 2024-10-17 17:18:02,787 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\mongodb-plugin for plugins
+[INFO ] 2024-10-17 17:18:02,888 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin mongodb
+[INFO ] 2024-10-17 17:18:02,888 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\notifications-logger-plugin for plugins
+[INFO ] 2024-10-17 17:18:02,900 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin notifications-logger
+[INFO ] 2024-10-17 17:18:02,900 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\opensearch-connector for plugins
+[INFO ] 2024-10-17 17:18:03,250 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin opensearch-connector
+[INFO ] 2024-10-17 17:18:03,250 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\proof-plugin for plugins
+[INFO ] 2024-10-17 17:18:03,267 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin proof
+[INFO ] 2024-10-17 17:18:03,267 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\rdfrank-plugin for plugins
+[INFO ] 2024-10-17 17:18:03,289 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin rdfrank
+[INFO ] 2024-10-17 17:18:03,294 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\sequences-plugin for plugins
+[INFO ] 2024-10-17 17:18:03,308 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin sequences
+[INFO ] 2024-10-17 17:18:03,308 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\similarity-plugin for plugins
+[INFO ] 2024-10-17 17:18:03,428 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin similarity
+[INFO ] 2024-10-17 17:18:03,431 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\solr-connector for plugins
+[INFO ] 2024-10-17 17:18:03,997 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin solr-connector
+[INFO ] 2024-10-17 17:18:03,998 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\sparql-mm for plugins
+[INFO ] 2024-10-17 17:18:04,042 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin sparql-mm
+[INFO ] 2024-10-17 17:18:04,045 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\text-mining-plugin for plugins
+[INFO ] 2024-10-17 17:18:04,099 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin text-mining
+[INFO ] 2024-10-17 17:18:04,099 [repository-manager-0 | c.o.t.OwlimSchemaRepository] Scanning C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\lib\plugins\tx-rollback-plugin for plugins
+[INFO ] 2024-10-17 17:18:04,116 [repository-manager-0 | c.o.t.s.i.PluginManager] Registering plugin tx-rollback
+[INFO ] 2024-10-17 17:18:04,117 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugins... (DEFAULT)
+[INFO ] 2024-10-17 17:18:04,133 [repository-manager-0 | c.o.l.LicenseRegistry] License configuration: Embedded license
+[INFO ] 2024-10-17 17:18:04,133 [repository-manager-0 | c.o.l.LicenseRegistry] License file: jar:file:/C:/Users/valep/Documents/GitHub/broast/app/graphDB/graphdb-10.3.2/lib/graphdb-runtime-10.3.2.jar!/GRAPHDB_LITE.license
+[INFO ] 2024-10-17 17:18:04,139 [repository-manager-0 | c.o.l.LicenseRegistry] Product:                 GRAPHDB_LITE
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Capabilities:            [LUCENE_CONNECTOR]
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Usage restriction:       null
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Licensee:                Freeware
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Permitted use:           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Version:                 10.3
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Expiry date:             none
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Latest publication date: none
+[INFO ] 2024-10-17 17:18:04,141 [repository-manager-0 | c.o.l.LicenseRegistry] Max CPU cores:           1
+[INFO ] 2024-10-17 17:18:04,149 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2024-10-17 17:18:04,172 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'GeoSPARQL'
+[INFO ] 2024-10-17 17:18:06,439 [repository-manager-0 | c.o.t.g.FunctionLoader] Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2024-10-17 17:18:06,447 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'autocomplete'
+[INFO ] 2024-10-17 17:18:06,450 [repository-manager-0 | c.o.t.p.a.AutocompletePluginUtils] >>>>>>>> AutocompletePlugin: No configuration file found at C:\Users\valep\Documents\GitHub\broast\app\graphDB\graphdb-10.3.2\data\repositories\forgont_endpoint\storage\autocomplete\v2\config.properties. Assuming default options for plugin.
+[INFO ] 2024-10-17 17:18:06,478 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'change-tracking'
+[INFO ] 2024-10-17 17:18:06,518 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'dependencies-plugin'
+[INFO ] 2024-10-17 17:18:06,558 [repository-manager-0 | c.o.t.p.d.DependenciesPlugin] Dependency graph was restored from cache
+[INFO ] 2024-10-17 17:18:06,558 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'direct'
+[INFO ] 2024-10-17 17:18:06,560 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'elasticsearch-connector'
+[INFO ] 2024-10-17 17:18:06,589 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'entity-change'
+[INFO ] 2024-10-17 17:18:06,618 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'expose-entity'
+[INFO ] 2024-10-17 17:18:06,618 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'geospatial'
+[INFO ] 2024-10-17 17:18:06,618 [repository-manager-0 | c.o.t.p.g.GeoSpatialPlugin] Plugin:geospatial initialized
+[INFO ] 2024-10-17 17:18:06,618 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'history'
+[INFO ] 2024-10-17 17:18:06,638 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'kafka-connector'
+[INFO ] 2024-10-17 17:18:06,658 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'literals-index'
+[INFO ] 2024-10-17 17:18:06,663 [repository-manager-0 | c.o.p.literals-index] Full-text search functionality is disabled
+[INFO ] 2024-10-17 17:18:06,688 [repository-manager-0 | c.o.p.literals-index] Literals indices restored.
+[INFO ] 2024-10-17 17:18:06,688 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'lucene-connector'
+[INFO ] 2024-10-17 17:18:06,708 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'magic-predicates'
+[INFO ] 2024-10-17 17:18:06,708 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'mongodb'
+[INFO ] 2024-10-17 17:18:06,708 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications'
+[INFO ] 2024-10-17 17:18:06,708 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'notifications-logger'
+[INFO ] 2024-10-17 17:18:06,711 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'opensearch-connector'
+[INFO ] 2024-10-17 17:18:06,719 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'plugincontrol'
+[INFO ] 2024-10-17 17:18:06,728 [repository-manager-0 | c.o.t.p.p.PluginControlPlugin] Plugin:plugincontrol initialized
+[INFO ] 2024-10-17 17:18:06,728 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'proof'
+[INFO ] 2024-10-17 17:18:06,728 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'rdfrank'
+[INFO ] 2024-10-17 17:18:06,747 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'script'
+[INFO ] 2024-10-17 17:18:06,747 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'sequences'
+[INFO ] 2024-10-17 17:18:06,750 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'similarity'
+[INFO ] 2024-10-17 17:18:07,668 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'solr-connector'
+[INFO ] 2024-10-17 17:18:07,688 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-mm'
+[INFO ] 2024-10-17 17:18:07,737 [repository-manager-0 | c.o.g.s.FunctionLoader] Registered 58 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2024-10-17 17:18:07,738 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'sparql-template'
+[INFO ] 2024-10-17 17:18:07,738 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'text-mining'
+[INFO ] 2024-10-17 17:18:07,740 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'tx-rollback'
+[INFO ] 2024-10-17 17:18:07,741 [repository-manager-0 | c.o.t.s.i.PluginManager] Initializing plugin 'utils'
+[INFO ] 2024-10-17 17:18:08,652 [repository-manager-0 | c.o.t.s.i.PluginManager] Finished initializing plugins
+[INFO ] 2024-10-17 17:18:08,658 [repository-manager-0 | c.o.t.MemoryConfig] Configured global page cache size to 1004.0M
+[INFO ] 2024-10-17 17:18:08,658 [repository-manager-0 | c.o.t.MemoryConfig] Configured global page cache size to 1004.0M
+[INFO ] 2024-10-17 17:18:08,816 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2024-10-17 17:18:08,816 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2024-10-17 17:18:08,817 [repository-manager-0 | c.o.r.p.ParallelLoader] Data will be parsed + resolved + loaded.
+[INFO ] 2024-10-17 17:18:08,818 [repository-manager-0 | c.o.c.AbstractParameter] Configured parameter 'graphdb.persistent.parallel.inferencers' to default value 'false'
+[INFO ] 2024-10-17 17:18:09,035 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2024-10-17 17:18:09,068 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -541295071
+[INFO ] 2024-10-17 17:18:09,455 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'deduplicate.construct' to default value 'true'
+[WARN ] 2024-10-17 17:18:09,542 [repositories/forgont_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.apf.StrSplit replaces existing service class com.ontotext.trree.query.functions.apf.old.StrSplitOld
+[WARN ] 2024-10-17 17:18:09,542 [repositories/forgont_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.apf.ConcatTupleFunction replaces existing service class com.ontotext.trree.query.functions.apf.old.ConcatOld
+[WARN ] 2024-10-17 17:18:09,542 [repositories/forgont_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.list.Member replaces existing service class com.ontotext.trree.query.functions.list.old.MemberOld
+[WARN ] 2024-10-17 17:18:09,544 [repositories/forgont_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.list.Index replaces existing service class com.ontotext.trree.query.functions.list.old.IndexOld
+[WARN ] 2024-10-17 17:18:09,544 [repositories/forgont_endpoint | o.e.r.q.a.e.f.TupleFunctionRegistry] New service class org.eclipse.rdf4j.spin.function.list.Length replaces existing service class com.ontotext.trree.query.functions.list.old.LengthOld
+[INFO ] 2024-10-17 17:18:09,619 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'reuse.vars.in.subselects' to default value 'true'
+[INFO ] 2024-10-17 17:18:09,677 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2024-10-17 17:18:09,678 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2024-10-17 17:18:09,702 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2024-10-17 17:18:09,859 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2024-10-17 17:18:09,865 [repositories/forgont_endpoint | c.o.c.AbstractParameter] Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2024-10-17 17:18:10,658 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -541295071 is finished
+[INFO ] 2024-10-17 17:18:10,697 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1945707781
+[INFO ] 2024-10-17 17:18:10,752 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1945707781 is finished
+[INFO ] 2024-10-17 17:18:10,760 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1828643457
+[INFO ] 2024-10-17 17:18:10,782 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1828643457 is finished
+[INFO ] 2024-10-17 17:18:10,795 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 695012759
+[INFO ] 2024-10-17 17:18:10,809 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 695012759 is finished
+[INFO ] 2024-10-17 17:18:10,819 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -853353171
+[INFO ] 2024-10-17 17:18:10,839 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -853353171 is finished
+[INFO ] 2024-10-17 17:18:10,849 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1115477591
+[INFO ] 2024-10-17 17:18:10,867 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1115477591 is finished
+[INFO ] 2024-10-17 17:18:10,869 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1104695067
+[INFO ] 2024-10-17 17:18:10,888 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1104695067 is finished
+[INFO ] 2024-10-17 17:18:10,898 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1580488161
+[INFO ] 2024-10-17 17:18:10,908 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1580488161 is finished
+[INFO ] 2024-10-17 17:18:10,918 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 95645501
+[INFO ] 2024-10-17 17:18:10,933 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 95645501 is finished
+[INFO ] 2024-10-17 17:18:10,938 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1899182823
+[INFO ] 2024-10-17 17:18:10,954 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1899182823 is finished
+[INFO ] 2024-10-17 17:18:10,963 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -525929967
+[INFO ] 2024-10-17 17:18:10,980 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -525929967 is finished
+[INFO ] 2024-10-17 17:18:10,989 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -987659709
+[INFO ] 2024-10-17 17:18:11,039 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -987659709 is finished
+[INFO ] 2024-10-17 17:18:11,048 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -21091693
+[INFO ] 2024-10-17 17:18:11,058 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -21091693 is finished
+[INFO ] 2024-10-17 17:18:11,067 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1701977121
+[INFO ] 2024-10-17 17:18:11,078 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1701977121 is finished
+[INFO ] 2024-10-17 17:18:11,083 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 199371301
+[INFO ] 2024-10-17 17:18:11,097 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 199371301 is finished
+[INFO ] 2024-10-17 17:18:11,108 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2018767173
+[INFO ] 2024-10-17 17:18:11,118 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -2018767173 is finished
+[INFO ] 2024-10-17 17:18:11,119 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1148565457
+[INFO ] 2024-10-17 17:18:11,133 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1148565457 is finished
+[INFO ] 2024-10-17 17:18:11,140 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -168677179
+[INFO ] 2024-10-17 17:18:11,259 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -168677179 is finished
+[INFO ] 2024-10-17 17:18:11,270 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2120375423
+[INFO ] 2024-10-17 17:18:11,278 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2120375423 is finished
+[INFO ] 2024-10-17 17:18:11,291 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 497973287
+[INFO ] 2024-10-17 17:18:11,301 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 497973287 is finished
+[INFO ] 2024-10-17 17:18:11,308 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 131032671
+[INFO ] 2024-10-17 17:18:11,323 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 131032671 is finished
+[INFO ] 2024-10-17 17:18:11,335 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 206114805
+[INFO ] 2024-10-17 17:18:11,338 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 206114805 is finished
+[INFO ] 2024-10-17 17:18:11,357 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1957937653
+[INFO ] 2024-10-17 17:18:11,372 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1957937653 is finished
+[INFO ] 2024-10-17 17:18:11,384 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1239379147
+[INFO ] 2024-10-17 17:18:11,409 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1239379147 is finished
+[INFO ] 2024-10-17 17:18:11,418 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 470243719
+[INFO ] 2024-10-17 17:18:11,420 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 470243719 is finished
+[INFO ] 2024-10-17 17:18:18,777 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1416682615
+[INFO ] 2024-10-17 17:18:18,809 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1416682615 is finished
+[INFO ] 2024-10-17 17:19:08,030 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -896896783
+[INFO ] 2024-10-17 17:19:08,229 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -896896783 is finished

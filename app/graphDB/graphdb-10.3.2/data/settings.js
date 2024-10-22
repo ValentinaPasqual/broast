@@ -197,7 +197,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "9da52aec-9266-4aea-8768-8d75fbb509ec",
+      "data" : "5e916569-d544-42af-b667-6c9b66dc42db",
       "timestamp" : 1711461254273,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -588,7 +588,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "485b2964-0974-4cb3-8d3d-571bd610a221",
+      "data" : "0937fd13-0cd2-4bbc-8fdb-4992317c5366",
       "timestamp" : 1713870260719,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -634,7 +634,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "e103e028-3890-4ae1-b837-f3b600e6db3c",
+      "data" : "e76e1427-fa28-4eb3-ae17-e2191d157ca9",
       "timestamp" : 1713961180247,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -657,7 +657,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "7d633a02-eae7-4118-83e6-7c8d82bf8bfb",
+      "data" : "fae6878d-67d9-4f91-9604-f9087281faee",
       "timestamp" : 1713965893006,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -864,7 +864,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "97af4bb9-722a-4e3c-9748-78e26ab33325",
+      "data" : "0fc23d4b-cc8b-4611-8fe9-ec3d78bf9435",
       "timestamp" : 1714740741199,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -1186,7 +1186,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "14dee221-43c3-44ba-9d6d-ea56b2c5eeae",
+      "data" : "7698070e-8314-444e-b14a-0daffc15b1cf",
       "timestamp" : 1725287934671,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -1255,7 +1255,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "ea5ccd06-a6a9-4afd-8e9e-cab48eadda88",
+      "data" : "bb1fe92b-96b9-43f4-ab8a-e9402d5d4847",
       "timestamp" : 1725355760376,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -1370,7 +1370,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "8935c234-75cf-4709-8b90-fe73d4d2f226",
+      "data" : "a63d8707-f367-4836-a8a2-e4b2d4387bb3",
       "timestamp" : 1726241498198,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -1761,7 +1761,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "a4cd2110-a6d2-4196-80a1-a2da404bfcf6",
+      "data" : "9b4b886e-9df7-431e-be8c-6decf231625d",
       "timestamp" : 1727967023505,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -1784,7 +1784,7 @@
       "forceSerial" : false,
       "type" : "file",
       "format" : null,
-      "data" : "d762969b-d533-4620-851d-dbaea9ee4644",
+      "data" : "88b5e09e-3f06-4105-8fa4-b65486c0b266",
       "timestamp" : 1728225272563,
       "parserSettings" : {
         "preserveBNodeIds" : false,
@@ -2223,6 +2223,29 @@
       "format" : null,
       "data" : "6113403c-c8b0-414f-af94-49e243294011",
       "timestamp" : 1728481090051,
+      "parserSettings" : {
+        "preserveBNodeIds" : false,
+        "failOnUnknownDataTypes" : false,
+        "verifyDataTypeValues" : false,
+        "normalizeDataTypeValues" : false,
+        "failOnUnknownLanguageTags" : false,
+        "verifyLanguageTags" : true,
+        "normalizeLanguageTags" : false,
+        "stopOnError" : true
+      }
+    },
+    "forgont_endpoint;;Text snippet 2024-10-21 16:58:46.441" : {
+      "name" : "Text snippet 2024-10-21 16:58:46.441",
+      "status" : "DONE",
+      "message" : "Imported successfully in less than a second.",
+      "context" : "",
+      "replaceGraphs" : [ ],
+      "baseURI" : "file:/snippet/generated/f90273ac-2269-41a7-89be-a890bd3fe2ab",
+      "forceSerial" : false,
+      "type" : "text",
+      "format" : "text/turtle",
+      "data" : "@prefix dct: <http://purl.org/dc/terms/> .\n@prefix forgont: <http://www.example.org/> .\n@prefix geo: <http://www.opengis.net/ont/geosparql#> .\n@prefix kb: <https://w3id.org/broast/urk/> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix riopac: <http://opac.regesta-imperii.de/id/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix conj: <https://w3id.org/conjectures/> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix prov: <http://www.w3.org/ns/prov#> .\n@prefix hico: <https://w3id.org/hico#> .\n@prefix sebi: <https://w3id.org/sebi/> .\n@prefix time: <https://www.w3.org/TR/owl-time/> . \n@prefix wd: <http://www.wikidata.org/entity/> .\n@prefix cito: <http://purl.org/spar/cito/> .\n@prefix fabio: <http://purl.org/spar/fabio/> .\n@prefix ov: <http://open.vocab.org/terms/> .\n@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .\n\n\n@prefix kb:      <https://w3id.org/broast/urk/> .\n@prefix doc:     <https://w3id.org/broast/urk/documents/> .\n@prefix people:  <https://w3id.org/broast/urk/scholars/> .\n@prefix pub:     <https://w3id.org/broast/urk/publications/> .\n@prefix loc:     <https://w3id.org/broast/urk/locations/> .\n@prefix btime:   <https://w3id.org/broast/urk/time/> .\n\n\npub:1330-1 dct:contributor people:FichtenauHeinrich ;\n        dct:language \"ger\"^^xsd:string ;\n        dct:relation \"Publikationen des Instituts für Österreichische Geschichtsforschung. Reihe 3 / 1\"^^xsd:string ;\n        dct:subject \"Österreich; 13. Jahrhundert; Urkundenbücher; Sphragistik; Babenberger; Fichtenau, Heinrich (1912-2000)\"^^xsd:string ;\n        dct:title \"Urkundenbuch zur Geschichte der Babenberger in Österreich. Bd. 1: Die Siegelurkunden der Babenberger bis 1215\"^^xsd:string ;\n        a fabio:ArchivalRecordSet ;\n        dct:date kb:time-1950 ;\n        dct:description \"Urkundenbuch zur Geschichte der Babenberger in Österreich, Bd. 1: Siegelurkunden der Babenberger bis 1215, vorbereitet von Oskar von Mitis, bearb. von Heinrich Fichtenau − Erich Zöllner (Publikationen des Instituts für Österreichische Geschichtsforschung, Bd. 3/1), Wien 1950.\" ;\n        owl:sameAs riopac:126552 .\n\n    pub:1330-2 dct:contributor people:FichtenauHeinrich ;\n        dct:language \"ger\"^^xsd:string ;\n        dct:relation \"Publikationen des Instituts für Österreichische Geschichtsforschung. Reihe 3 / 2\"^^xsd:string ;\n        dct:subject \"Österreich; 13. Jahrhundert; Urkundenbücher; Sphragistik; Babenberger; Fichtenau, Heinrich (1912-2000)\"^^xsd:string ;\n        dct:title \"Urkundenbuch zur Geschichte der Babenberger in Österreich. Bd. 2: Die Siegelurkunden der Babenberger und ihrer Nachkommen von 1216-1279\"^^xsd:string ;\n        a fabio:ArchivalRecordSet ;\n        dct:date kb:time-1955 ;\n        dct:description \"Urkundenbuch zur Geschichte der Babenberger in Österreich, Bd. 2: Urkunden der Babenberger und ihrer Nachkommen von 1216 bis 1279, vorbereitet von Oskar von Mitis, bearb. von Heinrich Fichtenau − Erich Zöllner (Publikationen des Instituts für Österreichische Geschichtsforschung, Bd. 3/2), Wien 1955.\" ;\n        owl:sameAs riopac:126553 .\n\n    pub:1330-3 dct:contributor people:FichtenauHeinrich, people:MitisOskarvon, people:DienstHeide ;\n        dct:language \"ger\"^^xsd:string ;\n        dct:date kb:time-1968 ;\n        dct:relation \"Publikationen des Instituts für Österreichische Geschichtsforschung. Reihe 3 / 4, 1\"^^xsd:string ;\n        dct:subject \"Österreich; Mittelalter; Urkundenbücher; Babenberger; Dienst, Heide (1939-); Fichtenau, Heinrich (1912-2000); Mitis, Oskar von (1874-1955)\"^^xsd:string ;\n        dct:title \"Urkundenbuch zur Geschichte der Babenberger in Österreich. Bd. 4, 1: Ergänzende Quellen 976-1194\"^^xsd:string ;\n        a fabio:ArchivalRecordSet ;\n        dct:description \"Urkundenbuch zur Geschichte der Babenberger in Österreich, Bd. 4/1: Ergänzende Quellen 976−1194, unter Mitwirkung von Heide Dienst bearb. von Heinrich Fichtenau (Publikationen des Instituts für Österreichische Geschichtsforschung, Bd. 3/4/1), Wien 1968.\" ;\n        owl:sameAs riopac:126555 .",
+      "timestamp" : 1729522726492,
       "parserSettings" : {
         "preserveBNodeIds" : false,
         "failOnUnknownDataTypes" : false,
