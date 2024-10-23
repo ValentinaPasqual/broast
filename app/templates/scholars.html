@@ -1,183 +1,104 @@
+{% extends 'base.html' %}
 
+{% block title %}Home{% endblock %}
 
-<!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+{% block content %}
 
-  <title>Broast.</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+<main class="main">
 
-  <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <section id="why-us2" class="why-us section light-background">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <div class="container">
 
-  <!-- Vendor CSS Files -->
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <div class="row gy-4">
 
-  <!-- Template Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
+        <div class="col-lg-12 d-flex align-items-stretch w-100 justify-content-center">
+          <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
 
-</head>
-
-  <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1163.0" data-gr-ext-installed>
-
-    <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <a href="../" class="logo d-flex align-items-center me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Broast<span>.</span></h1>
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Broast in a nutshell</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#what_is">What is BROAST?</a></li>
-              <li><a href="#insights">The collection insights</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Browse the collection</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="/documents/">Documents catalogue</a></li>
-              <li><a href="/scholars/">Scholars index</a></li>
-              <li><a href="/publications/">Publications list</a></li>
-            </ul>
-          </li>
-          <li><a href="#gallery">Knowledge Organisation</a></li>
-        </ul>
-      </nav>
-      <!-- .navbar -->
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-    </div>
-
-  </header><!-- End Header -->
-
-
-    <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu m-5 p-5">
-      <div class="container" data-aos="fade-up">
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
-
-          <div class="tab-pane fade active show" id="documents-list">
-
-            <div class="tab-header text-center">
-              <p>Index of</p>
-              <h3>Scholars</h3>
-            </div>
-
-          </div><!-- Documnet list Tab -->
-
-          <div id="scholars-list">
-
-
-            <div class="row gy-5">
-
-              {% set initials = {} %}
-              {% for res in scholars.results.bindings %}
-                  {% set initial = res.label.value[0] %}
-                  {% if initial not in initials %}
-                      {% set _ = initials.update({initial: [res]}) %}
-                  {% else %}
-                      {% set _ = initials[initial].append(res) %}
-                  {% endif %}
-              {% endfor %}
-
-              <!-- TABLE OF CONTENTS -->
-              <div class="d-flex justify-content-center flex-wrap">
-                {% for initial in initials %}
-                  <a href="#{{initial}}" class="badge bg-secondary mx-2">{{ initial | capitalize }}</a>
-                {% endfor %}
+            {% for quick_query in quick_queries %}
+            <div class="col-xl-2">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                {% for res in quick_query.results %}
+                {% if res is not string %}
+                <h4 class="text-center">{{res.n.value}}</h4>
+                {% endif %}
+                 {% endfor %}
+                 <p class="text-center">{{quick_query.title}}</p>
               </div>
-
-
-              {% for initial, names in initials.items() %}
-                  <div class="initial-group">
-                      <h2 id="{{initial}}">{{ initial }}</h2>
-                      {% for res in names %}
-
-                      <div class="container p-3 mb-4 bg-light rounded-3 shadow-sm">
-                      <a href={{ res.scholar.value|replace('https://w3id.org/broast/urk/', '../') }}>{{ res.label.value }}</a>
-                      <p class="text-end me-0 ms-auto"><span class="badge bg-secondary">{{res.refCount.value}}</span> publication{% if res.refCount.value|int > 1 %}s{% endif %}
-                        addressing <span class="badge bg-secondary"> {{res.docsCount.value}}</span> archival document{% if res.docsCount.value|int > 1 %}s{%endif%}
-                      </li>
-                      </div>
-                      {% endfor %}
-                  </div>
-              {% endfor %}
             </div>
+            {% endfor %}
+
           </div>
-
-          <!-- End Breakfast Menu Content -->
-
         </div>
 
       </div>
-    </section><!-- End Menu Section -->
 
-    <!-- FOOTER -->
-<footer id="footer" class="footer dark-background py-5">
-  <div class="container">
-      <div class="row gy-4">
-          <div class="col-lg-6 col-md-6 d-flex align-items-start">
-              <i class="bi bi-geo-alt icon fs-4 me-3"></i>
-              <div class="address">
-                  <h6 class="text-uppercase fw-bold">Contacts</h6>
-                  <p class="mb-1">Digital Humanities Advanced Research Center (/DH.arc)</p>
-                  <p class="mb-1">Dipartimento di Filologia Classica e Italianistica (FICLIT)</p>
-                  <p class="mb-1">Via Zamboni 32</p>
-                  <p class="mb-1">Università di Bologna</p>
-                  <p class="mb-1">40126 Bologna, Italia</p>
-                  <p>Email: <a href="mailto:dharc@live.unibo.it">dharc@live.unibo.it</a></p>
-              </div>
+    </div>
+
+  </section>
+
+  <!-- ======= Menu Section ======= -->
+  <section id="menu" class="menu m-5 p-5">
+    <div class="container" data-aos="fade-up">
+
+      <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+        <div class="tab-pane fade active show" id="documents-list">
+
+          <div class="tab-header text-center">
+            <p>Index of</p>
+            <h3>Scholars</h3>
           </div>
 
-          <div class="col-lg-6 col-md-6 d-flex align-items-start">
-              <i class="bi bi-info-circle icon fs-4 me-3"></i>
-              <div class="info">
-                  <h6 class="text-uppercase fw-bold">Info & Acknowledgments</h6>
-                  <p class="mb-1">© 2024 Valentina Pasqual @ /DH.arc | Email: <a href="mailto:valentina.pasqual2@unibo.it">valentina.pasqual2@unibo.it</a> </p>
-                  <p>The data for this study is sourced from the <i><a href="https://www.landesarchiv-ooe.at/ueber-uns/news/detail/neuerscheinung-verzeichnis-gefaelschte-urkunden" target="_blank"><b>Index of Medieval Documents Relating to the Upper Austrian Region that are Damaged, Tampered, or Altered</b></a></i>, thanks to the support of the author, <b>Siegfried Haider</b>, and the publisher <a href="https://www.landesarchiv-ooe.at/" target="_blank"><b>Oberösterreichisches Landesarchiv</b></a></p>
-                  <p><a href="sparql" class="text-decoration-underline">SPARQL Endpoint</a></p>
-                  <img alt="Licenza Creative Commons" class="img-fluid my-2" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png">
-              </div>
+        </div><!-- Documnet list Tab -->
+
+        <div id="scholars-list">
+
+
+          <div class="row gy-5">
+
+            {% set initials = {} %}
+            {% for res in scholars.results.bindings %}
+                {% set initial = res.label.value[0] %}
+                {% if initial not in initials %}
+                    {% set _ = initials.update({initial: [res]}) %}
+                {% else %}
+                    {% set _ = initials[initial].append(res) %}
+                {% endif %}
+            {% endfor %}
+
+            <!-- TABLE OF CONTENTS -->
+            <div class="d-flex justify-content-center flex-wrap">
+              {% for initial in initials %}
+                <a href="#{{initial}}" class="badge bg-secondary mx-2">{{ initial | capitalize }}</a>
+              {% endfor %}
+            </div>
+
+
+            {% for initial, names in initials.items() %}
+                <div class="initial-group">
+                    <h2 id="{{initial}}">{{ initial }}</h2>
+                    {% for res in names %}
+
+                    <div class="container p-3 mb-4 bg-light rounded-3 shadow-sm">
+                    <a href={{ res.scholar.value|replace('https://w3id.org/broast/urk/', '../') }}>{{ res.label.value }}</a>
+                    <p class="text-end me-0 ms-auto"><span class="badge bg-secondary">{{res.refCount.value}}</span> publication{% if res.refCount.value|int > 1 %}s{% endif %}
+                      addressing <span class="badge bg-secondary"> {{res.docsCount.value}}</span> archival document{% if res.docsCount.value|int > 1 %}s{%endif%}
+                    </li>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
           </div>
+        </div>
+
+        <!-- End Breakfast Menu Content -->
+
       </div>
-  </div>
 
-
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/aos/aos.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </div>
+  </section><!-- End Menu Section -->
   
-    <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/script.js"></script>
+</main>
 
-
-  </body>
-</html>
+{% endblock %}

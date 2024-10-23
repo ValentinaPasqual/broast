@@ -1,254 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Pasqual Valentina">
-  <title>Broast.</title>
-  <!-- styles -->
-  <!-- analytics and cookies -->
-  <script src="assets/js/stats.js"></script>
-  <script src="assets/js/matomo.js"></script>
-  <script src="https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=20"></script>
+{% block title %}Home{% endblock %}
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+{% block content %}
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<main class="main">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/style.css" rel="stylesheet">
-
-</head>
-
-<body class="index-page">
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <a href="" class="logo d-flex align-items-center me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Broast<span>.</span></h1>
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Broast in a nutshell</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#what_is">What is BROAST?</a></li>
-              <li><a href="#insights">The collection insights</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Browse the collection</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="./documents/">Documents catalogue</a></li>
-              <li><a href="./scholars/">Scholars index</a></li>
-              <li><a href="./publications/">Publications List</a></li>
-              <!--<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>-->
-            </ul>
-          </li>
-          <li><a href="#gallery">Knowledge Organisation</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <!-- <a class="btn-book-a-table" href="#book-a-table">Book a Table</a> -->
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container d-flex">
+      <div class="row justify-content-between">
+        <div class="h-100 col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Welcome to Broast<span>.</span></h2>
+          <h6 data-aos="fade-up">Broad Representation Of Authenticity aSsessmenT</h6>
+          <h3 data-aos="fade-up">A Catalogue of Historical Document Authenticity</h3>
+        </div>
+        <div class="col-lg-7 order-1 order-lg-2 text-center text-lg-start"> 
+          <!-- <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
+          <div data-aos="fade-up" data-aos-delay="100">
+            <p><b>Authenticity assessment</b> is the process of determining the authenticity of <b>historical documents</b>. Scholars from different fields (e.g. Diplomatics, History) may reach <b>different conclusions</b> due to gaps in evidence, or subjectivity and implying that some of their claims may be <b>accepted</b> or <b>disputed</b>.</p>
+            <p>Broast. explores the <strong><i>Index of Medieval Documents Concerning the Upper Austrian Region that are Damaged, Tampered with, or Altered</i></strong>, a catalogue compiled by Siegfried Haider (2022) which reports a set of inquiries over 153 known forgeries collected in the <i>Urkundenbuch des Landes ob der Enns</i>.</p>
+            <p>It provides <b>insights</b> into how <b>critical debate</b> over historical documents' authenticity has evolved over time, combining historical scholarship and digital tools</p>
+            <p></p>
+          </div>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#what_is" class="btn-book-a-table">Browse</a>
+            <a href="#insights" class="btn-book-a-table">Insights</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </section> 
 
-  </header><!-- End Header -->
+  <section id="why-us2" class="why-us section light-background">
 
-
-
-
-  <main class="main">
-
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center section-bg">
-      <div class="container d-flex">
-        <div class="row justify-content-between">
-          <div class="h-100 col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-            <h2 data-aos="fade-up">Welcome to Broast<span>.</span></h2>
-            <h6 data-aos="fade-up">Broad Representation Of Authenticity aSsessmenT</h6>
-            <h3 data-aos="fade-up">A Catalogue of Historical Document Authenticity</h3>
-          </div>
-          <div class="col-lg-7 order-1 order-lg-2 text-center text-lg-start"> 
-            <!-- <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
-            <div data-aos="fade-up" data-aos-delay="100">
-              <p><b>Authenticity assessment</b> is the process of determining the authenticity of <b>historical documents</b>. Scholars from different fields (e.g. Diplomatics, History) may reach <b>different conclusions</b> due to gaps in evidence, or subjectivity and implying that some of their claims may be <b>accepted</b> or <b>disputed</b>.</p>
-              <p>Broast. explores the <strong><i>Index of Medieval Documents Concerning the Upper Austrian Region that are Damaged, Tampered with, or Altered</i></strong>, a catalogue compiled by Siegfried Haider (2022) which reports a set of inquiries over 153 known forgeries collected in the <i>Urkundenbuch des Landes ob der Enns</i>.</p>
-              <p>It provides <b>insights</b> into how <b>critical debate</b> over historical documents' authenticity has evolved over time, combining historical scholarship and digital tools</p>
-              <p></p>
-            </div>
-            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#what_is" class="btn-book-a-table">Browse</a>
-              <a href="#insights" class="btn-book-a-table">Insights</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
-
-    <section id="why-us2" class="why-us section light-background">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-12 d-flex align-items-stretch w-100 justify-content-center">
-            <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-
-              {% for quick_query in quick_queries %}
-              <div class="col-xl-2">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  {% for res in quick_query.results %}
-                  {% if res is not string %}
-                  <h4 class="text-center">{{res.n.value}}</h4>
-                  {% endif %}
-                   {% endfor %}
-                   <p class="text-center">{{quick_query.title}}</p>
-                </div>
-              </div>
-              {% endfor %}
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="what_is" class="why-us section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-            <div class="why-box">
-              <h3>Browse the collection</h3>
-                <p>Browse the documents and the debate surrounding their authenticity</p>
-           
-
-              <div class="row gy-4">
-
-
-                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon-box d-flex flex-column justify-content-center">
-                      <i class="bi bi-clipboard-data"></i>
-                      <p class="icon-box-intro">Debated items</p>
-                      <h4><a href="./documents/">Documents catalogue </a></h4>
-                      <p class="icon-box-description">Filter the documents of the collection by their disputed and accepted information</p>
-                    </div>
-                </div>
-
-                  <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon-box d-flex flex-column justify-content-center">
-                      <i class="bi bi-gem"></i>
-                      <p class="icon-box-intro">Actors of the debate</p>
-                      <h4><a href="./scholars/">Scholars<br>index</a></h4>
-                      <p class="icon-box-description">Browse the scholars addressing the documents of the collection</p>
-                    </div>
-                  </div>
-
-                  <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon-box d-flex flex-column justify-content-center">
-                      <i class="bi bi-gem"></i>
-                      <p class="icon-box-intro">Sources of the debate</p>
-                      <h4><a href="./publications">Publications<br>list</a></h4>
-                      <p class="icon-box-description">Browse the publication addressing the documents of the collection</p>
-                    </div>
-                  </div>
-
-
-              </div>
-            </div>
-
-        </div>
-
-      </div>
-    </section>
-
-  </main><!-- End #main -->
-
-<!-- FOOTER -->
-<footer id="footer" class="footer dark-background py-5">
     <div class="container">
-        <div class="row gy-4">
-            <div class="col-lg-6 col-md-6 d-flex align-items-start">
-                <i class="bi bi-geo-alt icon fs-4 me-3"></i>
-                <div class="address">
-                    <h6 class="text-uppercase fw-bold">Contacts</h6>
-                    <p class="mb-1">Digital Humanities Advanced Research Center (/DH.arc)</p>
-                    <p class="mb-1">Dipartimento di Filologia Classica e Italianistica (FICLIT)</p>
-                    <p class="mb-1">Via Zamboni 32</p>
-                    <p class="mb-1">Università di Bologna</p>
-                    <p class="mb-1">40126 Bologna, Italia</p>
-                    <p>Email: <a href="mailto:dharc@live.unibo.it">dharc@live.unibo.it</a></p>
-                </div>
-            </div>
 
-            <div class="col-lg-6 col-md-6 d-flex align-items-start">
-                <i class="bi bi-info-circle icon fs-4 me-3"></i>
-                <div class="info">
-                    <h6 class="text-uppercase fw-bold">Info & Acknowledgments</h6>
-                    <p class="mb-1">© 2024 Valentina Pasqual @ /DH.arc | Email: <a href="mailto:valentina.pasqual2@unibo.it">valentina.pasqual2@unibo.it</a> </p>
-                    <p>The data for this study is sourced from the <i><a href="https://www.landesarchiv-ooe.at/ueber-uns/news/detail/neuerscheinung-verzeichnis-gefaelschte-urkunden" target="_blank"><b>Index of Medieval Documents Relating to the Upper Austrian Region that are Damaged, Tampered, or Altered</b></a></i>, thanks to the support of the author, <b>Siegfried Haider</b>, and the publisher <a href="https://www.landesarchiv-ooe.at/" target="_blank"><b>Oberösterreichisches Landesarchiv</b></a></p>
-                    <p><a href="sparql" class="text-decoration-underline">SPARQL Endpoint</a></p>
-                    <img alt="Licenza Creative Commons" class="img-fluid my-2" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png">
-                </div>
+      <div class="row gy-4">
+
+        <div class="col-lg-12 d-flex align-items-stretch w-100 justify-content-center">
+          <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+
+            {% for quick_query in quick_queries %}
+            <div class="col-xl-2">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                {% for res in quick_query.results %}
+                {% if res is not string %}
+                <h4 class="text-center">{{res.n.value}}</h4>
+                {% endif %}
+                 {% endfor %}
+                 <p class="text-center">{{quick_query.title}}</p>
+              </div>
             </div>
+            {% endfor %}
+
+          </div>
         </div>
+
+      </div>
+
     </div>
 
-    <div class="container copyright text-center mt-4">
-        <div class="credits">
-            <p class="mb-0">Designed by <a href="https://bootstrapmade.com/" target="_blank" class="text-decoration-underline">BootstrapMade</a></p>
-        </div>
+  </section>
+
+  <!-- ======= Why Us Section ======= -->
+  <section id="what_is" class="why-us section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row gy-4">
+
+          <div class="why-box">
+            <h3>Browse the collection</h3>
+              <p>Browse the documents and the debate surrounding their authenticity</p>
+         
+
+            <div class="row gy-4">
+
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box d-flex flex-column justify-content-center">
+                    <i class="bi bi-clipboard-data"></i>
+                    <p class="icon-box-intro">Debated items</p>
+                    <h4><a href="./documents/">Documents catalogue </a></h4>
+                    <p class="icon-box-description">Filter the documents of the collection by their disputed and accepted information</p>
+                  </div>
+              </div>
+
+                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box d-flex flex-column justify-content-center">
+                    <i class="bi bi-gem"></i>
+                    <p class="icon-box-intro">Actors of the debate</p>
+                    <h4><a href="./scholars/">Scholars<br>index</a></h4>
+                    <p class="icon-box-description">Browse the scholars addressing the documents of the collection</p>
+                  </div>
+                </div>
+
+                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box d-flex flex-column justify-content-center">
+                    <i class="bi bi-gem"></i>
+                    <p class="icon-box-intro">Sources of the debate</p>
+                    <h4><a href="./publications">Publications<br>list</a></h4>
+                    <p class="icon-box-description">Browse the publication addressing the documents of the collection</p>
+                  </div>
+                </div>
+
+
+            </div>
+          </div>
+
+      </div>
+
     </div>
-</footer>
+  </section>
 
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-</body>
-
-</html>
+</main><!-- End #main -->
+    
+{% endblock %}

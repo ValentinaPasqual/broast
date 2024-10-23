@@ -304,143 +304,161 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// ADD TOOLTIP TO TIMECHART
+// MAP 
+
+    // Initialize map
+    var map = L.map('map').setView([45.8503, 4.3517], 5); // Centered on Brussels, Belgium
 
 
-// DOCUMENTS SECTION - if click on accordion button also input event is triggered
-/* document.querySelectorAll('.accordion-button').forEach(button => {
-  button.addEventListener('click', function() {
-    button.querySelector('input[type="submit"]').click();
-  });
-}); */
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
 
+    // Fetch and add marker clusters
+    fetch('/map-data')
+        .then(response => response.json())
+        .then(data => {
+            var markers = L.markerClusterGroup();
+            data.forEach(function(marker) {
+                var latLng = L.latLng(marker.lat, marker.lng);
+                markers.addLayer(L.marker(latLng));
+                
+            });
+            map.addLayer(markers);
+        });
 
-// MOVE TO TOP THE SELECTED ITEMS IN THE FACETS
-function moveToTop(checkbox) {
-    // Get the parent <ul> element
-    var ul = checkbox.closest('ul');
-    // Get the <li> element containing the checkbox
-    var listItem = checkbox.closest('li');
-    // Move the <li> element to the top of the <ul>
-    ul.insertBefore(listItem, ul.firstChild);
-}
+    // Initialize line chart
+    fetch('/chart-data')
+        .then(response => response.json())
+        .then(data => {
+            var ctx = document.getElementById('chart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.labels,
+                    datasets: data.datasets
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
 
-// Function to check and hide the dropdown if it has no elements
-var dropdowns = document.querySelectorAll('.dropdown');
+// DATE CHART
 
-dropdowns.forEach(function(dropdown) {
-     var dropdownMenu = dropdown.querySelector('.dropdown-menu');
+let dateChart; // Variable to hold the date chart instance
 
-     if (dropdownMenu.children.length === 0) {
-         dropdown.style.display = 'none';
-     } else {
-         dropdown.style.display = 'inline-block'; // Use 'inline-block' to match Bootstrap styling
-     }
- });
+function createDateChart(data) {
+    const ctx = document.getElementById('dateChart').getContext('2d');
 
-
- // Function to filter content in the artwork page - auto interpretations
- function filterContent(filterURI) {
-     const catalogItems = document.querySelectorAll('.symbol-interpretation');
-
-     catalogItems.forEach(item => {
-         const catalogURIs = item.getAttribute('data-catalog-uris');
-         var button = item.querySelector('a');
-         var badge = item.querySelector('.badge');
-
-         // Check if filterURI exists in the item's catalog URIs
-         if (catalogURIs.includes(filterURI)) {
-           // Add the 'show-item' class and remove 'hide-item' class
-           item.classList.add('card-enabled');
-           item.classList.remove('card-disabled');
-           button.classList.add('d-1');
-           badge.classList.add('bg-warning');
-           button.classList.add('btn-outline-dark');
-           badge.classList.remove('bg-warning-disabled');
-           button.classList.remove('d-1-disabled');
-           button.classList.remove('btn-outline-disabled');
-         } else {
-           // Add the 'hide-item' class and remove 'show-item' class
-           item.classList.add('card-disabled');
-           item.classList.remove('card-enabled');
-           button.classList.add('d-1-disabled');
-           button.classList.add('btn-outline-disabled');
-           badge.classList.add('bg-warning-disabled');
-           button.classList.remove('d-1');
-           button.classList.remove('btn-outline-dark');
-           badge.classList.remove('bg-warning');
-
-         }
-     });
- }
-
- // Attach click event listeners to filter buttons
- const filterButtons = document.querySelectorAll('.preico-filter');
- filterButtons.forEach(button => {
-     button.addEventListener('click', () => {
-         const filterURI = button.getAttribute('data-filter-uri');
-         filterContent(filterURI);
-     });
- });
-
-
-// SEARCH FILTER IN facets
-function searchFilterFunction(inputField) {
-  var filter, ul, ul_id, li, i, txtValue;
-  filter = inputField.value.toUpperCase();
-  ul = inputField.nextElementSibling;
-  ul_id = ul.id
-  li = ul.querySelectorAll("li");
-
-  for (i = 0; i < li.length; i++) {
-    txtValue = li[i].textContent || li[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
+    // Destroy existing chart instance if it exists
+    if (dateChart) {
+        dateChart.destroy();
     }
-  }
+
+    // Create a unique list of document names
+    const documentNames = [...new Set(data.map(point => point.doc))];
+
+    const presentData = data
+        .filter(point => point.g2_present)
+        .map(point => ({
+            x: new Date(point.date), // X-axis value (date)
+            y: documentNames.indexOf(point.doc), // Use mapped index for Y-axis
+            docId: point.doc // Store docId for tooltip
+        }));
+
+    const absentData = data
+        .filter(point => !point.g2_present)
+        .map(point => ({
+            x: new Date(point.date), // X-axis value (date)
+            y: documentNames.indexOf(point.doc), // Use mapped index for Y-axis
+            docId: point.doc // Store docId for tooltip
+        }));
+
+    // Create a new chart instance
+    dateChart = new Chart(ctx, {
+        type: 'scatter', // or 'line'
+        data: {
+            datasets: [
+                {
+                    label: 'Forged document', // Label for points where g2_present is true
+                    data: presentData,
+                    pointBackgroundColor: '#48B7B7', // Set color for these points
+                    pointRadius: 5, // Size of points
+                },
+                {
+                    label: 'Authentic document', // Label for points where g2_present is false
+                    data: absentData,
+                    pointBackgroundColor: '#9162F1', // Set color for these points
+                    pointRadius: 5, // Size of points
+                }
+            ]
+        },
+        options: {
+            scales: {
+                x: {
+                    type: 'time', // Use time scale for x-axis
+                    title: {
+                        display: true,
+                        text: 'Year of publication',
+                    },
+                },
+                y: {
+                    type: 'linear', // Keep linear scale for numeric Y values
+                    title: {
+                        display: true,
+                        text: 'Document ',
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            return documentNames[value]; // Convert index back to document name for display
+                        }
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: true, // Hide legend if not needed
+                    position: 'top', // Position legend at the top
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            const year = tooltipItem.raw.x.getFullYear(); // Get the year from x value
+                            const docId = tooltipItem.raw.docId; // Get the docId
+                            return [
+                                `Year of publication: ${year}`,
+                                `Doc ID: ${docId}`
+                            ];
+                        }
+                    }
+                }
+            }
+        }
+    });
 }
 
-/*
-  ==========================
-  |     NETWORK TOOLS      |
-  ==========================
-*/
 
-// Zoom In function
-function zoomIn() {
-  var scale = network.getScale();
-  network.moveTo({
-    scale: scale * 1.1, // Increase the scale by 10%
-    animation: true, // Enable animation
-    animationDuration: 1000 // Animation duration in milliseconds
-  });
-}
+// Fetch and create chart
+fetch('/date-visualization')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        createDateChart(data);
+    })
+    .catch(error => {
+        console.error('Error fetching date visualization data:', error);
+    });
 
-// Zoom Out function
-function zoomOut() {
-  var scale = network.getScale();
-  network.moveTo({
-    scale: scale * 0.9, // Decrease the scale by 10%
-    animation: true, // Enable animation
-    animationDuration: 1000 // Animation duration in milliseconds
-  });
-}
 
-// Reset Zoom function
-function resetZoom() {
-network.moveTo({
- scale: 0.7, // Set the scale to the default value (1)
- animation: true, // Enable animation
- animationDuration: 1000 // Animation duration in milliseconds
-});
-}
 
-// GOOGLE ANALYTICS
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-73SQ61K2RE');
