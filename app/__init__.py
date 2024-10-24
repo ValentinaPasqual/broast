@@ -71,6 +71,7 @@ def create_app():
     from .routes.publications import pubs_bp
     from .routes.sparql import sparql_bp
     from .routes.insights import viz_bp
+    from .routes.documentation import ko_bp
 
 
     app.register_blueprint(main_bp)
@@ -82,6 +83,7 @@ def create_app():
     app.register_blueprint(pubs_bp)
     app.register_blueprint(sparql_bp)
     app.register_blueprint(viz_bp)
+    app.register_blueprint(ko_bp)
 
     return app
 

@@ -123,7 +123,7 @@ $(document).ready(function() {
 
     // Send an AJAX request to your Flask endpoint
     $.ajax({
-      url: '/filter',
+      url: 'https://projects.dharc.unibo.it/broast/filter',
       method: 'POST',
       data: dataToSend, // Send the constructed ImmutableDict
       success: function(response) {

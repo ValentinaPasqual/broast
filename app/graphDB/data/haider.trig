@@ -999,7 +999,7 @@ SETT kb:ass-104-2 {
 }
 
 SETT kb:ass-38-2 {
-    doc:38 dct:date [ a time:Interval; ov:confidence "?"^^xsd:string ] .
+    doc:38 dct:date [ a time:Interval; ov:confidence "?"^^xsd:string; rdfs:label "unknown"^^xsd:string. ] .
     doc:38 dct:type kb:Copy .
     doc:38 a forgont:Forgery .
 }
