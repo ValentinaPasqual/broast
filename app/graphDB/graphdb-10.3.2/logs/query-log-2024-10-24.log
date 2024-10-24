@@ -1,0 +1,11 @@
+[INFO ] 2024-10-24 15:13:21,141 [repositories/forgont_endpoint | c.o.t.m.MonitorRepositoryConnection] Incoming update: CLEAR ALL
+[INFO ] 2024-10-24 15:13:32,372 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:33,794 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:36,101 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:37,729 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:40,101 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:42,215 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:45,891 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:47,472 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:13:49,777 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.
+[INFO ] 2024-10-24 15:15:58,282 [import-task-forgont_endpoint-1 | c.o.t.m.MonitorRepositoryConnection] Parallel mode requested but it is disabled globally. Using serial mode instead.

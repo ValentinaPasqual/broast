@@ -861,7 +861,7 @@ Note how the value of the unqualified influence (prov:wasGeneratedBy :activity1)
     <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
-        <rdfs:label>wasDerivedFrom</rdfs:label>
+        <rdfs:label>was Derived From</rdfs:label>
         <inverse>hadDerivation</inverse>
         <definition xml:lang="en">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.</definition>
         <category>starting-point</category>
@@ -1047,7 +1047,7 @@ prov:wasInfluencedBy should not be used without also using one of its subpropert
     <!-- http://www.w3.org/ns/prov#wasQuotedFrom -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasQuotedFrom">
-        <rdfs:label>wasQuotedFrom</rdfs:label>
+        <rdfs:label>was Quoted From</rdfs:label>
         <category>expanded</category>
         <component>derivations</component>
         <inverse>quotedAs</inverse>
