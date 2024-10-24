@@ -2662,3 +2662,295 @@ Was expecting one of:
 [INFO ] 2024-10-23 12:17:50,836 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 509992754
 [INFO ] 2024-10-23 12:17:50,846 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1461385717 is finished
 [INFO ] 2024-10-23 12:17:50,861 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 509992754 is finished
+[INFO ] 2024-10-23 12:24:59,265 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1079487464
+[INFO ] 2024-10-23 12:24:59,267 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1079487464 is finished
+[INFO ] 2024-10-23 12:24:59,277 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1787114146
+[INFO ] 2024-10-23 12:24:59,283 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1787114146 is finished
+[INFO ] 2024-10-23 12:24:59,283 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1537314150
+[INFO ] 2024-10-23 12:24:59,771 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1537314150 is finished
+[INFO ] 2024-10-23 12:24:59,771 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -223791801
+[INFO ] 2024-10-23 12:24:59,788 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -223791801 is finished
+[INFO ] 2024-10-23 12:24:59,789 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1568117766
+[INFO ] 2024-10-23 12:24:59,792 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1568117766 is finished
+[INFO ] 2024-10-23 12:24:59,794 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1094540651
+[INFO ] 2024-10-23 12:24:59,798 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1094540651 is finished
+[INFO ] 2024-10-23 12:24:59,798 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1229969413
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1229969413 is finished
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1007260479
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1007260479 is finished
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1870390095
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1870390095 is finished
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1865426288
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1865426288 is finished
+[INFO ] 2024-10-23 12:24:59,802 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1196001585
+[INFO ] 2024-10-23 12:24:59,818 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1196001585 is finished
+[INFO ] 2024-10-23 12:24:59,818 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 288881385
+[INFO ] 2024-10-23 12:24:59,818 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 288881385 is finished
+[INFO ] 2024-10-23 12:25:01,163 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1555678503
+[INFO ] 2024-10-23 12:25:01,165 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1461385717
+[INFO ] 2024-10-23 12:25:01,165 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1538901183
+[INFO ] 2024-10-23 12:25:01,169 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1555678503 is finished
+[INFO ] 2024-10-23 12:25:01,174 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1461385717 is finished
+[INFO ] 2024-10-23 12:25:01,191 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1538901183 is finished
+[INFO ] 2024-10-23 12:25:01,191 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 509992754
+[INFO ] 2024-10-23 12:25:01,198 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 509992754 is finished
+[INFO ] 2024-10-23 12:25:02,669 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 751781975
+[INFO ] 2024-10-23 12:25:02,669 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 751781975 is finished
+[INFO ] 2024-10-23 12:25:02,669 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 261469078
+[INFO ] 2024-10-23 12:25:02,669 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 261469078 is finished
+[INFO ] 2024-10-23 12:25:02,669 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1029327554
+[INFO ] 2024-10-23 12:25:02,685 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1029327554 is finished
+[INFO ] 2024-10-23 12:25:02,685 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1029179653
+[INFO ] 2024-10-23 12:25:02,685 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1029179653 is finished
+[INFO ] 2024-10-23 12:25:02,685 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 788697252
+[INFO ] 2024-10-23 12:25:02,701 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 788697252 is finished
+[INFO ] 2024-10-23 12:25:02,701 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 63837621
+[INFO ] 2024-10-23 12:25:02,716 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 63837621 is finished
+[INFO ] 2024-10-23 12:25:02,716 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1079487464
+[INFO ] 2024-10-23 12:25:02,716 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1079487464 is finished
+[INFO ] 2024-10-23 12:25:02,716 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1787114146
+[INFO ] 2024-10-23 12:25:02,745 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1787114146 is finished
+[INFO ] 2024-10-23 12:25:02,748 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1537314150
+[INFO ] 2024-10-23 12:25:03,313 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1537314150 is finished
+[INFO ] 2024-10-23 12:25:03,313 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -223791801
+[INFO ] 2024-10-23 12:25:03,329 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -223791801 is finished
+[INFO ] 2024-10-23 12:25:03,329 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1568117766
+[INFO ] 2024-10-23 12:25:03,329 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1568117766 is finished
+[INFO ] 2024-10-23 12:25:03,329 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1094540651
+[INFO ] 2024-10-23 12:25:03,329 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1094540651 is finished
+[INFO ] 2024-10-23 12:25:03,344 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1229969413
+[INFO ] 2024-10-23 12:25:03,347 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1229969413 is finished
+[INFO ] 2024-10-23 12:25:03,347 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1007260479
+[INFO ] 2024-10-23 12:25:03,347 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1007260479 is finished
+[INFO ] 2024-10-23 12:25:03,347 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1870390095
+[INFO ] 2024-10-23 12:25:03,347 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1870390095 is finished
+[INFO ] 2024-10-23 12:25:03,360 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1865426288
+[INFO ] 2024-10-23 12:25:03,360 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1865426288 is finished
+[INFO ] 2024-10-23 12:25:03,360 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1196001585
+[INFO ] 2024-10-23 12:25:03,360 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1196001585 is finished
+[INFO ] 2024-10-23 12:25:03,360 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 288881385
+[INFO ] 2024-10-23 12:25:03,376 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 288881385 is finished
+[INFO ] 2024-10-23 12:26:46,904 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2064635846
+[INFO ] 2024-10-23 12:26:46,925 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2064635846 is finished
+[INFO ] 2024-10-23 12:26:50,291 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1932371471
+[INFO ] 2024-10-23 12:26:50,291 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1932371471 is finished
+[INFO ] 2024-10-23 12:26:50,291 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1800415544
+[INFO ] 2024-10-23 12:26:50,291 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1800415544 is finished
+[INFO ] 2024-10-23 12:26:50,291 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1281163627
+[INFO ] 2024-10-23 12:26:50,304 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1281163627 is finished
+[INFO ] 2024-10-23 12:26:50,306 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -924496282
+[INFO ] 2024-10-23 12:26:50,308 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -924496282 is finished
+[INFO ] 2024-10-23 12:26:50,308 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 150956800
+[INFO ] 2024-10-23 12:26:50,308 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 150956800 is finished
+[INFO ] 2024-10-23 12:27:00,574 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1932371471
+[INFO ] 2024-10-23 12:27:00,576 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1932371471 is finished
+[INFO ] 2024-10-23 12:27:00,578 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1800415544
+[INFO ] 2024-10-23 12:27:00,582 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1800415544 is finished
+[INFO ] 2024-10-23 12:27:00,585 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1281163627
+[INFO ] 2024-10-23 12:27:00,590 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1281163627 is finished
+[INFO ] 2024-10-23 12:27:00,591 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -924496282
+[INFO ] 2024-10-23 12:27:00,591 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -924496282 is finished
+[INFO ] 2024-10-23 12:27:00,591 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 150956800
+[INFO ] 2024-10-23 12:27:00,591 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 150956800 is finished
+[INFO ] 2024-10-23 12:27:07,072 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -541295071
+[INFO ] 2024-10-23 12:27:07,103 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -541295071 is finished
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1945707781
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1945707781 is finished
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1828643457
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1828643457 is finished
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 695012759
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 695012759 is finished
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -853353171
+[INFO ] 2024-10-23 12:27:07,105 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -853353171 is finished
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1115477591
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1115477591 is finished
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1104695067
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1104695067 is finished
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1580488161
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1580488161 is finished
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 95645501
+[INFO ] 2024-10-23 12:27:07,122 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 95645501 is finished
+[INFO ] 2024-10-23 12:27:07,139 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1899182823
+[INFO ] 2024-10-23 12:27:07,141 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1899182823 is finished
+[INFO ] 2024-10-23 12:27:07,144 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -525929967
+[INFO ] 2024-10-23 12:27:07,146 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -525929967 is finished
+[INFO ] 2024-10-23 12:27:07,148 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -987659709
+[INFO ] 2024-10-23 12:27:07,152 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -987659709 is finished
+[INFO ] 2024-10-23 12:27:07,154 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -21091693
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -21091693 is finished
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1701977121
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1701977121 is finished
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 199371301
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 199371301 is finished
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2018767173
+[INFO ] 2024-10-23 12:27:07,155 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -2018767173 is finished
+[INFO ] 2024-10-23 12:27:07,170 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1148565457
+[INFO ] 2024-10-23 12:27:07,171 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1148565457 is finished
+[INFO ] 2024-10-23 12:27:07,173 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -168677179
+[INFO ] 2024-10-23 12:27:07,180 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -168677179 is finished
+[INFO ] 2024-10-23 12:27:07,183 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2120375423
+[INFO ] 2024-10-23 12:27:07,184 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2120375423 is finished
+[INFO ] 2024-10-23 12:27:07,186 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 497973287
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 497973287 is finished
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 131032671
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 131032671 is finished
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 206114805
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 206114805 is finished
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1957937653
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1957937653 is finished
+[INFO ] 2024-10-23 12:27:07,188 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1239379147
+[INFO ] 2024-10-23 12:27:07,204 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1239379147 is finished
+[INFO ] 2024-10-23 12:27:07,205 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 470243719
+[INFO ] 2024-10-23 12:27:07,206 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 470243719 is finished
+[INFO ] 2024-10-23 12:27:14,857 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1079487464
+[INFO ] 2024-10-23 12:27:14,873 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1079487464 is finished
+[INFO ] 2024-10-23 12:27:14,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1787114146
+[INFO ] 2024-10-23 12:27:14,889 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1787114146 is finished
+[INFO ] 2024-10-23 12:27:14,889 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1537314150
+[INFO ] 2024-10-23 12:27:15,387 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1537314150 is finished
+[INFO ] 2024-10-23 12:27:15,389 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -223791801
+[INFO ] 2024-10-23 12:27:15,389 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -223791801 is finished
+[INFO ] 2024-10-23 12:27:15,389 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1568117766
+[INFO ] 2024-10-23 12:27:15,389 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1568117766 is finished
+[INFO ] 2024-10-23 12:27:15,389 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1094540651
+[INFO ] 2024-10-23 12:27:15,389 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1094540651 is finished
+[INFO ] 2024-10-23 12:27:15,404 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1229969413
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1229969413 is finished
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1007260479
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1007260479 is finished
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1870390095
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1870390095 is finished
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1865426288
+[INFO ] 2024-10-23 12:27:15,406 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1865426288 is finished
+[INFO ] 2024-10-23 12:27:15,421 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1196001585
+[INFO ] 2024-10-23 12:27:15,432 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1196001585 is finished
+[INFO ] 2024-10-23 12:27:15,434 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 288881385
+[INFO ] 2024-10-23 12:27:15,439 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 288881385 is finished
+[INFO ] 2024-10-23 12:27:16,456 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1555678503
+[INFO ] 2024-10-23 12:27:16,456 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1461385717
+[INFO ] 2024-10-23 12:27:16,456 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1538901183
+[INFO ] 2024-10-23 12:27:16,467 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1555678503 is finished
+[INFO ] 2024-10-23 12:27:16,477 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1538901183 is finished
+[INFO ] 2024-10-23 12:27:16,478 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 509992754
+[INFO ] 2024-10-23 12:27:16,491 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1461385717 is finished
+[INFO ] 2024-10-23 12:27:16,491 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 509992754 is finished
+[INFO ] 2024-10-23 12:27:22,551 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -819778084
+[INFO ] 2024-10-23 12:27:22,557 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -819778084 is finished
+[INFO ] 2024-10-23 12:27:25,790 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1079487464
+[INFO ] 2024-10-23 12:27:25,798 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1079487464 is finished
+[INFO ] 2024-10-23 12:27:25,800 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1787114146
+[INFO ] 2024-10-23 12:27:25,809 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1787114146 is finished
+[INFO ] 2024-10-23 12:27:25,811 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1537314150
+[INFO ] 2024-10-23 12:27:26,323 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1537314150 is finished
+[INFO ] 2024-10-23 12:27:26,323 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -223791801
+[INFO ] 2024-10-23 12:27:26,323 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -223791801 is finished
+[INFO ] 2024-10-23 12:27:26,338 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1568117766
+[INFO ] 2024-10-23 12:27:26,343 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1568117766 is finished
+[INFO ] 2024-10-23 12:27:26,345 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1094540651
+[INFO ] 2024-10-23 12:27:26,348 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1094540651 is finished
+[INFO ] 2024-10-23 12:27:26,348 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1229969413
+[INFO ] 2024-10-23 12:27:26,351 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1229969413 is finished
+[INFO ] 2024-10-23 12:27:26,351 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1007260479
+[INFO ] 2024-10-23 12:27:26,354 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1007260479 is finished
+[INFO ] 2024-10-23 12:27:26,355 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1870390095
+[INFO ] 2024-10-23 12:27:26,356 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1870390095 is finished
+[INFO ] 2024-10-23 12:27:26,358 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1865426288
+[INFO ] 2024-10-23 12:27:26,359 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1865426288 is finished
+[INFO ] 2024-10-23 12:27:26,361 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1196001585
+[INFO ] 2024-10-23 12:27:26,365 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1196001585 is finished
+[INFO ] 2024-10-23 12:27:26,367 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 288881385
+[INFO ] 2024-10-23 12:27:26,371 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 288881385 is finished
+[INFO ] 2024-10-23 12:27:27,373 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1538901183
+[INFO ] 2024-10-23 12:27:27,373 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1555678503
+[INFO ] 2024-10-23 12:27:27,373 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1461385717
+[INFO ] 2024-10-23 12:27:27,391 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1538901183 is finished
+[INFO ] 2024-10-23 12:27:27,395 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 509992754
+[INFO ] 2024-10-23 12:27:27,398 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1555678503 is finished
+[INFO ] 2024-10-23 12:27:27,414 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1461385717 is finished
+[INFO ] 2024-10-23 12:27:27,424 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 509992754 is finished
+[INFO ] 2024-10-23 12:27:29,787 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -541295071
+[INFO ] 2024-10-23 12:27:29,803 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -541295071 is finished
+[INFO ] 2024-10-23 12:27:29,806 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1945707781
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1945707781 is finished
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1828643457
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1828643457 is finished
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 695012759
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 695012759 is finished
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -853353171
+[INFO ] 2024-10-23 12:27:29,809 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -853353171 is finished
+[INFO ] 2024-10-23 12:27:29,822 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1115477591
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1115477591 is finished
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1104695067
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1104695067 is finished
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1580488161
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1580488161 is finished
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 95645501
+[INFO ] 2024-10-23 12:27:29,823 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 95645501 is finished
+[INFO ] 2024-10-23 12:27:29,840 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1899182823
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1899182823 is finished
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -525929967
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -525929967 is finished
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -987659709
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -987659709 is finished
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -21091693
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -21091693 is finished
+[INFO ] 2024-10-23 12:27:29,842 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1701977121
+[INFO ] 2024-10-23 12:27:29,855 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1701977121 is finished
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 199371301
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 199371301 is finished
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2018767173
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -2018767173 is finished
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1148565457
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1148565457 is finished
+[INFO ] 2024-10-23 12:27:29,856 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -168677179
+[INFO ] 2024-10-23 12:27:29,872 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -168677179 is finished
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -2120375423
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -2120375423 is finished
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 497973287
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 497973287 is finished
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 131032671
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 131032671 is finished
+[INFO ] 2024-10-23 12:27:29,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 206114805
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 206114805 is finished
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1957937653
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query -1957937653 is finished
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1239379147
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | o.e.r.h.s.r.BooleanQueryResultView] Request for query 1239379147 is finished
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 470243719
+[INFO ] 2024-10-23 12:27:29,889 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 470243719 is finished
+[INFO ] 2024-10-23 12:27:35,857 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 751781975
+[INFO ] 2024-10-23 12:27:35,857 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 751781975 is finished
+[INFO ] 2024-10-23 12:27:35,857 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 261469078
+[INFO ] 2024-10-23 12:27:35,873 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 261469078 is finished
+[INFO ] 2024-10-23 12:27:35,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1029327554
+[INFO ] 2024-10-23 12:27:35,873 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1029327554 is finished
+[INFO ] 2024-10-23 12:27:35,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1029179653
+[INFO ] 2024-10-23 12:27:35,873 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1029179653 is finished
+[INFO ] 2024-10-23 12:27:35,873 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 788697252
+[INFO ] 2024-10-23 12:27:35,907 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 788697252 is finished
+[INFO ] 2024-10-23 12:27:35,907 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 63837621
+[INFO ] 2024-10-23 12:27:35,924 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 63837621 is finished
+[INFO ] 2024-10-23 12:27:35,924 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1079487464
+[INFO ] 2024-10-23 12:27:35,924 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1079487464 is finished
+[INFO ] 2024-10-23 12:27:35,924 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1787114146
+[INFO ] 2024-10-23 12:27:35,940 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1787114146 is finished
+[INFO ] 2024-10-23 12:27:35,940 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1537314150
+[INFO ] 2024-10-23 12:27:36,358 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1537314150 is finished
+[INFO ] 2024-10-23 12:27:36,360 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -223791801
+[INFO ] 2024-10-23 12:27:36,363 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -223791801 is finished
+[INFO ] 2024-10-23 12:27:36,365 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1568117766
+[INFO ] 2024-10-23 12:27:36,368 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1568117766 is finished
+[INFO ] 2024-10-23 12:27:36,371 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1094540651
+[INFO ] 2024-10-23 12:27:36,374 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1094540651 is finished
+[INFO ] 2024-10-23 12:27:36,376 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1229969413
+[INFO ] 2024-10-23 12:27:36,377 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1229969413 is finished
+[INFO ] 2024-10-23 12:27:36,378 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1007260479
+[INFO ] 2024-10-23 12:27:36,380 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1007260479 is finished
+[INFO ] 2024-10-23 12:27:36,381 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1870390095
+[INFO ] 2024-10-23 12:27:36,382 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1870390095 is finished
+[INFO ] 2024-10-23 12:27:36,383 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query -1865426288
+[INFO ] 2024-10-23 12:27:36,385 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query -1865426288 is finished
+[INFO ] 2024-10-23 12:27:36,387 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 1196001585
+[INFO ] 2024-10-23 12:27:36,391 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 1196001585 is finished
+[INFO ] 2024-10-23 12:27:36,393 [repositories/forgont_endpoint | c.o.g.s.h.GraphDBQueryResultHandler] POST query 288881385
+[INFO ] 2024-10-23 12:27:36,401 [repositories/forgont_endpoint | c.o.g.s.TupleQueryResultView] Request for query 288881385 is finished
