@@ -1,279 +1,125 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} 
 
-{% block title %}Broast.{% endblock %}
+{% block title %}Broast.{% endblock %} 
 
-{% block content %}
-
-<main>
+{% block content %} <main>
   <section>
+    <div class="container m-5 p-5" data-aos="fade-up">
+      <div class="row gy-4">
+        <div class="col-lg-4 d-flex flex-column aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style="background-color: var(--color-default);">
+          <div class="why-box flex-grow-1 d-flex flex-column justify-content-between">
+            <div class="p-5">
+              <h6 style="color: white;">Knowledge Organisation</h6>
+              <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 10px;">
+                  <a href="#datamodel" style="color: white; text-decoration: none; font-weight: bold;">Data Model</a>
+                  <ul style="list-style-type: none; padding-left: 20px; margin: 5px 0;">
+                    <li style="margin-bottom: 5px;">
+                      <a href="#datamodel_content_categorisation" style="color: white; text-decoration: none;">Scholarly opinion categorisation depending on Logical Status</a>
+                    </li>
+                    <li style="margin-bottom: 5px;">
+                      <a href="#datamodel_content_representation" style="color: white; text-decoration: none;">Scholalry opinion representation</a>
+                    </li>
+                    <li style="margin-bottom: 5px;">
+                      <a href="#datamodel_context_representation" style="color: white; text-decoration: none;">Representation of opinions contextual information</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="documentation_text col-lg-8 d-flex flex-column aos-init aos-animate p-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex-grow-1 d-flex flex-column justify-content">
+            <h1 id="datamodel">Data model</h1>
+            <h2 id="datamodel_content_categorisation">Scholarly opinion categorisation depending on logical status</h2>
+            <p><em>Conjectures</em> <sup><a href="http://conjectures.altervista.org/" target="_blank">[parser]</a>, <a href="https://github.com/conjectures-rdf" target="_blank">[Github]</a></sup> is a special graph that fully represents the semantics of point 3.4 of <a href="https://www.w3.org/TR/rdf11-datasets/">RDF 1.1: On Semantics of RDF Datasets</a>: ``Named graphs are considered as `hypothetical graphs' which bear the same consequences as their RDF graphs, but they do not participate in the truth of the dataset; this allows a graph to contain contradictions without making the dataset contradictory;''. Like quoted triples in RDF-star, conjectures address expressed but not asserted claims (<b>Expressing Without Asserting</b>, EWA). Yet, conjectures apply to RDF graphs rather than individual triples.</p>
 
-    <div class="container mt-5 pt-5" data-aos="fade-up">
+<p>A <b>conjecture</b> is an RDF 1.1 named graph specifically designed to express statements whose logical status is not explicitly stated. In this framework, all triples within the conjecture are expected to be consistent. Still, their absolute truth is neither stated nor available, and it does not affect the overall truth of the dataset. Conjectures adopt one of the possible semantics of Named graphs <a href="https://www.w3.org/TR/rdf11-datasets/">(item 3.4)</a> while allowing other semantics to be expressed within the same dataset.</p>
 
-  <section id="introduction">
-    <h2>Introduction</h2>
-    <p>EWA aims to represent critical inquiry and evolving knowledge in the humanities. One of the key areas is the scholarly practice of <i>Historical Authenticity Assessment</i>, which focuses on determining the authenticity of historical documents. Scholars from diverse fields such as Diplomatics, Palaeography, Philology, History, and Forensics have contributed to this field. However, conclusions often differ due to varying evidence and methodologies.</p>
-    <p>Factors such as historical uncertainty, gaps in documentary transmission, and subjectivity contribute to the diverse conclusions. This issue, along with the challenges of authenticity.</p>
-  </section>
+<p>Thus, with conjectures, claims can be specified in different logical statuses than other reification methods that achieve EWA: undisputed and disputed.</p>
 
-  <section id="forgery-source-data-analysis">
-    <h2>Source Data Analysis: Index of Medieval Documents</h2>
-    <p>The <i>Index of Medieval Documents Concerning the Upper Austrian Region</i> is a catalogue compiled by Siegfried Haider, containing over 150 known or suspected forgeries. Each entry includes essential information regarding the authenticity inquiry of each document, including:</p>
-    <ul>
-      <li>Presumed and hypothesized dates</li>
-      <li>Details on transmission type and manipulation (e.g., copies, insertions, interpolations)</li>
-      <li>Scholarly opinions on the document's authenticity</li>
-    </ul>
-    <figure>
-      <img src="imgs/item-12-catalog-annotated.png" alt="Catalog entry example">
-      <figcaption>An example item of the catalogue</figcaption>
-    </figure>
-  </section>
+<ul>
+    <li><strong>Undisputed claims</strong> are expressed as plain asserted (A) Named graphs. They are introduced by the keyword <code>GRAPH</code>, such as GRAPH&#40;&#41; &rarr; A. </li>
+    <li><strong>Disputed claims</strong> are expressed as Conjectural graphs, which is a prototypical extension of the syntax of Trig, where the keyword <code>GRAPH</code> is replaced with <code>CONJ</code> in front of a graph whose contents is expressed but not asserted (&not; A), such as CONJ&#40;&#41; &rarr; &not; A. Conjectural graphs express those statements which are disputed or convey evolved knowledge. </li>
+</ul>
 
-  <section id="knowledge-representation">
-    <h1>Knowledge Representation</h1>
-    <p>In alignment with Linked Open Data (LOD) standards and as suggested by the mythLOD methodology, the reuse of existing ontologies has been prioritized and extended only when necessary. Additional classes and properties were introduced solely in cases where existing ontologies were insufficiently representative or to accommodate specific contents of the catalogue.</p>
+<p>Conjectures provide an effective solution to express without asserting the content of Named graphs. Additionally, conjectural graphs can be re-asserted using a supplementary graph called <em>settled</em>, which creates a dual state of claims as both conjectured and asserted simultaneously. This design ensures that the properties of conjectures hold regardless of the model-theoretic semantics chosen for Named graphs, a decision that RDF 1.1 does not explicitly settle.</p>
 
-    <h2>Inquiries Representations and Categorisation Depending on Their Logical Status</h2>
-    <p>Conjectures provide a streamlined method for representing inquiries using Named graphs as a form of reification. This approach allows for efficient retrieval through straightforward SPARQL queries. Alternative methods require more complex grouping mechanisms, including fictitious entities, n-ary relationships, blank nodes, or methods to reify reification, which adds complexity to knowledge graphs' construction and retrieval tasks.</p>
-    
-    <p>Conjectures have been used as the reification method to represent the claims' logical status and reach EWA when needed. Information that is not disputed is structured as a distinct named graph <code>factual_data</code> as suggested in the Digital Hermeneutics data model. Disputed claims are represented through conjectural graphs, thus not asserting their contents. Accepted scholarly claims are represented as settled conjectures, re-asserting their contents through a settled process.</p>
+<ul>
+    <li><strong>Settled claims</strong> record both the dispute, as well as its subsequent resolution. This approach is specifically and intentionally distinct from a mere re-assertion of disputed claims, as it neither acknowledges nor mentions the existence of the dispute. <em>Settled Conjectures</em>, a third type of named graph that is simultaneously conjectured and asserted and introduced by the keyword <code>SETT</code> is introduced to handle settled disputes, such as SETT&#40;&#41; &rarr; A &and; &not; A. The settle graphs allows to both represent the conjectural triples (inside the usual conjectural graph) as well as the same triples but completely asserted (inside the collapse graph). In addition, the <code>conj:settles</code> relation connects the conjecture and its settlement, simplifying the task of exploring the relationships between disputes and their settlements. The rationale behind Settled Conjectures is two-fold: on the one hand, to stress the difference between claims that have not been challenged and claims that emerged as winning among competing and incompatible hypotheses and on the other to represent the dual nature of settled claims as both conjectures and assertions.</li>
+</ul>
 
-    <p>Each graph is associated with the set of available contextual information (e.g., the bibliography mentioned, the evidence collected). Regarding the scholarly opinions reported in the cited bibliography of each document in the catalogue, their logical status is further decided depending on their content in respect to Haider's settled perspective, based on whether he believes or disbelieves such opinions.</p>
+            
+            <h2>Scholalry opinion representation</h2>
+            <a id="datamodel_content_representation"></a>
+            <p>Conjectures has been used as the reification method to represent the claims' logical status and reach EWA when needed. Information that is not disputed is structured as a distinct named graph named <code>factual_data</code> as suggested in the Digital Hermeneutics data model <a href="https://www.jlis.it/index.php/jlis/article/view/35" target="_blank">[daquino2020]</a>, so their contents are asserted. Disputed claims are represented through conjectural graphs, therefore not asserting their contents. Finally, accepted scholarly claims are represented as settled conjectures, re-asserting their contents through a settled. </p>
+            <p>Despite its logical status, each graph is associated with the set of available contextual information (e.g., the bibliography mentioned, the evidence collected).</p>
+            <p>Regarding the scholarly opinions reported in the cited bibliography of each document in the catalogue, their logical status will be further decided depending on their contents with respect to Haider's settled perspective as he believes or disbelieves such opinions. All reused prefixes are provided in listing <a href="#lst:prefixes">[Listing 1]</a>. </p>
+            <pre>
+              <code>
+@prefix dct:    &lt;http://purl.org/dc/terms/&gt; .
+@prefix geo:    &lt;http://www.opengis.net/ont/geosparql#&gt; .
+@prefix owl:    &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix riopac: &lt;http://opac.regesta-imperii.de/id/&gt; .
+@prefix xsd:    &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix rdfs:   &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix prov:   &lt;http://www.w3.org/ns/prov#&gt; .
+@prefix hico:   &lt;https://w3id.org/hico#&gt; .
+@prefix sebi:   &lt;https://w3id.org/sebi/&gt; .
+@prefix time:   &lt;https://www.w3.org/TR/owl-time/&gt; . 
+@prefix wd:     &lt;http://www.wikidata.org/entity/&gt; .
+@prefix cito:   &lt;http://purl.org/spar/cito/&gt; .
+@prefix fabio:  &lt;http://purl.org/spar/fabio/&gt; .
+@prefix ov:     &lt;http://open.vocab.org/terms/&gt; .
+@prefix rico:   &lt;https://www.ica.org/standards/RiC/ontology#&gt; .
+@prefix conj:   &lt;https://w3id.org/conjectures/&gt; .
+@prefix :     &lt;https://w3id.org/broast/urk/&gt; .
+@prefix doc:    &lt;https://w3id.org/broast/urk/documents/&gt; .
+@prefix people: &lt;https://w3id.org/broast/urk/scholars/&gt; .
+@prefix pub:    &lt;https://w3id.org/broast/urk/publications/&gt; .
+</code>
+</pre>
+<figcaption id="lst:prefixes">Listing 1: List of Prefixes</figcaption>
 
-    <pre><code></code></pre>
-
-    <p>SEBI (Scholarly Evidence Based Interpretation ontology) is proposed to formalise critical inquiry on forged documents. SEBI provides a simple pattern representing the evidence scholars collect to support their interpretations. The ontology integrates Dublin Core Terms, Time ontology, and other existing ontologies to describe document metadata, bibliographic entries, and handle fuzzy datings.</p>
-            <figure>
-                <img src="imgs/bruno_claim.png" alt="Selection of classes and properties to represent scholarly opinions tackling authenticity inquiry of a document">
-                <figcaption>Selection of classes and properties to represent scholarly opinions tackling authenticity inquiry of a document</figcaption>
+            <p>Each claimed content attempts to classify a document's authenticity by expressing information about the document itself, which usually may be debated: authenticity classification (e.g. the document is authentic, is suspicious or is a forgery), date and place of creation, suspected author. All these elements should be expressed in the conjectural graph (despite being settled or currently disputed), but none is required. In simpler terms, a scholarly opinion proposes a date (e.g., 950-1000) and documents juridical categorisation (e.g., forgery) but neglects its authorship (e.g., a suspected author is unknown or simply not considered).</p>
+            <p><a href="https://valentinapasqual.github.io/sebi/">SEBI</a> ontology (Scholarly Evidence Based Interpretation ontology)  is a simple pattern representing the evidence scholars collect to support their interpretations. In particular, the ontology is provided with a set of Named Individuals and Classes which characterise the use of the ontology to represent the evidence which supports scholarly interpretations about the classification of a document's authenticity (in particular by defining such document an Authentic document, a Forgery or a Suspected Forgery). The data model, therefore, integrates SEBI ontology and other existing ontologies such as <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank">Dublin Core Terms</a> to describe the document metadata and bibliographical entries descriptions, <a href="https://www.w3.org/TR/owl-time/"></a>Time ontology</a> to handle fuzzy datings, as shown in <a href="#Figure1">Figure 1</a>. </p>
+            <figure id="Figure1">
+              <img src="{{ url_for('static', filename='img/bruno_claim.png') }}" alt="Selection of classes and properties to represent scholarly opinions tackling authenticity inquiry of a document" style="width:100%">
+              <figcaption>
+                <em>Figure 1: Selection of classes and properties to represent scholarly opinions tackling authenticity inquiry of a document</em>
+              </figcaption>
             </figure>
-            <p>Documents are categorised as instances of one of the classes <code>sebi:Forgery</code>, <code>sebi:Authentic</code>, or <code>sebi:SuspectedForgery</code>. Each document is also an instance of the class <code>fabio:ArchivalDocument</code>, with its creator, date, and location registered.</p>
-    
-            <section id="opinions-contextual-information">
-              <h3>Representation of Opinions Contextual Information</h3>
-              <p>Contextual information about the opinion concerns aspects such as the evidence collected by the scholar, the author of the opinion, and relevant bibliographic entries. SEBI is used to capture extrinsic and intrinsic document features, while Dublin Core and PROV-O are used to model bibliographic sources and opinion responsibilities.</p>
-              <figure>
-                  <img src="imgs/bruno-context.png" alt="Selection of classes and properties to represent the contextual information about scholarly opinion">
-                  <figcaption>Selection of classes and properties to represent the contextual information about scholarly opinion</figcaption>
-              </figure>
-              <p>Evidence supporting opinions is recorded, evaluating features such as consistency, presence, and reliability. An evaluation score is associated with each piece of evidence, marking its contribution to the opinion.</p>
-              <figure>
-                  <img src="imgs/context_representation_example.png" alt="Selection of classes and properties to represent contextual information">
-                  <figcaption>Representation of contextual information about four opinions on document authenticity.</figcaption>
-              </figure>
-          </section>
+            <p>Documents categorisations are formalised as instances of one of the classes <code>sebi:Forgery</code>, <code>sebi:Authentic</code>, and <code>sebi:SuspectedForgery</code>, and they are all disjoint mimicking the need to choose a single point of view in each claimed content (if no conclusion can be reached, other metadata as date, place and author should be registered). Each document is an instance of the class <code>fabio:ArchivalDocument</code>. The creator of the document (expressed through <code>dct:creator dct:Agent</code>), the date of creation ( <code>dct:date time:Interval</code>), location of creation ( <code>dct:coverage dct:Location</code>). The <code>dct:date</code> property is connected to a <code>time:Interval</code> class, which includes <code>time:hasBeginning</code> and <code>time:hasEnd</code> properties to specify the creation period and handle fuzzy time-spans. Even if not recorded in the catalogue, the intention behind the document creation is formalised via introducing a new class and predicate ( <code>sebi:intended sebi:Intention</code>). Additionally, dates can be annotated with <code>rico:dateQualifier</code> and other entities with <code>rico:confidence</code> to record uncertainty related markers (e.g., circa, possibly). </p>
+            <p>Regardless of their logical status or origin, all opinions about document forgery detection can be represented using at least one of the classes and properties described and illustrated in <a href="#Figure1">Figure 1</a>.</p>
+            <p>For instance, <a href="#Figure2">Figure 2</a> illustrates four of the available opinions involved in the authenticity inquiry of the 12th document of the collection ( <code>doc:12</code>) modelled with the data model just introduced. </p>
+            <figure id="Figure2">
+              <img src="{{ url_for('static', filename='img/claim_example_representation.png') }}" alt="Graphical representation of four opinions and their categorisation concerning their logical status about the authenticity of the 12th document of the collection" style="width:100%">
+              <figcaption>
+                <em>Figure 2: Graphical representation of four opinions and their categorisation concerning their logical status about the authenticity of the 12th document of the collection</em>
+              </figcaption>
+            </figure>
+            <h2>Representation of opinions contextual information</h2>
+            <p id="datamodel_context_representation"> Contextual information about the opinion concern those aspects which have been highlighted at the beginning of this section, such as the evidence collected by the scholar to reach a certain conclusion (using <a href="https://marilenadaquino.github.io/hico/">HiCo </a>) and SEBI, as well as the author of the opinion and relevant bibliographic entries using <a href="https://www.w3.org/TR/prov-o/">PROV-o</a> and Dublin Core. <br>
+              <br> As shown in <a href="#Figure1">Figure 1</a>, each graph storing a scholarly opinion is categorised as a <code>rdf:type hico:InterpretationAct</code>. The bibliographic source (instance of <code>fabio:WorkCollection</code> or <code>Expression</code>) from which the opinion is extracted is represented via the property <code>prov:wasQuotedFrom</code>. Similarly, cited bibliographic resources are modelled via the property <code>prov:wasDerivedFrom</code> and the opinion responsible entity is recorded via the property <code>prov:wasAttributedTo prov:Agent</code>. Each bibliographical resource is represented with a set of object and data properties from Dublin Core vocabulary representing main features of the work, such as the title <code>dct:title</code>, a brief description <code>dct:description</code>, publishing date ( <code>dct:date</code>), the language <code>dct:language</code>, main subjects <code>dct:subject</code> and involved agents ( <code>dct:creator</code>, <code>dct:publisher</code>, <code>dct:contributor</code>). When dealing with disputed opinions, the source of the opinion is ideally stated in the document itself, for this reason, the source of such opinions is represented as <code>prov:wasQuotedFrom fabio:ArchivalDocument</code>.
+            </p>
+            <figure id="Figure3">
+              <img src="{{ url_for('static', filename='img/bruno-context.png') }}" alt="Selection of classes and properties to represent the contextual information about scholarly opinion tackling authenticity inquiry of a document" style="width:100%;">
+              <figcaption> Figure 3: Selection of classes and properties to represent the contextual information about scholarly opinion tackling authenticity inquiry of a document </figcaption>
+            </figure>
+            <p> The evidence supporting the opinion is recorded as ( <code>sebi:support sebi:Evidence</code>). Document features and their evaluation are considered as critical components of the ontology. Document features ( <code>sebi:Feature</code>) are either extrinsic features ( <code>sebi:ExtrinsicFeature</code>), intrinsic ones ( <code>sebi:IntrinsicFeature</code>), or provenance information ( <code>sebi:Provenance</code>), capturing aspects such as ink, support, handwriting, and orthography. Each feature is evaluated on a set of established criteria ( <code>sebi:Evidence</code>) such as consistency, presence, completeness, veridicality, and reliability. A score is associated with each evidence as <code>xsd:Literal</code> using the property <code>forgont:hasEvaluationScore</code>. The evaluation score indicates a measure on each collected evidence, allowing the integration of negatives (e.g. the absence of the signature in a document is represented as an evidence based on the feature "authentication marks" with evaluation "presence", with score <code>false</code> or 0). <br>
+              <br> Therefore, the contextual metadata concerning the four opinions represented in <a href="#Figure2">Figure 2</a> are shown in <a href="Figure3">Figure 3</a>. In particular, Haider's opinion (in yellow) is enriched with its source ( <code>prov:wasQuotedFrom :ref-Urkundenverzeichnis</code>), its author ( <code>prov:wasAttributedTo :person-SiegfriedHaider</code>), the bibliographic resources mentioned ( <code>prov:wasDerivedFrom pub:1284, pub:1292</code>) and the evidence collected to support its opinion ( <code>:evidence1 sebi:support</code>). Haider's collected evidence is based on the account of the stylistic features of the document ( <code>sebi:account sebi:style</code>, which is an instance of the class <code>sebi:IntrinsicFeatures</code>), producing an evaluation ( <code>sebi:evaluate sebi:coherency</code>, which is an instance of the class <code>sebi:Evaluation</code>). The evaluation score of this evidence is "False" ( <code>sebi:hasEvaluationScore "False"xsd:boolean</code>), therefore stating the evidence as "incoherent style".
+            </p>
+            <figure id="Figure4">
+              <img src="{{ url_for('static', filename='img/context_representation_example.png') }}" alt="Selection of classes and properties to represent the contextual information about four opinions tackling authenticity inquiry of document 12 in the collection" style="width:100%;">
+              <figcaption> Figure 4: Selection of classes and properties to represent the contextual information about four opinions tackling authenticity inquiry of document 12 in the collection </figcaption>
+            </figure>
+            <p> Haider's opinion correlates with Mulbacher's and Schieffer's (respectively, marked in purple and orange) by the bibliographic resources <code>pub:1284, pub:1292</code>. These resources are the source from which the two opinions are derived ( <code>prov:wasQuotedFrom</code>), while the source of the disputed opinion, marked in green, is reported to be the document itself ( <code>prov:wasQuotedFrom doc:12</code>). Each bibliographic resource is accompanied by a set of descriptive metadata previously described. These are exemplified in <a href="#Figure4">Figure 4</a> by the resources' titles ( <code>dct:title</code>), while other metadata are omitted for clarity. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main> 
 
-          <section>
-            <h1>Dataset Description</h1>
-
-            <p>The dataset is derived from a parsed DOCX file, structured into JSON format. The original file contained catalogue items, each identified by numerical identifiers (e.g., item 12), along with metadata such as disputed and settled information, regests, and comments. Below is a breakdown of the dataset's key components:</p>
-        
-            <h2>Key Elements Extracted</h2>
-        
-            <ul>
-                <li><strong>Catalogue Items:</strong> Each item is classified as either <em>complete</em> or <em>incomplete</em>, based on the presence of all key components. Incomplete entries were manually corrected where necessary.</li>
-                <li><strong>Disputed Information:</strong> Disputed dates and locations were extracted, standardized, and indexed. Locations were reconciled with Wikidata. For example, the date "901 Januar 19" was standardized to <code>"year": "901"</code>, and the location "Regensburg" was encoded as <code>"location": ["Q2978", "Regensburg"]</code>.</li>
-                <li><strong>Settled Information:</strong> Dates were extracted and standardized. For instance, the phrase "2. Hälfte 10. Jh." was converted to <code>"start_year": "950", "end_year": "1000"</code>.</li>
-                <li><strong>Regests:</strong> Summaries of document contents were extracted and translated into English.</li>
-                <li><strong>Comments:</strong> Comments contained document classification (e.g., original, copy, suspicious original) and other critical information.</li>
-                <li><strong>Bibliographic Resources:</strong> Extracted references to printed editions, regests, and scholarly literature were mapped to corresponding bibliography entries. These references were semi-automatically parsed and indexed, allowing for disambiguation.</li>
-                <li><strong>Scholarly Opinions:</strong> Disputed and settled opinions were categorized into conjectural or factual claims, each represented within the knowledge graph.</li>
-            </ul>
-          </section>
-
-   \section{Data extraction and Knowledge Graph
-  population}\label{forgery-knowledge-production} This stage of the data
-  management process outlined by the mythLOD methodology focuses on data
-  cleaning, entity linking, and dataset production activities. This
-  section details converting the catalogue's unstructured contents from a
-  DOCX file into a structured KG, describing the methods and processes
-  used to convert raw, unstructured data into structured data. The DOCX
-  file was parsed as a ZIP archive containing XML elements, where targeted
-  paragraphs (\texttt{</p>
-  <p>}) were identified within a specified range corresponding exclusively
-  to the catalogue section, excluding introductory content, the table of
-  contents, and bibliographic references. Catalogue items were mapped
-  using their numerical identifiers, such as item 12, located in lines
-  140–146 of the DOCX structure. Each catalogue entry was classified as
-  either \textit{complete} or \textit{incomplete} based on the presence of
-  all paragraphs containing all key components highlighted in Figure
-  \ref{figdoc:12-catalog_example} (e.g., alleged information, proposed
-  information on the document, cited references). Manual input was applied
-  to address missing information for incomplete entries (e.g., the
-  Literature paragraph is missing), ensuring their inclusion in the
-  following process stages. After classification, the entries were
-  reformatted into a standardised structure (JSON format). Key elements,
-  corresponding to the record categories detailed in the source analysis
-  source Table \ref{tab:haider-source-data-analysis-summary}, were
-  extracted and saved in an intermediate JSON file for further processing.
-  Listing \ref{lst:JSON_item-12_example} illustrates the initial
-  structuring of relevant information for catalogue item 12.
-  \begin{lstlisting}[captionpos=b,caption={JSON intermediate file storing
-  information related to document 12}, label={lst:JSON_item-12_example}] {
-  "index": "12", "disputed_information": [ "901 Januar 19, Regensburg" ],
-  "settled_information": [ "2. Hälfte 10. Jh." ], "regest_abstract":
-  "König Ludwig das Kind schenkt dem Kloster St. Florian auf Bitten des
-  Bischofs Richar von Passau die Ennsburg und den Besitz eines Hörigen
-  nördlich der Donau, die beide der bischöflichen Herrschaft unterstehen
-  sollen.", "comment": "stilistisch beeinflusst von WC = Bischof Pilgrim
-  von Passau? Abschrift", "critical_edition": "Druck: UBLOE 2, 46f. Nr. 34
-  (zu [? 901] 900 Janner 19); D. LK. 108--110 Nr. 9", "regest_list":
-  "Regest: Bohmer -- Mühlbacher, Regesta Imperii 1, 800 Nr. 1994",
-  "literature": "Lit.: Fichtenau, Urkundenwesen 130: „So bleibt es nicht
-  ausgeschlossen, daß Pilgrim hier seine Hand im Spiele hatte, wohl nur im
-  Sinne einer stilistischen Verbesserung der Diktion“; Schieffer,
-  Vorbemerkung zu MGH, D. LK. 108 Nr. 9 (echt); Mühlbacher, Passauer
-  Fälschungen 424ff. (gefälscht)" } \end{lstlisting} The Bibliography
-  section was processed using the same approach, resulting in its
-  extraction and indexing in a separate intermediate JSON file. Listing
-  \ref{lst:JSON_ref-1292_example} illustrates the JSON entry for
-  Mühlbacher's work, \textit{Zwei weitere Passauer Fälschungen}, indexed
-  as bibliographic resource number 1292.
-  \begin{lstlisting}[captionpos=b,caption={JSON intermediate file storing
-  information related to the bibliographic resource},
-  label={lst:JSON_ref-1292_example}] "1292": { "ref_text": "Engelbert
-  Mühlbacher, Zwei weitere Passauer Fälschungen. In: MIÖG 24 (1903),
-  424−432." }, \end{lstlisting} Some Bibliographic resources were grouped
-  in the catalogue (e.g. reference 1331: \textit{Urkundenbuch des Landes
-  ob der Enns, Bd. 1, Wien 1852; Bd. 2, Wien 1856; Bd. 3, Wien 1862; Bd.
-  4, Wien 1867; Bd. 6, Wien 1872; Bd. 7, Wien 1876; Bd. 8, Wien 1883}).
-  These were semi-authomatically parsed, extracted and indexed separately
-  due to their different publication dates (e.g. index number 1331-1 for
-  \textit{Urkundenbuch des Landes ob der Enns, Bd. 1, Wien 1852} for
-  volume 1, index number 1331-2 for \textit{Bd. 2, Wien 1856} and so forth
-  for each volume). Following the data conversion guidelines outlined in
-  Table \ref{tab:haider-source-data-analysis-summary} additional data
-  cleaning operations were conducted across different record categories.
-  Specifically: \begin{itemize} \item For the \textbf{disputed information
-  about the document}, both dates and locations were extracted,
-  standardised, and indexed. These cleaned data were then stored in an
-  intermediate JSON file. Locations were further reconciled against
-  Wikidata. For instance, the date "901 Januar 19" has standardised as
-  \texttt{"year": "901"} and the location "Regensburg" was encoded as
-  \texttt{"location": ["Q2978", "Regensburg"]} to correspond to its
-  Wikidata entity. \item For the \textbf{settled information about the
-  document}, date expressions were extracted, standardised, and indexed
-  into an intermediate JSON file. As these datings followed less regular
-  patterns, this process was conducted semi-automatically. For instance,
-  the dating "2. Hälfte 10. Jh.", meaning second half of 10th century, was
-  standardised as \texttt{"start\_year": "950", "end\_year": "1000"}.
-  \item The \textbf{regest} section, providing a brief summary of the
-  document's content, were extracted and then translated in English. \item
-  The \textbf{comment} section included several relevant information such
-  as the document's classification, the collected evidence and the
-  suspected author. \begin{itemize} \item \textbf{Document’s
-  classification} terms as \textit{Abschrift} (Copy), \textit{Or.}
-  (Original), \textit{angebliches Or.} (alleged original),
-  \textit{verdächtiges Or.} (suspicious original) \textit{insert} (insert)
-  were extracted and standardised into English. Extracted data have been
-  added to the JSON file storing the catalogue data. \item
-  \textbf{Collected evidence} related terms were manually reviewed and
-  recorded in a CSV file. This process facilitated the refinement of
-  SEBI-related taxonomies, focusing on characteristics of evidence
-  collection, such as documentary features and evaluation-related terms.
-  Terms too vague or not clearly stated has not been taken in
-  consideration, for example "innovation". \item \textbf{Suspected author}
-  terms were selected manually from the text field. Since only Bishop
-  Pilgrim Of Passau is marked as the suspected author, this entity has
-  been reconciled against Wikidata. Extracted data have been added to the
-  JSON file storing the catalogue data. \end{itemize} \item For each
-  category of the \textbf{cited bibliography} (printed editions, regests,
-  literature), records have been extracted, indexed and mapped to their
-  corresponding entries in the bibliography section. The disambiguation
-  process was conducted semi-automatically due to inconsistencies in
-  citation formats. For instance, from the edition section, the string
-  "MÜHLBACHER, Passauer Fälschungen 424ff. (gefälscht)" was isolated from
-  other citations. The author's surname (MÜHLBACHER) and the title
-  (Passauer Fälschungen) were cross-checked against the bibliography to
-  match the complete reference, indexed as 1292 in the corresponding JSON
-  file. When volume numbers were provided, they were further verified
-  against the bibliography. Additionally, in instances like "UBLOE 2,
-  704-708 Anhang Nr. 4," the string was split differently from previous
-  case, matching the title "UBLOE" and the volume number "2" and
-  reconciling the entity to its complete reference, indexed as 1331-2 in
-  the corresponding JSON file. Unmatched items were flagged as "unknown"
-  and later manually reconciled. \item \textbf{Citations reporting
-  scholarly opinions} were identified using textual markers such as
-  parentheses, double quotes, and crosses. These elements were extracted
-  and recorded in a CSV file, which was manually reviewed and annotated.
-  This approach was necessary due to the lack of a typical pattern across
-  comments and proved helpful in further refining the SEBI taxonomy. For
-  example, the citation \textit{MÜHLBACHER, Passauer Fälschungen 424ff.
-  (gefälscht)} was annotated in the CSV as forgery, while the citation
-  \textit{SCHIEFFER, Vorbemerkung zu MGH, D. LK. 108 Nr. 9 (echt)} was
-  annotated as authentic. The same strategy was adopted to store opinions
-  including concurrent datings and authorship. \item Uncertainty markers
-  have been extracted, standardised and translated in English. The
-  following indicators have been preserved: parentheses to represent
-  interpreted contents, fuzzy markers about dates (e.g., before, after,
-  circa), uncertain markers (e.g., ?, possibly, allegedly). \item All
-  bibliographic resources listed in the Bibliography section have been
-  extracted and indexed into a JSON file, as previously described. These
-  entries were cross-referenced with the OPAC Regesta Imperii
-  database\footnote{\url{https://opac.regesta-imperii.de/}}, and relevant
-  metadata were extracted and incorporated into the JSON file.
-  Contributors, publishers, and creators of the bibliographic resources
-  have been standardised and aligned with Wikidata. For instance,
-  \textit{Engelbert Mühlbacher} has been standardised as
-  \textit{Mühlbacher, Engelbert} and reconciled with the Wikidata ID
-  (\texttt{Q87151}). \end{itemize} The process involved multiple
-  iterations to reach the final output, with manual checks and refinements
-  applied to all generated JSON files. Upon completion, the data were
-  converted into the RDF using
-  RDFLib\footnote{\url{https://rdflib.readthedocs.io/en/stable/}}. The
-  resulting KG follows the data model presented in the section before
-  (Section \ref{forgery-knowledge-representation}). Opinions included in
-  the debate were stored in distinct named graphs, while uncontested
-  information was incorporated into the factual data graph. Currently, no
-  dedicated parser for Conjectures exists. Therefore, Named Graphs were
-  converted into Conjectures using regular expressions. In this study,
-  Haider's interpretations are considered authoritative and are designated
-  as the accepted perspective, represented through settled graphs. Thus,
-  accepted claims are modelled as settled conjectures, introduced by the
-  term \texttt{SETT}. On the other hand, dispute opinions are modelled as
-  conjectures, introduced by the term \texttt{CONJ}. All other alternative
-  scholarly opinions were represented within conjectural graphs. Notably,
-  Haider's inquiries may believe or disbelieve such scholarly opinions
-  (e.g., bibliographic sources asserting that a document is a forgery). As
-  a result, Haider's settled opinions have been used to define their
-  logical status. Believed opinions respect the following rules:
-  \begin{itemize} \item \textbf{Forgery Claims}: All opinions about the
-  same document that categorise it is a forgery (82 claims). \item
-  \textbf{Suspected Forgery opinions}: All opinions related to the
-  document that suggests it is a suspected forgery (5 claims). \item
-  \textbf{Shared suspected author}: All opinions related to the document
-  that suggest it has been produced by the same person as claimed by
-  Haider (1 claim). \item \textbf{Dating Consistency}: Opinions that
-  provide dating estimates that are either similar to or coincide with the
-  dates proposed by Haider. The alignment determination is based on the
-  relative distance between the settled and alleged opinions. Notably,
-  alleged opinions exhibit greater proximity to one another than to the
-  settled opinion (36 claims). The KG is queried to retrieve all dating
-  estimates from both conjectural and settled opinions to assess their
-  alignment with Haider's interpretation. The midpoint between the start
-  and end dates of each opinion is calculated. The opinion is classified
-  as conjectural if the midpoint is closer to other conjectural dates.
-  Conversely, if the midpoint aligns more closely with Haider’s settled
-  date, the opinion is classified as settled by association. \end{itemize}
-  This dependences between opinions has been modelled via the property
-  \texttt{conj:settles}, where Haider's opinion were settling other
-  aligning opinion. Disbelief is not recorded. \\ Listing
-  \ref{lst:catalogue_RDF_example} shows a snippet of the resulting KG
-  according to the data model concerning the representation of scholarly
-  opinions on item 12. In particular, the disputed opinion (\texttt{CONJ
-  :ass-12}) is shown in lines 98-103, Haider's settled opinion is shown
-  (\texttt{SETT :ass-12-2}) with its contextual information and evidence
-  collected (lines 105-131), Schieffer's opinion (\texttt{CONJ
-  :ass-lit-12-ref2}) with its contextual information (lines 133-137) and
-  Mulbacher's opinion (\texttt{CONJ :ass-lit-12-ref3}, lines 139-143). Non
-  disputed data are stored in \texttt{GRAPH :factual\_data}, which
-  includes timespans definition (\texttt{:time-950-1000} and
-  \texttt{:time-901} in lines 147-157), disputed location definition
-  (\texttt{:Regensburg}, lines 139-163) and cited bibliographic resources
-  definition (\texttt{pub:1284} and \texttt{pub:1292}, lines 165-189)</p>
-</section>
-</div>
-</section>
-  </main>
-
-  {% endblock %}
+{% endblock %}
