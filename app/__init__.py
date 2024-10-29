@@ -54,7 +54,7 @@ def set_prefixes():
 
 def create_app():
 
-    app = Flask(__name__, static_folder="/broast/assets")
+    app = Flask(__name__, static_folder="assets")
 
     app.secret_key = 'V4LELOV3SFORGERIES'
     app.config['SESSION_TYPE'] = 'filesystem'
