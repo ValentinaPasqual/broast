@@ -1,17 +1,20 @@
+# ignore GraphDB
+graphDB
+
 # ignore all logs from graphdb instance
-/app/graphDB/graphdb-10.3.2/logs
+# graphDB/graphdb-10.3.2/logs
 
 # ignore all examples from graphdb instance
-/app/graphDB/graphdb-10.3.2/examples
+# graphDB/graphdb-10.3.2/examples
 
 # ignore all data from graphdb instance
-/app/graphDB/graphdb-10.3.2/data
+# graphDB/graphdb-10.3.2/data
 
 # ignore nohup
 nohup.out
 
 # ignore all bins from graphdb instance
-/app/graphDB/graphdb-10.3.2/bin
+# graphDB/graphdb-10.3.2/bin
 
 # ignore lock file
 index.lock
