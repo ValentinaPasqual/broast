@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }).addTo(map);
 
     // Fetch and add marker clusters
-    fetch('/map-data')
+    fetch('https://projects.dharc.unibo.it/broast/map-data')
         .then(response => response.json())
         .then(data => {
             var markers = L.markerClusterGroup();
@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
     // Initialize line chart
-    fetch('/chart-data')
+    fetch('https://projects.dharc.unibo.it/broast/chart-data')
         .then(response => response.json())
         .then(data => {
             var ctx = document.getElementById('chart').getContext('2d');
@@ -446,7 +446,7 @@ function createDateChart(data) {
 
 
 // Fetch and create chart
-fetch('/date-visualization')
+fetch('https://projects.dharc.unibo.it/broast/date-visualization')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
